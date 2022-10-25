@@ -17,7 +17,7 @@ v2board_bases = [
 ]
 sspanel_bases = [
     'https://jsmao.xyz',
-    'https://paopaocloud.com',
+    # 'https://paopaocloud.com',
 ]
 
 id = ''.join(random.choices(string.ascii_letters + string.digits, k=12))
@@ -57,7 +57,7 @@ def get_sub_url_sspanel(base):
         ):
             raise
         return (
-            BeautifulSoup(session.get(urljoin(base, 'user')).text)
+            BeautifulSoup(session.get(urljoin(base, 'user')).text, 'html.parser')
             .select_one('[data-clipboard-text]')['data-clipboard-text']
             .split('?')[0] + '?sub=3'
         )
