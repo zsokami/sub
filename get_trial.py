@@ -46,34 +46,34 @@ def get_sub_url_v2board(base):
             'email': email,
             'password': id,
         }).json()
-        return True, urljoin(base, 'api/v1/client/subscribe?token=' + res['data']['token'])
-    except:
-        return False, base
+        return None, urljoin(base, 'api/v1/client/subscribe?token=' + res['data']['token'])
+    except Exception as e:
+        return e, base
 
 
 def get_sub_url_sspanel(base):
     try:
-        if (
-            session.post(urljoin(base, 'auth/register'), json={
+        res = session.post(urljoin(base, 'auth/register'), json={
+            'email': email,
+            'passwd': id,
+            'repasswd': id,
+        }).json()
+        if res['ret'] == 0:  # 注册失败
+            raise Exception(res)
+        if 'email' not in session.cookies:
+            res = session.post(urljoin(base, 'auth/login'), json={
                 'email': email,
                 'passwd': id,
-                'repasswd': id,
-            }).json()['ret'] == 0  # 注册失败
-        ) or (
-            'email' not in session.cookies and
-            session.post(urljoin(base, 'auth/login'), json={
-                'email': email,
-                'passwd': id,
-            }).json()['ret'] == 0  # 登录失败
-        ):
-            raise
-        return True, (
+            }).json()
+            if res['ret'] == 0:  # 登录失败
+                raise Exception(res) 
+        return None, (
             BeautifulSoup(session.get(urljoin(base, 'user')).text, 'html.parser')
             .select_one('[data-clipboard-text]')['data-clipboard-text']
             .split('?')[0] + '?sub=3'
         )
-    except:
-        return False, base
+    except Exception as e:
+        return e, base
 
 
 def get_nodes_de(sub_url):
@@ -83,11 +83,11 @@ def get_nodes_de(sub_url):
 executor = ThreadPoolExecutor(len(v2board_bases) + len(sspanel_bases))
 
 sub_urls = []
-for ok, url in chain(executor.map(get_sub_url_v2board, v2board_bases), executor.map(get_sub_url_sspanel, sspanel_bases)):
-    if ok:
-        sub_urls.append(url)
+for err, url in chain(executor.map(get_sub_url_v2board, v2board_bases), executor.map(get_sub_url_sspanel, sspanel_bases)):
+    if err:
+        print(err, url)
     else:
-        print('except', url)
+        sub_urls.append(url)
 
 print(*sub_urls, sep='\n')
 
