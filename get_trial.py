@@ -34,15 +34,18 @@ paopaocloud.com
 id = ''.join(random.choices(string.ascii_letters + string.digits, k=12))
 email = id + '@gmail.com'
 
-session = requests.session()
-# session.trust_env = False  # 禁用系统代理
-# session.proxies['http'] = '127.0.0.1:7890'
-# session.proxies['https'] = '127.0.0.1:7890'
+
+def new_session():
+    session = requests.Session()
+    # session.trust_env = False  # 禁用系统代理
+    # session.proxies['http'] = '127.0.0.1:7890'
+    # session.proxies['https'] = '127.0.0.1:7890'
+    return session
 
 
 def get_sub_url_v2board(base):
     try:
-        res = session.post(urljoin(base, 'api/v1/passport/auth/register'), json={
+        res = new_session().post(urljoin(base, 'api/v1/passport/auth/register'), json={
             'email': email,
             'password': id,
         }).json()
@@ -52,6 +55,7 @@ def get_sub_url_v2board(base):
 
 
 def get_sub_url_sspanel(base):
+    session = new_session()
     try:
         res = session.post(urljoin(base, 'auth/register'), json={
             'email': email,
@@ -77,7 +81,7 @@ def get_sub_url_sspanel(base):
 
 
 def get_nodes_de(sub_url):
-    return b64decode(session.get(sub_url).content)
+    return b64decode(new_session().get(sub_url).content)
 
 
 executor = ThreadPoolExecutor(len(v2board_bases) + len(sspanel_bases))
