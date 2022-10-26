@@ -1,4 +1,5 @@
 import random
+import re
 import string
 from base64 import b64decode, b64encode
 from concurrent.futures import ThreadPoolExecutor
@@ -8,17 +9,27 @@ from urllib.parse import urljoin
 import requests
 from bs4 import BeautifulSoup
 
-v2board_bases = [
-    'https://feiniaoyun.top',
-    'https://www.ckcloud.xyz',
-    'https://user.hdapi.work',
-    'https://shan-cloud.xyz',
-    'https://yifei999.com',
-]
-sspanel_bases = [
-    'https://jsmao.xyz',
-    # 'https://paopaocloud.com',
-]
+
+def urls(text):
+    return [f'{p or "https:"}//{u}' for p, u in re.findall(r'^\s*([a-z]+:)?[\\/]*([A-Za-z\d]\S+)', text, re.MULTILINE)]
+
+
+v2board_bases = urls('''
+feiniaoyun.top
+www.ckcloud.xyz
+user.hdapi.work
+shan-cloud.xyz
+yifei999.com
+fastestcloud.xyz
+''')
+sspanel_bases = urls('''
+jsmao.xyz
+iacgbt.com
+fyy.pw
+www.jafiyun.cc
+www.wolaile.icu
+paopaocloud.com
+''')
 
 id = ''.join(random.choices(string.ascii_letters + string.digits, k=12))
 email = id + '@gmail.com'
@@ -35,9 +46,9 @@ def get_sub_url_v2board(base):
             'email': email,
             'password': id,
         }).json()
-        return urljoin(base, 'api/v1/client/subscribe?token=' + res['data']['token'])
+        return True, urljoin(base, 'api/v1/client/subscribe?token=' + res['data']['token'])
     except:
-        return None
+        return False, base
 
 
 def get_sub_url_sspanel(base):
@@ -56,14 +67,13 @@ def get_sub_url_sspanel(base):
             }).json()['ret'] == 0  # 登录失败
         ):
             raise
-        return (
+        return True, (
             BeautifulSoup(session.get(urljoin(base, 'user')).text, 'html.parser')
             .select_one('[data-clipboard-text]')['data-clipboard-text']
             .split('?')[0] + '?sub=3'
         )
-
     except:
-        return None
+        return False, base
 
 
 def get_nodes_de(sub_url):
@@ -72,12 +82,12 @@ def get_nodes_de(sub_url):
 
 executor = ThreadPoolExecutor(len(v2board_bases) + len(sspanel_bases))
 
-sub_urls = [
-    url for url in chain(
-        executor.map(get_sub_url_v2board, v2board_bases),
-        executor.map(get_sub_url_sspanel, sspanel_bases)
-    ) if url
-]
+sub_urls = []
+for ok, url in chain(executor.map(get_sub_url_v2board, v2board_bases), executor.map(get_sub_url_sspanel, sspanel_bases)):
+    if ok:
+        sub_urls.append(url)
+    else:
+        print('except', url)
 
 print(*sub_urls, sep='\n')
 
