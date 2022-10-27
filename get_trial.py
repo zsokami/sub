@@ -18,7 +18,6 @@ re_cfg_k = re.compile(r'\[(.+?)\]')
 
 
 def read(path, b=False):
-    path = os.path.normpath(path)
     if os.path.isfile(path):
         with open(path, 'rb' if b else 'r') as f:
             return f.read()
@@ -26,11 +25,15 @@ def read(path, b=False):
 
 
 def write(path, first, *rest):
-    path = os.path.normpath(path)
     os.makedirs(os.path.normpath(os.path.dirname(path)), exist_ok=True)
     with (open(path, 'w', newline='') if isinstance(first, str) else open(path, 'wb')) as f:
         f.write(first)
         f.writelines(rest)
+
+
+def remove(path):
+    if os.path.exists(path):
+        os.remove(path)
 
 
 def read_cfg(path):
@@ -167,7 +170,7 @@ write('trial', b64encode(b''.join(nodes_de)))
 
 for host in [*last_update_time]:
     if host not in host_set:
-        os.remove(f'trials/{host}')
+        os.removedirs(f'trials/{host}')
         del last_update_time[host]
 
 write_cfg('trial_last_update_time', last_update_time)
