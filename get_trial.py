@@ -170,7 +170,7 @@ write('trial', b64encode(b''.join(nodes_de)))
 
 for host in [*last_update_time]:
     if host not in host_set:
-        os.removedirs(f'trials/{host}')
+        remove(f'trials/{host}')
         del last_update_time[host]
 
 write_cfg('trial_last_update_time', last_update_time)
