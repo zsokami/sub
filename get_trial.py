@@ -11,23 +11,23 @@ from bs4 import BeautifulSoup
 
 
 def urls(text):
-    return [f'{p or "https:"}//{u}' for p, u in re.findall(r'^\s*([a-z]+:)?[\\/]*([A-Za-z\d]\S+)', text, re.MULTILINE)]
+    return [f'{p or "https:"}//{u}' for p, u in re.findall(r'^\s*([a-z]+:)?[\\/]*([A-Za-z\d]\S*\.\S+)', text, re.MULTILINE)]
 
 
 v2board_bases = urls('''
-feiniaoyun.top
-www.ckcloud.xyz
-user.hdapi.work
-shan-cloud.xyz
-yifei999.com
-fastestcloud.xyz
+user.hdapi.work 1g1h
+shan-cloud.xyz 1g2h
+yifei999.com 10g5h
+fastestcloud.xyz 2g1d
+feiniaoyun.top 1g1d
+www.ckcloud.xyz 1g1d
 ''')
 sspanel_bases = urls('''
-jsmao.xyz
-iacgbt.com
-fyy.pw
-www.wolaile.icu
-paopaocloud.com
+www.wolaile.icu 1g1h
+iacgbt.com 50g2h
+jsmao.xyz 5g1d
+fyy.pw 5g1d
+paopaocloud.com 1g1d
 ''')
 
 id = ''.join(random.choices(string.ascii_letters + string.digits, k=12))
