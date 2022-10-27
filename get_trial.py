@@ -26,7 +26,6 @@ sspanel_bases = urls('''
 jsmao.xyz
 iacgbt.com
 fyy.pw
-www.jafiyun.cc
 www.wolaile.icu
 paopaocloud.com
 ''')
