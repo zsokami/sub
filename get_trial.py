@@ -18,6 +18,7 @@ re_cfg_k = re.compile(r'\[(.+?)\]')
 
 
 def read(path, b=False):
+    path = os.path.normpath(path)
     if os.path.isfile(path):
         with open(path, 'rb' if b else 'r') as f:
             return f.read()
@@ -25,6 +26,7 @@ def read(path, b=False):
 
 
 def write(path, first, *rest):
+    path = os.path.normpath(path)
     os.makedirs(os.path.dirname(path), exist_ok=True)
     with open(path, 'w' if isinstance(first, str) else 'wb', newline='') as f:
         f.write(first)
