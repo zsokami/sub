@@ -152,7 +152,7 @@ for err, url, host in chain(executor.map(get_sub_url_v2board, v2board_hosts), ex
         hosts.append(host)
 
 ok_path_and_sub_urls = []
-for err, path, url, host in executor.map(download, *zip(*path_and_sub_urls), host):
+for err, path, url, host in executor.map(download, *zip(*path_and_sub_urls), hosts):
     if err:
         print(f'下载失败: {err}', path, url)
     else:
