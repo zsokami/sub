@@ -64,7 +64,7 @@ last_update_time = read_cfg('trial_last_update_time')
 
 def filter_expired(host_and_intervals):
     now = time.time()
-    return [host for host, interval in host_and_intervals if host not in last_update_time or now - float(last_update_time[host][0]) > float(interval)]
+    return [host for host, interval in host_and_intervals if host not in last_update_time or now - float(last_update_time[host][0][0]) > float(interval)]
 
 
 v2board_hosts = filter_expired(hosts_cfg['v2board'])
@@ -145,7 +145,6 @@ for err, url, host in chain(executor.map(get_sub_url_v2board, v2board_hosts), ex
         print(err, url)
     else:
         path_and_sub_urls.append((f'trials/{host}', url))
-        last_update_time[host] = [[now]]
 
 ok_path_and_sub_urls = []
 for err, path, url in executor.map(download, *zip(*path_and_sub_urls)):
@@ -153,13 +152,22 @@ for err, path, url in executor.map(download, *zip(*path_and_sub_urls)):
         print(f'下载失败: {err}', path, url)
     else:
         ok_path_and_sub_urls.append((path, url))
+        last_update_time[host] = [[now]]
 
 for path_and_sub_url in ok_path_and_sub_urls:
     print(*path_and_sub_url)
 
 nodes_de = []
+host_set = set()
 for host, interval in chain(hosts_cfg['v2board'], hosts_cfg['sspanel']):
     nodes_de.append(b64decode(read(f'trials/{host}', True)))
+    host_set.add(host)
 
 write('trial', b64encode(b''.join(nodes_de)))
+
+for host in [*last_update_time.keys()]:
+    if host not in host_set:
+        os.remove(f'trials/{host}')
+        del last_update_time[host]
+
 write_cfg('trial_last_update_time', last_update_time)
