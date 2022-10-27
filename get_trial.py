@@ -165,7 +165,7 @@ for host, interval in chain(hosts_cfg['v2board'], hosts_cfg['sspanel']):
 
 write('trial', b64encode(b''.join(nodes_de)))
 
-for host in [*last_update_time.keys()]:
+for host in [*last_update_time]:
     if host not in host_set:
         os.remove(f'trials/{host}')
         del last_update_time[host]
