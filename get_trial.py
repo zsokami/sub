@@ -87,7 +87,6 @@ def get_sub_url_v2board(host):
             'email': email,
             'password': id,
         }).json()
-        print(res)
         try:
             token = res['data']['token']
         except KeyError:
@@ -147,7 +146,7 @@ for err, url, host in chain(executor.map(get_sub_url_v2board, v2board_hosts), ex
         last_update_time[host] = [[now]]
 
 ok_path_and_sub_urls = []
-for err, path, url in executor.map(download, path_and_sub_urls):
+for err, path, url in executor.map(download, *zip(*path_and_sub_urls)):
     if err:
         print(f'下载失败: {err}', path, url)
     else:
