@@ -28,7 +28,7 @@ def read(path, b=False):
 def write(path, first, *rest):
     path = os.path.normpath(path)
     os.makedirs(os.path.dirname(path), exist_ok=True)
-    with open(path, 'w' if isinstance(first, str) else 'wb', newline='') as f:
+    with (open(path, 'w', newline='') if isinstance(first, str) else open(path, 'wb')) as f:
         f.write(first)
         f.writelines(rest)
 
