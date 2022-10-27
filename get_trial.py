@@ -128,29 +128,31 @@ def get_sub_url_sspanel(host):
         return e, base, host
 
 
-def download(path, url):
+def download(path, url, host):
     try:
         content = new_session().get(url).content
         if not content:
             raise Exception('not content')
         write(path, content)
-        return None, path, url
+        return None, path, url, host
     except Exception as e:
-        return e, path, url
+        return e, path, url, host
 
 
 executor = ThreadPoolExecutor(len(v2board_hosts) + len(sspanel_hosts))
 
 path_and_sub_urls = []
+hosts = []
 now = time.time()
 for err, url, host in chain(executor.map(get_sub_url_v2board, v2board_hosts), executor.map(get_sub_url_sspanel, sspanel_hosts)):
     if err:
         print(err, url)
     else:
         path_and_sub_urls.append((f'trials/{host}', url))
+        hosts.append(host)
 
 ok_path_and_sub_urls = []
-for err, path, url in executor.map(download, *zip(*path_and_sub_urls)):
+for err, path, url, host in executor.map(download, *zip(*path_and_sub_urls), host):
     if err:
         print(f'下载失败: {err}', path, url)
     else:
