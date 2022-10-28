@@ -178,26 +178,26 @@ now = time.time()
 for err, url, host in chain(executor.map(get_sub_url_v2board, reg_v2board_hosts), executor.map(get_sub_url_sspanel, reg_sspanel_hosts)):
     if err:
         print(err, url)
-        sub_url_cache[host]['error(get_sub_url)'] = remove_illegal(err)
+        sub_url_cache[host]['error(get_sub_url)'] = [remove_illegal(err)]
     else:
         print('new sub url', host, url)
         sub_url_cache[host].pop('error(get_sub_url)', None)
-        sub_url_cache[host].update(time=now, sub_url=url)
+        sub_url_cache[host].update(time=[now], sub_url=[url])
 
-for err, path, url, host in executor.map(download, *zip(*((f'trials/{host}', item['sub_url'], host) for host, item in sub_url_cache.items() if 'sub_url' in item))):
+for err, path, url, host in executor.map(download, *zip(*((f'trials/{host}', item['sub_url'][0], host) for host, item in sub_url_cache.items() if 'sub_url' in item))):
     if err:
         err = f'下载失败: {err}'
         print(err, host, url)
-        sub_url_cache[host]['error(download)'] = remove_illegal(err)
+        sub_url_cache[host]['error(download)'] = [remove_illegal(err)]
     else:
         sub_url_cache[host].pop('error(download)', None)
 
 nodes_de = []
 for host, item in sub_url_cache.items():
     content = b64decode(read(f'trials/{host}', True))
-    if content:
-        item['node_n'] = content.count(b'\n')
-        nodes_de.append(content)
+    item['node_n'] = [content.count(b'\n')]
+    nodes_de.append(content)
+
 
 write('trial', b64encode(b''.join(nodes_de)))
 
