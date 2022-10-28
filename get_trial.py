@@ -15,6 +15,7 @@ from bs4 import BeautifulSoup
 re_cfg_item_or_k = re.compile(r'^\s*((?:(?: {2,})?[^#\s](?: ?\S)*)+)', re.MULTILINE)
 re_cfg_item_v_sep = re.compile(r' {2,}')
 re_cfg_k = re.compile(r'\[(.+?)\]')
+re_cfg_illegal = re.compile(r'[\r\n ]+')
 
 
 def read(path, b=False):
@@ -36,42 +37,72 @@ def remove(path):
         os.remove(path)
 
 
-def read_cfg(path):
-    cfg = defaultdict(list)
+def read_cfg(path, dict_items=False):
+    cfg = defaultdict(dict if dict_items else list)
     g = cfg['default']
     for m in re_cfg_item_or_k.finditer(read(path)):
         vs = re_cfg_item_v_sep.split(m[1])
         m = re_cfg_k.fullmatch(vs[0])
         if m:
             g = cfg[m[1]]
+        elif dict_items:
+            g[vs[0]] = vs[1:]
         else:
             g.append(vs)
     return cfg
 
 
 def write_cfg(path, cfg):
+    def lines(items):
+        if isinstance(items, list):
+            for item in items:
+                line = '  '.join(map(str, item)) if isinstance(item, list) else str(item)
+                if line:
+                    yield line
+        elif isinstance(items, dict):
+            for k, v in items.items():
+                line = '  '.join(chain([str(k)], map(str, v) if isinstance(v, list) else [str(v)]))
+                if line:
+                    yield line
+        elif items is not None and item != '':
+            yield str(items)
+
     gs = []
-    default = cfg.get('default')
-    if default:
-        gs.append('\n'.join('  '.join(map(str, item)) for item in default))
-    for k, items in cfg.items():
-        if k == 'default':
-            continue
-        gs.append('\n'.join(chain([f'[{k}]'], ('  '.join(map(str, item)) for item in items))))
+    if isinstance(cfg, dict):
+        default = cfg.get('default')
+        if default:
+            gs.append('\n'.join(lines(default)))
+        for k, items in cfg.items():
+            if k == 'default':
+                continue
+            gs.append('\n'.join(chain([f'[{k}]'], lines(items))))
+    else:
+        gs.append('\n'.join(lines(cfg)))
     write(path, '\n\n'.join(gs), '\n')
 
 
+def remove_illegal(v):
+    return re_cfg_illegal.sub(' ', str(v).strip())
+
+
 hosts_cfg = read_cfg('trial_hosts.cfg')
-last_update_time = read_cfg('trial_last_update_time')
+sub_url_cache = read_cfg('trial_sub_url_cache', True)
+
+host_set = set(host for host, _ in chain(hosts_cfg['v2board'], hosts_cfg['sspanel']))
+
+for host in [*sub_url_cache]:
+    if host not in host_set:
+        remove(f'trials/{host}')
+        del sub_url_cache[host]
 
 
 def filter_expired(host_and_intervals):
     now = time.time()
-    return [host for host, interval in host_and_intervals if host not in last_update_time or now - float(last_update_time[host][0][0]) > float(interval)]
+    return [host for host, interval in host_and_intervals if host not in sub_url_cache or now - float(sub_url_cache[host]['time'][0]) > float(interval)]
 
 
-v2board_hosts = filter_expired(hosts_cfg['v2board'])
-sspanel_hosts = filter_expired(hosts_cfg['sspanel'])
+reg_v2board_hosts = filter_expired(hosts_cfg['v2board'])
+reg_sspanel_hosts = filter_expired(hosts_cfg['sspanel'])
 
 id = ''.join(random.choices(string.ascii_letters + string.digits, k=12))
 email = id + '@gmail.com'
@@ -141,40 +172,33 @@ def download(path, url, host):
         return e, path, url, host
 
 
-executor = ThreadPoolExecutor(max(len(v2board_hosts) + len(sspanel_hosts), 1))
+executor = ThreadPoolExecutor(max(len(hosts_cfg['v2board']) + len(hosts_cfg['sspanel']), 1))
 
-path_and_sub_urls = []
-hosts = []
 now = time.time()
-for err, url, host in chain(executor.map(get_sub_url_v2board, v2board_hosts), executor.map(get_sub_url_sspanel, sspanel_hosts)):
+for err, url, host in chain(executor.map(get_sub_url_v2board, reg_v2board_hosts), executor.map(get_sub_url_sspanel, reg_sspanel_hosts)):
     if err:
         print(err, url)
+        sub_url_cache[host]['error(get_sub_url)'] = remove_illegal(err)
     else:
-        path_and_sub_urls.append((f'trials/{host}', url))
-        hosts.append(host)
+        print('new sub url', host, url)
+        sub_url_cache[host].pop('error(get_sub_url)', None)
+        sub_url_cache[host].update(time=now, sub_url=url)
 
-ok_path_and_sub_urls = []
-for err, path, url, host in executor.map(download, *zip(*path_and_sub_urls), hosts):
+for err, path, url, host in executor.map(download, *zip((f'trials/{host}', item['sub_url'], host) for host, item in sub_url_cache.items() if 'sub_url' in item)):
     if err:
-        print(f'下载失败: {err}', path, url)
+        err = f'下载失败: {err}'
+        print(err, host, url)
+        sub_url_cache[host]['error(download)'] = remove_illegal(err)
     else:
-        ok_path_and_sub_urls.append((path, url))
-        last_update_time[host] = [[now]]
-
-for path_and_sub_url in ok_path_and_sub_urls:
-    print(*path_and_sub_url)
+        sub_url_cache[host].pop('error(download)', None)
 
 nodes_de = []
-host_set = set()
-for host, interval in chain(hosts_cfg['v2board'], hosts_cfg['sspanel']):
-    nodes_de.append(b64decode(read(f'trials/{host}', True)))
-    host_set.add(host)
+for host, item in sub_url_cache.items():
+    content = b64decode(read(f'trials/{host}', True))
+    if content:
+        item['node_n'] = content.count(b'\n')
+        nodes_de.append(content)
 
 write('trial', b64encode(b''.join(nodes_de)))
 
-for host in [*last_update_time]:
-    if host not in host_set:
-        remove(f'trials/{host}')
-        del last_update_time[host]
-
-write_cfg('trial_last_update_time', last_update_time)
+write_cfg('trial_sub_url_cache', sub_url_cache)
