@@ -76,6 +76,8 @@ sspanel_hosts = filter_expired(hosts_cfg['sspanel'])
 id = ''.join(random.choices(string.ascii_letters + string.digits, k=12))
 email = id + '@gmail.com'
 
+print('id:', id)
+
 
 def new_session():
     session = requests.Session()
