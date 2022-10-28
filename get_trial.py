@@ -184,7 +184,7 @@ for err, url, host in chain(executor.map(get_sub_url_v2board, reg_v2board_hosts)
         sub_url_cache[host].pop('error(get_sub_url)', None)
         sub_url_cache[host].update(time=now, sub_url=url)
 
-for err, path, url, host in executor.map(download, *zip((f'trials/{host}', item['sub_url'], host) for host, item in sub_url_cache.items() if 'sub_url' in item)):
+for err, path, url, host in executor.map(download, *zip(*((f'trials/{host}', item['sub_url'], host) for host, item in sub_url_cache.items() if 'sub_url' in item))):
     if err:
         err = f'下载失败: {err}'
         print(err, host, url)
