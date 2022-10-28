@@ -139,7 +139,7 @@ def download(path, url, host):
         return e, path, url, host
 
 
-executor = ThreadPoolExecutor(len(v2board_hosts) + len(sspanel_hosts))
+executor = ThreadPoolExecutor(max(len(v2board_hosts) + len(sspanel_hosts), 1))
 
 path_and_sub_urls = []
 hosts = []
