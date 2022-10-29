@@ -4,13 +4,13 @@ sub_url  https://user.hdapi.work/api/v1/client/subscribe?token=1cba3a728d86793cb
 node_n  26
 
 [shan-cloud.xyz]
-time  1667079978.196813
-sub_url  https://shan-cloud.xyz/api/v1/client/subscribe?token=eb3a372572dd24b374c0b0973b1d962f
+time  1667084229.247766
+sub_url  https://shan-cloud.xyz/api/v1/client/subscribe?token=7d99727cafae1cb5b691898b2a0e76d5
 node_n  11
 
 [yifei999.com]
-time  1667069536.450977
-sub_url  https://yifei999.com/api/v1/client/subscribe?token=e0bbbddea311b1ac11d35605d49d1403
+time  1667084229.247766
+sub_url  https://yifei999.com/api/v1/client/subscribe?token=bd8b35569277b1859cd0efe0651c0497
 node_n  7
 
 [fastestcloud.xyz]
@@ -29,14 +29,13 @@ sub_url  https://www.ckcloud.xyz/api/v1/client/subscribe?token=a864f08038ccefa99
 node_n  24
 
 [www.wolaile.icu]
-time  1667082372.6242902
-sub_url  https://www.yzhxr.vip/link/D4htR3UOcSXFMLUz?sub=3
+time  1667084229.247766
+sub_url  https://www.yzhxr.vip/link/7lcBBU7I5Gsnnd22?sub=3
 node_n  19
-error(get_sub_url)  注册失败: {'ret': 0, 'msg': '请不要频繁注册账号！'}
 
 [iacgbt.com]
-time  1667079978.196813
-sub_url  https://www.iacgbt.com/link/ReSDbod18sYUBuEx?sub=3
+time  1667084229.247766
+sub_url  https://www.iacgbt.com/link/IDoTcne0YXoj1dN9?sub=3
 node_n  14
 
 [jsmao.xyz]
