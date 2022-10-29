@@ -1,50 +1,49 @@
 [user.hdapi.work]
-time  1667000451.5101743
-sub_url  https://user.hdapi.work/api/v1/client/subscribe?token=24233ef81e856286056ed56d2c0b9cf3
+time  1667008860.1436572
+sub_url  https://user.hdapi.work/api/v1/client/subscribe?token=00082e957ace298b3e14c05c6d21930b
 node_n  26
 
 [shan-cloud.xyz]
-time  1667001290.1431282
-sub_url  https://shan-cloud.xyz/api/v1/client/subscribe?token=e1e01ba1fa7c2ca21d4674a2097ab06f
+time  1667008860.1436572
+sub_url  https://shan-cloud.xyz/api/v1/client/subscribe?token=b9f5a3dc8cff7e5fca7c510f18b16e51
 node_n  11
 
 [yifei999.com]
-time  1666989963.4470263
-sub_url  https://yifei999.com/api/v1/client/subscribe?token=f2c904a6c959c3572d4d79c694abdbc4
+time  1667008860.1436572
+sub_url  https://yifei999.com/api/v1/client/subscribe?token=400a0b87ba220d83a5dd0f6c1b630a18
 node_n  7
 
 [fastestcloud.xyz]
-time  1666989963.4470263
-sub_url  https://fastestcloud.xyz/api/v1/client/subscribe?token=ed03f4b05e90e73cd750c3531e3bcb0c
+time  1667008860.1436572
+sub_url  https://fastestcloud.xyz/api/v1/client/subscribe?token=bc0ac745c6f718677d524d30f31b59f7
 node_n  35
 
 [feiniaoyun.top]
-time  1666997522.21206
-sub_url  https://feiniaoyun.top/api/v1/client/subscribe?token=4a17414c8adf06186fb0153c5c98c61c
+time  1667008860.1436572
+sub_url  https://feiniaoyun.top/api/v1/client/subscribe?token=9789f546272dd3ae3bebfc2ed4f79e21
 node_n  48
 
 [www.ckcloud.xyz]
-time  1666997522.21206
-sub_url  https://www.ckcloud.xyz/api/v1/client/subscribe?token=0e2a84c9eebc0dbbb23b5b539c7f7751
+time  1667008860.1436572
+sub_url  https://www.ckcloud.xyz/api/v1/client/subscribe?token=8dd1e51d30b3d5d2d534a5dfe175e3fd
 node_n  24
 
 [www.wolaile.icu]
-time  1667000451.5101743
-sub_url  https://www.yzhxr.vip/link/4o5vt9JqILLah2cB?sub=3
+time  1667008860.1436572
+sub_url  https://www.yzhxr.vip/link/axqelHp4D5dHUHwI?sub=3
 node_n  19
 
 [iacgbt.com]
-time  1667001290.1431282
-sub_url  https://www.iacgbt.com/link/yfYyCm3IADm5vNC1?sub=3
+time  1667008860.1436572
+sub_url  https://www.iacgbt.com/link/2E6DZayCFXwEgp1y?sub=3
 node_n  14
 
 [jsmao.xyz]
 time  1666989963.4470263
 sub_url  https://sub-cdn1.apqiang.com/link/602DQckJjEJYazIC?sub=3
 node_n  33
-error(download)  下载失败: HTTPSConnectionPool(host='sub-cdn1.apqiang.com', port=443): Max retries exceeded with url: /link/602DQckJjEJYazIC?sub=3 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:997)')))
 
 [paopaocloud.com]
-time  1666997522.21206
-sub_url  https://lting.cyou/link/An4F57syADyCOywD?sub=3
+time  1667008860.1436572
+sub_url  https://lting.cyou/link/5DfEy1Wc0bx5G7oy?sub=3
 node_n  127
