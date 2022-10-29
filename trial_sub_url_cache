@@ -1,11 +1,11 @@
 [user.hdapi.work]
-time  1667030386.4987016
-sub_url  https://user.hdapi.work/api/v1/client/subscribe?token=bf5a424bb1b53d5714b47b8b9dfe6aec
+time  1667032448.0513182
+sub_url  https://user.hdapi.work/api/v1/client/subscribe?token=653b2388c84cb12d562d7d90d12c2da4
 node_n  26
 
 [shan-cloud.xyz]
-time  1667027909.017477
-sub_url  https://shan-cloud.xyz/api/v1/client/subscribe?token=e6a8dcfa5ed28e7bfb8828c380a4eb37
+time  1667032448.0513182
+sub_url  https://shan-cloud.xyz/api/v1/client/subscribe?token=4cdfd0d5496ebc43b9a889a4af9f2d95
 node_n  11
 
 [yifei999.com]
@@ -19,31 +19,32 @@ sub_url  https://fastestcloud.xyz/api/v1/client/subscribe?token=41824fabdc5628d0
 node_n  35
 
 [feiniaoyun.top]
-time  1667025195.1292844
-sub_url  https://feiniaoyun.top/api/v1/client/subscribe?token=7a99e06b0532acb77790019dee7a945e
-node_n  52
+time  1667032448.0513182
+sub_url  https://feiniaoyun.top/api/v1/client/subscribe?token=09dc5b31f3e33fb07c9109eb5121b1e6
+node_n  50
 
 [www.ckcloud.xyz]
-time  1667025195.1292844
-sub_url  https://www.ckcloud.xyz/api/v1/client/subscribe?token=96cd31cc61b4e845c8b0db0cb0870a8d
+time  1667032448.0513182
+sub_url  https://www.ckcloud.xyz/api/v1/client/subscribe?token=613cd0d9787574dad6b8294bb30344eb
 node_n  24
 
 [www.wolaile.icu]
-time  1667030386.4987016
-sub_url  https://www.yzhxr.vip/link/DolC9oVAbLuhecRm?sub=3
+time  1667032448.0513182
+sub_url  https://www.yzhxr.vip/link/d8Rg6QEKWxIrrNOB?sub=3
 node_n  19
 
 [iacgbt.com]
-time  1667027909.017477
-sub_url  https://www.iacgbt.com/link/bWf9UUvuZOjWUI3w?sub=3
+time  1667032448.0513182
+sub_url  https://www.iacgbt.com/link/mCTYAYJOSPtduXGz?sub=3
 node_n  14
 
 [jsmao.xyz]
 time  1667026448.6676998
 sub_url  https://sub-cdn1.apqiang.com/link/jhjxQAiLTGxgByA7?sub=3
 node_n  33
+error(download)  下载失败: HTTPSConnectionPool(host='sub-cdn1.apqiang.com', port=443): Max retries exceeded with url: /link/jhjxQAiLTGxgByA7?sub=3 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:997)')))
 
 [paopaocloud.com]
-time  1667025195.1292844
-sub_url  https://lting.cyou/link/KtNjOdStloRwGDkf?sub=3
+time  1667032448.0513182
+sub_url  https://lting.cyou/link/Llt5Lrd1o65yU13i?sub=3
 node_n  127
