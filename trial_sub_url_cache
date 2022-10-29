@@ -1,6 +1,6 @@
 [user.hdapi.work]
-time  1667069536.450977
-sub_url  https://user.hdapi.work/api/v1/client/subscribe?token=ef5d8788250a0746c96190a6dbe00c27
+time  1667070669.4757664
+sub_url  https://user.hdapi.work/api/v1/client/subscribe?token=1fb31f9cb03afa64e7c43c05cfdb50e3
 node_n  26
 
 [shan-cloud.xyz]
@@ -29,8 +29,8 @@ sub_url  https://www.ckcloud.xyz/api/v1/client/subscribe?token=a864f08038ccefa99
 node_n  24
 
 [www.wolaile.icu]
-time  1667069536.450977
-sub_url  https://www.yzhxr.vip/link/uOStBz3eGW3GUGoR?sub=3
+time  1667070669.4757664
+sub_url  https://www.yzhxr.vip/link/CX8mg3eweh9Dsw9W?sub=3
 node_n  19
 
 [iacgbt.com]
@@ -42,7 +42,6 @@ node_n  14
 time  1667062825.2553916
 sub_url  https://sub-cdn1.apqiang.com/link/Qo20VPTXWOq8csvh?sub=3
 node_n  33
-error(download)  下载失败: HTTPSConnectionPool(host='sub-cdn1.apqiang.com', port=443): Max retries exceeded with url: /link/Qo20VPTXWOq8csvh?sub=3 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:997)')))
 
 [paopaocloud.com]
 time  1667062825.2553916
@@ -53,3 +52,8 @@ node_n  127
 time  1667067932.40046
 sub_url  https://yungcun.cc/api/v1/client/subscribe?token=91f8b8965db787df9abf2ab3d2d2ee38
 node_n  31
+
+[console.lynet.works]
+time  1667070669.4757664
+sub_url  https://console.lynet.works/api/v1/client/subscribe?token=e228af8183da6da46a1e3cb7597b0716
+node_n  15
