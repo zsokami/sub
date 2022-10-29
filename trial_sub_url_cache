@@ -1,6 +1,6 @@
 [user.hdapi.work]
-time  1667082372.6242902
-sub_url  https://user.hdapi.work/api/v1/client/subscribe?token=143aa38dd843431a688093bde6a48a16
+time  1667083481.8091006
+sub_url  https://user.hdapi.work/api/v1/client/subscribe?token=1cba3a728d86793cbefbc859c069827e
 node_n  26
 
 [shan-cloud.xyz]
@@ -21,7 +21,7 @@ node_n  35
 [feiniaoyun.top]
 time  1667062825.2553916
 sub_url  https://feiniaoyun.top/api/v1/client/subscribe?token=0c3a1c1c7fdd83ee1e7f21684833eaa5
-node_n  51
+node_n  37
 
 [www.ckcloud.xyz]
 time  1667062825.2553916
@@ -32,6 +32,7 @@ node_n  24
 time  1667082372.6242902
 sub_url  https://www.yzhxr.vip/link/D4htR3UOcSXFMLUz?sub=3
 node_n  19
+error(get_sub_url)  注册失败: {'ret': 0, 'msg': '请不要频繁注册账号！'}
 
 [iacgbt.com]
 time  1667079978.196813
