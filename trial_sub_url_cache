@@ -21,7 +21,7 @@ node_n  35
 [feiniaoyun.top]
 time  1667032448.0513182
 sub_url  https://feiniaoyun.top/api/v1/client/subscribe?token=09dc5b31f3e33fb07c9109eb5121b1e6
-node_n  49
+node_n  50
 
 [www.ckcloud.xyz]
 time  1667032448.0513182
@@ -42,7 +42,6 @@ node_n  14
 time  1667026448.6676998
 sub_url  https://sub-cdn1.apqiang.com/link/jhjxQAiLTGxgByA7?sub=3
 node_n  33
-error(download)  下载失败: HTTPSConnectionPool(host='sub-cdn1.apqiang.com', port=443): Max retries exceeded with url: /link/jhjxQAiLTGxgByA7?sub=3 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:997)')))
 
 [paopaocloud.com]
 time  1667032448.0513182
