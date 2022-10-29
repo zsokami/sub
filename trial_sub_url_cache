@@ -1,6 +1,6 @@
 [user.hdapi.work]
-time  1667032448.0513182
-sub_url  https://user.hdapi.work/api/v1/client/subscribe?token=653b2388c84cb12d562d7d90d12c2da4
+time  1667033596.6010711
+sub_url  https://user.hdapi.work/api/v1/client/subscribe?token=68a83208e6a9985a953b522461f863d0
 node_n  26
 
 [shan-cloud.xyz]
@@ -21,7 +21,7 @@ node_n  35
 [feiniaoyun.top]
 time  1667032448.0513182
 sub_url  https://feiniaoyun.top/api/v1/client/subscribe?token=09dc5b31f3e33fb07c9109eb5121b1e6
-node_n  50
+node_n  49
 
 [www.ckcloud.xyz]
 time  1667032448.0513182
@@ -29,8 +29,8 @@ sub_url  https://www.ckcloud.xyz/api/v1/client/subscribe?token=613cd0d9787574dad
 node_n  24
 
 [www.wolaile.icu]
-time  1667032448.0513182
-sub_url  https://www.yzhxr.vip/link/d8Rg6QEKWxIrrNOB?sub=3
+time  1667033596.6010711
+sub_url  https://www.yzhxr.vip/link/ujgQLMhc4dML9ooG?sub=3
 node_n  19
 
 [iacgbt.com]
@@ -42,7 +42,6 @@ node_n  14
 time  1667026448.6676998
 sub_url  https://sub-cdn1.apqiang.com/link/jhjxQAiLTGxgByA7?sub=3
 node_n  33
-error(download)  下载失败: HTTPSConnectionPool(host='sub-cdn1.apqiang.com', port=443): Max retries exceeded with url: /link/jhjxQAiLTGxgByA7?sub=3 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:997)')))
 
 [paopaocloud.com]
 time  1667032448.0513182
