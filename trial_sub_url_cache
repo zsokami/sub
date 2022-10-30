@@ -1,6 +1,6 @@
 [user.hdapi.work]
-time  1667103512.8238852
-sub_url  https://user.hdapi.work/api/v1/client/subscribe?token=eb31b6509366f9d6f93e45b890eb4ed9
+time  1667106063.124091
+sub_url  https://user.hdapi.work/api/v1/client/subscribe?token=c830aaa542ae8556e8ae55aa6dd7584b
 node_n  26
 
 [shan-cloud.xyz]
@@ -19,18 +19,18 @@ sub_url  https://fastestcloud.xyz/api/v1/client/subscribe?token=1d61ef6e92d0714e
 node_n  35
 
 [feiniaoyun.top]
-time  1667062825.2553916
-sub_url  https://feiniaoyun.top/api/v1/client/subscribe?token=0c3a1c1c7fdd83ee1e7f21684833eaa5
+time  1667106063.124091
+sub_url  https://feiniaoyun.top/api/v1/client/subscribe?token=17c7f801a77a210e8bcfdacb79cdfbf8
 node_n  45
 
 [www.ckcloud.xyz]
-time  1667062825.2553916
-sub_url  https://www.ckcloud.xyz/api/v1/client/subscribe?token=a864f08038ccefa99f4d97b8045c23de
+time  1667106063.124091
+sub_url  https://www.ckcloud.xyz/api/v1/client/subscribe?token=c8729f6eb4bf81270b669e8fd1591e2f
 node_n  24
 
 [www.wolaile.icu]
-time  1667103512.8238852
-sub_url  https://www.yzhxr.vip/link/vTnNVrVCZNDffxC3?sub=3
+time  1667106063.124091
+sub_url  https://www.yzhxr.vip/link/e38DlrEoT57iI1h9?sub=3
 node_n  19
 
 [iacgbt.com]
@@ -39,13 +39,14 @@ sub_url  https://www.iacgbt.com/link/uUefGrlrp36UYviJ?sub=3
 node_n  14
 
 [jsmao.xyz]
-time  1667062825.2553916
-sub_url  https://sub-cdn1.apqiang.com/link/Qo20VPTXWOq8csvh?sub=3
+time  1667106063.124091
+sub_url  https://sub-cdn1.apqiang.com/link/BYGIzQmpIxF2bLsw?sub=3
 node_n  33
+error(download)  下载失败: HTTPSConnectionPool(host='sub-cdn1.apqiang.com', port=443): Max retries exceeded with url: /link/BYGIzQmpIxF2bLsw?sub=3 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:997)')))
 
 [paopaocloud.com]
-time  1667062825.2553916
-sub_url  https://lting.cyou/link/7eEbYHkL8bobIBaz?sub=3
+time  1667106063.124091
+sub_url  https://lting.cyou/link/RPIji6VlxFNGEtsh?sub=3
 node_n  127
 
 [yungcun.cc]
