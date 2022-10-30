@@ -17,6 +17,16 @@ re_cfg_item_v_sep = re.compile(r' {2,}')
 re_cfg_k = re.compile(r'\[(.+?)\]')
 re_cfg_illegal = re.compile(r'[\r\n ]+')
 
+re_non_empty_base64 = re.compile(rb'^(?=[A-Za-z0-9+/]+={0,2}$)(?:.{4})+$')
+
+id = ''.join(random.choices(string.ascii_letters + string.digits, k=12))
+email = id + '@gmail.com'
+
+print('id:', id)
+
+
+# 文件读写删
+
 
 def read(path, b=False):
     if os.path.isfile(path):
@@ -35,6 +45,9 @@ def write(path, first, *rest):
 def remove(path):
     if os.path.exists(path):
         os.remove(path)
+
+
+# 自定义配置文件读写
 
 
 def read_cfg(path, dict_items=False):
@@ -85,29 +98,7 @@ def remove_illegal(v):
     return re_cfg_illegal.sub(' ', str(v).strip())
 
 
-hosts_cfg = read_cfg('trial_hosts.cfg')
-sub_url_cache = read_cfg('trial_sub_url_cache', True)
-
-host_set = set(host for host, _ in chain(hosts_cfg['v2board'], hosts_cfg['sspanel']))
-
-for host in [*sub_url_cache]:
-    if host not in host_set:
-        remove(f'trials/{host}')
-        del sub_url_cache[host]
-
-
-def filter_expired(host_and_intervals):
-    now = time.time()
-    return [host for host, interval in host_and_intervals if host not in sub_url_cache or now - float(sub_url_cache[host]['time'][0]) > float(interval)]
-
-
-reg_v2board_hosts = filter_expired(hosts_cfg['v2board'])
-reg_sspanel_hosts = filter_expired(hosts_cfg['sspanel'])
-
-id = ''.join(random.choices(string.ascii_letters + string.digits, k=12))
-email = id + '@gmail.com'
-
-print('id:', id)
+# http 请求 注册/登录/解析/下载
 
 
 def new_session():
@@ -164,13 +155,32 @@ def get_sub_url_sspanel(host):
 def download(path, url, host):
     try:
         content = new_session().get(url).content
-        if not content:
-            raise Exception('not content')
+        if not re_non_empty_base64.fullmatch(content):
+            raise Exception('not non-empty base64')
         write(path, content)
         return None, path, url, host
     except Exception as e:
         return e, path, url, host
 
+
+hosts_cfg = read_cfg('trial_hosts.cfg')
+sub_url_cache = read_cfg('trial_sub_url_cache', True)
+
+host_set = set(host for host, _ in chain(hosts_cfg['v2board'], hosts_cfg['sspanel']))
+
+for host in [*sub_url_cache]:
+    if host not in host_set:
+        remove(f'trials/{host}')
+        del sub_url_cache[host]
+
+
+def filter_expired(host_and_intervals):
+    now = time.time()
+    return [host for host, interval in host_and_intervals if host not in sub_url_cache or now - float(sub_url_cache[host]['time'][0]) > float(interval)]
+
+
+reg_v2board_hosts = filter_expired(hosts_cfg['v2board'])
+reg_sspanel_hosts = filter_expired(hosts_cfg['sspanel'])
 
 executor = ThreadPoolExecutor(max(len(hosts_cfg['v2board']) + len(hosts_cfg['sspanel']), 1))
 
