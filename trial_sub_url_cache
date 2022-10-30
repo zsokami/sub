@@ -1,6 +1,6 @@
 [user.hdapi.work]
-time  1667153966.8687372
-sub_url  https://user.hdapi.work/api/v1/client/subscribe?token=3e0810f2956e242f14bd0f29b30e4047
+time  1667155298.851952
+sub_url  https://user.hdapi.work/api/v1/client/subscribe?token=a21f7c03f51addf081dfe8dae75cb79a
 node_n  26
 
 [shan-cloud.xyz]
@@ -29,10 +29,9 @@ sub_url  https://www.ckcloud.xyz/api/v1/client/subscribe?token=11407323ae7d1ef59
 node_n  24
 
 [www.wolaile.icu]
-time  1667152045.0550406
-sub_url  https://www.yzhxr.vip/link/pLxWqyBhZAJZGdIq?sub=3
+time  1667155298.851952
+sub_url  https://www.yzhxr.vip/link/VRmDIZg5ps9Bldjk?sub=3
 node_n  18
-error(get_sub_url)  注册失败: {'ret': 0, 'msg': '请不要频繁注册账号！'}
 
 [iacgbt.com]
 time  1667152383.7564375
@@ -50,8 +49,8 @@ sub_url  https://lting.cyou/link/DCUKyKHcNgVZeFqN?sub=3
 node_n  127
 
 [yungcun.cc]
-time  1667067932.40046
-sub_url  https://yungcun.cc/api/v1/client/subscribe?token=91f8b8965db787df9abf2ab3d2d2ee38
+time  1667155298.851952
+sub_url  https://yungcun.cc/api/v1/client/subscribe?token=7aed21401112a2136d50192e908b7099
 node_n  31
 
 [console.lynet.works]
@@ -60,13 +59,13 @@ sub_url  https://console.lynet.works/api/v1/client/subscribe?token=e228af8183da6
 node_n  15
 
 [www.zhenyejiedian.com]
-time  1667112093.5402877
-sub_url  https://www.zhenyejiedian.com/api/v1/client/subscribe?token=41462950917c60c9ef86fd86e480ffb1
+time  1667155298.851952
+sub_url  https://www.zhenyejiedian.com/api/v1/client/subscribe?token=8e2301de96e9330bb28313552b9238b9
 node_n  20
 
 [marslink.org]
-time  1667153966.8687372
-sub_url  https://marslink.org/api/v1/client/subscribe?token=2edfa43915b99b3f989957f2b7d7778e
+time  1667155298.851952
+sub_url  https://marslink.org/api/v1/client/subscribe?token=ba2d82f4dbb657ae7be442d2561a2a4a
 node_n  30
 
 [dageyun.net]
