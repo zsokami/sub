@@ -1,6 +1,6 @@
 [user.hdapi.work]
-time  1667113061.640128
-sub_url  https://user.hdapi.work/api/v1/client/subscribe?token=6f2079e11f1c9c930d0a3fe6bb62154a
+time  1667114636.3008485
+sub_url  https://user.hdapi.work/api/v1/client/subscribe?token=ce3412ba6637797c86ce049526cc3b26
 node_n  26
 
 [shan-cloud.xyz]
@@ -9,8 +9,8 @@ sub_url  https://shan-cloud.xyz/api/v1/client/subscribe?token=371645cd99d882adae
 node_n  11
 
 [yifei999.com]
-time  1667099475.670804
-sub_url  https://yifei999.com/api/v1/client/subscribe?token=4a35b67ddf52bff48f0869f96f323afa
+time  1667114636.3008485
+sub_url  https://yifei999.com/api/v1/client/subscribe?token=a9a15de2d4beb1a82200ff67d42330c2
 node_n  7
 
 [fastestcloud.xyz]
@@ -29,8 +29,8 @@ sub_url  https://www.ckcloud.xyz/api/v1/client/subscribe?token=c8729f6eb4bf81270
 node_n  24
 
 [www.wolaile.icu]
-time  1667113061.640128
-sub_url  https://www.yzhxr.vip/link/XhdkfVAh7vbp6Mc1?sub=3
+time  1667114636.3008485
+sub_url  https://www.yzhxr.vip/link/TMC551TPqXNUgzXX?sub=3
 node_n  19
 
 [iacgbt.com]
@@ -42,6 +42,7 @@ node_n  14
 time  1667106063.124091
 sub_url  https://sub-cdn1.apqiang.com/link/BYGIzQmpIxF2bLsw?sub=3
 node_n  33
+error(download)  下载失败: HTTPSConnectionPool(host='sub-cdn1.apqiang.com', port=443): Max retries exceeded with url: /link/BYGIzQmpIxF2bLsw?sub=3 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:997)')))
 
 [paopaocloud.com]
 time  1667106063.124091
@@ -59,16 +60,21 @@ sub_url  https://console.lynet.works/api/v1/client/subscribe?token=e228af8183da6
 node_n  15
 
 [dog.ssrdog.com]
-time  1667113061.640128
-sub_url  https://dog.ssrdog.com/api/v1/client/subscribe?token=e7a935ca043bf34ac2acae039aa758bb
+time  1667114636.3008485
+sub_url  https://dog.ssrdog.com/api/v1/client/subscribe?token=b732ff4c452b8eef3266c17f00c393ea
 node_n  11
 
 [www.zhenyejiedian.com]
 time  1667112093.5402877
 sub_url  https://www.zhenyejiedian.com/api/v1/client/subscribe?token=41462950917c60c9ef86fd86e480ffb1
-node_n  21
+node_n  20
 
 [marslink.org]
 time  1667112093.5402877
 sub_url  https://marslink.org/api/v1/client/subscribe?token=bd602bf86311eb445e93fe7eab636b4f
 node_n  30
+
+[dageyun.net]
+time  1667114636.3008485
+sub_url  https://dageyun.net/api/v1/client/subscribe?token=b74b9529965593919d3ee4acb6c5ecf5
+node_n  45
