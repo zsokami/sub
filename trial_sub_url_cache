@@ -1,6 +1,6 @@
 [user.hdapi.work]
-time  1667152045.0550406
-sub_url  https://user.hdapi.work/api/v1/client/subscribe?token=d34f8793ff55526d3e10427bc760a6c0
+time  1667153966.8687372
+sub_url  https://user.hdapi.work/api/v1/client/subscribe?token=3e0810f2956e242f14bd0f29b30e4047
 node_n  26
 
 [shan-cloud.xyz]
@@ -32,6 +32,7 @@ node_n  24
 time  1667152045.0550406
 sub_url  https://www.yzhxr.vip/link/pLxWqyBhZAJZGdIq?sub=3
 node_n  18
+error(get_sub_url)  注册失败: {'ret': 0, 'msg': '请不要频繁注册账号！'}
 
 [iacgbt.com]
 time  1667152383.7564375
@@ -64,8 +65,8 @@ sub_url  https://www.zhenyejiedian.com/api/v1/client/subscribe?token=41462950917
 node_n  20
 
 [marslink.org]
-time  1667152045.0550406
-sub_url  https://marslink.org/api/v1/client/subscribe?token=9bb3fe434854bb3bf69c017c3987dd2f
+time  1667153966.8687372
+sub_url  https://marslink.org/api/v1/client/subscribe?token=2edfa43915b99b3f989957f2b7d7778e
 node_n  30
 
 [dageyun.net]
