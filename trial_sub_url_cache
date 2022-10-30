@@ -1,6 +1,6 @@
 [user.hdapi.work]
-time  1667114636.3008485
-sub_url  https://user.hdapi.work/api/v1/client/subscribe?token=ce3412ba6637797c86ce049526cc3b26
+time  1667115575.0399902
+sub_url  https://user.hdapi.work/api/v1/client/subscribe?token=e4816f9a642487abe957250c1262f879
 node_n  26
 
 [shan-cloud.xyz]
@@ -29,8 +29,8 @@ sub_url  https://www.ckcloud.xyz/api/v1/client/subscribe?token=c8729f6eb4bf81270
 node_n  24
 
 [www.wolaile.icu]
-time  1667114636.3008485
-sub_url  https://www.yzhxr.vip/link/TMC551TPqXNUgzXX?sub=3
+time  1667115575.0399902
+sub_url  https://www.yzhxr.vip/link/ZYgKlkBSvycp6nt3?sub=3
 node_n  19
 
 [iacgbt.com]
@@ -42,7 +42,6 @@ node_n  14
 time  1667106063.124091
 sub_url  https://sub-cdn1.apqiang.com/link/BYGIzQmpIxF2bLsw?sub=3
 node_n  33
-error(download)  下载失败: HTTPSConnectionPool(host='sub-cdn1.apqiang.com', port=443): Max retries exceeded with url: /link/BYGIzQmpIxF2bLsw?sub=3 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:997)')))
 
 [paopaocloud.com]
 time  1667106063.124091
@@ -63,6 +62,7 @@ node_n  15
 time  1667114636.3008485
 sub_url  https://dog.ssrdog.com/api/v1/client/subscribe?token=b732ff4c452b8eef3266c17f00c393ea
 node_n  11
+error(get_sub_url)  注册失败: {'message': '注册频繁，请等待1小时后再次尝试'}
 
 [www.zhenyejiedian.com]
 time  1667112093.5402877
