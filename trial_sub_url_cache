@@ -1,11 +1,11 @@
 [user.hdapi.work]
-time  1667131961.7330465
-sub_url  https://user.hdapi.work/api/v1/client/subscribe?token=e5513b5e89e8e6efb551064a45cabacd
+time  1667134764.5238543
+sub_url  https://user.hdapi.work/api/v1/client/subscribe?token=f8245a817db027848209c90686fb888c
 node_n  26
 
 [shan-cloud.xyz]
-time  1667129776.7123842
-sub_url  https://shan-cloud.xyz/api/v1/client/subscribe?token=fb0e92ee08881a517712c6e4be414c75
+time  1667134764.5238543
+sub_url  https://shan-cloud.xyz/api/v1/client/subscribe?token=1f57b054eadd9854444012c64a053f4b
 node_n  11
 
 [yifei999.com]
@@ -21,7 +21,7 @@ node_n  35
 [feiniaoyun.top]
 time  1667106063.124091
 sub_url  https://feiniaoyun.top/api/v1/client/subscribe?token=17c7f801a77a210e8bcfdacb79cdfbf8
-node_n  36
+node_n  41
 
 [www.ckcloud.xyz]
 time  1667106063.124091
@@ -29,13 +29,13 @@ sub_url  https://www.ckcloud.xyz/api/v1/client/subscribe?token=c8729f6eb4bf81270
 node_n  24
 
 [www.wolaile.icu]
-time  1667131961.7330465
-sub_url  https://www.yzhxr.vip/link/OEBOf6XUt8mXUO1f?sub=3
+time  1667134764.5238543
+sub_url  https://www.yzhxr.vip/link/XmR43Qn5s1yWntL3?sub=3
 node_n  18
 
 [iacgbt.com]
-time  1667129776.7123842
-sub_url  https://www.iacgbt.com/link/2p2u3EEXNoQgekZM?sub=3
+time  1667134764.5238543
+sub_url  https://www.iacgbt.com/link/fT2FCVbHfrvOEsIA?sub=3
 node_n  14
 
 [jsmao.xyz]
@@ -59,10 +59,9 @@ sub_url  https://console.lynet.works/api/v1/client/subscribe?token=e228af8183da6
 node_n  15
 
 [dog.ssrdog.com]
-time  1667130519.7872415
-sub_url  https://dog.ssrdog.com/api/v1/client/subscribe?token=4fd5aa83def73697fb46dfd8b6d75517
+time  1667134764.5238543
+sub_url  https://dog.ssrdog.com/api/v1/client/subscribe?token=7c97b61b5c3b941766ec63dc252461ee
 node_n  12
-error(get_sub_url)  注册失败: {'message': '注册频繁，请等待1小时后再次尝试'}
 
 [www.zhenyejiedian.com]
 time  1667112093.5402877
@@ -70,8 +69,8 @@ sub_url  https://www.zhenyejiedian.com/api/v1/client/subscribe?token=41462950917
 node_n  20
 
 [marslink.org]
-time  1667131961.7330465
-sub_url  https://marslink.org/api/v1/client/subscribe?token=b7a49141c1fac8a586d3901dca4c3f9d
+time  1667134764.5238543
+sub_url  https://marslink.org/api/v1/client/subscribe?token=cf18d5c5c6080084fdab99aa7efd73d6
 node_n  30
 
 [dageyun.net]
