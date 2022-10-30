@@ -4,13 +4,13 @@ sub_url  https://user.hdapi.work/api/v1/client/subscribe?token=4f4691134f1d2923e
 node_n  26
 
 [shan-cloud.xyz]
-time  1667125542.04149
-sub_url  https://shan-cloud.xyz/api/v1/client/subscribe?token=747fad1e3adddd3e41a2499fe8d817d2
+time  1667129776.7123842
+sub_url  https://shan-cloud.xyz/api/v1/client/subscribe?token=fb0e92ee08881a517712c6e4be414c75
 node_n  11
 
 [yifei999.com]
-time  1667114636.3008485
-sub_url  https://yifei999.com/api/v1/client/subscribe?token=a9a15de2d4beb1a82200ff67d42330c2
+time  1667129776.7123842
+sub_url  https://yifei999.com/api/v1/client/subscribe?token=4db2ce93d11e9d66e8d1771d1d07325a
 node_n  7
 
 [fastestcloud.xyz]
@@ -34,15 +34,14 @@ sub_url  https://www.yzhxr.vip/link/XYkwd2vrNCsV77OF?sub=3
 node_n  18
 
 [iacgbt.com]
-time  1667125542.04149
-sub_url  https://www.iacgbt.com/link/yJZCWfC1A0aNEGo7?sub=3
+time  1667129776.7123842
+sub_url  https://www.iacgbt.com/link/2p2u3EEXNoQgekZM?sub=3
 node_n  14
 
 [jsmao.xyz]
 time  1667106063.124091
 sub_url  https://sub-cdn1.apqiang.com/link/BYGIzQmpIxF2bLsw?sub=3
 node_n  33
-error(download)  下载失败: HTTPSConnectionPool(host='sub-cdn1.apqiang.com', port=443): Max retries exceeded with url: /link/BYGIzQmpIxF2bLsw?sub=3 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:997)')))
 
 [paopaocloud.com]
 time  1667106063.124091
