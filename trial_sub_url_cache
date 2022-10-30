@@ -1,6 +1,6 @@
 [user.hdapi.work]
-time  1667117943.4709198
-sub_url  https://user.hdapi.work/api/v1/client/subscribe?token=c9cb5275a5770a79ac79af1647025419
+time  1667119344.113563
+sub_url  https://user.hdapi.work/api/v1/client/subscribe?token=c261d85798472e9518936c5958d7af3c
 node_n  26
 
 [shan-cloud.xyz]
@@ -21,7 +21,7 @@ node_n  35
 [feiniaoyun.top]
 time  1667106063.124091
 sub_url  https://feiniaoyun.top/api/v1/client/subscribe?token=17c7f801a77a210e8bcfdacb79cdfbf8
-node_n  45
+node_n  43
 
 [www.ckcloud.xyz]
 time  1667106063.124091
@@ -29,8 +29,8 @@ sub_url  https://www.ckcloud.xyz/api/v1/client/subscribe?token=c8729f6eb4bf81270
 node_n  24
 
 [www.wolaile.icu]
-time  1667117943.4709198
-sub_url  https://www.yzhxr.vip/link/85yK4LGD3lbxau1j?sub=3
+time  1667119344.113563
+sub_url  https://www.yzhxr.vip/link/YmeW2eUBbehTnk5M?sub=3
 node_n  19
 
 [iacgbt.com]
@@ -59,10 +59,9 @@ sub_url  https://console.lynet.works/api/v1/client/subscribe?token=e228af8183da6
 node_n  15
 
 [dog.ssrdog.com]
-time  1667114636.3008485
-sub_url  https://dog.ssrdog.com/api/v1/client/subscribe?token=b732ff4c452b8eef3266c17f00c393ea
+time  1667119344.113563
+sub_url  https://dog.ssrdog.com/api/v1/client/subscribe?token=64be0249a57749abefc6b95ec124f0ae
 node_n  11
-error(get_sub_url)  注册失败: {'message': '注册频繁，请等待1小时后再次尝试'}
 
 [www.zhenyejiedian.com]
 time  1667112093.5402877
@@ -70,8 +69,8 @@ sub_url  https://www.zhenyejiedian.com/api/v1/client/subscribe?token=41462950917
 node_n  20
 
 [marslink.org]
-time  1667117943.4709198
-sub_url  https://marslink.org/api/v1/client/subscribe?token=920f950724795adbd02801a3b78bca8f
+time  1667119344.113563
+sub_url  https://marslink.org/api/v1/client/subscribe?token=798cdf116d6184bc958854734d41d5c5
 node_n  30
 
 [dageyun.net]
