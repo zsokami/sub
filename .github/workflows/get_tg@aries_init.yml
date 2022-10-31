@@ -1,0 +1,25 @@
+name: get_trial.py
+on:
+  workflow_dispatch:
+  schedule:
+  - cron: "18 2/6 * * *"
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - uses: actions/setup-python@v4
+      with:
+          python-version: "3.10"
+    - run: pip install requests beautifulsoup4
+    - run: python get_tg@aries_init.py
+    - name: Commit
+      id: commit
+      run: |
+        git config user.email "actions@github.com"
+        git config user.name "GitHub Actions"
+        git add .
+        git commit -m "get_tg@aries_init.py done"
+      continue-on-error: true
+    - uses: ad-m/github-push-action@master
+      if: ${{ steps.commit.outcome == 'success' }}
