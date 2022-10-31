@@ -1,11 +1,11 @@
 [user.hdapi.work]
-time  1667232923.6062744
-sub_url  https://user.hdapi.work/api/v1/client/subscribe?token=9eb48f9afa058726d8859203be6ec449
+time  1667235391.404076
+sub_url  https://user.hdapi.work/api/v1/client/subscribe?token=41f8200ef1bb6e3a4a8d22e18f277229
 node_n  26
 
 [shan-cloud.xyz]
-time  1667230540.1790218
-sub_url  https://shan-cloud.xyz/api/v1/client/subscribe?token=8ee4a161311f4bf68792aff1da3ed47a
+time  1667235391.404076
+sub_url  https://shan-cloud.xyz/api/v1/client/subscribe?token=b54a162fb272d979ca121a075785d38e
 node_n  11
 
 [yifei999.com]
@@ -29,20 +29,19 @@ sub_url  https://www.ckcloud.xyz/api/v1/client/subscribe?token=bdb448ff7675d1053
 node_n  24
 
 [www.wolaile.icu]
-time  1667232923.6062744
-sub_url  https://www.yzhxr.vip/link/vMXdRRfjiRLJhemm?sub=3
+time  1667235391.404076
+sub_url  https://www.yzhxr.vip/link/lJwctEQkSSInqsSu?sub=3
 node_n  18
 
 [iacgbt.com]
-time  1667230540.1790218
-sub_url  https://www.iacgbt.com/link/adU5FNMu9tqW15ym?sub=3
+time  1667235391.404076
+sub_url  https://www.iacgbt.com/link/cUoS7RF34t3PpNqA?sub=3
 node_n  14
 
 [jsmao.xyz]
 time  1667194458.0324247
 sub_url  https://sub-cdn1.apqiang.com/link/scyMWm4yxSu3RvGi?sub=3
 node_n  33
-error(download)  下载失败: HTTPSConnectionPool(host='sub-cdn1.apqiang.com', port=443): Max retries exceeded with url: /link/scyMWm4yxSu3RvGi?sub=3 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:997)')))
 
 [paopaocloud.com]
 time  1667194458.0324247
@@ -62,11 +61,11 @@ node_n  15
 [www.zhenyejiedian.com]
 time  1667198796.692887
 sub_url  https://www.zhenyejiedian.com/api/v1/client/subscribe?token=a8a80a9e64c60361478ad2dc650ec4bb
-node_n  20
+node_n  21
 
 [marslink.org]
-time  1667232923.6062744
-sub_url  https://marslink.org/api/v1/client/subscribe?token=eecc6ca0ffd84b8d338b87348bd885eb
+time  1667235391.404076
+sub_url  https://marslink.org/api/v1/client/subscribe?token=182f62869b7afa7f1a0cd3af522c667a
 node_n  30
 
 [dageyun.net]
