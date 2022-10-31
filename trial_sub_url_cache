@@ -1,17 +1,17 @@
 [user.hdapi.work]
-time  1667231803.3128757
-sub_url  https://user.hdapi.work/api/v1/client/subscribe?token=3b5ceb0a792ae07204138b59e971d328
-node_n  27
+time  1667232923.6062744
+sub_url  https://user.hdapi.work/api/v1/client/subscribe?token=9eb48f9afa058726d8859203be6ec449
+node_n  26
 
 [shan-cloud.xyz]
 time  1667230540.1790218
 sub_url  https://shan-cloud.xyz/api/v1/client/subscribe?token=8ee4a161311f4bf68792aff1da3ed47a
-node_n  12
+node_n  11
 
 [yifei999.com]
 time  1667230540.1790218
 sub_url  https://yifei999.com/api/v1/client/subscribe?token=28ce346c1a5e7d263bb1acc040fa3308
-node_n  6
+node_n  7
 
 [fastestcloud.xyz]
 time  1667192430.4013295
@@ -21,7 +21,7 @@ node_n  35
 [feiniaoyun.top]
 time  1667194458.0324247
 sub_url  https://feiniaoyun.top/api/v1/client/subscribe?token=f090720b0b12d6de7c6e74c2d31ad20a
-node_n  53
+node_n  52
 
 [www.ckcloud.xyz]
 time  1667194458.0324247
@@ -29,8 +29,8 @@ sub_url  https://www.ckcloud.xyz/api/v1/client/subscribe?token=bdb448ff7675d1053
 node_n  24
 
 [www.wolaile.icu]
-time  1667231803.3128757
-sub_url  https://www.yzhxr.vip/link/BT8jFOJLszPSJLZI?sub=3
+time  1667232923.6062744
+sub_url  https://www.yzhxr.vip/link/vMXdRRfjiRLJhemm?sub=3
 node_n  18
 
 [iacgbt.com]
@@ -42,6 +42,7 @@ node_n  14
 time  1667194458.0324247
 sub_url  https://sub-cdn1.apqiang.com/link/scyMWm4yxSu3RvGi?sub=3
 node_n  33
+error(download)  下载失败: HTTPSConnectionPool(host='sub-cdn1.apqiang.com', port=443): Max retries exceeded with url: /link/scyMWm4yxSu3RvGi?sub=3 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:997)')))
 
 [paopaocloud.com]
 time  1667194458.0324247
@@ -64,11 +65,11 @@ sub_url  https://www.zhenyejiedian.com/api/v1/client/subscribe?token=a8a80a9e64c
 node_n  20
 
 [marslink.org]
-time  1667231803.3128757
-sub_url  https://marslink.org/api/v1/client/subscribe?token=e5ad315753f46fca4f3acc7bfd188e86
+time  1667232923.6062744
+sub_url  https://marslink.org/api/v1/client/subscribe?token=eecc6ca0ffd84b8d338b87348bd885eb
 node_n  30
 
 [dageyun.net]
 time  1667189385.1793566
 sub_url  https://dageyun.net/api/v1/client/subscribe?token=34c33c135d876e058d68aa7ccdd0478d
-node_n  45
+node_n  44
