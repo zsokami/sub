@@ -19,7 +19,7 @@ msg_title, msg_urls = [], []
 for node in node_update_time.find_next_sibling(text='–––––––––––––––––––––––––').next_siblings:
     if node.text == '–––––––––––––––––––––––––':
         break
-    if node.name == 'a':
+    if node.name == 'a' and not node.text.endswith('自费购买'):
         msg_title.append(node.text)
         msg_urls.append(node['href'])
 
