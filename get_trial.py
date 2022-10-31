@@ -115,7 +115,7 @@ with ThreadPoolExecutor(32) as executor:
         else:
             sub_url_cache[host].pop('error(download)', None)
 
-all_nodes = ''
+all_nodes = b''
 for host, item in sub_url_cache.items():
     nodes = b64decode(read(f'trials/{host}', True))
     item['node_n'] = [nodes.count(b'\n')]
