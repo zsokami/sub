@@ -88,7 +88,7 @@ def get_sub_url_sspanel(host):
         return None, (
             BeautifulSoup(session.get(urljoin(base, 'user')).text, 'html.parser')
             .select_one('[data-clipboard-text]')['data-clipboard-text']
-            .split('?')[0] + '?sub=3'
+            .split('?')[0] + f'?{host_ops[host].get("sub") or "sub=3"}'
         ), host
     except Exception as e:
         return e, base, host
