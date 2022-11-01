@@ -78,9 +78,3 @@ node_n  44
 time  1667324652.355209
 sub_url  https://by.xbygood.xyz/link/mzaKqbJ6QmDSmeIC?sub=3
 node_n  8
-
-[speedcat.ws]
-time  1667330930.9719663
-sub_url  https://apiv2.pptiok2020.com/apiv2/yexey8pbjmmsyuoq?sub=3
-error(download)  下载失败: not non-empty base64
-node_n  0
