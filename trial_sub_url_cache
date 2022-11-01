@@ -42,7 +42,6 @@ node_n  14
 time  1667327828.3370419
 sub_url  https://sub-cdn1.apqiang.com/link/kbOmkBA3ICNtkvON?sub=3
 node_n  33
-error(download)  下载失败: HTTPSConnectionPool(host='sub-cdn1.apqiang.com', port=443): Max retries exceeded with url: /link/kbOmkBA3ICNtkvON?sub=3 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:997)')))
 
 [paopaocloud.com]
 time  1667327828.3370419
@@ -83,3 +82,7 @@ node_n  8
 time  1667332262.1698842
 sub_url  https://apiv2.pptiok2020.com/apiv2/l4p3lzanzuzbtbig?sub=2
 node_n  74
+
+[purefast.net]
+error(get_sub_url)  ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+node_n  0
