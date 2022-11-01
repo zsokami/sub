@@ -1,6 +1,6 @@
 [user.hdapi.work]
-time  1667340742.2350616
-sub_url  https://user.hdapi.work/api/v1/client/subscribe?token=d577af94dcd1275fb594edf21f5e2c70
+time  1667342211.6354678
+sub_url  https://user.hdapi.work/api/v1/client/subscribe?token=4b14ed394c84f05176c588033aa11af1
 node_n  26
 
 [shan-cloud.xyz]
@@ -21,7 +21,7 @@ node_n  35
 [feiniaoyun.top]
 time  1667327828.3370419
 sub_url  https://feiniaoyun.top/api/v1/client/subscribe?token=9a57cba1ee80f5d0b0134de6ae2e0b0e
-node_n  50
+node_n  46
 
 [www.ckcloud.xyz]
 time  1667327828.3370419
@@ -29,8 +29,8 @@ sub_url  https://www.ckcloud.xyz/api/v1/client/subscribe?token=52cf5e8dca764e1d4
 node_n  24
 
 [www.wolaile.icu]
-time  1667340742.2350616
-sub_url  https://www.yzhxr.vip/link/D1t4ORiuSaCww4pF?sub=3
+time  1667342211.6354678
+sub_url  https://www.yzhxr.vip/link/aXUlCMLyV06QqwcW?sub=3
 node_n  18
 
 [iacgbt.com]
@@ -42,7 +42,6 @@ node_n  14
 time  1667327828.3370419
 sub_url  https://sub-cdn1.apqiang.com/link/kbOmkBA3ICNtkvON?sub=3
 node_n  33
-error(download)  下载失败: HTTPSConnectionPool(host='sub-cdn1.apqiang.com', port=443): Max retries exceeded with url: /link/kbOmkBA3ICNtkvON?sub=3 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:997)')))
 
 [paopaocloud.com]
 time  1667327828.3370419
@@ -65,8 +64,8 @@ sub_url  https://www.zhenyejiedian.com/api/v1/client/subscribe?token=925055a39fb
 node_n  19
 
 [marslink.org]
-time  1667340742.2350616
-sub_url  https://marslink.org/api/v1/client/subscribe?token=9dec445db49dfff03dec660f429e2e8a
+time  1667342211.6354678
+sub_url  https://marslink.org/api/v1/client/subscribe?token=a9faf8bb15494494221185035ee1756f
 node_n  30
 
 [dageyun.net]
