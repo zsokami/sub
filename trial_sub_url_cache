@@ -42,6 +42,7 @@ node_n  14
 time  1667327828.3370419
 sub_url  https://sub-cdn1.apqiang.com/link/kbOmkBA3ICNtkvON?sub=3
 node_n  33
+error(download)  下载失败: HTTPSConnectionPool(host='sub-cdn1.apqiang.com', port=443): Max retries exceeded with url: /link/kbOmkBA3ICNtkvON?sub=3 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:997)')))
 
 [paopaocloud.com]
 time  1667327828.3370419
@@ -59,8 +60,8 @@ sub_url  https://console.lynet.works/api/v1/client/subscribe?token=eb9dfc91ea7e8
 node_n  15
 
 [www.zhenyejiedian.com]
-time  1667286147.9286404
-sub_url  https://www.zhenyejiedian.com/api/v1/client/subscribe?token=5f4cbfca1d5773a10b0983839eed3f4e
+time  1667329591.3346035
+sub_url  https://www.zhenyejiedian.com/api/v1/client/subscribe?token=925055a39fb6444c49496bb0f6647b59
 node_n  21
 
 [marslink.org]
