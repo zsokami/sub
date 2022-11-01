@@ -1,6 +1,6 @@
 [user.hdapi.work]
-time  1667336053.1922424
-sub_url  https://user.hdapi.work/api/v1/client/subscribe?token=0aace858825d46e218425a27072dfa82
+time  1667337184.0490224
+sub_url  https://user.hdapi.work/api/v1/client/subscribe?token=3a98d93ad4d48954b7ef98977025f19f
 node_n  26
 
 [shan-cloud.xyz]
@@ -29,8 +29,8 @@ sub_url  https://www.ckcloud.xyz/api/v1/client/subscribe?token=52cf5e8dca764e1d4
 node_n  24
 
 [www.wolaile.icu]
-time  1667336053.1922424
-sub_url  https://www.yzhxr.vip/link/N5XLh6T8hYfxqh8A?sub=3
+time  1667337184.0490224
+sub_url  https://www.yzhxr.vip/link/OVcfJ9IFMcn3Pwk8?sub=3
 node_n  18
 
 [iacgbt.com]
@@ -42,6 +42,7 @@ node_n  14
 time  1667327828.3370419
 sub_url  https://sub-cdn1.apqiang.com/link/kbOmkBA3ICNtkvON?sub=3
 node_n  33
+error(download)  下载失败: HTTPSConnectionPool(host='sub-cdn1.apqiang.com', port=443): Max retries exceeded with url: /link/kbOmkBA3ICNtkvON?sub=3 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:997)')))
 
 [paopaocloud.com]
 time  1667327828.3370419
@@ -64,14 +65,14 @@ sub_url  https://www.zhenyejiedian.com/api/v1/client/subscribe?token=925055a39fb
 node_n  19
 
 [marslink.org]
-time  1667336053.1922424
-sub_url  https://marslink.org/api/v1/client/subscribe?token=450d63fcbb07a374ab77817ee2abd7e5
+time  1667337184.0490224
+sub_url  https://marslink.org/api/v1/client/subscribe?token=90d5409783fdd033250e8c7e2fbe0fd1
 node_n  30
 
 [dageyun.net]
-time  1667264913.9854076
-sub_url  https://dageyun.net/api/v1/client/subscribe?token=42abf9604b5b967f18f03494dbc6e766
-node_n  44
+time  1667337184.0490224
+sub_url  https://dageyun.net/api/v1/client/subscribe?token=7ee433477da487b248bcc528120bed23
+node_n  45
 
 [xbygood.xyz]
 time  1667324652.355209
@@ -82,7 +83,3 @@ node_n  8
 time  1667332262.1698842
 sub_url  https://apiv2.pptiok2020.com/apiv2/l4p3lzanzuzbtbig?sub=2
 node_n  74
-
-[purefast.net]
-error(get_sub_url)  ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
-node_n  0
