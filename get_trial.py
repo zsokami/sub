@@ -35,7 +35,7 @@ for host in [*sub_url_cache]:
 
 def filter_expired(host_cfg):
     now = time.time()
-    return [host for host, interval, *_ in host_cfg if host not in sub_url_cache or now - float(sub_url_cache[host]['time'][0]) > float(interval)]
+    return [host for host, interval, *_ in host_cfg if host not in sub_url_cache or 'sub_url' not in sub_url_cache[host] or now - float(sub_url_cache[host]['time'][0]) > float(interval)]
 
 
 reg_v2board_hosts = filter_expired(hosts_cfg['v2board'])
