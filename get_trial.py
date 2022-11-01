@@ -19,6 +19,26 @@ email = id + '@gmail.com'
 
 print('id:', id)
 
+hosts_cfg = read_cfg('trial_hosts.cfg')
+sub_url_cache = read_cfg('trial_sub_url_cache', True)
+
+host_ops = {host: dict(zip(ops[::2], ops[1::2]))
+            for host, _, *ops in chain(hosts_cfg['v2board'], hosts_cfg['sspanel'])}
+
+for host in [*sub_url_cache]:
+    if host not in host_ops:
+        remove(f'trials/{host}')
+        del sub_url_cache[host]
+
+
+def filter_expired(host_cfg):
+    now = time.time()
+    return [host for host, interval, *_ in host_cfg if host not in sub_url_cache or now - float(sub_url_cache[host]['time'][0]) > float(interval)]
+
+
+reg_v2board_hosts = filter_expired(hosts_cfg['v2board'])
+reg_sspanel_hosts = filter_expired(hosts_cfg['sspanel'])
+
 
 # 注册/登录/解析/下载
 
@@ -57,6 +77,14 @@ def get_sub_url_sspanel(host):
             }).json()
             if res['ret'] == 0:
                 raise Exception(f'登录失败: {res}')
+        if 'buy' in host_ops[host]:
+            res = session.post(
+                urljoin(base, 'user/buy'),
+                data=host_ops[host]['buy'],
+                headers={'Content-Type': 'application/x-www-form-urlencoded'}
+            ).json()
+            if res['ret'] == 0:
+                raise Exception(f'购买失败: {res}')
         return None, (
             BeautifulSoup(session.get(urljoin(base, 'user')).text, 'html.parser')
             .select_one('[data-clipboard-text]')['data-clipboard-text']
@@ -76,25 +104,6 @@ def download(path, url, host):
     except Exception as e:
         return e, path, url, host
 
-
-hosts_cfg = read_cfg('trial_hosts.cfg')
-sub_url_cache = read_cfg('trial_sub_url_cache', True)
-
-host_set = set(host for host, _ in chain(hosts_cfg['v2board'], hosts_cfg['sspanel']))
-
-for host in [*sub_url_cache]:
-    if host not in host_set:
-        remove(f'trials/{host}')
-        del sub_url_cache[host]
-
-
-def filter_expired(host_and_intervals):
-    now = time.time()
-    return [host for host, interval in host_and_intervals if host not in sub_url_cache or now - float(sub_url_cache[host]['time'][0]) > float(interval)]
-
-
-reg_v2board_hosts = filter_expired(hosts_cfg['v2board'])
-reg_sspanel_hosts = filter_expired(hosts_cfg['sspanel'])
 
 with ThreadPoolExecutor(32) as executor:
     now = time.time()
