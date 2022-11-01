@@ -42,7 +42,6 @@ node_n  14
 time  1667283243.868013
 sub_url  https://sub-cdn1.apqiang.com/link/G2b9KrDsPXE7hU9r?sub=3
 node_n  33
-error(download)  下载失败: HTTPSConnectionPool(host='sub-cdn1.apqiang.com', port=443): Max retries exceeded with url: /link/G2b9KrDsPXE7hU9r?sub=3 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:997)')))
 
 [paopaocloud.com]
 time  1667283243.868013
