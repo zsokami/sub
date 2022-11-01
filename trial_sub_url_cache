@@ -1,11 +1,11 @@
 [user.hdapi.work]
-time  1667281691.7131073
-sub_url  https://user.hdapi.work/api/v1/client/subscribe?token=33d47dff589c1427deceec46ed484713
+time  1667283243.868013
+sub_url  https://user.hdapi.work/api/v1/client/subscribe?token=8e282413ff652407c9e88a02659b4e0b
 node_n  26
 
 [shan-cloud.xyz]
-time  1667278856.9516795
-sub_url  https://shan-cloud.xyz/api/v1/client/subscribe?token=e51f41522ae263ac978ecdb97e8f5dd5
+time  1667283243.868013
+sub_url  https://shan-cloud.xyz/api/v1/client/subscribe?token=52cc7196e6877bc714e92d0163b9533f
 node_n  11
 
 [yifei999.com]
@@ -19,33 +19,34 @@ sub_url  https://fastestcloud.xyz/api/v1/client/subscribe?token=9eae7f280461ff1a
 node_n  35
 
 [feiniaoyun.top]
-time  1667238948.5170696
-sub_url  https://feiniaoyun.top/api/v1/client/subscribe?token=75df05e148969f581436eac4dfce7c38
+time  1667283243.868013
+sub_url  https://feiniaoyun.top/api/v1/client/subscribe?token=8044428c840a23f137c5cdc9d50990e4
 node_n  70
 
 [www.ckcloud.xyz]
-time  1667238948.5170696
-sub_url  https://www.ckcloud.xyz/api/v1/client/subscribe?token=5231f02e9e898ab9e18cc35ded4d0368
+time  1667283243.868013
+sub_url  https://www.ckcloud.xyz/api/v1/client/subscribe?token=29cf108d68d93e3e56d178d1a6cf386d
 node_n  24
 
 [www.wolaile.icu]
-time  1667281691.7131073
-sub_url  https://www.yzhxr.vip/link/FUAs16CPF4JRoF4g?sub=3
+time  1667283243.868013
+sub_url  https://www.yzhxr.vip/link/t8Cwhs8TPLndObJi?sub=3
 node_n  18
 
 [iacgbt.com]
-time  1667278856.9516795
-sub_url  https://www.iacgbt.com/link/JxUXwrcbcDbHybPT?sub=3
+time  1667283243.868013
+sub_url  https://www.iacgbt.com/link/3HwAuucg4lq3SLSI?sub=3
 node_n  14
 
 [jsmao.xyz]
-time  1667238948.5170696
-sub_url  https://sub-cdn1.apqiang.com/link/56VfGj6iAiMTDmEp?sub=3
+time  1667283243.868013
+sub_url  https://sub-cdn1.apqiang.com/link/G2b9KrDsPXE7hU9r?sub=3
 node_n  33
+error(download)  下载失败: HTTPSConnectionPool(host='sub-cdn1.apqiang.com', port=443): Max retries exceeded with url: /link/G2b9KrDsPXE7hU9r?sub=3 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:997)')))
 
 [paopaocloud.com]
-time  1667238948.5170696
-sub_url  https://lting.cyou/link/mIJt7VPjAaeNYFCx?sub=3
+time  1667283243.868013
+sub_url  https://lting.cyou/link/uJjOwNlFBV3mtOYO?sub=3
 node_n  127
 
 [yungcun.cc]
@@ -64,8 +65,8 @@ sub_url  https://www.zhenyejiedian.com/api/v1/client/subscribe?token=817eb40206b
 node_n  21
 
 [marslink.org]
-time  1667281691.7131073
-sub_url  https://marslink.org/api/v1/client/subscribe?token=02ffebce53e9b0acdaf7abc0c5fc8ef6
+time  1667283243.868013
+sub_url  https://marslink.org/api/v1/client/subscribe?token=3b9a4610f5ecb325b80811c9e1fa02a1
 node_n  30
 
 [dageyun.net]
