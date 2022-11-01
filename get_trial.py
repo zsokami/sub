@@ -22,8 +22,10 @@ print('id:', id)
 hosts_cfg = read_cfg('trial_hosts.cfg')
 sub_url_cache = read_cfg('trial_sub_url_cache', True)
 
-host_ops = {host: dict(zip(ops[::2], ops[1::2]))
-            for host, _, *ops in chain(hosts_cfg['v2board'], hosts_cfg['sspanel'])}
+host_ops = {
+    host: dict(zip(ops[::2], ops[1::2]))
+    for host, _, *ops in chain(hosts_cfg['v2board'], hosts_cfg['sspanel'])
+}
 
 for host in [*sub_url_cache]:
     if host not in host_ops:
@@ -63,28 +65,48 @@ def get_sub_url_sspanel(host):
     base = 'https://' + host
     session = new_session()
     try:
-        res = session.post(urljoin(base, 'auth/register'), json={
-            'email': email,
-            'passwd': id,
-            'repasswd': id,
-        }).json()
-        if res['ret'] == 0:
-            raise Exception(f'注册失败: {res}')
-        if 'email' not in session.cookies:
-            res = session.post(urljoin(base, 'auth/login'), json={
+        if 'checkin' not in host_ops[host] or host not in sub_url_cache or 'sub_url' not in sub_url_cache[host]:
+            res = session.post(urljoin(base, 'auth/register'), json={
                 'email': email,
                 'passwd': id,
+                'repasswd': id,
             }).json()
             if res['ret'] == 0:
-                raise Exception(f'登录失败: {res}')
-        if 'buy' in host_ops[host]:
-            res = session.post(
-                urljoin(base, 'user/buy'),
-                data=host_ops[host]['buy'],
-                headers={'Content-Type': 'application/x-www-form-urlencoded'}
-            ).json()
+                raise Exception(f'注册失败: {res}')
+
+            if 'email' not in session.cookies:
+                res = session.post(urljoin(base, 'auth/login'), json={
+                    'email': email,
+                    'passwd': id,
+                }).json()
+                if res['ret'] == 0:
+                    raise Exception(f'登录失败: {res}')
+
+            if 'buy' in host_ops[host]:
+                res = session.post(
+                    urljoin(base, 'user/buy'),
+                    data=host_ops[host]['buy'],
+                    headers={'Content-Type': 'application/x-www-form-urlencoded'}
+                ).json()
+                if res['ret'] == 0:
+                    raise Exception(f'购买失败: {res}')
+
+        if 'checkin' in host_ops[host]:
+            if 'email' not in session.cookies:
+                id_old = sub_url_cache[host]['user_id']
+                res = session.post(urljoin(base, 'auth/login'), json={
+                    'email': id_old + '@gmail.com',
+                    'passwd': id_old,
+                }).json()
+                if res['ret'] == 0:
+                    raise Exception(f'登录失败: {res}')
+            else:
+                sub_url_cache[host]['user_id'] = [id]
+
+            res = session.post(urljoin(base, 'user/checkin'))
             if res['ret'] == 0:
-                raise Exception(f'购买失败: {res}')
+                raise Exception(f'签到失败: {res}')
+
         return None, (
             BeautifulSoup(session.get(urljoin(base, 'user')).text, 'html.parser')
             .select_one('[data-clipboard-text]')['data-clipboard-text']
