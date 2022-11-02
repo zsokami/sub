@@ -88,4 +88,3 @@ user_id  lhPNc8tcTFUS
 time  1667404800.0
 sub_url  https://whoisyourdady.gfw-wdnmd.com/link/5xpODfN8pqMn83c5?sub=3
 node_n  20
-error(download)  下载失败: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
