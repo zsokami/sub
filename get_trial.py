@@ -93,7 +93,7 @@ def get_sub_url_sspanel(host):
 
         if 'checkin' in host_ops[host]:
             if 'email' not in session.cookies:
-                id_old = sub_url_cache[host]['user_id']
+                id_old = sub_url_cache[host]['user_id'][0]
                 res = session.post(urljoin(base, 'auth/login'), json={
                     'email': id_old + '@gmail.com',
                     'passwd': id_old,
