@@ -92,4 +92,5 @@ def new_session():
     # session.trust_env = False  # 禁用系统代理
     # session.proxies['http'] = '127.0.0.1:7890'
     # session.proxies['https'] = '127.0.0.1:7890'
+    session.headers['User-Agent'] = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36'
     return session
