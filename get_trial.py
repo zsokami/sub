@@ -134,7 +134,8 @@ with ThreadPoolExecutor(32) as executor:
             print(err, url)
             sub_url_cache[host]['error(get_sub_url)'] = [remove_illegal(err)]
         else:
-            print('new sub url', host, url)
+            if url != sub_url_cache[host].get('sub_url'):
+                print('new sub url', host, url)
             sub_url_cache[host].pop('error(get_sub_url)', None)
             sub_url_cache[host].update(time=[now], sub_url=[url])
 
