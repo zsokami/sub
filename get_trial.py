@@ -103,7 +103,7 @@ def get_sub_url_sspanel(host):
             else:
                 sub_url_cache[host]['user_id'] = [id]
 
-            res = session.post(urljoin(base, 'user/checkin'))
+            res = session.post(urljoin(base, 'user/checkin')).json()
             if res['ret'] == 0:
                 raise Exception(f'签到失败: {res}')
 
