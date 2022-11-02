@@ -77,7 +77,6 @@ node_n  45
 time  1667324652.355209
 sub_url  https://by.xbygood.xyz/link/mzaKqbJ6QmDSmeIC?sub=3
 node_n  8
-error(download)  下载失败: not non-empty base64
 
 [speedcat.ws]
 time  1667332262.1698842
@@ -89,4 +88,3 @@ user_id  lhPNc8tcTFUS
 time  1667404800.0
 sub_url  https://whoisyourdady.gfw-wdnmd.com/link/5xpODfN8pqMn83c5?sub=3
 node_n  20
-error(download)  下载失败: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
