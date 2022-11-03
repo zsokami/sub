@@ -1,6 +1,6 @@
 [user.hdapi.work]
-time  1667458392.1619961
-sub_url  https://user.hdapi.work/api/v1/client/subscribe?token=844e60ea5b82084a3368110e0e448435
+time  1667459672.024599
+sub_url  https://user.hdapi.work/api/v1/client/subscribe?token=2c4fea56d0c8cb4667c3f191f57ad998
 node_n  26
 
 [shan-cloud.xyz]
@@ -29,8 +29,8 @@ sub_url  https://www.ckcloud.xyz/api/v1/client/subscribe?token=cbcd529f5af0006eb
 node_n  24
 
 [www.wolaile.icu]
-time  1667458392.1619961
-sub_url  https://www.yzhxr.vip/link/LSvx5or8F4cTtyR1?sub=3
+time  1667459672.024599
+sub_url  https://www.yzhxr.vip/link/DqCKQLaOsKyLDeaN?sub=3
 node_n  18
 
 [iacgbt.com]
@@ -64,8 +64,8 @@ sub_url  https://www.zhenyejiedian.com/api/v1/client/subscribe?token=7b6af722bd8
 node_n  20
 
 [marslink.org]
-time  1667458392.1619961
-sub_url  https://marslink.org/api/v1/client/subscribe?token=3fe5d7ad522de73af419ea5545a9152f
+time  1667459672.024599
+sub_url  https://marslink.org/api/v1/client/subscribe?token=4d064d06662e0467feaa79feec845aa9
 node_n  30
 
 [dageyun.net]
@@ -88,3 +88,4 @@ user_id  lhPNc8tcTFUS
 time  1667404800.0
 sub_url  https://whoisyourdady.gfw-wdnmd.com/link/5xpODfN8pqMn83c5?sub=3
 node_n  20
+error(download)  下载失败: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
