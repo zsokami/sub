@@ -1,6 +1,6 @@
 [user.hdapi.work]
-time  1667468706.841563
-sub_url  https://user.hdapi.work/api/v1/client/subscribe?token=f28902de2fdcef82e23813b357b21f80
+time  1667470214.5618815
+sub_url  https://user.hdapi.work/api/v1/client/subscribe?token=b774635a21c7ab17986bdacd15f61e66
 node_n  26
 
 [shan-cloud.xyz]
@@ -29,8 +29,8 @@ sub_url  https://www.ckcloud.xyz/api/v1/client/subscribe?token=cbcd529f5af0006eb
 node_n  24
 
 [www.wolaile.icu]
-time  1667468706.841563
-sub_url  https://www.yzhxr.vip/link/AwccXetnOiHXe5dh?sub=3
+time  1667470214.5618815
+sub_url  https://www.yzhxr.vip/link/2Uwe82oxNRV34I14?sub=3
 node_n  18
 
 [iacgbt.com]
@@ -42,7 +42,6 @@ node_n  14
 time  1667458759.2392566
 sub_url  https://sub-cdn1.apqiang.com/link/pdIJuXsbQjmhlqlh?sub=3
 node_n  33
-error(download)  下载失败: HTTPSConnectionPool(host='sub-cdn1.apqiang.com', port=443): Max retries exceeded with url: /link/pdIJuXsbQjmhlqlh?sub=3 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:997)')))
 
 [paopaocloud.com]
 time  1667458759.2392566
@@ -65,8 +64,8 @@ sub_url  https://www.zhenyejiedian.com/api/v1/client/subscribe?token=0fb7a99d312
 node_n  20
 
 [marslink.org]
-time  1667468706.841563
-sub_url  https://marslink.org/api/v1/client/subscribe?token=4501ca962a8a0e10c54a66f1e48a8175
+time  1667470214.5618815
+sub_url  https://marslink.org/api/v1/client/subscribe?token=d52daa0339c22eb0fbe6f58d6be0b92d
 node_n  30
 
 [dageyun.net]
@@ -78,6 +77,7 @@ node_n  45
 time  1667324652.355209
 sub_url  https://by.xbygood.xyz/link/mzaKqbJ6QmDSmeIC?sub=3
 node_n  8
+error(download)  下载失败: not non-empty base64
 
 [speedcat.ws]
 time  1667332262.1698842
@@ -89,3 +89,4 @@ user_id  lhPNc8tcTFUS
 time  1667404800.0
 sub_url  https://whoisyourdady.gfw-wdnmd.com/link/5xpODfN8pqMn83c5?sub=3
 node_n  20
+error(download)  下载失败: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
