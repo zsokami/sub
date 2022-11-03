@@ -47,8 +47,9 @@ reg_sspanel_hosts = filter_expired(hosts_cfg['sspanel'])
 
 def get_sub_url_v2board(host):
     base = 'https://' + host
+    session = new_session()
     try:
-        res = new_session().post(urljoin(base, 'api/v1/passport/auth/register'), json={
+        res = session.post(urljoin(base, 'api/v1/passport/auth/register'), json={
             'email': email,
             'password': id,
         }).json()
@@ -56,6 +57,24 @@ def get_sub_url_v2board(host):
             token = res['data']['token']
         except KeyError:
             raise Exception(f'注册失败: {res}')
+
+        if 'buy' in host_ops[host]:
+            res = session.post(
+                urljoin(base, 'api/v1/user/order/save'),
+                data=host_ops[host]['buy'],
+                headers={'Content-Type': 'application/x-www-form-urlencoded'}
+            ).json()
+            if 'data' not in res:
+                raise Exception(f'下单失败: {res}')
+
+            res = session.post(
+                urljoin(base, 'api/v1/user/order/checkout'),
+                data=f'trade_no={res["data"]}&{host_ops[host]["checkout"]}',
+                headers={'Content-Type': 'application/x-www-form-urlencoded'}
+            ).json()
+            if not res.get('data'):
+                raise Exception(f'结账失败: {res}')
+
         return None, urljoin(base, 'api/v1/client/subscribe?token=' + token), host
     except Exception as e:
         return e, base, host
