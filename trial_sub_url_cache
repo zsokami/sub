@@ -1,6 +1,6 @@
 [user.hdapi.work]
-time  1667462035.3539193
-sub_url  https://user.hdapi.work/api/v1/client/subscribe?token=9eba764a9ef73e1670f55e56cc19c6ad
+time  1667463895.0441885
+sub_url  https://user.hdapi.work/api/v1/client/subscribe?token=0eeae420f114f9b55aa0a6f17b188bc0
 node_n  26
 
 [shan-cloud.xyz]
@@ -9,8 +9,8 @@ sub_url  https://shan-cloud.xyz/api/v1/client/subscribe?token=6f4e253d854bdcbbdc
 node_n  12
 
 [yifei999.com]
-time  1667448271.4554603
-sub_url  https://yifei999.com/api/v1/client/subscribe?token=513b51edbb7ab12bcbf263116e1f7fce
+time  1667463895.0441885
+sub_url  https://yifei999.com/api/v1/client/subscribe?token=20d1bf08c4c53aa3d6ea1771f946ac6a
 node_n  7
 
 [fastestcloud.xyz]
@@ -21,7 +21,7 @@ node_n  35
 [feiniaoyun.top]
 time  1667458759.2392566
 sub_url  https://feiniaoyun.top/api/v1/client/subscribe?token=68c1f19333e25295b9427932ac06969b
-node_n  68
+node_n  70
 
 [www.ckcloud.xyz]
 time  1667458759.2392566
@@ -29,8 +29,8 @@ sub_url  https://www.ckcloud.xyz/api/v1/client/subscribe?token=cbcd529f5af0006eb
 node_n  24
 
 [www.wolaile.icu]
-time  1667462035.3539193
-sub_url  https://www.yzhxr.vip/link/9qxZaOtYRvHizsRj?sub=3
+time  1667463895.0441885
+sub_url  https://www.yzhxr.vip/link/hk9rMiDblp3HwPX7?sub=3
 node_n  18
 
 [iacgbt.com]
@@ -42,6 +42,7 @@ node_n  14
 time  1667458759.2392566
 sub_url  https://sub-cdn1.apqiang.com/link/pdIJuXsbQjmhlqlh?sub=3
 node_n  33
+error(download)  下载失败: HTTPSConnectionPool(host='sub-cdn1.apqiang.com', port=443): Max retries exceeded with url: /link/pdIJuXsbQjmhlqlh?sub=3 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:997)')))
 
 [paopaocloud.com]
 time  1667458759.2392566
@@ -64,8 +65,8 @@ sub_url  https://www.zhenyejiedian.com/api/v1/client/subscribe?token=0fb7a99d312
 node_n  20
 
 [marslink.org]
-time  1667462035.3539193
-sub_url  https://marslink.org/api/v1/client/subscribe?token=6c8fb007dd8c36623b01f75a8f811810
+time  1667463895.0441885
+sub_url  https://marslink.org/api/v1/client/subscribe?token=515b83d6edd11908d62fccba1571f35e
 node_n  30
 
 [dageyun.net]
