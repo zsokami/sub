@@ -19,14 +19,15 @@ sub_url  https://fastestcloud.xyz/api/v1/client/subscribe?token=a9b04c04118605e0
 node_n  35
 
 [feiniaoyun.top]
-time  1667458759.2392566
-sub_url  https://feiniaoyun.top/api/v1/client/subscribe?token=68c1f19333e25295b9427932ac06969b
-node_n  69
+time  1667501962.1943479
+sub_url  https://feiniaoyun.top/api/v1/client/subscribe?token=cf23b71ecc9ef3eb87a0ffe312589f63
+node_n  70
 
 [www.ckcloud.xyz]
 time  1667458759.2392566
 sub_url  https://www.ckcloud.xyz/api/v1/client/subscribe?token=cbcd529f5af0006ebe7889357fcad2be
 node_n  24
+error(get_sub_url)  注册失败: {'message': '注册频繁，请等待1小时后再次尝试'}
 
 [www.wolaile.icu]
 time  1667501260.4485607
@@ -39,14 +40,13 @@ sub_url  https://www.iacgbt.com/link/9M8FA2w1XLVyLMQy?sub=3
 node_n  14
 
 [jsmao.xyz]
-time  1667458759.2392566
-sub_url  https://sub-cdn1.apqiang.com/link/pdIJuXsbQjmhlqlh?sub=3
+time  1667501962.1943479
+sub_url  https://sub-cdn1.apqiang.com/link/Rz8PltV4nVf21zAY?sub=3
 node_n  33
-error(download)  下载失败: HTTPSConnectionPool(host='sub-cdn1.apqiang.com', port=443): Max retries exceeded with url: /link/pdIJuXsbQjmhlqlh?sub=3 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:997)')))
 
 [paopaocloud.com]
-time  1667458759.2392566
-sub_url  https://lting.cyou/link/IPjXLASIyc8sEq5v?sub=3
+time  1667501962.1943479
+sub_url  https://lting.cyou/link/fCDRvj0UIr7X0Ceq?sub=3
 node_n  127
 
 [yungcun.cc]
@@ -78,7 +78,6 @@ node_n  48
 time  1667324652.355209
 sub_url  https://by.xbygood.xyz/link/mzaKqbJ6QmDSmeIC?sub=3
 node_n  8
-error(download)  下载失败: not non-empty base64
 
 [speedcat.ws]
 time  1667332262.1698842
