@@ -1,6 +1,6 @@
 [user.hdapi.work]
-time  1667504909.6321425
-sub_url  https://user.hdapi.work/api/v1/client/subscribe?token=a6239983227ba75da805db5e052cc3fe
+time  1667506473.5588899
+sub_url  https://user.hdapi.work/api/v1/client/subscribe?token=aa62a4ade85579da3024175c1d7a4cdc
 node_n  26
 
 [shan-cloud.xyz]
@@ -29,8 +29,8 @@ sub_url  https://www.ckcloud.xyz/api/v1/client/subscribe?token=1feab7525a9628a58
 node_n  24
 
 [www.wolaile.icu]
-time  1667504909.6321425
-sub_url  https://www.yzhxr.vip/link/L2tXI7HLYpEcCM5x?sub=3
+time  1667506473.5588899
+sub_url  https://www.yzhxr.vip/link/zCaF0CiuM1aYqg4O?sub=3
 node_n  18
 
 [iacgbt.com]
@@ -52,7 +52,7 @@ error(download)  下载失败: not non-empty base64
 [yungcun.cc]
 time  1667501260.4485607
 sub_url  https://yungcun.cc/api/v1/client/subscribe?token=750f0423ed216fe7f4189e9d17d32ca2
-node_n  31
+node_n  30
 
 [console.lynet.works]
 time  1667504218.0910022
@@ -65,8 +65,8 @@ sub_url  https://www.zhenyejiedian.com/api/v1/client/subscribe?token=74648e771d6
 node_n  20
 
 [marslink.org]
-time  1667504909.6321425
-sub_url  https://marslink.org/api/v1/client/subscribe?token=40a3c9988636d4338ffe7cfed068b58c
+time  1667506473.5588899
+sub_url  https://marslink.org/api/v1/client/subscribe?token=7d42e8dc53fc60a5e9aedc66f025963e
 node_n  30
 
 [dageyun.net]
