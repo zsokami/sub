@@ -9,7 +9,7 @@ from urllib.parse import urljoin
 
 from bs4 import BeautifulSoup
 
-from temp_email_code import get_email, get_email_code
+from temp_email_code import get_email, del_email, get_email_code
 from utils import (new_session, read, read_cfg, remove, remove_illegal, write,
                    write_cfg)
 
@@ -64,13 +64,17 @@ def get_sub_url_v2board(host):
                 'email': email
             }).json()
             if not res.get('data'):
-                raise Exception(f'发送验证码失败: {res}')
+                raise Exception(f'发送邮箱验证码失败: {res}')
+
+            email_code = get_email_code(host)
+            if not email_code:
+                raise Exception('获取邮箱验证码超时')
 
             res = session.post(urljoin(base, 'api/v1/passport/auth/register'), data={
                 'email': email,
                 'password': email.split('@')[0],
                 **({'invite_code': host_ops[host]['invite_code']} if 'invite_code' in host_ops[host] else {}),
-                'email_code': get_email_code(host)
+                'email_code': email_code
             }).json()
             if 'data' not in res:
                 raise Exception(f'注册失败: {res}')
@@ -184,6 +188,8 @@ with ThreadPoolExecutor(32) as executor:
             else:
                 update_time = now
             sub_url_cache[host].update(time=[update_time], sub_url=[url])
+
+    del_email()
 
     for err, path, url, host in executor.map(download, *zip(*((f'trials/{host}', item['sub_url'][0], host) for host, item in sub_url_cache.items() if 'sub_url' in item))):
         if err:
