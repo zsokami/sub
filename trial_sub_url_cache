@@ -4,8 +4,8 @@ sub_url  https://user.hdapi.work/api/v1/client/subscribe?token=0e0bd098343aaa9e9
 node_n  26
 
 [shan-cloud.xyz]
-time  1667601717.8465388
-sub_url  https://shan-cloud.xyz/api/v1/client/subscribe?token=9ca68262fe31e95abbce6187e38ead97
+time  1667605617.3065612
+sub_url  https://shan-cloud.xyz/api/v1/client/subscribe?token=41b905ccb57aa2b8b0bf01fdff5a58bd
 node_n  13
 
 [yifei999.com]
@@ -35,8 +35,8 @@ sub_url  https://www.yzhxr.vip/link/r2LU6T8cPUeGX77o?sub=3
 node_n  18
 
 [iacgbt.com]
-time  1667601717.8465388
-sub_url  https://www.iacgbt.com/link/uy2YFzORCMOES7dB?sub=3
+time  1667605617.3065612
+sub_url  https://www.iacgbt.com/link/9hA7rURy1JxMjQSj?sub=3
 node_n  14
 
 [jsmao.xyz]
@@ -104,3 +104,4 @@ node_n  1
 time  1667601717.8465388
 sub_url  https://user.bafang.vip/api/v1/client/subscribe?token=c385c227fcdec22332c5b0668e925587
 node_n  23
+error(download)  下载失败: not non-empty base64
