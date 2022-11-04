@@ -25,8 +25,8 @@ node_n  61
 error(get_sub_url)  注册失败: {'message': '邮箱后缀不处于白名单中'}
 
 [www.ckcloud.xyz]
-time  1667546160.4262853
-sub_url  https://www.ckcloud.xyz/api/v1/client/subscribe?token=b7fc713b7de906a7d9a413e0b1d05e10
+time  1667589707.7497296
+sub_url  https://www.ckcloud.xyz/api/v1/client/subscribe?token=ec149bccb720cbe4f9db414dae95dcde
 node_n  25
 
 [www.wolaile.icu]
