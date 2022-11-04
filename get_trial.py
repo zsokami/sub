@@ -9,13 +9,13 @@ from urllib.parse import urljoin
 
 from bs4 import BeautifulSoup
 
+from temp_email_code import get_email, get_email_code
 from utils import (new_session, read, read_cfg, remove, remove_illegal, write,
                    write_cfg)
 
 re_non_empty_base64 = re.compile(rb'^(?=[A-Za-z0-9+/]+={0,2}$)(?:.{4})+$')
 
 id = ''.join(random.choices(string.ascii_letters + string.digits, k=12))
-email = id + '@gmail.com'
 
 print('id:', id)
 
@@ -49,18 +49,38 @@ def get_sub_url_v2board(host):
     base = 'https://' + host
     session = new_session()
     try:
-        res = session.post(urljoin(base, 'api/v1/passport/auth/register'), json={
-            'email': email,
+        res = session.post(urljoin(base, 'api/v1/passport/auth/register'), data={
+            'email': f'{id}@{host_ops[host].get("email domain") or "gmail.com"}',
             'password': id,
+            **({'invite_code': host_ops[host]['invite_code']} if 'invite_code' in host_ops[host] else {})
         }).json()
-        try:
-            token = res['data']['token']
-        except KeyError:
-            raise Exception(f'注册失败: {res}')
 
-        # todo: 登录
+        if 'data' not in res:
+            if 'message' not in res or '邮箱验证码' not in res['message']:
+                raise Exception(f'注册失败: {res}')
+
+            email = get_email()
+            res = session.post(urljoin(base, 'api/v1/passport/comm/sendEmailVerify'), data={
+                'email': email
+            }).json()
+            if not res.get('data'):
+                raise Exception(f'发送验证码失败: {res}')
+
+            res = session.post(urljoin(base, 'api/v1/passport/auth/register'), data={
+                'email': email,
+                'password': email.split('@')[0],
+                **({'invite_code': host_ops[host]['invite_code']} if 'invite_code' in host_ops[host] else {}),
+                'email_code': get_email_code(host)
+            }).json()
+            if 'data' not in res:
+                raise Exception(f'注册失败: {res}')
+
+        token = res['data']['token']
 
         if 'buy' in host_ops[host]:
+            if 'v2board_session' not in session.cookies:
+                session.headers['authorization'] = res['data']['auth_data']
+
             res = session.post(
                 urljoin(base, 'api/v1/user/order/save'),
                 data=host_ops[host]['buy'],
@@ -87,8 +107,8 @@ def get_sub_url_sspanel(host):
     session = new_session()
     try:
         if 'checkin' not in host_ops[host] or host not in sub_url_cache or 'sub_url' not in sub_url_cache[host]:
-            res = session.post(urljoin(base, 'auth/register'), json={
-                'email': email,
+            res = session.post(urljoin(base, 'auth/register'), data={
+                'email': f'{id}@{host_ops[host].get("email domain") or "gmail.com"}',
                 'passwd': id,
                 'repasswd': id,
             }).json()
@@ -96,8 +116,8 @@ def get_sub_url_sspanel(host):
                 raise Exception(f'注册失败: {res}')
 
             if 'email' not in session.cookies:
-                res = session.post(urljoin(base, 'auth/login'), json={
-                    'email': email,
+                res = session.post(urljoin(base, 'auth/login'), data={
+                    'email': f'{id}@{host_ops[host].get("email domain") or "gmail.com"}',
                     'passwd': id,
                 }).json()
                 if res['ret'] == 0:
@@ -115,8 +135,8 @@ def get_sub_url_sspanel(host):
         if 'checkin' in host_ops[host]:
             if 'email' not in session.cookies:
                 id_old = sub_url_cache[host]['user_id'][0]
-                res = session.post(urljoin(base, 'auth/login'), json={
-                    'email': id_old + '@gmail.com',
+                res = session.post(urljoin(base, 'auth/login'), data={
+                    'email': f'{id_old}@{host_ops[host].get("email domain") or "gmail.com"}',
                     'passwd': id_old,
                 }).json()
                 if res['ret'] == 0:
