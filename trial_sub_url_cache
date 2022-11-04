@@ -42,7 +42,6 @@ node_n  14
 time  1667501962.1943479
 sub_url  https://sub-cdn1.apqiang.com/link/Rz8PltV4nVf21zAY?sub=3
 node_n  33
-error(download)  下载失败: HTTPSConnectionPool(host='sub-cdn1.apqiang.com', port=443): Max retries exceeded with url: /link/Rz8PltV4nVf21zAY?sub=3 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:997)')))
 
 [paopaocloud.com]
 time  1667501962.1943479
@@ -89,3 +88,11 @@ user_id  lhPNc8tcTFUS
 time  1667491200.0
 sub_url  https://whoisyourdady.gfw-wdnmd.com/link/5xpODfN8pqMn83c5?sub=3
 node_n  20
+
+[dog.ssrdog.com]
+error(get_sub_url)  注册失败: {'message': '邮箱验证码不能为空'}
+node_n  0
+
+[v2b.nanke.eu.org]
+error(get_sub_url)  注册失败: {'message': '本站已关闭注册'}
+node_n  0
