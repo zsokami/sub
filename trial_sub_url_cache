@@ -9,8 +9,8 @@ sub_url  https://shan-cloud.xyz/api/v1/client/subscribe?token=be5876840caf5b1f99
 node_n  13
 
 [yifei999.com]
-time  1667555455.9303849
-sub_url  https://yifei999.com/api/v1/client/subscribe?token=937132b0723bb13a2c848ffa160778d2
+time  1667570315.5638444
+sub_url  https://yifei999.com/api/v1/client/subscribe?token=c29ed00a65aada444be81ee19ce00086
 node_n  7
 
 [fastestcloud.xyz]
@@ -42,7 +42,6 @@ node_n  14
 time  1667545185.4683492
 sub_url  https://sub-cdn1.apqiang.com/link/yqwGxCsYVU1Srsqe?sub=3
 node_n  33
-error(download)  下载失败: HTTPSConnectionPool(host='sub-cdn1.apqiang.com', port=443): Max retries exceeded with url: /link/yqwGxCsYVU1Srsqe?sub=3 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:997)')))
 
 [paopaocloud.com]
 time  1667545185.4683492
@@ -89,3 +88,4 @@ user_id  lhPNc8tcTFUS
 time  1667491200.0
 sub_url  https://whoisyourdady.gfw-wdnmd.com/link/5xpODfN8pqMn83c5?sub=3
 node_n  20
+error(download)  下载失败: not non-empty base64
