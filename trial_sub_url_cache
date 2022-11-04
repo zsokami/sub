@@ -1,6 +1,6 @@
 [user.hdapi.work]
-time  1667586833.6919022
-sub_url  https://user.hdapi.work/api/v1/client/subscribe?token=27999385ab45ed8e73e7b09589a8661d
+time  1667588814.0987675
+sub_url  https://user.hdapi.work/api/v1/client/subscribe?token=d8137656a97d27ebeb4d79ce330145e9
 node_n  26
 
 [shan-cloud.xyz]
@@ -22,6 +22,7 @@ node_n  35
 time  1667545185.4683492
 sub_url  https://feiniaoyun.top/api/v1/client/subscribe?token=f996f9e4595aa739f83d39d2e3a1f93a
 node_n  61
+error(get_sub_url)  注册失败: {'message': '邮箱后缀不处于白名单中'}
 
 [www.ckcloud.xyz]
 time  1667546160.4262853
@@ -29,8 +30,8 @@ sub_url  https://www.ckcloud.xyz/api/v1/client/subscribe?token=b7fc713b7de906a7d
 node_n  25
 
 [www.wolaile.icu]
-time  1667586833.6919022
-sub_url  https://www.yzhxr.vip/link/cqcFKrOqaHtPOVtV?sub=3
+time  1667588814.0987675
+sub_url  https://www.yzhxr.vip/link/DmA01Fn8vLE71r6O?sub=3
 node_n  18
 
 [iacgbt.com]
@@ -39,13 +40,13 @@ sub_url  https://www.iacgbt.com/link/PpHT3ZEIXUMlwRfN?sub=3
 node_n  14
 
 [jsmao.xyz]
-time  1667545185.4683492
-sub_url  https://sub-cdn1.apqiang.com/link/yqwGxCsYVU1Srsqe?sub=3
+time  1667588814.0987675
+sub_url  https://sub-cdn1.apqiang.com/link/9CGEs89L5L09KWuY?sub=3
 node_n  33
 
 [paopaocloud.com]
-time  1667545185.4683492
-sub_url  https://lting.cyou/link/5jSooRcvwfAgXlh9?sub=3
+time  1667588814.0987675
+sub_url  https://lting.cyou/link/F4fsLVUH3Bmj86sb?sub=3
 node_n  126
 
 [yungcun.cc]
@@ -64,8 +65,8 @@ sub_url  https://www.zhenyejiedian.com/api/v1/client/subscribe?token=f8ce7eb0acc
 node_n  17
 
 [marslink.org]
-time  1667586833.6919022
-sub_url  https://marslink.org/api/v1/client/subscribe?token=620d9eb5972757421f6d3570b3d33b71
+time  1667588814.0987675
+sub_url  https://marslink.org/api/v1/client/subscribe?token=0e80005b814250c6a250fb75a0ad058f
 node_n  30
 
 [dageyun.net]
