@@ -57,6 +57,8 @@ def get_sub_url_v2board(host):
             token = res['data']['token']
         except KeyError:
             raise Exception(f'注册失败: {res}')
+        
+        # todo: 登录
 
         if 'buy' in host_ops[host]:
             res = session.post(
@@ -156,12 +158,12 @@ with ThreadPoolExecutor(32) as executor:
             sub_url_cache[host].pop('error(get_sub_url)', None)
             if 'sub_url' not in sub_url_cache[host] or url != sub_url_cache[host]['sub_url'][0]:
                 print('new sub url', host, url)
-                if 'checkin' in host_ops[host]:
-                    past = float(host_ops[host]['checkin'])
-                    update_time = (now - past) // 86400 * 86400 + past
-                else:
-                    update_time = now
-                sub_url_cache[host].update(time=[update_time], sub_url=[url])
+            if 'checkin' in host_ops[host]:
+                past = float(host_ops[host]['checkin'])
+                update_time = (now - past) // 86400 * 86400 + past
+            else:
+                update_time = now
+            sub_url_cache[host].update(time=[update_time], sub_url=[url])
 
     for err, path, url, host in executor.map(download, *zip(*((f'trials/{host}', item['sub_url'][0], host) for host, item in sub_url_cache.items() if 'sub_url' in item))):
         if err:

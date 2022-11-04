@@ -86,7 +86,7 @@ node_n  74
 
 [purefast.net]
 user_id  lhPNc8tcTFUS
-time  1667404800.0
+time  1667491200.0
 sub_url  https://whoisyourdady.gfw-wdnmd.com/link/5xpODfN8pqMn83c5?sub=3
 node_n  20
 error(get_sub_url)  签到失败: {'ret': 0, 'msg': '您似乎已经签到过了...'}
