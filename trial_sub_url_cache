@@ -94,10 +94,6 @@ node_n  20
 error(get_sub_url)  注册失败: {'message': '注册频繁，请等待1小时后再次尝试'}
 node_n  0
 
-[kuainiao.top]
-error(get_sub_url)  Expecting value: line 1 column 1 (char 0)
-node_n  0
-
 [momovpn.shop]
 time  1667601717.8465388
 sub_url  https://momovpn.shop/api/v1/client/subscribe?token=49931644c27da2d9c387b70d35ac1cb9
