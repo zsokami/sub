@@ -57,7 +57,7 @@ def get_sub_url_v2board(host):
             token = res['data']['token']
         except KeyError:
             raise Exception(f'注册失败: {res}')
-        
+
         # todo: 登录
 
         if 'buy' in host_ops[host]:

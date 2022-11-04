@@ -4,7 +4,7 @@ on:
   schedule:
   - cron: "3/5 * * * *"
 jobs:
-  test:
+  main:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
@@ -20,7 +20,7 @@ jobs:
         git config user.name "GitHub Actions"
         git pull
         git add .
-        git commit -m "get_trial.py done"
+        git commit -m "${{ github.workflow }} https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}"
       continue-on-error: true
     - uses: ad-m/github-push-action@master
       if: ${{ steps.commit.outcome == 'success' }}
