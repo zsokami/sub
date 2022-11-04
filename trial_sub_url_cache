@@ -4,9 +4,9 @@ sub_url  https://user.hdapi.work/api/v1/client/subscribe?token=9bde48defa7c0fe09
 node_n  26
 
 [shan-cloud.xyz]
-time  1667567290.5339413
-sub_url  https://shan-cloud.xyz/api/v1/client/subscribe?token=be5876840caf5b1f997edf24b51847df
-node_n  13
+time  1667571136.6451702
+sub_url  https://shan-cloud.xyz/api/v1/client/subscribe?token=6980b35d45ca60cac6a393c8e1e3c66f
+node_n  14
 
 [yifei999.com]
 time  1667570315.5638444
@@ -34,8 +34,8 @@ sub_url  https://www.yzhxr.vip/link/nc1SLbS7bDH0K5Ml?sub=3
 node_n  18
 
 [iacgbt.com]
-time  1667567290.5339413
-sub_url  https://www.iacgbt.com/link/Z7AI9t1HSelzBGna?sub=3
+time  1667571136.6451702
+sub_url  https://www.iacgbt.com/link/wmti3YtovL741uNT?sub=3
 node_n  14
 
 [jsmao.xyz]
@@ -88,4 +88,3 @@ user_id  lhPNc8tcTFUS
 time  1667491200.0
 sub_url  https://whoisyourdady.gfw-wdnmd.com/link/5xpODfN8pqMn83c5?sub=3
 node_n  20
-error(download)  下载失败: not non-empty base64
