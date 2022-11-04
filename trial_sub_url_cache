@@ -1,16 +1,16 @@
 [user.hdapi.work]
-time  1667599134.0559733
-sub_url  https://user.hdapi.work/api/v1/client/subscribe?token=c00c834a4fc0a1c63461a424d43734b9
+time  1667601717.8465388
+sub_url  https://user.hdapi.work/api/v1/client/subscribe?token=c8665a50d05a95520f165fd08c119c86
 node_n  26
 
 [shan-cloud.xyz]
-time  1667596038.5626624
-sub_url  https://shan-cloud.xyz/api/v1/client/subscribe?token=ef8e13ca553454fde104d1c579376deb
+time  1667601717.8465388
+sub_url  https://shan-cloud.xyz/api/v1/client/subscribe?token=9ca68262fe31e95abbce6187e38ead97
 node_n  13
 
 [yifei999.com]
-time  1667585306.3979092
-sub_url  https://yifei999.com/api/v1/client/subscribe?token=594f6f9b180394bfe86e7360cecc3769
+time  1667601717.8465388
+sub_url  https://yifei999.com/api/v1/client/subscribe?token=eccd7a0235a577fcedd01dc9c4f10cf5
 node_n  7
 
 [fastestcloud.xyz]
@@ -30,13 +30,13 @@ sub_url  https://www.ckcloud.xyz/api/v1/client/subscribe?token=ec149bccb720cbe4f
 node_n  25
 
 [www.wolaile.icu]
-time  1667599134.0559733
-sub_url  https://www.yzhxr.vip/link/zfwGrirRQBTYEEiw?sub=3
+time  1667601717.8465388
+sub_url  https://www.yzhxr.vip/link/bkHt75d1Nqx3PuYa?sub=3
 node_n  18
 
 [iacgbt.com]
-time  1667596038.5626624
-sub_url  https://www.iacgbt.com/link/Z4kjMlgU8Fg3KTwu?sub=3
+time  1667601717.8465388
+sub_url  https://www.iacgbt.com/link/uy2YFzORCMOES7dB?sub=3
 node_n  14
 
 [jsmao.xyz]
@@ -65,8 +65,8 @@ sub_url  https://www.zhenyejiedian.com/api/v1/client/subscribe?token=df1854d807b
 node_n  17
 
 [marslink.org]
-time  1667599134.0559733
-sub_url  https://marslink.org/api/v1/client/subscribe?token=7d84efd8a6fa066974223a8eb4c3d309
+time  1667601717.8465388
+sub_url  https://marslink.org/api/v1/client/subscribe?token=197786f1c8560fd6b0d71a3594fdd8a5
 node_n  30
 
 [dageyun.net]
@@ -89,3 +89,21 @@ user_id  lhPNc8tcTFUS
 time  1667577600.0
 sub_url  https://whoisyourdady.gfw-wdnmd.com/link/5xpODfN8pqMn83c5?sub=3
 node_n  20
+
+[dog.ssrdog.com]
+error(get_sub_url)  注册失败: {'message': '注册频繁，请等待1小时后再次尝试'}
+node_n  0
+
+[kuainiao.top]
+error(get_sub_url)  Expecting value: line 1 column 1 (char 0)
+node_n  0
+
+[momovpn.shop]
+time  1667601717.8465388
+sub_url  https://momovpn.shop/api/v1/client/subscribe?token=49931644c27da2d9c387b70d35ac1cb9
+node_n  1
+
+[user.bafang.vip]
+time  1667601717.8465388
+sub_url  https://user.bafang.vip/api/v1/client/subscribe?token=c385c227fcdec22332c5b0668e925587
+node_n  23
