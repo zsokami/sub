@@ -1,11 +1,11 @@
 [user.hdapi.work]
-time  1667526222.1095834
-sub_url  https://user.hdapi.work/api/v1/client/subscribe?token=5530cb52c3e17bdece38445143473bfd
+time  1667532434.729444
+sub_url  https://user.hdapi.work/api/v1/client/subscribe?token=3e1d9fdfee7b1821b7bbdeb4cfbbaba7
 node_n  26
 
 [shan-cloud.xyz]
-time  1667526222.1095834
-sub_url  https://shan-cloud.xyz/api/v1/client/subscribe?token=ed01dc22b6ba4c84dda5f6b9778b2957
+time  1667532434.729444
+sub_url  https://shan-cloud.xyz/api/v1/client/subscribe?token=4811c05ea9d3313d6da82ae4f782b0ad
 node_n  13
 
 [yifei999.com]
@@ -29,19 +29,20 @@ sub_url  https://www.ckcloud.xyz/api/v1/client/subscribe?token=1feab7525a9628a58
 node_n  25
 
 [www.wolaile.icu]
-time  1667526222.1095834
-sub_url  https://www.yzhxr.vip/link/5ntJ1BnTy7pLk2QH?sub=3
+time  1667532434.729444
+sub_url  https://www.yzhxr.vip/link/JFqckgvbq0XmRE1w?sub=3
 node_n  18
 
 [iacgbt.com]
-time  1667526222.1095834
-sub_url  https://www.iacgbt.com/link/S2P1vFAp4vuPTPtP?sub=3
+time  1667532434.729444
+sub_url  https://www.iacgbt.com/link/ZzZ9dR424DkfudaJ?sub=3
 node_n  14
 
 [jsmao.xyz]
 time  1667501962.1943479
 sub_url  https://sub-cdn1.apqiang.com/link/Rz8PltV4nVf21zAY?sub=3
 node_n  33
+error(download)  下载失败: HTTPSConnectionPool(host='sub-cdn1.apqiang.com', port=443): Max retries exceeded with url: /link/Rz8PltV4nVf21zAY?sub=3 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:997)')))
 
 [paopaocloud.com]
 time  1667501962.1943479
@@ -65,8 +66,8 @@ sub_url  https://www.zhenyejiedian.com/api/v1/client/subscribe?token=74648e771d6
 node_n  20
 
 [marslink.org]
-time  1667526222.1095834
-sub_url  https://marslink.org/api/v1/client/subscribe?token=3b8daa39a879ceaf37c0769d6af8086f
+time  1667532434.729444
+sub_url  https://marslink.org/api/v1/client/subscribe?token=e02a10496bd51f16d1871556afe89686
 node_n  30
 
 [dageyun.net]
