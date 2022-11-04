@@ -69,9 +69,9 @@ sub_url  https://marslink.org/api/v1/client/subscribe?token=b212c3f1e3bc9ec34313
 node_n  30
 
 [dageyun.net]
-time  1667483064.988871
-sub_url  https://dageyun.net/api/v1/client/subscribe?token=1b4528925ee80186b08f2ef304610291
-node_n  48
+time  1667555117.5720255
+sub_url  https://dageyun.net/api/v1/client/subscribe?token=05eaee7f141171963c9c52a81e665cd9
+node_n  49
 
 [xbygood.xyz]
 time  1667324652.355209
