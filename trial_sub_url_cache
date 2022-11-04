@@ -91,8 +91,9 @@ sub_url  https://whoisyourdady.gfw-wdnmd.com/link/5xpODfN8pqMn83c5?sub=3
 node_n  20
 
 [dog.ssrdog.com]
-error(get_sub_url)  注册失败: {'message': '注册频繁，请等待1小时后再次尝试'}
-node_n  0
+node_n  16
+time  1667604998.9342375
+sub_url  https://dog.ssrdog.com/api/v1/client/subscribe?token=6399fd64eab9664ebe583eb6163a437b
 
 [momovpn.shop]
 time  1667601717.8465388
