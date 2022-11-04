@@ -14,15 +14,14 @@ sub_url  https://yifei999.com/api/v1/client/subscribe?token=6ca2f60379d09e3565e4
 node_n  7
 
 [fastestcloud.xyz]
-time  1667499882.5169272
-sub_url  https://fastestcloud.xyz/api/v1/client/subscribe?token=a9b04c04118605e0fd6a69c7a561291d
+time  1667544079.4214585
+sub_url  https://fastestcloud.xyz/api/v1/client/subscribe?token=f9c98895476d01cbeec62c633779f725
 node_n  35
 
 [feiniaoyun.top]
 time  1667501962.1943479
 sub_url  https://feiniaoyun.top/api/v1/client/subscribe?token=cf23b71ecc9ef3eb87a0ffe312589f63
 node_n  66
-error(download)  下载失败: not non-empty base64
 
 [www.ckcloud.xyz]
 time  1667502762.9499204
@@ -89,11 +88,3 @@ user_id  lhPNc8tcTFUS
 time  1667491200.0
 sub_url  https://whoisyourdady.gfw-wdnmd.com/link/5xpODfN8pqMn83c5?sub=3
 node_n  20
-
-[dog.ssrdog.com]
-error(get_sub_url)  注册失败: {'message': '邮箱验证码不能为空'}
-node_n  0
-
-[v2b.nanke.eu.org]
-error(get_sub_url)  注册失败: {'message': '本站已关闭注册'}
-node_n  0
