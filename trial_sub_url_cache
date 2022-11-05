@@ -42,7 +42,6 @@ node_n  14
 time  1667588814.0987675
 sub_url  https://sub-cdn1.apqiang.com/link/9CGEs89L5L09KWuY?sub=3
 node_n  33
-error(download)  下载失败: HTTPSConnectionPool(host='sub-cdn1.apqiang.com', port=443): Max retries exceeded with url: /link/9CGEs89L5L09KWuY?sub=3 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:997)')))
 
 [paopaocloud.com]
 time  1667588814.0987675
@@ -89,12 +88,6 @@ user_id  lhPNc8tcTFUS
 time  1667577600.0
 sub_url  https://whoisyourdady.gfw-wdnmd.com/link/5xpODfN8pqMn83c5?sub=3
 node_n  20
-
-[dog.ssrdog.com]
-node_n  16
-time  1667639731.3214817
-sub_url  https://dog.ssrdog.com/api/v1/client/subscribe?token=fa0eb39966642e556d74bfcd55a65cc3
-error(get_sub_url)  注册失败: {'message': '邮箱后缀不处于白名单中'}
 
 [momovpn.shop]
 time  1667601717.8465388
