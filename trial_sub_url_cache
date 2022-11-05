@@ -1,12 +1,12 @@
 [user.hdapi.work]
-time  1667662273.138243
-sub_url  https://user.hdapi.work/api/v1/client/subscribe?token=28a743da4901a6e085df8191a8ac5cb4
-node_n  27
+time  1667665340.4609752
+sub_url  https://user.hdapi.work/api/v1/client/subscribe?token=e75273e8f71f22c4304fd830df0b93db
+node_n  26
 
 [shan-cloud.xyz]
 time  1667662273.138243
 sub_url  https://shan-cloud.xyz/api/v1/client/subscribe?token=7ea21243d5dd6f0390d63c932ab3fc93
-node_n  14
+node_n  13
 
 [yifei999.com]
 time  1667662273.138243
@@ -21,7 +21,7 @@ node_n  35
 [feiniaoyun.top]
 time  1667617440.6324763
 sub_url  https://feiniaoyun.top/api/v1/client/subscribe?token=f17b1e75d02f1440d4de739ee838b25e
-node_n  60
+node_n  59
 
 [www.ckcloud.xyz]
 time  1667662273.138243
@@ -29,8 +29,8 @@ sub_url  https://www.ckcloud.xyz/api/v1/client/subscribe?token=9eff88904fb99aea3
 node_n  24
 
 [www.wolaile.icu]
-time  1667662273.138243
-sub_url  https://www.yzhxr.vip/link/gjidzsaXeRAqj0RU?sub=3
+time  1667665340.4609752
+sub_url  https://www.yzhxr.vip/link/LqV0q85F4kQ6Bwjb?sub=3
 node_n  18
 
 [iacgbt.com]
@@ -64,14 +64,14 @@ sub_url  https://www.zhenyejiedian.com/api/v1/client/subscribe?token=499d4b6c8f1
 node_n  14
 
 [marslink.org]
-time  1667662273.138243
-sub_url  https://marslink.org/api/v1/client/subscribe?token=9f5842e1be29e6db1b21d38173699bd3
+time  1667665340.4609752
+sub_url  https://marslink.org/api/v1/client/subscribe?token=8c3cc63e176b8ab01df6aeefb8ce2419
 node_n  30
 
 [dageyun.net]
 time  1667627249.4920027
 sub_url  https://dageyun.net/api/v1/client/subscribe?token=31ec8cf8ec686ff2f48a5b856a128d0f
-node_n  49
+node_n  48
 
 [xbygood.xyz]
 time  1667324652.355209
@@ -85,7 +85,7 @@ node_n  74
 
 [purefast.net]
 email  lhPNc8tcTFUS@gmail.com
-time  1667577600.0
+time  1667664000.0
 sub_url  https://whoisyourdady.gfw-wdnmd.com/link/5xpODfN8pqMn83c5?sub=3
 node_n  20
 
@@ -93,12 +93,6 @@ node_n  20
 time  1667601717.8465388
 sub_url  https://momovpn.shop/api/v1/client/subscribe?token=49931644c27da2d9c387b70d35ac1cb9
 node_n  1
-
-[user.bafang.vip]
-time  1667662273.138243
-sub_url  https://user.bafang.vip/api/v1/client/subscribe?token=37358f522b1757368b5bbff06e98f8f9
-node_n  24
-error(download)  下载失败: not non-empty base64
 
 [yun.moonfree.top]
 time  1667659331.406511
