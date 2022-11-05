@@ -1,6 +1,6 @@
 [user.hdapi.work]
-time  1667640613.8635178
-sub_url  https://user.hdapi.work/api/v1/client/subscribe?token=ba73f4c76714ebe22ace05ab93cdf02e
+time  1667643140.9223454
+sub_url  https://user.hdapi.work/api/v1/client/subscribe?token=500eca29b7ea627a571cd328bdacb561
 node_n  26
 
 [shan-cloud.xyz]
@@ -29,8 +29,8 @@ sub_url  https://www.ckcloud.xyz/api/v1/client/subscribe?token=ec149bccb720cbe4f
 node_n  24
 
 [www.wolaile.icu]
-time  1667640613.8635178
-sub_url  https://www.yzhxr.vip/link/CCVTfmzmBsWyLrxr?sub=3
+time  1667643140.9223454
+sub_url  https://www.yzhxr.vip/link/9cWk3F5B7ZqgUmHn?sub=3
 node_n  18
 
 [iacgbt.com]
@@ -65,8 +65,8 @@ sub_url  https://www.zhenyejiedian.com/api/v1/client/subscribe?token=df1854d807b
 node_n  14
 
 [marslink.org]
-time  1667640613.8635178
-sub_url  https://marslink.org/api/v1/client/subscribe?token=aa281a5091c3eb9238495c507df73e2a
+time  1667643140.9223454
+sub_url  https://marslink.org/api/v1/client/subscribe?token=b2bb1f0d3fdfa9c5441e0eee5acde766
 node_n  30
 
 [dageyun.net]
@@ -94,6 +94,7 @@ node_n  20
 node_n  16
 time  1667639731.3214817
 sub_url  https://dog.ssrdog.com/api/v1/client/subscribe?token=fa0eb39966642e556d74bfcd55a65cc3
+error(get_sub_url)  注册失败: {'message': '邮箱后缀不处于白名单中'}
 
 [momovpn.shop]
 time  1667601717.8465388
@@ -101,6 +102,6 @@ sub_url  https://momovpn.shop/api/v1/client/subscribe?token=49931644c27da2d9c387
 node_n  1
 
 [user.bafang.vip]
-time  1667640613.8635178
-sub_url  https://user.bafang.vip/api/v1/client/subscribe?token=455910886be279ddada281d97fc5c5a9
-node_n  22
+time  1667643140.9223454
+sub_url  https://user.bafang.vip/api/v1/client/subscribe?token=05283391caa75a29578afd2bdb5a3b3d
+node_n  24
