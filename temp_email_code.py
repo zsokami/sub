@@ -1,73 +1,62 @@
 import re
 from queue import Queue
-from threading import Condition, RLock, Thread
+from threading import RLock, Thread
 import time
 
 from pymailtm import Account, MailTm
 
 re_email_code = re.compile(r'(?<!\d)\d{6}(?!\d)')
 
-account_lock = RLock()
+lock_account = RLock()
 lock = RLock()
-non_empty = Condition(lock)
 
 account: Account = None
 queues: list[tuple[str, Queue]] = []
 
+th: Thread = None
+
 
 def get_email() -> str:
     global account
-    with account_lock:
+    with lock_account:
         if not account:
             account = MailTm().get_account()
             print('temp email:', account.address)
-            Thread(target=_run).start()
-        return account.address
-
-
-def del_email():
-    global account
-    with account_lock:
-        account = None
-    with lock:
-        non_empty.notify_all()
+    return account.address
 
 
 def get_email_code(keyword):
+    global th
     queue = Queue(1)
     with lock:
-        queues.append((keyword, queue))
-        non_empty.notify_all()
+        queues.append((keyword, queue, time.time() + 60))
+        if not th:
+            th = Thread(target=_run)
+            th.start()
     return queue.get()
 
 
 def _run():
+    global th
     while True:
-        with lock:
-            if not queues:
-                non_empty.wait()
-                st = time.time()
-        with account_lock:
-            if not account:
-                break
         time.sleep(1)
-        with account_lock:
-            if not account:
-                break
-            messages = account.get_messages()
+        messages = account.get_messages()
         with lock:
             new_len = 0
-            for keyword, queue in queues:
+            for item in queues:
+                keyword, queue, end_time = item
                 for message in messages:
                     if keyword in message.text:
-                        queue.put(re_email_code.search(message.text)[0])
-                        st = time.time()
+                        m = re_email_code.search(message.text)
+                        queue.put(m[0] if m else m)
                         break
                 else:
-                    queues[new_len] = (keyword, queue)
-                    new_len += 1
+                    if time.time() > end_time:
+                        queue.put(None)
+                    else:
+                        queues[new_len] = item
+                        new_len += 1
             del queues[new_len:]
-            if time.time() - st > 60:
-                for _, queue in queues:
-                    queue.put(None)
-                queues.clear()
+            if new_len == 0:
+                th = None
+                break

@@ -9,7 +9,7 @@ from urllib.parse import urljoin
 
 from bs4 import BeautifulSoup
 
-from temp_email_code import get_email, del_email, get_email_code
+from temp_email_code import get_email, get_email_code
 from utils import (new_session, read, read_cfg, remove, remove_illegal, write,
                    write_cfg)
 
@@ -188,8 +188,6 @@ with ThreadPoolExecutor(32) as executor:
             else:
                 update_time = now
             sub_url_cache[host].update(time=[update_time], sub_url=[url])
-
-    del_email()
 
     for err, path, url, host in executor.map(download, *zip(*((f'trials/{host}', item['sub_url'][0], host) for host, item in sub_url_cache.items() if 'sub_url' in item))):
         if err:
