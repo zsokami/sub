@@ -1,11 +1,11 @@
 [user.hdapi.work]
-time  1667623347.702405
-sub_url  https://user.hdapi.work/api/v1/client/subscribe?token=8c25aac11d9d34f81180a8e076448a82
+time  1667625940.8212385
+sub_url  https://user.hdapi.work/api/v1/client/subscribe?token=5a6015325b7ea4d9b9e1a54d6376e4f5
 node_n  26
 
 [shan-cloud.xyz]
-time  1667621633.4014454
-sub_url  https://shan-cloud.xyz/api/v1/client/subscribe?token=73b7f626e9acc902e1ff35114dd4002c
+time  1667625940.8212385
+sub_url  https://shan-cloud.xyz/api/v1/client/subscribe?token=ea07b7fdcf942d20a977e1e5d9aa2a03
 node_n  13
 
 [yifei999.com]
@@ -21,7 +21,7 @@ node_n  35
 [feiniaoyun.top]
 time  1667617440.6324763
 sub_url  https://feiniaoyun.top/api/v1/client/subscribe?token=f17b1e75d02f1440d4de739ee838b25e
-node_n  64
+node_n  68
 
 [www.ckcloud.xyz]
 time  1667589707.7497296
@@ -29,13 +29,13 @@ sub_url  https://www.ckcloud.xyz/api/v1/client/subscribe?token=ec149bccb720cbe4f
 node_n  24
 
 [www.wolaile.icu]
-time  1667623347.702405
-sub_url  https://www.yzhxr.vip/link/fkbkQurhshM0sH30?sub=3
+time  1667625940.8212385
+sub_url  https://www.yzhxr.vip/link/KFjbkd2IUObA8KkE?sub=3
 node_n  18
 
 [iacgbt.com]
-time  1667621633.4014454
-sub_url  https://www.iacgbt.com/link/B7vkl3SEA5ieUlJz?sub=3
+time  1667625940.8212385
+sub_url  https://www.iacgbt.com/link/j75l1ZO18XErQAfz?sub=3
 node_n  14
 
 [jsmao.xyz]
@@ -64,8 +64,8 @@ sub_url  https://www.zhenyejiedian.com/api/v1/client/subscribe?token=df1854d807b
 node_n  12
 
 [marslink.org]
-time  1667623347.702405
-sub_url  https://marslink.org/api/v1/client/subscribe?token=901ba5cd6efd794e604579d588156734
+time  1667625940.8212385
+sub_url  https://marslink.org/api/v1/client/subscribe?token=2d82b7e4500cbe738bc7fc51959663e5
 node_n  30
 
 [dageyun.net]
@@ -93,6 +93,7 @@ node_n  20
 node_n  16
 time  1667623347.702405
 sub_url  https://dog.ssrdog.com/api/v1/client/subscribe?token=8171c4a8389125b7794d78a836a0f621
+error(get_sub_url)  注册失败: {'message': '注册频繁，请等待1小时后再次尝试'}
 
 [momovpn.shop]
 time  1667601717.8465388
