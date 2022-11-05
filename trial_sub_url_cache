@@ -14,8 +14,8 @@ sub_url  https://yifei999.com/api/v1/client/subscribe?token=c5c5df078fb932cc8199
 node_n  7
 
 [fastestcloud.xyz]
-time  1667587747.768867
-sub_url  https://fastestcloud.xyz/api/v1/client/subscribe?token=8441cde80b59b3f35c50b043bc3a6826
+time  1667660015.3611703
+sub_url  https://fastestcloud.xyz/api/v1/client/subscribe?token=139972998e96045e16fe49a34b0a112f
 node_n  35
 
 [feiniaoyun.top]
@@ -42,6 +42,7 @@ node_n  13
 time  1667588814.0987675
 sub_url  https://sub-cdn1.apqiang.com/link/9CGEs89L5L09KWuY?sub=3
 node_n  33
+error(download)  下载失败: HTTPSConnectionPool(host='sub-cdn1.apqiang.com', port=443): Max retries exceeded with url: /link/9CGEs89L5L09KWuY?sub=3 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:997)')))
 
 [paopaocloud.com]
 time  1667588814.0987675
