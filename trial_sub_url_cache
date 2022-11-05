@@ -1,16 +1,16 @@
 [user.hdapi.work]
-time  1667659675.378822
-sub_url  https://user.hdapi.work/api/v1/client/subscribe?token=a8dc3a2ca4d9e6cf35eab5e0b33c95a0
-node_n  26
+time  1667662273.138243
+sub_url  https://user.hdapi.work/api/v1/client/subscribe?token=28a743da4901a6e085df8191a8ac5cb4
+node_n  27
 
 [shan-cloud.xyz]
-time  1667658442.1559458
-sub_url  https://shan-cloud.xyz/api/v1/client/subscribe?token=dc1c47b8e7272fb20da510da44a5c118
+time  1667662273.138243
+sub_url  https://shan-cloud.xyz/api/v1/client/subscribe?token=7ea21243d5dd6f0390d63c932ab3fc93
 node_n  14
 
 [yifei999.com]
-time  1667647729.93505
-sub_url  https://yifei999.com/api/v1/client/subscribe?token=c5c5df078fb932cc81992e0be5735c75
+time  1667662273.138243
+sub_url  https://yifei999.com/api/v1/client/subscribe?token=0443ba2cfc8f56e596fe1d0908224fc9
 node_n  7
 
 [fastestcloud.xyz]
@@ -21,27 +21,28 @@ node_n  35
 [feiniaoyun.top]
 time  1667617440.6324763
 sub_url  https://feiniaoyun.top/api/v1/client/subscribe?token=f17b1e75d02f1440d4de739ee838b25e
-node_n  63
+node_n  60
 
 [www.ckcloud.xyz]
-time  1667589707.7497296
-sub_url  https://www.ckcloud.xyz/api/v1/client/subscribe?token=ec149bccb720cbe4f9db414dae95dcde
+time  1667662273.138243
+sub_url  https://www.ckcloud.xyz/api/v1/client/subscribe?token=9eff88904fb99aea3ebf58fb0e5974a0
 node_n  24
 
 [www.wolaile.icu]
-time  1667659675.378822
-sub_url  https://www.yzhxr.vip/link/JcZAqUV13TgpBxys?sub=3
+time  1667662273.138243
+sub_url  https://www.yzhxr.vip/link/gjidzsaXeRAqj0RU?sub=3
 node_n  18
 
 [iacgbt.com]
-time  1667658442.1559458
-sub_url  https://www.iacgbt.com/link/2XPrRTOcXtqRPL4g?sub=3
+time  1667662273.138243
+sub_url  https://www.iacgbt.com/link/5WEOWNsHSWaqe7Vh?sub=3
 node_n  13
 
 [jsmao.xyz]
 time  1667661300.9445834
 sub_url  https://sub-cdn1.apqiang.com/link/8S7GYyhNoLpktjpw?sub=3
 node_n  33
+error(download)  下载失败: HTTPSConnectionPool(host='sub-cdn1.apqiang.com', port=443): Max retries exceeded with url: /link/8S7GYyhNoLpktjpw?sub=3 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:997)')))
 
 [paopaocloud.com]
 time  1667661300.9445834
@@ -64,8 +65,8 @@ sub_url  https://www.zhenyejiedian.com/api/v1/client/subscribe?token=df1854d807b
 node_n  14
 
 [marslink.org]
-time  1667659675.378822
-sub_url  https://marslink.org/api/v1/client/subscribe?token=8f14ad49f854d6e2dcdf5bd900391649
+time  1667662273.138243
+sub_url  https://marslink.org/api/v1/client/subscribe?token=9f5842e1be29e6db1b21d38173699bd3
 node_n  30
 
 [dageyun.net]
@@ -95,9 +96,10 @@ sub_url  https://momovpn.shop/api/v1/client/subscribe?token=49931644c27da2d9c387
 node_n  1
 
 [user.bafang.vip]
-time  1667659675.378822
-sub_url  https://user.bafang.vip/api/v1/client/subscribe?token=4ce6c95a9e6887f19f586aa1f3e8810c
+time  1667662273.138243
+sub_url  https://user.bafang.vip/api/v1/client/subscribe?token=37358f522b1757368b5bbff06e98f8f9
 node_n  24
+error(download)  下载失败: not non-empty base64
 
 [yun.moonfree.top]
 time  1667659331.406511
