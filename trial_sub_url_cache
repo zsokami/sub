@@ -21,7 +21,7 @@ node_n  35
 [feiniaoyun.top]
 time  1667617440.6324763
 sub_url  https://feiniaoyun.top/api/v1/client/subscribe?token=f17b1e75d02f1440d4de739ee838b25e
-node_n  61
+node_n  63
 
 [www.ckcloud.xyz]
 time  1667589707.7497296
@@ -91,8 +91,8 @@ node_n  20
 
 [dog.ssrdog.com]
 node_n  16
-time  1667636096.3039217
-sub_url  https://dog.ssrdog.com/api/v1/client/subscribe?token=2cdb88c1dc505ab3c50f9f74cab1b119
+time  1667639731.3214817
+sub_url  https://dog.ssrdog.com/api/v1/client/subscribe?token=fa0eb39966642e556d74bfcd55a65cc3
 
 [momovpn.shop]
 time  1667601717.8465388
