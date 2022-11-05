@@ -1,11 +1,11 @@
 [user.hdapi.work]
-time  1667605953.9485598
-sub_url  https://user.hdapi.work/api/v1/client/subscribe?token=e30aa991ee4abe947acc5f08cfc3ef7d
+time  1667610786.706237
+sub_url  https://user.hdapi.work/api/v1/client/subscribe?token=7fa5a87390ae3119274391398c290585
 node_n  26
 
 [shan-cloud.xyz]
-time  1667605617.3065612
-sub_url  https://shan-cloud.xyz/api/v1/client/subscribe?token=41b905ccb57aa2b8b0bf01fdff5a58bd
+time  1667610786.706237
+sub_url  https://shan-cloud.xyz/api/v1/client/subscribe?token=1635b9de5f7c7511872e0c122fb30fdb
 node_n  13
 
 [yifei999.com]
@@ -21,7 +21,7 @@ node_n  35
 [feiniaoyun.top]
 time  1667545185.4683492
 sub_url  https://feiniaoyun.top/api/v1/client/subscribe?token=f996f9e4595aa739f83d39d2e3a1f93a
-node_n  61
+node_n  60
 error(get_sub_url)  注册失败: {'message': '邮箱后缀不处于白名单中'}
 
 [www.ckcloud.xyz]
@@ -30,19 +30,20 @@ sub_url  https://www.ckcloud.xyz/api/v1/client/subscribe?token=ec149bccb720cbe4f
 node_n  25
 
 [www.wolaile.icu]
-time  1667605953.9485598
-sub_url  https://www.yzhxr.vip/link/xChZqbd9ORx8ejdt?sub=3
+time  1667610786.706237
+sub_url  https://www.yzhxr.vip/link/Sq46U8mURjtqkwnf?sub=3
 node_n  18
 
 [iacgbt.com]
-time  1667605617.3065612
-sub_url  https://www.iacgbt.com/link/9hA7rURy1JxMjQSj?sub=3
+time  1667610786.706237
+sub_url  https://www.iacgbt.com/link/Zb4QvxIzGlmJHbRG?sub=3
 node_n  14
 
 [jsmao.xyz]
 time  1667588814.0987675
 sub_url  https://sub-cdn1.apqiang.com/link/9CGEs89L5L09KWuY?sub=3
 node_n  33
+error(download)  下载失败: HTTPSConnectionPool(host='sub-cdn1.apqiang.com', port=443): Max retries exceeded with url: /link/9CGEs89L5L09KWuY?sub=3 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:997)')))
 
 [paopaocloud.com]
 time  1667588814.0987675
@@ -62,11 +63,11 @@ node_n  15
 [www.zhenyejiedian.com]
 time  1667590872.7000139
 sub_url  https://www.zhenyejiedian.com/api/v1/client/subscribe?token=df1854d807b973f72fe59a21de3cf426
-node_n  17
+node_n  7
 
 [marslink.org]
-time  1667605953.9485598
-sub_url  https://marslink.org/api/v1/client/subscribe?token=f5f6c0bc0521796530d039c7a9882148
+time  1667610786.706237
+sub_url  https://marslink.org/api/v1/client/subscribe?token=3e876ed7d145d78a5913991bef9d2232
 node_n  30
 
 [dageyun.net]
@@ -92,8 +93,8 @@ node_n  20
 
 [dog.ssrdog.com]
 node_n  16
-time  1667604998.9342375
-sub_url  https://dog.ssrdog.com/api/v1/client/subscribe?token=6399fd64eab9664ebe583eb6163a437b
+time  1667610786.706237
+sub_url  https://dog.ssrdog.com/api/v1/client/subscribe?token=2ded0d0a0b7d59aeae5d38bdebdcbdfc
 
 [momovpn.shop]
 time  1667601717.8465388
