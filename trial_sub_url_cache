@@ -95,6 +95,7 @@ sub_url  https://momovpn.shop/api/v1/client/subscribe?token=49931644c27da2d9c387
 node_n  1
 
 [yun.moonfree.top]
+email  E01vI7NpLlZ1@gmail.com
 time  1667659331.406511
 sub_url  https://yun.moonfree.top/api/v1/client/subscribe?token=29989fa62aad4c26f3458f3a933cffdc
 node_n  10
