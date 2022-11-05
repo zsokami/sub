@@ -1,11 +1,11 @@
 [user.hdapi.work]
-time  1667636096.3039217
-sub_url  https://user.hdapi.work/api/v1/client/subscribe?token=bdbaf9abf30ea1e32baf6be6aa10a60b
+time  1667638049.2856271
+sub_url  https://user.hdapi.work/api/v1/client/subscribe?token=027eb21dadcbad3ba2f06502636e7fb5
 node_n  26
 
 [shan-cloud.xyz]
-time  1667634037.0042126
-sub_url  https://shan-cloud.xyz/api/v1/client/subscribe?token=8e4e5b36c207e21d4cdddbca1cf44e33
+time  1667638049.2856271
+sub_url  https://shan-cloud.xyz/api/v1/client/subscribe?token=61f65c7623969e0042a8423d4aca2a81
 node_n  13
 
 [yifei999.com]
@@ -29,19 +29,20 @@ sub_url  https://www.ckcloud.xyz/api/v1/client/subscribe?token=ec149bccb720cbe4f
 node_n  24
 
 [www.wolaile.icu]
-time  1667636096.3039217
-sub_url  https://www.yzhxr.vip/link/nDoy3bzkjEIIsuXU?sub=3
+time  1667638049.2856271
+sub_url  https://www.yzhxr.vip/link/bqtm7oSnXQIeaaiF?sub=3
 node_n  18
 
 [iacgbt.com]
-time  1667634037.0042126
-sub_url  https://www.iacgbt.com/link/PmpLGvXV4EsDV7Sz?sub=3
+time  1667638049.2856271
+sub_url  https://www.iacgbt.com/link/5Ms2GkEQ5XIRry5q?sub=3
 node_n  14
 
 [jsmao.xyz]
 time  1667588814.0987675
 sub_url  https://sub-cdn1.apqiang.com/link/9CGEs89L5L09KWuY?sub=3
 node_n  33
+error(download)  下载失败: HTTPSConnectionPool(host='sub-cdn1.apqiang.com', port=443): Max retries exceeded with url: /link/9CGEs89L5L09KWuY?sub=3 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:997)')))
 
 [paopaocloud.com]
 time  1667588814.0987675
@@ -64,8 +65,8 @@ sub_url  https://www.zhenyejiedian.com/api/v1/client/subscribe?token=df1854d807b
 node_n  12
 
 [marslink.org]
-time  1667636096.3039217
-sub_url  https://marslink.org/api/v1/client/subscribe?token=8a170ab40b5af900fd43edc563c92d3f
+time  1667638049.2856271
+sub_url  https://marslink.org/api/v1/client/subscribe?token=b9d1c47e9a201d7333eed6e4ab0db042
 node_n  30
 
 [dageyun.net]
@@ -100,6 +101,6 @@ sub_url  https://momovpn.shop/api/v1/client/subscribe?token=49931644c27da2d9c387
 node_n  1
 
 [user.bafang.vip]
-time  1667636096.3039217
-sub_url  https://user.bafang.vip/api/v1/client/subscribe?token=6b9cf85e0b13bbf622ef425f756bb7ca
+time  1667638049.2856271
+sub_url  https://user.bafang.vip/api/v1/client/subscribe?token=8361105edf1d8eaef16ff72e11669e3b
 node_n  22
