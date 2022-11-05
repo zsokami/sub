@@ -1,16 +1,16 @@
 [user.hdapi.work]
-time  1667610786.706237
-sub_url  https://user.hdapi.work/api/v1/client/subscribe?token=7fa5a87390ae3119274391398c290585
+time  1667617440.6324763
+sub_url  https://user.hdapi.work/api/v1/client/subscribe?token=ab1681f48e4c02fdc6d8740440128790
 node_n  26
 
 [shan-cloud.xyz]
-time  1667610786.706237
-sub_url  https://shan-cloud.xyz/api/v1/client/subscribe?token=1635b9de5f7c7511872e0c122fb30fdb
+time  1667617440.6324763
+sub_url  https://shan-cloud.xyz/api/v1/client/subscribe?token=31eb71629dc8014423cac4adbd9a63cb
 node_n  13
 
 [yifei999.com]
-time  1667601717.8465388
-sub_url  https://yifei999.com/api/v1/client/subscribe?token=eccd7a0235a577fcedd01dc9c4f10cf5
+time  1667617440.6324763
+sub_url  https://yifei999.com/api/v1/client/subscribe?token=6eccdaffb2b0f6dd9713e10dc8258169
 node_n  7
 
 [fastestcloud.xyz]
@@ -19,31 +19,29 @@ sub_url  https://fastestcloud.xyz/api/v1/client/subscribe?token=8441cde80b59b3f3
 node_n  35
 
 [feiniaoyun.top]
-time  1667545185.4683492
-sub_url  https://feiniaoyun.top/api/v1/client/subscribe?token=f996f9e4595aa739f83d39d2e3a1f93a
-node_n  60
-error(get_sub_url)  注册失败: {'message': '邮箱后缀不处于白名单中'}
+time  1667617440.6324763
+sub_url  https://feiniaoyun.top/api/v1/client/subscribe?token=f17b1e75d02f1440d4de739ee838b25e
+node_n  63
 
 [www.ckcloud.xyz]
 time  1667589707.7497296
 sub_url  https://www.ckcloud.xyz/api/v1/client/subscribe?token=ec149bccb720cbe4f9db414dae95dcde
-node_n  25
+node_n  24
 
 [www.wolaile.icu]
-time  1667610786.706237
-sub_url  https://www.yzhxr.vip/link/Sq46U8mURjtqkwnf?sub=3
+time  1667617440.6324763
+sub_url  https://www.yzhxr.vip/link/ZHklxwO5k5PGpMEk?sub=3
 node_n  18
 
 [iacgbt.com]
-time  1667610786.706237
-sub_url  https://www.iacgbt.com/link/Zb4QvxIzGlmJHbRG?sub=3
+time  1667617440.6324763
+sub_url  https://www.iacgbt.com/link/wIkoQGgYhumzEjLA?sub=3
 node_n  14
 
 [jsmao.xyz]
 time  1667588814.0987675
 sub_url  https://sub-cdn1.apqiang.com/link/9CGEs89L5L09KWuY?sub=3
 node_n  33
-error(download)  下载失败: HTTPSConnectionPool(host='sub-cdn1.apqiang.com', port=443): Max retries exceeded with url: /link/9CGEs89L5L09KWuY?sub=3 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:997)')))
 
 [paopaocloud.com]
 time  1667588814.0987675
@@ -63,11 +61,11 @@ node_n  15
 [www.zhenyejiedian.com]
 time  1667590872.7000139
 sub_url  https://www.zhenyejiedian.com/api/v1/client/subscribe?token=df1854d807b973f72fe59a21de3cf426
-node_n  7
+node_n  12
 
 [marslink.org]
-time  1667610786.706237
-sub_url  https://marslink.org/api/v1/client/subscribe?token=3e876ed7d145d78a5913991bef9d2232
+time  1667617440.6324763
+sub_url  https://marslink.org/api/v1/client/subscribe?token=58bbbc161236daed8e852c6bf54ef0fe
 node_n  30
 
 [dageyun.net]
@@ -93,8 +91,8 @@ node_n  20
 
 [dog.ssrdog.com]
 node_n  16
-time  1667610786.706237
-sub_url  https://dog.ssrdog.com/api/v1/client/subscribe?token=2ded0d0a0b7d59aeae5d38bdebdcbdfc
+time  1667617440.6324763
+sub_url  https://dog.ssrdog.com/api/v1/client/subscribe?token=6a3dd907ac34d0e49ccde3ba804d84bc
 
 [momovpn.shop]
 time  1667601717.8465388
