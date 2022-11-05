@@ -42,6 +42,7 @@ node_n  14
 time  1667588814.0987675
 sub_url  https://sub-cdn1.apqiang.com/link/9CGEs89L5L09KWuY?sub=3
 node_n  33
+error(download)  下载失败: HTTPSConnectionPool(host='sub-cdn1.apqiang.com', port=443): Max retries exceeded with url: /link/9CGEs89L5L09KWuY?sub=3 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:997)')))
 
 [paopaocloud.com]
 time  1667588814.0987675
@@ -91,8 +92,8 @@ node_n  20
 
 [dog.ssrdog.com]
 node_n  16
-time  1667627249.4920027
-sub_url  https://dog.ssrdog.com/api/v1/client/subscribe?token=7ecef77b885da3a072f65f50c407bfa7
+time  1667629099.1096969
+sub_url  https://dog.ssrdog.com/api/v1/client/subscribe?token=32750263d6eac4e03dd33a7abd5fb06f
 
 [momovpn.shop]
 time  1667601717.8465388
@@ -100,7 +101,6 @@ sub_url  https://momovpn.shop/api/v1/client/subscribe?token=49931644c27da2d9c387
 node_n  1
 
 [user.bafang.vip]
-time  1667601717.8465388
-sub_url  https://user.bafang.vip/api/v1/client/subscribe?token=c385c227fcdec22332c5b0668e925587
+time  1667629099.1096969
+sub_url  https://user.bafang.vip/api/v1/client/subscribe?token=e9944f4dd08ac4f283af2eb8b9b3f092
 node_n  23
-error(download)  下载失败: not non-empty base64
