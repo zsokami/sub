@@ -1,6 +1,6 @@
 [user.hdapi.work]
-time  1667684339.760949
-sub_url  https://user.hdapi.work/api/v1/client/subscribe?token=7dfb5c768b3ff9950c8a1f86c45c3068
+time  1667687140.835436
+sub_url  https://user.hdapi.work/api/v1/client/subscribe?token=bbd658b8091faa24862bff04f8699c60
 node_n  26
 
 [shan-cloud.xyz]
@@ -29,8 +29,8 @@ sub_url  https://www.ckcloud.xyz/api/v1/client/subscribe?token=9eff88904fb99aea3
 node_n  24
 
 [www.wolaile.icu]
-time  1667684339.760949
-sub_url  https://www.yzhxr.vip/link/0pAdyL9f3wIpzEkK?sub=3
+time  1667687140.835436
+sub_url  https://www.yzhxr.vip/link/sLBJvdOn4uoJhxlf?sub=3
 node_n  18
 
 [iacgbt.com]
@@ -42,7 +42,6 @@ node_n  14
 time  1667661300.9445834
 sub_url  https://sub-cdn1.apqiang.com/link/8S7GYyhNoLpktjpw?sub=3
 node_n  33
-error(download)  下载失败: HTTPSConnectionPool(host='sub-cdn1.apqiang.com', port=443): Max retries exceeded with url: /link/8S7GYyhNoLpktjpw?sub=3 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:997)')))
 
 [paopaocloud.com]
 time  1667661300.9445834
@@ -65,8 +64,8 @@ sub_url  https://www.zhenyejiedian.com/api/v1/client/subscribe?token=499d4b6c8f1
 node_n  13
 
 [marslink.org]
-time  1667684339.760949
-sub_url  https://marslink.org/api/v1/client/subscribe?token=d0c4cac6ad00540e6c15a384bd70eb5e
+time  1667687140.835436
+sub_url  https://marslink.org/api/v1/client/subscribe?token=f3fa3c3e9e6c6f075440f55bd7e17c1d
 node_n  30
 
 [dageyun.net]
