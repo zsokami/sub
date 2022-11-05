@@ -1,6 +1,6 @@
 [user.hdapi.work]
-time  1667633132.6908007
-sub_url  https://user.hdapi.work/api/v1/client/subscribe?token=73e5924b8253fa871d8717018d59b19b
+time  1667636096.3039217
+sub_url  https://user.hdapi.work/api/v1/client/subscribe?token=bdbaf9abf30ea1e32baf6be6aa10a60b
 node_n  26
 
 [shan-cloud.xyz]
@@ -21,7 +21,7 @@ node_n  35
 [feiniaoyun.top]
 time  1667617440.6324763
 sub_url  https://feiniaoyun.top/api/v1/client/subscribe?token=f17b1e75d02f1440d4de739ee838b25e
-node_n  68
+node_n  60
 
 [www.ckcloud.xyz]
 time  1667589707.7497296
@@ -29,8 +29,8 @@ sub_url  https://www.ckcloud.xyz/api/v1/client/subscribe?token=ec149bccb720cbe4f
 node_n  24
 
 [www.wolaile.icu]
-time  1667633132.6908007
-sub_url  https://www.yzhxr.vip/link/VYZKzG1JdMrXFBZf?sub=3
+time  1667636096.3039217
+sub_url  https://www.yzhxr.vip/link/nDoy3bzkjEIIsuXU?sub=3
 node_n  18
 
 [iacgbt.com]
@@ -42,7 +42,6 @@ node_n  14
 time  1667588814.0987675
 sub_url  https://sub-cdn1.apqiang.com/link/9CGEs89L5L09KWuY?sub=3
 node_n  33
-error(download)  下载失败: HTTPSConnectionPool(host='sub-cdn1.apqiang.com', port=443): Max retries exceeded with url: /link/9CGEs89L5L09KWuY?sub=3 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:997)')))
 
 [paopaocloud.com]
 time  1667588814.0987675
@@ -65,8 +64,8 @@ sub_url  https://www.zhenyejiedian.com/api/v1/client/subscribe?token=df1854d807b
 node_n  12
 
 [marslink.org]
-time  1667633132.6908007
-sub_url  https://marslink.org/api/v1/client/subscribe?token=986e68923f357ed881b3c90b186b46d0
+time  1667636096.3039217
+sub_url  https://marslink.org/api/v1/client/subscribe?token=8a170ab40b5af900fd43edc563c92d3f
 node_n  30
 
 [dageyun.net]
@@ -92,8 +91,8 @@ node_n  20
 
 [dog.ssrdog.com]
 node_n  16
-time  1667633132.6908007
-sub_url  https://dog.ssrdog.com/api/v1/client/subscribe?token=03b7e75f125c27d15abc71de1b35a3c8
+time  1667636096.3039217
+sub_url  https://dog.ssrdog.com/api/v1/client/subscribe?token=2cdb88c1dc505ab3c50f9f74cab1b119
 
 [momovpn.shop]
 time  1667601717.8465388
@@ -101,6 +100,6 @@ sub_url  https://momovpn.shop/api/v1/client/subscribe?token=49931644c27da2d9c387
 node_n  1
 
 [user.bafang.vip]
-time  1667633132.6908007
-sub_url  https://user.bafang.vip/api/v1/client/subscribe?token=a88d16003bef14a6f04c613661720e76
+time  1667636096.3039217
+sub_url  https://user.bafang.vip/api/v1/client/subscribe?token=6b9cf85e0b13bbf622ef425f756bb7ca
 node_n  22
