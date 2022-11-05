@@ -10,7 +10,7 @@ from utils import new_session, write
 re_update_time = re.compile(r'\d+/\d+/\d+')
 re_node = re.compile(rb'(?:ssr?|vmess|trojan)://[^\s<]+')
 re_node_vmess_base64 = re.compile(rb'^vmess://(?=[A-Za-z0-9+/]+={0,2}$)((?:.{4})+)$')
-re_uuid = re.compile(r'[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}')
+re_uuid = re.compile(r'[0-9a-fA-F]{8}-(?:[0-9a-fA-F]{4}-){3}[0-9a-fA-F]{12}')
 
 
 main = BeautifulSoup(new_session().get('https://t.me/aries_init/560?embed=1&mode=tme').text, 'html.parser')
