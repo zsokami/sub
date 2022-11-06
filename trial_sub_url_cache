@@ -1,6 +1,6 @@
 [user.hdapi.work]
-time  1667762648.2622986
-sub_url  https://user.hdapi.work/api/v1/client/subscribe?token=e2a9ae4a38b8815085b76bda184a4323
+time  1667764760.7593648
+sub_url  https://user.hdapi.work/api/v1/client/subscribe?token=38d3f3e504bed09fc295d6376be24592
 node_n  26
 
 [shan-cloud.xyz]
@@ -65,8 +65,8 @@ sub_url  https://www.zhenyejiedian.com/api/v1/client/subscribe?token=33e611cbada
 node_n  12
 
 [marslink.org]
-time  1667762648.2622986
-sub_url  https://marslink.org/api/v1/client/subscribe?token=824d477fed7a927a650916c8d166f974
+time  1667764760.7593648
+sub_url  https://marslink.org/api/v1/client/subscribe?token=596859693cae8e9483ef024a82692259
 node_n  30
 
 [dageyun.net]
@@ -80,8 +80,8 @@ sub_url  https://by.xbygood.xyz/link/mzaKqbJ6QmDSmeIC?sub=3
 node_n  8
 
 [speedcat.ws]
-time  1667548443.025127
-sub_url  https://apiv2.pptiok2020.com/apiv2/mat1xunpeqv9erv5?sub=2
+time  1667764760.7593648
+sub_url  https://apiv2.pptiok2020.com/apiv2/xcwavh6bmdjnljry?sub=2
 node_n  74
 
 [purefast.net]
@@ -101,4 +101,3 @@ email  E01vI7NpLlZ1@gmail.com
 time  1667659331.406511
 sub_url  https://yun.moonfree.top/api/v1/client/subscribe?token=29989fa62aad4c26f3458f3a933cffdc
 node_n  10
-error(download)  下载失败: HTTPSConnectionPool(host='yun.moonfree.top', port=443): Max retries exceeded with url: /api/v1/client/subscribe?token=29989fa62aad4c26f3458f3a933cffdc (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f8fa6912c80>: Failed to establish a new connection: [Errno 101] Network is unreachable'))
