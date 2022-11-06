@@ -9,8 +9,8 @@ sub_url  https://shan-cloud.xyz/api/v1/client/subscribe?token=eec19bbe41673bd779
 node_n  13
 
 [yifei999.com]
-time  1667721366.1660826
-sub_url  https://yifei999.com/api/v1/client/subscribe?token=bd5f3dae80c8baf7751b93e2ba218eee
+time  1667735853.1617782
+sub_url  https://yifei999.com/api/v1/client/subscribe?token=610c54b8052b29607bcd73fe6ae21123
 node_n  7
 
 [fastestcloud.xyz]
@@ -42,7 +42,6 @@ node_n  14
 time  1667733513.7964022
 sub_url  https://sub-cdn1.apqiang.com/link/DpNmPDQ9rv4XLO4z?sub=3
 node_n  33
-error(download)  下载失败: HTTPSConnectionPool(host='sub-cdn1.apqiang.com', port=443): Max retries exceeded with url: /link/DpNmPDQ9rv4XLO4z?sub=3 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:997)')))
 
 [paopaocloud.com]
 time  1667733513.7964022
