@@ -1,16 +1,16 @@
 [user.hdapi.work]
-time  1667748515.2047067
-sub_url  https://user.hdapi.work/api/v1/client/subscribe?token=90f99490db76f8ba3b900e5106cc53ab
-node_n  27
+time  1667751838.009447
+sub_url  https://user.hdapi.work/api/v1/client/subscribe?token=fdc44253c6ddfaed54463b1579242df6
+node_n  26
 
 [shan-cloud.xyz]
-time  1667747204.169542
-sub_url  https://shan-cloud.xyz/api/v1/client/subscribe?token=23482c1b078ba45510f2fe2a6ca6967e
-node_n  14
+time  1667751838.009447
+sub_url  https://shan-cloud.xyz/api/v1/client/subscribe?token=ebef57549f4e0e738ef4151e8d0296f2
+node_n  13
 
 [yifei999.com]
-time  1667735853.1617782
-sub_url  https://yifei999.com/api/v1/client/subscribe?token=610c54b8052b29607bcd73fe6ae21123
+time  1667751838.009447
+sub_url  https://yifei999.com/api/v1/client/subscribe?token=329c38328995043ac88a2af95771e249
 node_n  7
 
 [fastestcloud.xyz]
@@ -21,7 +21,7 @@ node_n  35
 [feiniaoyun.top]
 time  1667689627.417553
 sub_url  https://feiniaoyun.top/api/v1/client/subscribe?token=a8854b9e29a6742446f39e2a4c0e7e86
-node_n  61
+node_n  60
 
 [www.ckcloud.xyz]
 time  1667734482.4140766
@@ -29,13 +29,13 @@ sub_url  https://www.ckcloud.xyz/api/v1/client/subscribe?token=5220282f794e142f9
 node_n  24
 
 [www.wolaile.icu]
-time  1667748515.2047067
-sub_url  https://www.yzhxr.vip/link/iZPjqBaoOEzzScbS?sub=3
+time  1667751838.009447
+sub_url  https://www.yzhxr.vip/link/gvgi8IOuDMj0BnE1?sub=3
 node_n  18
 
 [iacgbt.com]
-time  1667747204.169542
-sub_url  https://www.iacgbt.com/link/ymP9zYsoslZT5PO6?sub=3
+time  1667751838.009447
+sub_url  https://www.iacgbt.com/link/RajjJ3MgnvJTm0Lr?sub=3
 node_n  14
 
 [jsmao.xyz]
@@ -64,14 +64,14 @@ sub_url  https://www.zhenyejiedian.com/api/v1/client/subscribe?token=33e611cbada
 node_n  12
 
 [marslink.org]
-time  1667748515.2047067
-sub_url  https://marslink.org/api/v1/client/subscribe?token=c5d0f6244181045214688f90acf79dc6
+time  1667751838.009447
+sub_url  https://marslink.org/api/v1/client/subscribe?token=9f4371e8f62234b04446001e87d9c9d2
 node_n  30
 
 [dageyun.net]
 time  1667703923.3308256
 sub_url  https://dageyun.net/api/v1/client/subscribe?token=b0e2f959ec4ca31925d21faca2e9b63b
-node_n  49
+node_n  48
 
 [xbygood.xyz]
 time  1667324652.355209
@@ -88,6 +88,7 @@ email  lhPNc8tcTFUS@gmail.com
 time  1667664000.0
 sub_url  https://whoisyourdady.gfw-wdnmd.com/link/5xpODfN8pqMn83c5?sub=3
 node_n  20
+error(get_sub_url)  签到失败: {'ret': 0, 'msg': '您似乎已经签到过了...'}
 
 [momovpn.shop]
 time  1667601717.8465388
