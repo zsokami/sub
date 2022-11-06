@@ -4,8 +4,8 @@ sub_url  https://user.hdapi.work/api/v1/client/subscribe?token=379e1e07e309b6531
 node_n  26
 
 [shan-cloud.xyz]
-time  1667716742.0242052
-sub_url  https://shan-cloud.xyz/api/v1/client/subscribe?token=f6a571af0e6cc301b71ee8e7b4d4df84
+time  1667720347.5852618
+sub_url  https://shan-cloud.xyz/api/v1/client/subscribe?token=492d16a65f6942a8a6478169182918d9
 node_n  13
 
 [yifei999.com]
@@ -34,14 +34,15 @@ sub_url  https://www.yzhxr.vip/link/qghIuQ67G0hW0SPR?sub=3
 node_n  18
 
 [iacgbt.com]
-time  1667716742.0242052
-sub_url  https://www.iacgbt.com/link/p9iSzqkY8wZ2b7YV?sub=3
+time  1667720347.5852618
+sub_url  https://www.iacgbt.com/link/k7OXFAJ5naL51BGi?sub=3
 node_n  14
 
 [jsmao.xyz]
 time  1667661300.9445834
 sub_url  https://sub-cdn1.apqiang.com/link/8S7GYyhNoLpktjpw?sub=3
 node_n  33
+error(download)  下载失败: HTTPSConnectionPool(host='sub-cdn1.apqiang.com', port=443): Max retries exceeded with url: /link/8S7GYyhNoLpktjpw?sub=3 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:997)')))
 
 [paopaocloud.com]
 time  1667661300.9445834
@@ -99,4 +100,3 @@ email  E01vI7NpLlZ1@gmail.com
 time  1667659331.406511
 sub_url  https://yun.moonfree.top/api/v1/client/subscribe?token=29989fa62aad4c26f3458f3a933cffdc
 node_n  10
-error(download)  下载失败: HTTPSConnectionPool(host='yun.moonfree.top', port=443): Max retries exceeded with url: /api/v1/client/subscribe?token=29989fa62aad4c26f3458f3a933cffdc (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f92bcc62710>: Failed to establish a new connection: [Errno 101] Network is unreachable'))
