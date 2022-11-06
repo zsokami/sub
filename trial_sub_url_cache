@@ -4,8 +4,8 @@ sub_url  https://user.hdapi.work/api/v1/client/subscribe?token=e2a9ae4a38b881508
 node_n  26
 
 [shan-cloud.xyz]
-time  1667759714.1167006
-sub_url  https://shan-cloud.xyz/api/v1/client/subscribe?token=d56d24032678cadb244eb700b4f6a83b
+time  1667763404.919005
+sub_url  https://shan-cloud.xyz/api/v1/client/subscribe?token=b0860b109dde011a5a3b6da37d2c9630
 node_n  13
 
 [yifei999.com]
@@ -34,8 +34,8 @@ sub_url  https://www.yzhxr.vip/link/ScZc42AyWkZGmQzP?sub=3
 node_n  18
 
 [iacgbt.com]
-time  1667759714.1167006
-sub_url  https://www.iacgbt.com/link/ONsWMhWVKBOTsfml?sub=3
+time  1667763404.919005
+sub_url  https://www.iacgbt.com/link/oG2UKcRTaXIiwI7F?sub=3
 node_n  14
 
 [jsmao.xyz]
@@ -100,4 +100,4 @@ email  E01vI7NpLlZ1@gmail.com
 time  1667659331.406511
 sub_url  https://yun.moonfree.top/api/v1/client/subscribe?token=29989fa62aad4c26f3458f3a933cffdc
 node_n  10
-error(download)  下载失败: HTTPSConnectionPool(host='yun.moonfree.top', port=443): Max retries exceeded with url: /api/v1/client/subscribe?token=29989fa62aad4c26f3458f3a933cffdc (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f98ee05f250>: Failed to establish a new connection: [Errno 101] Network is unreachable'))
+error(download)  下载失败: HTTPSConnectionPool(host='yun.moonfree.top', port=443): Max retries exceeded with url: /api/v1/client/subscribe?token=29989fa62aad4c26f3458f3a933cffdc (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fc858dc8430>: Failed to establish a new connection: [Errno 101] Network is unreachable'))
