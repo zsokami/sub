@@ -77,7 +77,6 @@ node_n  49
 time  1667324652.355209
 sub_url  https://by.xbygood.xyz/link/mzaKqbJ6QmDSmeIC?sub=3
 node_n  8
-error(download)  下载失败: HTTPSConnectionPool(host='by.xbygood.xyz', port=443): Max retries exceeded with url: /link/mzaKqbJ6QmDSmeIC?sub=3 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f507aeb5810>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
 
 [speedcat.ws]
 time  1667548443.025127
