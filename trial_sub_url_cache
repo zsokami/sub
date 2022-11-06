@@ -42,7 +42,6 @@ node_n  14
 time  1667733513.7964022
 sub_url  https://sub-cdn1.apqiang.com/link/DpNmPDQ9rv4XLO4z?sub=3
 node_n  33
-error(download)  下载失败: HTTPSConnectionPool(host='sub-cdn1.apqiang.com', port=443): Max retries exceeded with url: /link/DpNmPDQ9rv4XLO4z?sub=3 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:997)')))
 
 [paopaocloud.com]
 time  1667733513.7964022
@@ -50,8 +49,8 @@ sub_url  https://lting.cyou/link/klNPGAzwsdi13PWI?sub=3
 node_n  126
 
 [yungcun.cc]
-time  1667631104.085799
-sub_url  https://yungcun.cc/api/v1/client/subscribe?token=4c6f0de411236fd0ba3b78fe41607f41
+time  1667760857.8704503
+sub_url  https://yungcun.cc/api/v1/client/subscribe?token=e59894b77eed53a7df8e902917c9a0d2
 node_n  31
 
 [console.lynet.works]
