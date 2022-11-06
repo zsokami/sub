@@ -100,4 +100,3 @@ email  E01vI7NpLlZ1@gmail.com
 time  1667659331.406511
 sub_url  https://yun.moonfree.top/api/v1/client/subscribe?token=29989fa62aad4c26f3458f3a933cffdc
 node_n  10
-error(download)  下载失败: HTTPSConnectionPool(host='yun.moonfree.top', port=443): Max retries exceeded with url: /api/v1/client/subscribe?token=29989fa62aad4c26f3458f3a933cffdc (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f560dfecfa0>: Failed to establish a new connection: [Errno 101] Network is unreachable'))
