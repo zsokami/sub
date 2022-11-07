@@ -25,6 +25,17 @@ def get_email() -> str:
     return account.address
 
 
+def del_email() -> bool:
+    global account
+    with lock_account, lock:
+        if account and not th:
+            succeed = account.delete_account()
+            if succeed:
+                account = None
+            return succeed
+        return not account
+
+
 def get_email_code(keyword):
     global th
     queue = Queue(1)
