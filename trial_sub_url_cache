@@ -1,12 +1,8 @@
 [user.hdapi.work]
-time  1667803921.049944
-sub_url  https://user.hdapi.work/api/v1/client/subscribe?token=9bb1b3f818038a93f00c6c01a8f12ac9
+time  1667806085.4496255
+sub_url  https://user.hdapi.work/api/v1/client/subscribe?token=2190856faaa2d0f3d8a42f3d877cec68
 node_n  26
-
-[shan-cloud.xyz]
-time  1667804263.4946094
-sub_url  https://shan-cloud.xyz/api/v1/client/subscribe?token=234cfde3323a668bd7c1d8ba2051eee6
-node_n  13
+email  qgHBFYSSEPq9@gmail.com
 
 [yifei999.com]
 time  1667799676.9925618
@@ -29,34 +25,27 @@ sub_url  https://www.ckcloud.xyz/api/v1/client/subscribe?token=5220282f794e142f9
 node_n  24
 
 [www.wolaile.icu]
-time  1667803921.049944
-sub_url  https://www.yzhxr.vip/link/zfVGUV1L4jHxtrYR?sub=3
+time  1667806085.4496255
+sub_url  https://www.yzhxr.vip/link/WFv6MCZNfAOZAFdD?sub=3
 node_n  18
-
-[iacgbt.com]
-time  1667804263.4946094
-sub_url  https://www.iacgbt.com/link/4IJc18pjsYRPcnDX?sub=3
-node_n  14
+email  qgHBFYSSEPq9@gmail.com
 
 [jsmao.xyz]
-time  1667733513.7964022
-sub_url  https://sub-cdn1.apqiang.com/link/DpNmPDQ9rv4XLO4z?sub=3
+time  1667806085.4496255
+sub_url  https://g1.subjsm.cyou/link/tXgUbzVwqclufdnv?sub=3
 node_n  33
+email  qgHBFYSSEPq9@gmail.com
 
 [paopaocloud.com]
-time  1667733513.7964022
-sub_url  https://lting.cyou/link/klNPGAzwsdi13PWI?sub=3
+time  1667806085.4496255
+sub_url  https://lting.cyou/link/oAunooYBJBOJLbus?sub=3
 node_n  126
+email  qgHBFYSSEPq9@gmail.com
 
 [yungcun.cc]
 time  1667760857.8704503
 sub_url  https://yungcun.cc/api/v1/client/subscribe?token=e59894b77eed53a7df8e902917c9a0d2
 node_n  31
-
-[console.lynet.works]
-time  1667763741.5378149
-sub_url  https://console.lynet.works/api/v1/client/subscribe?token=362782e42e8b0195a31de0b8cbe10adb
-node_n  15
 
 [www.zhenyejiedian.com]
 time  1667735167.7158103
@@ -64,19 +53,15 @@ sub_url  https://www.zhenyejiedian.com/api/v1/client/subscribe?token=33e611cbada
 node_n  12
 
 [marslink.org]
-time  1667803921.049944
-sub_url  https://marslink.org/api/v1/client/subscribe?token=b4003c6942bcbad85d084cf1bbe99e6e
+time  1667806085.4496255
+sub_url  https://marslink.org/api/v1/client/subscribe?token=f63eeac0de1d1361b3fd5d8f1e4fde51
 node_n  30
+email  qgHBFYSSEPq9@gmail.com
 
 [dageyun.net]
 time  1667776007.4027536
 sub_url  https://dageyun.net/api/v1/client/subscribe?token=7f195ae9ef7e17c516e94bea050ffcdf
 node_n  49
-
-[xbygood.xyz]
-time  1667324652.355209
-sub_url  https://by.xbygood.xyz/link/mzaKqbJ6QmDSmeIC?sub=3
-node_n  9
 
 [speedcat.ws]
 time  1667764760.7593648
@@ -89,14 +74,3 @@ time  1667750400.0
 sub_url  https://whoisyourdady.gfw-wdnmd.com/link/5xpODfN8pqMn83c5?sub=3
 node_n  20
 error(get_sub_url)  签到失败: {'ret': 0, 'msg': '您似乎已经签到过了...'}
-
-[momovpn.shop]
-time  1667601717.8465388
-sub_url  https://momovpn.shop/api/v1/client/subscribe?token=49931644c27da2d9c387b70d35ac1cb9
-node_n  1
-
-[yun.moonfree.top]
-email  E01vI7NpLlZ1@gmail.com
-time  1667659331.406511
-sub_url  https://yun.moonfree.top/api/v1/client/subscribe?token=29989fa62aad4c26f3458f3a933cffdc
-node_n  10
