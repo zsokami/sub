@@ -1,6 +1,4 @@
-import random
 import re
-import string
 import time
 from base64 import b64decode, b64encode
 from concurrent.futures import ThreadPoolExecutor
@@ -10,15 +8,11 @@ from urllib.parse import urljoin
 from bs4 import BeautifulSoup
 
 from temp_email_code import get_email, get_email_code
-from utils import (new_session, read, read_cfg, remove, remove_illegal, write,
-                   write_cfg)
+from utils import (get_id, new_session, read, read_cfg, remove, remove_illegal,
+                   write, write_cfg)
 
 re_non_empty_base64 = re.compile(rb'^(?=[A-Za-z0-9+/]+={0,2}$)(?:.{4})+$')
 re_checked_in = re.compile(r'已经?签到')
-
-id = ''.join(random.choices(string.ascii_letters + string.digits, k=12))
-
-print('id:', id)
 
 hosts_cfg = read_cfg('trial_hosts.cfg')
 sub_url_cache = read_cfg('trial_sub_url_cache', True)
@@ -52,6 +46,7 @@ def get_sub_url_v2board(host):
     reg_once = host_ops[host].get('reg_once') == 'T'
     try:
         if not reg_once or 'email' not in sub_url_cache[host]:
+            id = get_id()
             email = f'{id}@{host_ops[host].get("email domain") or "gmail.com"}'
             res = session.post(urljoin(base, 'api/v1/passport/auth/register'), data={
                 'email': email,
@@ -83,10 +78,7 @@ def get_sub_url_v2board(host):
                 if 'data' not in res:
                     raise Exception(f'注册失败: {res}')
 
-            if reg_once:
-                sub_url_cache[host]['email'] = [email]
-            else:
-                sub_url_cache[host].pop('email', None)
+            sub_url_cache[host]['email'] = [email]
         else:
             email = sub_url_cache[host]['email'][0]
             res = session.post(urljoin(base, 'api/v1/passport/auth/login'), data={
@@ -130,6 +122,7 @@ def get_sub_url_sspanel(host):
     reg_once = host_ops[host].get('reg_once') == 'T'
     try:
         if not reg_once or 'email' not in sub_url_cache[host]:
+            id = get_id()
             email = f'{id}@{host_ops[host].get("email domain") or "gmail.com"}'
             res = session.post(urljoin(base, 'auth/register'), data={
                 'email': email,
@@ -139,10 +132,7 @@ def get_sub_url_sspanel(host):
             if res['ret'] == 0:
                 raise Exception(f'注册失败: {res}')
 
-            if reg_once:
-                sub_url_cache[host]['email'] = [email]
-            else:
-                sub_url_cache[host].pop('email', None)
+            sub_url_cache[host]['email'] = [email]
         else:
             email = sub_url_cache[host]['email'][0]
 

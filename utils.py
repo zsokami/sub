@@ -1,7 +1,10 @@
 import os
+import random
 import re
+import string
 from collections import defaultdict
 from itertools import chain
+from threading import RLock
 
 import requests
 
@@ -9,6 +12,10 @@ re_cfg_item_or_k = re.compile(r'^\s*((?:(?: {2,})?[^#\s](?: ?\S)*)+)', re.MULTIL
 re_cfg_item_v_sep = re.compile(r' {2,}')
 re_cfg_k = re.compile(r'\[(.+?)\]')
 re_cfg_illegal = re.compile(r'[\r\n ]+')
+
+
+lock_id = RLock()
+id = None
 
 
 # 文件读写删
@@ -94,3 +101,15 @@ def new_session():
     # session.proxies['https'] = '127.0.0.1:7890'
     session.headers['User-Agent'] = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36'
     return session
+
+
+# 随机 id 仅生成一次
+
+
+def get_id():
+    global id
+    with lock_id:
+        if not id:
+            id = ''.join(random.choices(string.ascii_letters + string.digits, k=12))
+            print('id:', id)
+    return id
