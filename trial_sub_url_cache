@@ -37,7 +37,6 @@ time  1667806085.4496255
 sub_url  https://g1.subjsm.cyou/link/tXgUbzVwqclufdnv?sub=3
 node_n  33
 email  qgHBFYSSEPq9@gmail.com
-error(download)  HTTPSConnectionPool(host='g1.subjsm.cyou', port=443): Max retries exceeded with url: /link/tXgUbzVwqclufdnv?sub=3 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:997)')))
 
 [paopaocloud.com]
 time  1667806085.4496255
@@ -66,7 +65,6 @@ email  5UbW2YbpQd0f@gmail.com
 time  1667776007.4027536
 sub_url  https://dageyun.net/api/v1/client/subscribe?token=7f195ae9ef7e17c516e94bea050ffcdf
 node_n  49
-error(download)  下载失败: not non-empty base64
 
 [speedcat.ws]
 time  1667764760.7593648
