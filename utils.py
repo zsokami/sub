@@ -8,7 +8,7 @@ from threading import RLock
 
 import requests
 
-re_cfg_item_or_k = re.compile(r'^\s*((?:(?: {2,})?[^#\s](?: ?\S)*)+)', re.MULTILINE)
+re_cfg_item_or_k = re.compile(r'^\s*((?:(?: {2,})?[^#;\s](?: ?\S)*)+)', re.MULTILINE)
 re_cfg_item_v_sep = re.compile(r' {2,}')
 re_cfg_k = re.compile(r'\[(.+?)\]')
 re_cfg_illegal = re.compile(r'[\r\n ]+')
