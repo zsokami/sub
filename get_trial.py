@@ -14,6 +14,7 @@ from utils import (new_session, read, read_cfg, remove, remove_illegal, write,
                    write_cfg)
 
 re_non_empty_base64 = re.compile(rb'^(?=[A-Za-z0-9+/]+={0,2}$)(?:.{4})+$')
+re_checked_in = re.compile(r'已经?签到')
 
 id = ''.join(random.choices(string.ascii_letters + string.digits, k=12))
 
@@ -165,7 +166,10 @@ def get_sub_url_sspanel(host):
         if 'checkin' in host_ops[host]:
             res = session.post(urljoin(base, 'user/checkin')).json()
             if res['ret'] == 0:
-                raise Exception(f'签到失败: {res}')
+                if re_checked_in.search(res['msg']):
+                    raise Warning(f'[警告] 签到失败: {res}')
+                else:
+                    raise Exception(f'签到失败: {res}')
 
         return None, (
             BeautifulSoup(session.get(urljoin(base, 'user')).text, 'html.parser')
@@ -180,7 +184,7 @@ def download(path, url, host):
     try:
         content = new_session().get(url).content
         if not re_non_empty_base64.fullmatch(content):
-            raise Exception('not non-empty base64')
+            raise Exception('下载失败: not non-empty base64')
         write(path, content)
         return None, path, url, host
     except Exception as e:
@@ -192,6 +196,7 @@ with ThreadPoolExecutor(32) as executor:
     for err, url, host in chain(executor.map(get_sub_url_v2board, reg_v2board_hosts), executor.map(get_sub_url_sspanel, reg_sspanel_hosts)):
         if err:
             print(err, url)
+        if err and not isinstance(err, Warning):
             sub_url_cache[host]['error(get_sub_url)'] = [remove_illegal(err)]
         else:
             sub_url_cache[host].pop('error(get_sub_url)', None)
@@ -206,8 +211,8 @@ with ThreadPoolExecutor(32) as executor:
 
     for err, path, url, host in executor.map(download, *zip(*((f'trials/{host}', item['sub_url'][0], host) for host, item in sub_url_cache.items() if 'sub_url' in item))):
         if err:
-            err = f'下载失败: {err}'
             print(err, host, url)
+        if err and not isinstance(err, Warning):
             sub_url_cache[host]['error(download)'] = [remove_illegal(err)]
         else:
             sub_url_cache[host].pop('error(download)', None)
