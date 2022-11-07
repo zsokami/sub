@@ -163,15 +163,17 @@ def get_sub_url_sspanel(host):
             if res['ret'] == 0:
                 raise Exception(f'购买失败: {res}')
 
+        warning = None
+
         if 'checkin' in host_ops[host]:
             res = session.post(urljoin(base, 'user/checkin')).json()
             if res['ret'] == 0:
                 if re_checked_in.search(res['msg']):
-                    raise Warning(f'[警告] 签到失败: {res}')
+                    warning = Warning(f'[警告] 签到失败: {res}')
                 else:
                     raise Exception(f'签到失败: {res}')
 
-        return None, (
+        return warning, (
             BeautifulSoup(session.get(urljoin(base, 'user')).text, 'html.parser')
             .select_one('[data-clipboard-text]')['data-clipboard-text']
             .split('?')[0] + f'?{host_ops[host].get("sub") or "sub=3"}'
