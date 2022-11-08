@@ -1,8 +1,8 @@
 [user.hdapi.work]
-time  1667908606.3863757
-sub_url  https://user.hdapi.work/api/v1/client/subscribe?token=6f87aa67b82d65830733fc8e2102ce91
+time  1667912872.7554758
+sub_url  https://user.hdapi.work/api/v1/client/subscribe?token=4d1c6456f090734baea16e6a3ae52425
 node_n  26
-email  hv9l3UTkj036@gmail.com
+email  CVPE2lqizi5p@gmail.com
 
 [yifei999.com]
 time  1667905768.9887536
@@ -29,10 +29,10 @@ node_n  24
 email  1RqoyYnr5ICm@gmail.com
 
 [www.wolaile.icu]
-time  1667908606.3863757
-sub_url  https://www.yzhxr.vip/link/Ud6VxGseKtyBSgDD?sub=3
+time  1667912872.7554758
+sub_url  https://www.yzhxr.vip/link/7z8dvZYLSOP0ItZA?sub=3
 node_n  18
-email  hv9l3UTkj036@gmail.com
+email  CVPE2lqizi5p@gmail.com
 
 [jsmao.xyz]
 time  1667880173.7870882
@@ -59,17 +59,16 @@ node_n  14
 email  1RqoyYnr5ICm@gmail.com
 
 [marslink.org]
-time  1667908606.3863757
-sub_url  https://marslink.org/api/v1/client/subscribe?token=fe898d118b68edcb2c1aff8d1c9bd68d
+time  1667912872.7554758
+sub_url  https://marslink.org/api/v1/client/subscribe?token=e5f285dc81c47a247a45b820b633804d
 node_n  30
-email  hv9l3UTkj036@gmail.com
+email  CVPE2lqizi5p@gmail.com
 
 [dageyun.net]
 time  1667848048.608508
 sub_url  https://dageyun.net/api/v1/client/subscribe?token=a54f6e54b27344044411874f59b1c436
 node_n  49
 email  Xy8uX5lhtI1N@gmail.com
-error(download)  HTTPSConnectionPool(host='dageyun.net', port=443): Max retries exceeded with url: /api/v1/client/subscribe?token=a54f6e54b27344044411874f59b1c436 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f719316c670>, 'Connection to dageyun.net timed out. (connect timeout=None)'))
 
 [speedcat.ws]
 time  1667764760.7593648
