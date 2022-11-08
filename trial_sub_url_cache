@@ -1,8 +1,8 @@
 [user.hdapi.work]
-time  1667947326.8122997
-sub_url  https://user.hdapi.work/api/v1/client/subscribe?token=5c8445e1e4c2b0bc426fe299c91aeb4c
+time  1667949665.266037
+sub_url  https://user.hdapi.work/api/v1/client/subscribe?token=50ca23e32c4be67e42ca96b368d211f1
 node_n  26
-email  9fyutZGrwoi3@gmail.com
+email  vdRlkwrTLXLK@gmail.com
 
 [yifei999.com]
 time  1667935930.1023343
@@ -11,10 +11,10 @@ node_n  7
 email  W9vEtX0CE7ir@gmail.com
 
 [fastestcloud.xyz]
-time  1667876715.7875977
-sub_url  https://fastestcloud.xyz/api/v1/client/subscribe?token=30f234da16e24f1b145515068ebec23e
+time  1667949665.266037
+sub_url  https://fastestcloud.xyz/api/v1/client/subscribe?token=be58afec965bda55f3594cd964a00e46
 node_n  35
-email  IWpRkvwTquBk@gmail.com
+email  vdRlkwrTLXLK@gmail.com
 
 [feiniaoyun.top]
 time  1667906668.90254
@@ -29,16 +29,17 @@ node_n  24
 email  1RqoyYnr5ICm@gmail.com
 
 [www.wolaile.icu]
-time  1667947326.8122997
-sub_url  https://www.yzhxr.vip/link/tTb1zEQuVeA3xL2A?sub=3
+time  1667949665.266037
+sub_url  https://www.yzhxr.vip/link/dIuOglVRNCgeguUr?sub=3
 node_n  18
-email  9fyutZGrwoi3@gmail.com
+email  vdRlkwrTLXLK@gmail.com
 
 [jsmao.xyz]
 time  1667880173.7870882
 sub_url  https://g1.subjsm.cyou/link/QrOq2zlpkuClpe2A?sub=3
 node_n  33
 email  1RqoyYnr5ICm@gmail.com
+error(download)  HTTPSConnectionPool(host='g1.subjsm.cyou', port=443): Max retries exceeded with url: /link/QrOq2zlpkuClpe2A?sub=3 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:997)')))
 
 [paopaocloud.com]
 time  1667880173.7870882
@@ -59,10 +60,10 @@ node_n  14
 email  1RqoyYnr5ICm@gmail.com
 
 [marslink.org]
-time  1667947326.8122997
-sub_url  https://marslink.org/api/v1/client/subscribe?token=af4c7f3a568841ccc4d253d53d950872
+time  1667949665.266037
+sub_url  https://marslink.org/api/v1/client/subscribe?token=ddc6a97e2d86452844528cd1cf3f5f79
 node_n  30
-email  9fyutZGrwoi3@gmail.com
+email  vdRlkwrTLXLK@gmail.com
 
 [dageyun.net]
 time  1667920396.6120415
