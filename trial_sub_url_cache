@@ -5,10 +5,10 @@ node_n  26
 email  vdRlkwrTLXLK@gmail.com
 
 [yifei999.com]
-time  1667935930.1023343
-sub_url  https://yifei999.com/api/v1/client/subscribe?token=e751e862a9cb1c9b032e300f19144cea
+time  1667950810.5393612
+sub_url  https://yifei999.com/api/v1/client/subscribe?token=bccb6d66ddd18cd44f1f3088967cc9be
 node_n  7
-email  W9vEtX0CE7ir@gmail.com
+email  ppewT8BJXARh@gmail.com
 
 [fastestcloud.xyz]
 time  1667949665.266037
@@ -39,7 +39,6 @@ time  1667880173.7870882
 sub_url  https://g1.subjsm.cyou/link/QrOq2zlpkuClpe2A?sub=3
 node_n  33
 email  1RqoyYnr5ICm@gmail.com
-error(download)  HTTPSConnectionPool(host='g1.subjsm.cyou', port=443): Max retries exceeded with url: /link/QrOq2zlpkuClpe2A?sub=3 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:997)')))
 
 [paopaocloud.com]
 time  1667880173.7870882
