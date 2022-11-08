@@ -19,7 +19,7 @@ email  IWpRkvwTquBk@gmail.com
 [feiniaoyun.top]
 time  1667906668.90254
 sub_url  https://feiniaoyun.top/api/v1/client/subscribe?token=98c86f0f41436388944eaef5ae7bf79b
-node_n  56
+node_n  58
 email  xpTDKVbkBU4W@gmail.com
 
 [www.ckcloud.xyz]
@@ -39,6 +39,7 @@ time  1667880173.7870882
 sub_url  https://g1.subjsm.cyou/link/QrOq2zlpkuClpe2A?sub=3
 node_n  33
 email  1RqoyYnr5ICm@gmail.com
+error(download)  HTTPSConnectionPool(host='g1.subjsm.cyou', port=443): Max retries exceeded with url: /link/QrOq2zlpkuClpe2A?sub=3 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:997)')))
 
 [paopaocloud.com]
 time  1667880173.7870882
