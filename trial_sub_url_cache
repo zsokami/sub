@@ -69,7 +69,7 @@ time  1667848048.608508
 sub_url  https://dageyun.net/api/v1/client/subscribe?token=a54f6e54b27344044411874f59b1c436
 node_n  49
 email  Xy8uX5lhtI1N@gmail.com
-error(download)  HTTPSConnectionPool(host='dageyun.net', port=443): Max retries exceeded with url: /api/v1/client/subscribe?token=a54f6e54b27344044411874f59b1c436 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7fd6752ece20>, 'Connection to dageyun.net timed out. (connect timeout=None)'))
+error(download)  HTTPSConnectionPool(host='dageyun.net', port=443): Max retries exceeded with url: /api/v1/client/subscribe?token=a54f6e54b27344044411874f59b1c436 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f719316c670>, 'Connection to dageyun.net timed out. (connect timeout=None)'))
 
 [speedcat.ws]
 time  1667764760.7593648
