@@ -1,8 +1,8 @@
 [user.hdapi.work]
-time  1668019757.103756
-sub_url  https://user.hdapi.work/api/v1/client/subscribe?token=66e1ad74d6b864361b5595e65fb249b4
+time  1668021743.4499002
+sub_url  https://user.hdapi.work/api/v1/client/subscribe?token=36874726dac60734d81af9969f325c6c
 node_n  26
-email  87LigYjOqtHp@gmail.com
+email  jUaT3i9R8YwS@gmail.com
 
 [yifei999.com]
 time  1668010327.4680407
@@ -11,10 +11,10 @@ node_n  7
 email  d5LFsS695qjB@gmail.com
 
 [fastestcloud.xyz]
-time  1667949665.266037
-sub_url  https://fastestcloud.xyz/api/v1/client/subscribe?token=be58afec965bda55f3594cd964a00e46
+time  1668021743.4499002
+sub_url  https://fastestcloud.xyz/api/v1/client/subscribe?token=f2e7024772f879cb27764ac9698df9af
 node_n  35
-email  vdRlkwrTLXLK@gmail.com
+email  jUaT3i9R8YwS@gmail.com
 
 [feiniaoyun.top]
 time  1667979049.251392
@@ -29,17 +29,16 @@ node_n  26
 email  A9fwlNF36AwR@gmail.com
 
 [www.wolaile.icu]
-time  1668019757.103756
-sub_url  https://www.yzhxr.vip/link/thIYR9iFL5KyBsPt?sub=3
+time  1668021743.4499002
+sub_url  https://www.yzhxr.vip/link/Ts7xX1DYxA7mFeFB?sub=3
 node_n  18
-email  87LigYjOqtHp@gmail.com
+email  jUaT3i9R8YwS@gmail.com
 
 [jsmao.xyz]
 time  1667954961.6953032
 sub_url  https://g1.subjsm.cyou/link/TlMa2WGqSNCoHfG6?sub=3
 node_n  33
 email  A9fwlNF36AwR@gmail.com
-error(download)  HTTPSConnectionPool(host='g1.subjsm.cyou', port=443): Max retries exceeded with url: /link/TlMa2WGqSNCoHfG6?sub=3 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:997)')))
 
 [paopaocloud.com]
 time  1667954961.6953032
@@ -60,10 +59,10 @@ node_n  14
 email  A9fwlNF36AwR@gmail.com
 
 [marslink.org]
-time  1668019757.103756
-sub_url  https://marslink.org/api/v1/client/subscribe?token=d04a6abfc6d905904fbdef055ddd84d7
+time  1668021743.4499002
+sub_url  https://marslink.org/api/v1/client/subscribe?token=b5807d2be640606e77c4af01de39cecf
 node_n  30
-email  87LigYjOqtHp@gmail.com
+email  jUaT3i9R8YwS@gmail.com
 
 [dageyun.net]
 time  1667993134.6294644
