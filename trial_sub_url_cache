@@ -27,6 +27,7 @@ time  1667954961.6953032
 sub_url  https://www.ckcloud.xyz/api/v1/client/subscribe?token=6e6d26a465d6097af64a6b10e60d4699
 node_n  26
 email  A9fwlNF36AwR@gmail.com
+error(download)  下载失败: not non-empty base64
 
 [www.wolaile.icu]
 time  1668009034.8313704
@@ -39,6 +40,7 @@ time  1667954961.6953032
 sub_url  https://g1.subjsm.cyou/link/TlMa2WGqSNCoHfG6?sub=3
 node_n  33
 email  A9fwlNF36AwR@gmail.com
+error(download)  HTTPSConnectionPool(host='g1.subjsm.cyou', port=443): Max retries exceeded with url: /link/TlMa2WGqSNCoHfG6?sub=3 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:997)')))
 
 [paopaocloud.com]
 time  1667954961.6953032
