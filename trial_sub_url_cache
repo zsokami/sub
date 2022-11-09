@@ -1,8 +1,8 @@
 [user.hdapi.work]
-time  1667989787.4284601
-sub_url  https://user.hdapi.work/api/v1/client/subscribe?token=1495a926a6e7697d96c29d922d41a5e8
+time  1667992182.2210684
+sub_url  https://user.hdapi.work/api/v1/client/subscribe?token=64c7d683500736b662e55f791b05f3c7
 node_n  26
-email  NZRZlaNoiPLB@gmail.com
+email  YhAThpW8mbGL@gmail.com
 
 [yifei999.com]
 time  1667980622.1649685
@@ -33,6 +33,7 @@ time  1667989787.4284601
 sub_url  https://www.yzhxr.vip/link/QKnbY7pczTjfgQ4D?sub=3
 node_n  18
 email  NZRZlaNoiPLB@gmail.com
+error(get_sub_url)  注册失败: {'ret': 0, 'msg': '请不要频繁注册账号！'}
 
 [jsmao.xyz]
 time  1667954961.6953032
@@ -59,10 +60,10 @@ node_n  14
 email  A9fwlNF36AwR@gmail.com
 
 [marslink.org]
-time  1667989787.4284601
-sub_url  https://marslink.org/api/v1/client/subscribe?token=8817fc4526ce2b2dbb7c145233024569
+time  1667992182.2210684
+sub_url  https://marslink.org/api/v1/client/subscribe?token=d1791802ad9fcebc52e7b0bfc729b860
 node_n  30
-email  NZRZlaNoiPLB@gmail.com
+email  YhAThpW8mbGL@gmail.com
 
 [dageyun.net]
 time  1667920396.6120415
