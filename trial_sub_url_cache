@@ -1,14 +1,14 @@
 [user.hdapi.work]
 time  1668009034.8313704
 sub_url  https://user.hdapi.work/api/v1/client/subscribe?token=63efe41c82e4481514a0f914deed0fb2
-node_n  27
+node_n  26
 email  veMuRB8UsQ2A@gmail.com
 
 [yifei999.com]
-time  1667995109.5001783
-sub_url  https://yifei999.com/api/v1/client/subscribe?token=2b7a9ef5b30557057f15e3209ef2596d
+time  1668010327.4680407
+sub_url  https://yifei999.com/api/v1/client/subscribe?token=03d62ee5243ed21ec4e5adee0151fe1a
 node_n  7
-email  3Id4yWLNXJri@gmail.com
+email  d5LFsS695qjB@gmail.com
 
 [fastestcloud.xyz]
 time  1667949665.266037
@@ -19,7 +19,7 @@ email  vdRlkwrTLXLK@gmail.com
 [feiniaoyun.top]
 time  1667979049.251392
 sub_url  https://feiniaoyun.top/api/v1/client/subscribe?token=af24be74b96b13a3803c0cc1767b2625
-node_n  69
+node_n  68
 email  7FlJ8J063IQj@gmail.com
 
 [www.ckcloud.xyz]
@@ -27,7 +27,6 @@ time  1667954961.6953032
 sub_url  https://www.ckcloud.xyz/api/v1/client/subscribe?token=6e6d26a465d6097af64a6b10e60d4699
 node_n  26
 email  A9fwlNF36AwR@gmail.com
-error(download)  下载失败: not non-empty base64
 
 [www.wolaile.icu]
 time  1668009034.8313704
@@ -40,7 +39,6 @@ time  1667954961.6953032
 sub_url  https://g1.subjsm.cyou/link/TlMa2WGqSNCoHfG6?sub=3
 node_n  33
 email  A9fwlNF36AwR@gmail.com
-error(download)  HTTPSConnectionPool(host='g1.subjsm.cyou', port=443): Max retries exceeded with url: /link/TlMa2WGqSNCoHfG6?sub=3 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:997)')))
 
 [paopaocloud.com]
 time  1667954961.6953032
@@ -69,7 +67,7 @@ email  veMuRB8UsQ2A@gmail.com
 [dageyun.net]
 time  1667993134.6294644
 sub_url  https://dageyun.net/api/v1/client/subscribe?token=2b0acdc01af09820955c9612efd17a94
-node_n  49
+node_n  48
 email  tSXkpbqfLnYb@gmail.com
 
 [speedcat.ws]
@@ -80,6 +78,6 @@ email  jhNXRtrnQoMX@gmail.com
 
 [purefast.net]
 email  lhPNc8tcTFUS@gmail.com
-time  1667923200.0
+time  1668009600.0
 sub_url  https://whoisyourdady.gfw-wdnmd.com/link/5xpODfN8pqMn83c5?sub=3
 node_n  20
