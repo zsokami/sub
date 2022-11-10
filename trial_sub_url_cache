@@ -40,6 +40,7 @@ time  1668099105.788806
 sub_url  https://g1.subjsm.cyou/link/3YkvTZvZ3XzX10BS?sub=3
 node_n  33
 email  MHtNKXAyxr9W@gmail.com
+error(download)  HTTPSConnectionPool(host='g1.subjsm.cyou', port=443): Max retries exceeded with url: /link/3YkvTZvZ3XzX10BS?sub=3 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:997)')))
 
 [paopaocloud.com]
 time  1668099105.788806
