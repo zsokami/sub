@@ -1,8 +1,8 @@
 [user.hdapi.work]
-time  1668056866.611472
-sub_url  https://user.hdapi.work/api/v1/client/subscribe?token=3f783d0f36d5e90e1f6bd6772c63f28f
+time  1668059159.3449564
+sub_url  https://user.hdapi.work/api/v1/client/subscribe?token=ffd1e6c85355a992c13cab2286fb05db
 node_n  26
-email  hkManyINUhds@gmail.com
+email  cwdzaiMewZF6@gmail.com
 
 [yifei999.com]
 time  1668056866.611472
@@ -29,16 +29,17 @@ node_n  26
 email  ZJ2ld00FjXGY@gmail.com
 
 [www.wolaile.icu]
-time  1668056866.611472
-sub_url  https://www.yzhxr.vip/link/6zWsCrwYoij8OAU3?sub=3
+time  1668059159.3449564
+sub_url  https://www.yzhxr.vip/link/0rctOkTbLlxqHkvw?sub=3
 node_n  18
-email  hkManyINUhds@gmail.com
+email  cwdzaiMewZF6@gmail.com
 
 [jsmao.xyz]
 time  1668027012.586279
 sub_url  https://g1.subjsm.cyou/link/00b25ooxRY692gp3?sub=3
 node_n  33
 email  ZJ2ld00FjXGY@gmail.com
+error(download)  HTTPSConnectionPool(host='g1.subjsm.cyou', port=443): Max retries exceeded with url: /link/00b25ooxRY692gp3?sub=3 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:997)')))
 
 [paopaocloud.com]
 time  1668027012.586279
@@ -59,10 +60,10 @@ node_n  14
 email  ZJ2ld00FjXGY@gmail.com
 
 [marslink.org]
-time  1668056866.611472
-sub_url  https://marslink.org/api/v1/client/subscribe?token=9643304d71d1546edfa2e243cdc30e7b
+time  1668059159.3449564
+sub_url  https://marslink.org/api/v1/client/subscribe?token=a53a41729833f2966c6c6b849f9eb53b
 node_n  30
-email  hkManyINUhds@gmail.com
+email  cwdzaiMewZF6@gmail.com
 
 [dageyun.net]
 time  1667993134.6294644
