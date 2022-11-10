@@ -70,6 +70,7 @@ time  1668065324.3950834
 sub_url  https://dageyun.net/api/v1/client/subscribe?token=087d2ef56a4963e76a5d94cb61b9eddb
 node_n  49
 email  IEFYniDC9MCS@gmail.com
+error(download)  下载失败: not non-empty base64
 
 [speedcat.ws]
 time  1667981748.2856228
