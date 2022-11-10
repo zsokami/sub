@@ -33,7 +33,7 @@ time  1668062370.3640962
 sub_url  https://www.yzhxr.vip/link/l7lMQDougkWORnB3?sub=3
 node_n  2
 email  gI0FykqeEFMt@gmail.com
-error(get_sub_url)  Expecting value: line 1 column 1 (char 0)
+error(get_sub_url)  Exceeded 30 redirects.
 
 [jsmao.xyz]
 time  1668099105.788806
