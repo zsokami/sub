@@ -19,14 +19,14 @@ email  OsK0nDxzBLON@gmail.com
 [feiniaoyun.top]
 time  1668052752.2067068
 sub_url  https://feiniaoyun.top/api/v1/client/subscribe?token=770e9ab313849aaab1ef75785f94e0d6
-node_n  55
+node_n  56
 email  GvwIK8RQz4u2@gmail.com
 
 [www.ckcloud.xyz]
-time  1668027012.586279
-sub_url  https://www.ckcloud.xyz/api/v1/client/subscribe?token=ef3690bc545fbc672b3c5bce504e6d43
+time  1668099105.788806
+sub_url  https://www.ckcloud.xyz/api/v1/client/subscribe?token=6b4a38e24ff93f34e1a4647419cf13b0
 node_n  26
-email  ZJ2ld00FjXGY@gmail.com
+email  MHtNKXAyxr9W@gmail.com
 
 [www.wolaile.icu]
 time  1668062370.3640962
@@ -36,16 +36,16 @@ email  gI0FykqeEFMt@gmail.com
 error(get_sub_url)  Exceeded 30 redirects.
 
 [jsmao.xyz]
-time  1668027012.586279
-sub_url  https://g1.subjsm.cyou/link/00b25ooxRY692gp3?sub=3
+time  1668099105.788806
+sub_url  https://g1.subjsm.cyou/link/3YkvTZvZ3XzX10BS?sub=3
 node_n  33
-email  ZJ2ld00FjXGY@gmail.com
+email  MHtNKXAyxr9W@gmail.com
 
 [paopaocloud.com]
-time  1668027012.586279
-sub_url  https://lting.cyou/link/I8QXv9rzsGIltrfr?sub=3
+time  1668099105.788806
+sub_url  https://lting.cyou/link/tQG4aM8MLaLUuuWi?sub=3
 node_n  126
-email  ZJ2ld00FjXGY@gmail.com
+email  MHtNKXAyxr9W@gmail.com
 
 [yungcun.cc]
 time  1668020200.1406589
@@ -54,10 +54,10 @@ node_n  31
 email  fruyLoffHQtG@gmail.com
 
 [www.zhenyejiedian.com]
-time  1668027012.586279
-sub_url  https://www.zhenyejiedian.com/api/v1/client/subscribe?token=66712511635b89b14e5c8d750e831cd5
+time  1668099105.788806
+sub_url  https://www.zhenyejiedian.com/api/v1/client/subscribe?token=cf2ce2cdcf5cd86b32786074bfe91634
 node_n  14
-email  ZJ2ld00FjXGY@gmail.com
+email  MHtNKXAyxr9W@gmail.com
 
 [marslink.org]
 time  1668097467.006396
@@ -79,8 +79,6 @@ email  jhNXRtrnQoMX@gmail.com
 
 [purefast.net]
 email  lhPNc8tcTFUS@gmail.com
-time  1668009600.0
+time  1668096000.0
 sub_url  https://whoisyourdady.gfw-wdnmd.com/link/5xpODfN8pqMn83c5?sub=3
 node_n  20
-error(get_sub_url)  Expecting value: line 1 column 1 (char 0)
-error(download)  下载失败: not non-empty base64
