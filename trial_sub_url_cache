@@ -1,8 +1,8 @@
 [user.hdapi.work]
-time  1668062370.3640962
-sub_url  https://user.hdapi.work/api/v1/client/subscribe?token=5b7b915abee2be1d13797257013d5a23
+time  1668064475.1295583
+sub_url  https://user.hdapi.work/api/v1/client/subscribe?token=fafc58a57e08cf0b3ff977af4af50711
 node_n  26
-email  gI0FykqeEFMt@gmail.com
+email  xvBzYJzJGDWp@gmail.com
 
 [yifei999.com]
 time  1668056866.611472
@@ -33,6 +33,7 @@ time  1668062370.3640962
 sub_url  https://www.yzhxr.vip/link/l7lMQDougkWORnB3?sub=3
 node_n  18
 email  gI0FykqeEFMt@gmail.com
+error(get_sub_url)  Exceeded 30 redirects.
 
 [jsmao.xyz]
 time  1668027012.586279
@@ -59,10 +60,10 @@ node_n  14
 email  ZJ2ld00FjXGY@gmail.com
 
 [marslink.org]
-time  1668062370.3640962
-sub_url  https://marslink.org/api/v1/client/subscribe?token=96bde7a56a24da599d19d4d3ace48609
+time  1668064475.1295583
+sub_url  https://marslink.org/api/v1/client/subscribe?token=bb57be8c7879d3c2d674677dfac1006e
 node_n  30
-email  gI0FykqeEFMt@gmail.com
+email  xvBzYJzJGDWp@gmail.com
 
 [dageyun.net]
 time  1667993134.6294644
