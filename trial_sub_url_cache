@@ -52,6 +52,7 @@ time  1668020200.1406589
 sub_url  https://yungcun.cc/api/v1/client/subscribe?token=424b7170dcece4a10ed0e3d25807fc61
 node_n  31
 email  fruyLoffHQtG@gmail.com
+error(get_sub_url)  注册失败: {'message': '邮箱后缀不处于白名单中'}
 
 [www.zhenyejiedian.com]
 time  1668099105.788806
