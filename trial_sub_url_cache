@@ -39,6 +39,7 @@ time  1668173015.197304
 sub_url  https://g1.subjsm.cyou/link/f4zAdyh1ZkvM4DBI?sub=3
 node_n  33
 email  HcL82QtpA3nd@gmail.com
+error(download)  HTTPSConnectionPool(host='g1.subjsm.cyou', port=443): Max retries exceeded with url: /link/f4zAdyh1ZkvM4DBI?sub=3 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:997)')))
 
 [paopaocloud.com]
 time  1668173015.197304
@@ -55,7 +56,7 @@ email  swbEaR6CqV2v@gmail.com
 [www.zhenyejiedian.com]
 time  1668173015.197304
 sub_url  https://www.zhenyejiedian.com/api/v1/client/subscribe?token=543ea338eb2f22b73b5f8ad1346e01b2
-node_n  10
+node_n  15
 email  HcL82QtpA3nd@gmail.com
 
 [marslink.org]
