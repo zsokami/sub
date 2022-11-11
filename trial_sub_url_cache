@@ -48,11 +48,10 @@ node_n  126
 email  MHtNKXAyxr9W@gmail.com
 
 [yungcun.cc]
-time  1668020200.1406589
-sub_url  https://yungcun.cc/api/v1/client/subscribe?token=424b7170dcece4a10ed0e3d25807fc61
+time  1668160023.6364007
+sub_url  https://yungcun.cc/api/v1/client/subscribe?token=9aae0896416e585d6b5438ee59dbf9bb
 node_n  31
-email  fruyLoffHQtG@gmail.com
-error(get_sub_url)  注册失败: {'message': '邮箱后缀不处于白名单中'}
+email  swbEaR6CqV2v@gmail.com
 
 [www.zhenyejiedian.com]
 time  1668099105.788806
