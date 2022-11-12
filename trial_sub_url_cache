@@ -11,10 +11,10 @@ node_n  7
 email  MzVC1JloBS0j@gmail.com
 
 [fastestcloud.xyz]
-time  1668166898.2946916
-sub_url  https://fastestcloud.xyz/api/v1/client/subscribe?token=c678323b8fb37f099827d3514733b290
+time  1668239183.1957273
+sub_url  https://fastestcloud.xyz/api/v1/client/subscribe?token=f4b269ae58019003d223df07b0e6afbc
 node_n  31
-email  euNdZlv3WSje@gmail.com
+email  pCNnY9urNTFO@gmail.com
 
 [feiniaoyun.top]
 time  1668196839.0261312
@@ -39,7 +39,6 @@ time  1668173015.197304
 sub_url  https://g1.subjsm.cyou/link/f4zAdyh1ZkvM4DBI?sub=3
 node_n  33
 email  HcL82QtpA3nd@gmail.com
-error(download)  HTTPSConnectionPool(host='g1.subjsm.cyou', port=443): Max retries exceeded with url: /link/f4zAdyh1ZkvM4DBI?sub=3 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:997)')))
 
 [paopaocloud.com]
 time  1668173015.197304
