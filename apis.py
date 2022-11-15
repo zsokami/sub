@@ -203,7 +203,7 @@ class TempEmail:
         with self.__lock:
             self.__queues.append((keyword, queue, time.time() + 60))
             if not self.__th:
-                self.__th = Thread(target=self.__run, args=(self,))
+                self.__th = Thread(target=self.__run)
                 self.__th.start()
         return queue.get()
 
