@@ -123,8 +123,9 @@ class SSPanelSession(Session):
             'email': email,
             'passwd': password or email.split('@')[0]
         })
-        print(self.host, '登录 content', res.content)
-        print(self.host, '登录 text', res.text)
+        print(self.host, '登录 cookie', self.cookies, self.cookies.get('email'))
+        print(self.host, '登录 content', res.content[:100])
+        print(self.host, '登录 text', res.text[:100])
         res = res.json()
         return res
 
