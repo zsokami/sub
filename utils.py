@@ -159,7 +159,7 @@ def rename(url: StrOrBytes, name: str) -> StrOrBytes:
         case 'vmess':
             j = json.loads(b64decode(url[8:]).decode())
             j['ps'] = name
-            url[8:] = b64encode(json.dumps(j, ensure_ascii=False, separators=(',', ':')).encode()).decode()
+            url = url[:8] + b64encode(json.dumps(j, ensure_ascii=False, separators=(',', ':')).encode()).decode()
         case 'ssr':
             split = urlsplit(url[:6] + _decode_ssr(url[6:]))
             q = parse_qs(split.query)
@@ -167,7 +167,7 @@ def rename(url: StrOrBytes, name: str) -> StrOrBytes:
             split = list(split)
             split[3] = urlencode(q, doseq=True, quote_via=quote)
             url = urlunsplit(split)
-            url[6:] = _encode_ssr(url[6:])
+            url = url[:6] + _encode_ssr(url[6:])
         case _:
             split = list(split)
             split[-1] = quote(name)
