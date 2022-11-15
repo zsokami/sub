@@ -133,10 +133,10 @@ def do_turn(session: V2BoardSession | SSPanelSession, opt: dict, cache: dict[str
 
     try:
         res = session.login(cache['email'][0])
-        if not res.get('data' if isinstance(session, V2BoardSession) else 'ret'):
-            raise Exception(res)
     except Exception as e:
-        raise Exception(f'登录失败: {e}')
+        raise Exception(f'发送登录请求失败: {e}')
+    if not res.get('data' if isinstance(session, V2BoardSession) else 'ret'):
+        raise Exception(f'登录失败: {res}')
 
 
 def get_nodes_v2board(host, opt: dict, cache: dict[str, list[str]]):
