@@ -106,7 +106,10 @@ class SSPanelSession(Session):
             'repasswd': password,
             **({'email_code': email_code} if email_code else {}),
             **({'invite_code': invite_code} if invite_code else {})
-        }).json()
+        })
+        print(self.host, '注册 content', res.content)
+        print(self.host, '注册 text', res.text)
+        res = res.json()
         if res['ret']:
             self.email = email
         return res
@@ -119,7 +122,10 @@ class SSPanelSession(Session):
         res = self.post('auth/login', data={
             'email': email,
             'passwd': password or email.split('@')[0]
-        }).json()
+        })
+        print(self.host, '登录 content', res.content)
+        print(self.host, '登录 text', res.text)
+        res = res.json()
         return res
 
     def send_email_code(self, email) -> dict:
