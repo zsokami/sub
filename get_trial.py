@@ -1,223 +1,281 @@
+from operator import itemgetter
 import re
-import time
 from base64 import b64decode, b64encode
 from concurrent.futures import ThreadPoolExecutor
+from datetime import timedelta
 from itertools import chain
-from urllib.parse import urljoin
+from time import time
 
-from bs4 import BeautifulSoup
-
-from temp_email_code import del_email, get_email, get_email_code
-from utils import (get_id, new_session, read, read_cfg, remove, remove_illegal,
-                   write, write_cfg)
+from apis import Session, SSPanelSession, TempEmail, V2BoardSession
+from utils import (get_id, get_name, read, read_cfg, remove, rename, size2str,
+                   str2timestamp, timestamp2str, to_zero, write, write_cfg)
 
 re_non_empty_base64 = re.compile(rb'^(?=[A-Za-z0-9+/]+={0,2}$)(?:.{4})+$')
 re_checked_in = re.compile(r'已经?签到')
-
-hosts_cfg = read_cfg('trial_hosts.cfg')
-sub_url_cache = read_cfg('trial_sub_url_cache', True)
-
-host_ops = {
-    host: dict(zip(ops[::2], ops[1::2]))
-    for host, _, *ops in chain(hosts_cfg['v2board'], hosts_cfg['sspanel'])
-}
-
-for host in [*sub_url_cache]:
-    if host not in host_ops:
-        remove(f'trials/{host}')
-        del sub_url_cache[host]
-
-
-def filter_expired(host_cfg):
-    now = time.time()
-    return [host for host, interval, *_ in host_cfg if host not in sub_url_cache or 'sub_url' not in sub_url_cache[host] or now - float(sub_url_cache[host]['time'][0]) > float(interval)]
-
-
-reg_v2board_hosts = filter_expired(hosts_cfg['v2board'])
-reg_sspanel_hosts = filter_expired(hosts_cfg['sspanel'])
+re_exclude = re.compile(r'剩余流量|套餐到期|过期时间|重置')
 
 
 # 注册/登录/解析/下载
 
 
-def get_sub_url_v2board(host):
-    base = 'https://' + host
-    session = new_session()
-    reg_once = host_ops[host].get('reg_once') == 'T'
+def should_turn(sub_info: dict, now, opt: dict, cache: dict[str, list[str]]):
+    return (
+        not sub_info
+        or opt.get('turn') == 'always'
+        or float(sub_info['total']) - (used := float(sub_info['upload']) + float(sub_info['download'])) < (used / 3 if 'reg_limit' in opt else (1 << 27))
+        or (opt.get('expire') != 'never' and 0 < str2timestamp(sub_info.get('expire')) - now < (now - str2timestamp(cache['time'][0]) if 'reg_limit' in opt else 1800))
+    )
+
+
+def check_and_write_content(host, content):
+    if not re_non_empty_base64.fullmatch(content):
+        raise Exception('no base64' if content else 'no content')
+    write(f'trials/{host}', content)
+
+
+def cache_sub_info(sub_info, opt: dict, cache: dict[str, list[str]]):
+    if not sub_info:
+        raise Exception('no sub_info')
+    used = float(sub_info["upload"]) + float(sub_info["download"])
+    total = float(sub_info["total"])
+    rest = ' (剩余 ' + size2str(total - used)
+    if opt.get('expire') == 'never' or not sub_info.get('expire'):
+        expire = '永不过期'
+    else:
+        ts = str2timestamp(sub_info['expire'])
+        expire = timestamp2str(ts)
+        rest += ' ' + str(timedelta(seconds=ts - time()))
+    rest += ')'
+    cache['sub_info'] = [size2str(used), size2str(total), expire, rest]
+
+
+def is_reg_ok(res: dict, s_key, m_key):
+    if res.get(s_key):
+        return True
+    if m_key in res:
+        return False
+    raise Exception(f'注册失败: {res}')
+
+
+def register(session: V2BoardSession | SSPanelSession, opt: dict):
+    s_key, m_key = ('data', 'message') if isinstance(session, V2BoardSession) else ('ret', 'msg')
+    invite_code = opt.get('invite_code')
+
+    res = session.register(get_id() + '@gmail.com', invite_code=invite_code)
+    if is_reg_ok(res, s_key, m_key):
+        return
+
+    if '邮箱后缀' in res[m_key]:
+        res = session.register(get_id() + '@qq.com', invite_code=invite_code)
+        if is_reg_ok(res, s_key, m_key):
+            return
+
+    if '邮箱验证码' in res[m_key]:
+        res = session.send_email_code(temp_email.get_email())
+        if not res.get(s_key):
+            raise Exception(f'发送邮箱验证码失败: {res}')
+
+        email_code = temp_email.get_email_code(session.host)
+        if not email_code:
+            raise Exception('获取邮箱验证码失败')
+
+        res = session.register(temp_email.get_email(), email_code=email_code, invite_code=invite_code)
+        if is_reg_ok(res, s_key, m_key):
+            return
+
+    raise Exception(f'注册失败: {res}')
+
+
+def try_checkin(session: SSPanelSession, opt: dict, cache: dict[str, list[str]]):
+    if opt.get('checkin') == 'T' and cache.get('email'):
+        last_checkin = to_zero(str2timestamp(cache['last_checkin'][0]))
+        now = time()
+        if now - last_checkin > 24 * 3600:
+            res = session.login(cache['email'][0])
+            if not res.get('ret'):
+                raise Exception(f'登录失败: {res}')
+            res = session.checkin()
+            if not (res.get('ret') or ('msg' in res and re_checked_in.search(res['msg']))):
+                raise Exception(f'签到失败: {res}')
+            cache['last_checkin'][0] = timestamp2str(now)
+    else:
+        cache.pop('last_checkin', None)
+
+
+def do_turn(session: V2BoardSession | SSPanelSession, opt: dict, cache: dict[str, list[str]]):
+    reg_limit = opt.get('reg_limit')
+    if not reg_limit:
+        register(session, opt)
+        cache['email'] = [session.email]
+        if opt.get('checkin') == 'T':
+            cache['last_checkin'] = ['0']
+    else:
+        if len(cache['email']) < int(reg_limit):
+            register(session, opt)
+            cache['email'].append(session.email)
+            if opt.get('checkin') == 'T':
+                cache['last_checkin'].append('0')
+        elif len(cache['email']) > int(reg_limit):
+            del cache['email'][:-int(reg_limit)]
+            if opt.get('checkin') == 'T':
+                del cache['last_checkin'][:-int(reg_limit)]
+
+        cache['email'] = cache['email'][-1:] + cache['email'][:-1]
+        if opt.get('checkin') == 'T':
+            cache['last_checkin'] = cache['last_checkin'][-1:] + cache['last_checkin'][:-1]
+
+    res = session.login(cache['email'][0])
+    if not res.get('data' if isinstance(session, V2BoardSession) else 'ret'):
+        raise Exception(f'登录失败: {res}')
+
+
+def get_nodes_v2board(host, opt: dict, cache: dict[str, list[str]]):
+    log = []
+    session = V2BoardSession(host)
+    turn = True
+
     try:
-        if not reg_once or 'email' not in sub_url_cache[host]:
-            id = get_id()
-            email = f'{id}@{host_ops[host].get("email domain") or "gmail.com"}'
-            res = session.post(urljoin(base, 'api/v1/passport/auth/register'), data={
-                'email': email,
-                'password': id,
-                **({'invite_code': host_ops[host]['invite_code']} if 'invite_code' in host_ops[host] else {})
-            }).json()
+        if 'sub_url' in cache:
+            now = time()
+            sub_info = session.get_sub_info(cache['sub_url'][0])
+            turn = should_turn(sub_info, now, opt, cache)
 
-            if 'data' not in res:
-                if 'message' not in res or '邮箱验证码' not in res['message']:
-                    raise Exception(f'注册失败: {res}')
-
-                email = get_email()
-                res = session.post(urljoin(base, 'api/v1/passport/comm/sendEmailVerify'), data={
-                    'email': email
-                }).json()
-                if not res.get('data'):
-                    raise Exception(f'发送邮箱验证码失败: {res}')
-
-                email_code = get_email_code(host)
-                if not email_code:
-                    raise Exception('获取邮箱验证码超时')
-
-                res = session.post(urljoin(base, 'api/v1/passport/auth/register'), data={
-                    'email': email,
-                    'password': email.split('@')[0],
-                    **({'invite_code': host_ops[host]['invite_code']} if 'invite_code' in host_ops[host] else {}),
-                    'email_code': email_code
-                }).json()
+        if turn:
+            do_turn(session, opt, cache)
+            if 'buy' in opt:
+                res = session.order_save(opt['buy'])
                 if 'data' not in res:
-                    raise Exception(f'注册失败: {res}')
+                    raise Exception(f'下单失败: {res}')
 
-            sub_url_cache[host]['email'] = [email]
-        else:
-            email = sub_url_cache[host]['email'][0]
-            res = session.post(urljoin(base, 'api/v1/passport/auth/login'), data={
-                'email': email,
-                'password': email.split('@')[0],
-            }).json()
+                res = session.order_checkout(res['data'])
+                if not res.get('data'):
+                    raise Exception(f'结账失败: {res}')
 
-            if 'data' not in res:
-                raise Exception(f'登录失败: {res}')
+            cache['sub_url'] = [session.get_sub_url()]
+            cache['time'] = [timestamp2str(time())]
+            log.append(f'更新订阅链接 {cache["sub_url"][0]}')
 
-        token = res['data']['token']
-
-        if 'buy' in host_ops[host]:
-            if 'v2board_session' not in session.cookies:
-                session.headers['authorization'] = res['data']['auth_data']
-
-            res = session.post(
-                urljoin(base, 'api/v1/user/order/save'),
-                data=host_ops[host]['buy'],
-                headers={'Content-Type': 'application/x-www-form-urlencoded'}
-            ).json()
-            if 'data' not in res:
-                raise Exception(f'下单失败: {res}')
-
-            res = session.post(
-                urljoin(base, 'api/v1/user/order/checkout'),
-                data=f'trade_no={res["data"]}&{host_ops[host]["checkout"]}',
-                headers={'Content-Type': 'application/x-www-form-urlencoded'}
-            ).json()
-            if not res.get('data'):
-                raise Exception(f'结账失败: {res}')
-
-        return None, urljoin(base, 'api/v1/client/subscribe?token=' + token), host
+        cache.pop('更新订阅链接失败', None)
     except Exception as e:
-        return e, base, host
+        cache['更新订阅链接失败'] = [e]
+        log.append(f'更新订阅链接失败 {host} {e}')
+
+    if 'sub_url' in cache:
+        try:
+            check_and_write_content(host, session.get_sub_content(cache['sub_url'][0]))
+            cache.pop('更新订阅失败', None)
+        except Exception as e:
+            cache['更新订阅失败'] = [e]
+            log.append(f'更新订阅失败 {host} {cache["sub_url"][0]} {e}')
+
+        try:
+            cache_sub_info(cache, session.get_sub_info(cache['sub_url'][0]) if turn else sub_info, opt, cache)
+            cache.pop('更新订阅信息失败', None)
+        except Exception as e:
+            cache['更新订阅信息失败'] = [e]
+            log.append(f'更新订阅信息失败 {host} {cache["sub_url"][0]} {e}')
+
+    return log
 
 
-def get_sub_url_sspanel(host):
-    base = 'https://' + host
-    session = new_session()
-    reg_once = host_ops[host].get('reg_once') == 'T'
+def get_nodes_sspanel(host, opt: dict, cache: dict[str, list[str]]):
+    log = []
+    session = SSPanelSession(host)
+    turn = True
+
     try:
-        if not reg_once or 'email' not in sub_url_cache[host]:
-            id = get_id()
-            email = f'{id}@{host_ops[host].get("email domain") or "gmail.com"}'
-            res = session.post(urljoin(base, 'auth/register'), data={
-                'email': email,
-                'passwd': id,
-                'repasswd': id,
-            }).json()
-            if res['ret'] == 0:
-                raise Exception(f'注册失败: {res}')
-
-            sub_url_cache[host]['email'] = [email]
-        else:
-            email = sub_url_cache[host]['email'][0]
-
-        if 'email' not in session.cookies:
-            res = session.post(urljoin(base, 'auth/login'), data={
-                'email': email,
-                'passwd': email.split('@')[0],
-            }).json()
-            if res['ret'] == 0:
-                raise Exception(f'登录失败: {res}')
-
-        if 'buy' in host_ops[host]:
-            res = session.post(
-                urljoin(base, 'user/buy'),
-                data=host_ops[host]['buy'],
-                headers={'Content-Type': 'application/x-www-form-urlencoded'}
-            ).json()
-            if res['ret'] == 0:
-                raise Exception(f'购买失败: {res}')
-
-        warning = None
-
-        if 'checkin' in host_ops[host]:
-            res = session.post(urljoin(base, 'user/checkin')).json()
-            if res['ret'] == 0:
-                if re_checked_in.search(res['msg']):
-                    warning = Warning(f'[警告] 签到失败: {res}')
-                else:
-                    raise Exception(f'签到失败: {res}')
-
-        return warning, (
-            BeautifulSoup(session.get(urljoin(base, 'user')).text, 'html.parser')
-            .select_one('[data-clipboard-text]')['data-clipboard-text']
-            .split('?')[0] + f'?{host_ops[host].get("sub") or "sub=3"}'
-        ), host
+        try_checkin(session, opt, cache)
     except Exception as e:
-        return e, base, host
+        log.append(f'尝试签到失败 {host} {e}')
 
-
-def download(path, url, host):
     try:
-        content = new_session().get(url).content
-        if not re_non_empty_base64.fullmatch(content):
-            raise Exception('下载失败: not non-empty base64')
-        write(path, content)
-        return None, path, url, host
+        if 'sub_url' in cache:
+            now = time()
+            sub_info, sub_content = session.get_sub(cache['sub_url'][0], opt.get('sub'))
+            turn = should_turn(sub_info, now, opt, cache)
+
+        if turn:
+            do_turn(session, opt, cache)
+            if 'buy' in opt:
+                res = session.buy(opt['buy'])
+                if not res.get('ret'):
+                    raise Exception(f'购买失败: {res}')
+
+            try:
+                try_checkin(session, opt, cache)
+            except Exception as e:
+                log.append(f'尝试签到失败 {host} {e}')
+
+            cache['sub_url'] = [session.get_sub_url(opt.get('sub'))]
+            cache['time'] = [timestamp2str(time())]
+            log.append(f'更新订阅链接 {cache["sub_url"][0]}')
+
+        cache.pop('更新订阅链接失败', None)
     except Exception as e:
-        return e, path, url, host
+        cache['更新订阅链接失败'] = [e]
+        log.append(f'更新订阅链接失败 {host} {e}')
+
+    if 'sub_url' in cache:
+        try:
+            if turn:
+                sub_info, sub_content = session.get_sub(cache['sub_url'][0], opt.get('sub'))
+            check_and_write_content(host, sub_content)
+            cache_sub_info(cache, sub_info, opt, cache)
+            cache.pop('更新订阅失败', None)
+        except Exception as e:
+            cache['更新订阅失败'] = [e]
+            log.append(f'更新订阅失败 {host} {cache["sub_url"][0]} {e}')
+
+    return log
 
 
-with ThreadPoolExecutor(32) as executor:
-    now = time.time()
-    for err, url, host in chain(executor.map(get_sub_url_v2board, reg_v2board_hosts), executor.map(get_sub_url_sspanel, reg_sspanel_hosts)):
-        if err:
-            print(err, url)
-        if err and not isinstance(err, Warning):
-            sub_url_cache[host]['error(get_sub_url)'] = [remove_illegal(err)]
-        else:
-            sub_url_cache[host].pop('error(get_sub_url)', None)
-            if 'sub_url' not in sub_url_cache[host] or url != sub_url_cache[host]['sub_url'][0]:
-                print('new sub url', host, url)
-            if 'checkin' in host_ops[host]:
-                past = float(host_ops[host]['checkin'])
-                update_time = (now - past) // 86400 * 86400 + past
-            else:
-                update_time = now
-            sub_url_cache[host].update(time=[update_time], sub_url=[url])
+def get_ip_info():
+    try:
+        return ['  '.join(Session().get_ip_info())]
+    except Exception as e:
+        return [f'获取 ip 信息失败 {e}']
 
-    if not del_email():
-        print('删除邮箱失败')
 
-    for err, path, url, host in executor.map(download, *zip(*((f'trials/{host}', item['sub_url'][0], host) for host, item in sub_url_cache.items() if 'sub_url' in item))):
-        if err:
-            print(err, host, url)
-        if err and not isinstance(err, Warning):
-            sub_url_cache[host]['error(download)'] = [remove_illegal(err)]
-        else:
-            sub_url_cache[host].pop('error(download)', None)
+cfg = read_cfg('trial.cfg')
 
-all_nodes = b''
-for host, item in sub_url_cache.items():
-    nodes = b64decode(read(f'trials/{host}', True))
-    item['node_n'] = [nodes.count(b'\n')]
-    all_nodes += nodes
+opt = {
+    host: dict(zip(opt[::2], opt[1::2]))
+    for host, *opt in chain(cfg['v2board'], cfg['sspanel'])
+}
 
-write('trial', b64encode(all_nodes))
+cache = read_cfg('trial.cache', True)
 
-write_cfg('trial_sub_url_cache', sub_url_cache)
+for host in [*cache]:
+    if host not in opt:
+        remove(f'trials/{host}')
+        del cache[host]
+
+with ThreadPoolExecutor(32) as executor, TempEmail() as temp_email:
+    f_ip_info = executor.submit(get_ip_info)
+    hosts = [host for host, *_ in cfg['v2board']]
+    getter = itemgetter(hosts)
+    m_v2board = executor.map(get_nodes_v2board, host, getter(opt), getter(cache))
+    hosts = [host for host, *_ in cfg['sspanel']]
+    getter = itemgetter(hosts)
+    m_sspanel = executor.map(get_nodes_sspanel, host, getter(opt), getter(cache))
+
+    for log in chain((f.result() for f in [f_ip_info]), m_v2board, m_sspanel):
+        for line in log:
+            print(line)
+
+nodes = b''
+total_node_n = 0
+for host, _opt in opt.items():
+    suffix = _opt["name"]
+    node_n = 0
+    for node in b64decode(read(f'trials/{host}', True)).splitlines():
+        name = get_name(node)
+        if not re_exclude.search(name):
+            nodes += rename(node, f'{name} - {suffix}') + b'\n'
+            node_n += 1
+    cache[host]['node_n'] = node_n
+    total_node_n += node_n
+
+print('总节点数', total_node_n)
+write('trial', b64encode(nodes))
+write_cfg('trial.cache', cache)
