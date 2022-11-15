@@ -185,7 +185,9 @@ def get_nodes_sspanel(host, opt: dict, cache: dict[str, list[str]]):
 
     try:
         try_checkin(session, opt, cache)
+        cache.pop('尝试签到失败', None)
     except Exception as e:
+        cache['尝试签到失败'] = [e]
         log.append(f'尝试签到失败 {host} {e}')
 
     try:
@@ -203,7 +205,9 @@ def get_nodes_sspanel(host, opt: dict, cache: dict[str, list[str]]):
 
             try:
                 try_checkin(session, opt, cache)
+                cache.pop('尝试签到失败', None)
             except Exception as e:
+                cache['尝试签到失败'] = [e]
                 log.append(f'尝试签到失败 {host} {e}')
 
             cache['sub_url'] = [session.get_sub_url(opt.get('sub'))]
