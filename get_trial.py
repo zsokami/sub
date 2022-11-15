@@ -88,6 +88,8 @@ def register(session: V2BoardSession | SSPanelSession, opt: dict):
 
 def try_checkin(session: SSPanelSession, opt: dict, cache: dict[str, list[str]]):
     if opt.get('checkin') == 'T' and cache.get('email'):
+        if not cache['last_checkin']:
+            cache['last_checkin'].append('0')
         last_checkin = to_zero(str2timestamp(cache['last_checkin'][0]))
         now = time()
         if now - last_checkin > 24 * 3600:
@@ -114,11 +116,11 @@ def do_turn(session: V2BoardSession | SSPanelSession, opt: dict, cache: dict[str
             register(session, opt)
             cache['email'].append(session.email)
             if opt.get('checkin') == 'T':
-                cache['last_checkin'].append('0')
+                cache['last_checkin'] += ['0'] * (len(cache['email']) - len(cache['last_checkin']))
         elif len(cache['email']) > int(reg_limit):
             del cache['email'][:-int(reg_limit)]
             if opt.get('checkin') == 'T':
-                del cache['last_checkin'][:-int(reg_limit)]
+                del cache['last_checkin'][:len(cache['email']) - int(reg_limit)]
 
         cache['email'] = cache['email'][-1:] + cache['email'][:-1]
         if opt.get('checkin') == 'T':
