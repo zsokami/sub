@@ -119,8 +119,6 @@ class SSPanelSession(Session):
             email = self.email
         if 'email' in self.cookies and email == unquote_plus(self.cookies.get('email')):
             return {'ret': 1}
-        if 'email' in self.cookies:
-            print(self, email, unquote_plus(self.cookies.get('email')), email == unquote_plus(self.cookies.get('email')))
         self.cookies.clear()
         res = self.post('auth/login', data={
             'email': email,

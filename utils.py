@@ -109,7 +109,7 @@ def get_id():
     global id
     with lock_id:
         if not id:
-            id = ''.join(random.choices(string.ascii_letters + string.digits, k=12))
+            id = ''.join(random.choices(string.ascii_lowercase + string.digits, k=random.randint(8, 15)))
             print('id:', id)
     return id
 
