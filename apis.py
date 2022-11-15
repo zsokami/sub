@@ -41,6 +41,7 @@ class V2BoardSession(Session):
                 self.headers['authorization'] = reg_info['data']['auth_data']
 
     def register(self, email: str, password=None, email_code=None, invite_code=None) -> dict:
+        self.cookies.clear()
         res = self.post('api/v1/passport/auth/register', data={
             'email': email,
             'password': password or email.split('@')[0],
@@ -53,6 +54,7 @@ class V2BoardSession(Session):
     def login(self, email: str = None, password=None) -> dict:
         if not email or email == getattr(self, 'email', None):
             return self.login_info
+        self.cookies.clear()
         res = self.post('api/v1/passport/auth/login', data={
             'email': email,
             'password': password or email.split('@')[0]
@@ -98,6 +100,7 @@ class V2BoardSession(Session):
 
 class SSPanelSession(Session):
     def register(self, email: str, password=None, email_code=None, invite_code=None) -> dict:
+        self.cookies.clear()
         password = password or email.split('@')[0]
         res = self.post('auth/register', data={
             'name': password,
@@ -114,8 +117,11 @@ class SSPanelSession(Session):
     def login(self, email: str = None, password=None) -> dict:
         if not email:
             email = self.email
-        if email == unquote_plus(self.cookies.get('email')):
+        if 'email' in self.cookies and email == unquote_plus(self.cookies.get('email')):
             return {'ret': 1}
+        if 'email' in self.cookies:
+            print(self, email, unquote_plus(self.cookies.get('email')), email == unquote_plus(self.cookies.get('email')))
+        self.cookies.clear()
         res = self.post('auth/login', data={
             'email': email,
             'passwd': password or email.split('@')[0]
