@@ -253,10 +253,10 @@ for host in [*cache]:
 with ThreadPoolExecutor(32) as executor, TempEmail() as temp_email:
     f_ip_info = executor.submit(get_ip_info)
     hosts = [host for host, *_ in cfg['v2board']]
-    getter = itemgetter(hosts)
+    getter = itemgetter(*hosts)
     m_v2board = executor.map(get_nodes_v2board, host, getter(opt), getter(cache))
     hosts = [host for host, *_ in cfg['sspanel']]
-    getter = itemgetter(hosts)
+    getter = itemgetter(*hosts)
     m_sspanel = executor.map(get_nodes_sspanel, host, getter(opt), getter(cache))
 
     for log in chain((f.result() for f in [f_ip_info]), m_v2board, m_sspanel):
