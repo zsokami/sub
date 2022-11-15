@@ -10,11 +10,12 @@ from pymailtm import Account, MailTm
 
 
 class Session(requests.Session):
-    def __init__(self, host=None):
+    def __init__(self, host=None, use_proxy=False):
         super().__init__()
-        # self.trust_env = False  # 禁用系统代理
-        # self.proxies['http'] = '127.0.0.1:7890'
-        # self.proxies['https'] = '127.0.0.1:7890'
+        if use_proxy:
+            self.trust_env = False  # 禁用系统代理
+            self.proxies['http'] = '127.0.0.1:7890'
+            self.proxies['https'] = '127.0.0.1:7890'
         self.headers['User-Agent'] = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36'
         self.base = 'https://' + host if host else ''
         self.host = host
