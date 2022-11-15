@@ -60,13 +60,18 @@ def is_reg_ok(res: dict, s_key, m_key):
 def register(session: V2BoardSession | SSPanelSession, opt: dict):
     s_key, m_key = ('data', 'message') if isinstance(session, V2BoardSession) else ('ret', 'msg')
     invite_code = opt.get('invite_code')
-
-    res = session.register(get_id() + '@gmail.com', invite_code=invite_code)
+    try:
+        res = session.register(get_id() + '@gmail.com', invite_code=invite_code)
+    except Exception as e:
+        raise Exception(f'发送注册请求失败: {e}')
     if is_reg_ok(res, s_key, m_key):
         return
 
     if '邮箱后缀' in res[m_key]:
-        res = session.register(get_id() + '@qq.com', invite_code=invite_code)
+        try:
+            res = session.register(get_id() + '@qq.com', invite_code=invite_code)
+        except Exception as e:
+            raise Exception(f'发送注册请求失败: {e}')
         if is_reg_ok(res, s_key, m_key):
             return
 
@@ -126,9 +131,12 @@ def do_turn(session: V2BoardSession | SSPanelSession, opt: dict, cache: dict[str
         if opt.get('checkin') == 'T':
             cache['last_checkin'] = cache['last_checkin'][-1:] + cache['last_checkin'][:-1]
 
-    res = session.login(cache['email'][0])
-    if not res.get('data' if isinstance(session, V2BoardSession) else 'ret'):
-        raise Exception(f'登录失败: {res}')
+    try:
+        res = session.login(cache['email'][0])
+        if not res.get('data' if isinstance(session, V2BoardSession) else 'ret'):
+            raise Exception(res)
+    except Exception as e:
+        raise Exception(f'登录失败: {e}')
 
 
 def get_nodes_v2board(host, opt: dict, cache: dict[str, list[str]]):
