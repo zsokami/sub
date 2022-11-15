@@ -169,7 +169,7 @@ def get_nodes_v2board(host, opt: dict, cache: dict[str, list[str]]):
             log.append(f'更新订阅失败 {host} {cache["sub_url"][0]} {e}')
 
         try:
-            cache_sub_info(cache, session.get_sub_info(cache['sub_url'][0]) if turn else sub_info, opt, cache)
+            cache_sub_info(session.get_sub_info(cache['sub_url'][0]) if turn else sub_info, opt, cache)
             cache.pop('更新订阅信息失败', None)
         except Exception as e:
             cache['更新订阅信息失败'] = [e]
@@ -220,7 +220,7 @@ def get_nodes_sspanel(host, opt: dict, cache: dict[str, list[str]]):
             if turn:
                 sub_info, sub_content = session.get_sub(cache['sub_url'][0], opt.get('sub'))
             check_and_write_content(host, sub_content)
-            cache_sub_info(cache, sub_info, opt, cache)
+            cache_sub_info(sub_info, opt, cache)
             cache.pop('更新订阅失败', None)
         except Exception as e:
             cache['更新订阅失败'] = [e]
