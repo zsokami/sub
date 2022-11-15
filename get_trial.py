@@ -109,16 +109,19 @@ def try_checkin(session: SSPanelSession, opt: dict, cache: dict[str, list[str]])
         cache.pop('last_checkin', None)
 
 
-def do_turn(session: V2BoardSession | SSPanelSession, opt: dict, cache: dict[str, list[str]]):
+def do_turn(session: V2BoardSession | SSPanelSession, opt: dict, cache: dict[str, list[str]]) -> bool:
+    is_new_reg = False
     reg_limit = opt.get('reg_limit')
     if not reg_limit:
         register(session, opt)
+        is_new_reg = True
         cache['email'] = [session.email]
         if opt.get('checkin') == 'T':
             cache['last_checkin'] = ['0']
     else:
         if len(cache['email']) < int(reg_limit):
             register(session, opt)
+            is_new_reg = True
             cache['email'].append(session.email)
             if opt.get('checkin') == 'T':
                 cache['last_checkin'] += ['0'] * (len(cache['email']) - len(cache['last_checkin']))
@@ -137,6 +140,7 @@ def do_turn(session: V2BoardSession | SSPanelSession, opt: dict, cache: dict[str
         raise Exception(f'发送登录请求失败: {e}')
     if not res.get('data' if isinstance(session, V2BoardSession) else 'ret'):
         raise Exception(f'登录失败: {res}')
+    return is_new_reg
 
 
 def get_nodes_v2board(host, opt: dict, cache: dict[str, list[str]]):
@@ -151,7 +155,7 @@ def get_nodes_v2board(host, opt: dict, cache: dict[str, list[str]]):
             turn = should_turn(sub_info, now, opt, cache)
 
         if turn:
-            do_turn(session, opt, cache)
+            is_new_reg = do_turn(session, opt, cache)
             if 'buy' in opt:
                 res = session.order_save(opt['buy'])
                 if 'data' not in res:
@@ -163,7 +167,7 @@ def get_nodes_v2board(host, opt: dict, cache: dict[str, list[str]]):
 
             cache['sub_url'] = [session.get_sub_url()]
             cache['time'] = [timestamp2str(time())]
-            log.append(f'更新订阅链接 {cache["sub_url"][0]}')
+            log.append(f'更新订阅链接{"(新注册)" if is_new_reg else ""} {cache["sub_url"][0]}')
 
         cache.pop('更新订阅链接失败', None)
     except Exception as e:
@@ -207,7 +211,7 @@ def get_nodes_sspanel(host, opt: dict, cache: dict[str, list[str]]):
             turn = should_turn(sub_info, now, opt, cache)
 
         if turn:
-            do_turn(session, opt, cache)
+            is_new_reg = do_turn(session, opt, cache)
             if 'buy' in opt:
                 res = session.buy(opt['buy'])
                 if not res.get('ret'):
@@ -222,7 +226,7 @@ def get_nodes_sspanel(host, opt: dict, cache: dict[str, list[str]]):
 
             cache['sub_url'] = [session.get_sub_url(opt.get('sub'))]
             cache['time'] = [timestamp2str(time())]
-            log.append(f'更新订阅链接 {cache["sub_url"][0]}')
+            log.append(f'更新订阅链接{"(新注册)" if is_new_reg else ""} {cache["sub_url"][0]}')
 
         cache.pop('更新订阅链接失败', None)
     except Exception as e:
