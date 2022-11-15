@@ -196,7 +196,7 @@ class TempEmail:
                     self.__account = None
                 return succeed
         self.__lock.release()
-        return False
+        return True
 
     def get_email_code(self, keyword) -> str | None:
         queue = Queue(1)
