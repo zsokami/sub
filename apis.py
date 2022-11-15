@@ -2,10 +2,10 @@ import re
 import time
 from queue import Queue
 from threading import RLock, Thread
-from urllib.parse import urljoin
-from bs4 import BeautifulSoup
+from urllib.parse import unquote_plus, urljoin
 
 import requests
+from bs4 import BeautifulSoup
 from pymailtm import Account, MailTm
 
 
@@ -106,10 +106,7 @@ class SSPanelSession(Session):
             'repasswd': password,
             **({'email_code': email_code} if email_code else {}),
             **({'invite_code': invite_code} if invite_code else {})
-        })
-        print(self.host, '注册 content', res.content)
-        print(self.host, '注册 text', res.text)
-        res = res.json()
+        }).json()
         if res['ret']:
             self.email = email
         return res
@@ -117,16 +114,12 @@ class SSPanelSession(Session):
     def login(self, email: str = None, password=None) -> dict:
         if not email:
             email = self.email
-        if email == self.cookies.get('email'):
+        if email == unquote_plus(self.cookies.get('email')):
             return {'ret': 1}
         res = self.post('auth/login', data={
             'email': email,
             'passwd': password or email.split('@')[0]
-        })
-        print(self.host, '登录 cookie', self.cookies, self.cookies.get('email'))
-        print(self.host, '登录 content', res.content[:100])
-        print(self.host, '登录 text', res.text[:100])
-        res = res.json()
+        }).json()
         return res
 
     def send_email_code(self, email) -> dict:
