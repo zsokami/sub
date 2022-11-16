@@ -291,6 +291,8 @@ for host, _opt in opt.items():
         if not re_exclude.search(name):
             nodes += rename(node, f'{name} - {suffix}') + b'\n'
             node_n += 1
+    if (d := node_n - (int(cache[host]['node_n'][0]) if 'node_n' in cache[host] else 0)) != 0:
+        print(f'{host} 节点数 {"+" if d > 0 else ""}{d} ({node_n})')
     cache[host]['node_n'] = node_n
     total_node_n += node_n
 
