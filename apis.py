@@ -64,15 +64,15 @@ class Session(requests.Session):
         url = urljoin(self.base, url)
         if not hasattr(self, 'chrome'):
             res = super().request(method, url, data=data, **kwargs)
-            my_res = Response(res.content, res.headers, res.status_code, res.reason)
+            res = Response(res.content, res.headers, res.status_code, res.reason)
             if (
                 not res.headers['Content-Type'].startswith('text/html')
-                or not my_res.content
-                or my_res.content[0] != b'<'
-                or not my_res.bs().title
-                or my_res.bs().title.text not in ('Just a moment...', '')
+                or not res.content
+                or res.content[0] != b'<'
+                or not res.bs().title
+                or res.bs().title.text not in ('Just a moment...', '')
             ):
-                return my_res
+                return res
             self.get_chrome().get(self.base)
             WebDriverWait(self.chrome, 15).until_not(any_of(title_is('Just a moment...'), title_is('')))
         headers = self.headers.copy()
