@@ -91,6 +91,7 @@ class Session(requests.Session):
                 options=options,
                 driver_executable_path=os.path.join(os.getenv('CHROMEWEBDRIVER'), 'chromedriver')
             )
+            self.chrome.set_page_load_timeout(15)
         return self.chrome
 
     def get_ip_info(self):
