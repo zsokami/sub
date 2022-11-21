@@ -51,27 +51,31 @@ class Session(requests.Session):
         if hasattr(self, 'chrome'):
             self.chrome.quit()
 
-    def head(self, url, *args, **kwargs) -> Response:
-        return super().head(url, *args, **kwargs)
+    def head(self, url, **kwargs) -> Response:
+        return super().head(url, **kwargs)
 
-    def get(self, url, *args, **kwargs) -> Response:
-        return super().get(url, *args, **kwargs)
+    def get(self, url, **kwargs) -> Response:
+        return super().get(url, **kwargs)
 
-    def post(self, url, data=None, *args, **kwargs) -> Response:
-        return super().post(url, data, *args, **kwargs)
+    def post(self, url, data=None, **kwargs) -> Response:
+        return super().post(url, data, **kwargs)
 
-    def request(self, method, url: str, data=None, *args, **kwargs):
+    def request(self, method, url: str, data=None, **kwargs):
         url = urljoin(self.base, url)
         if not hasattr(self, 'chrome'):
-            res = super().request(method, url, data=data, *args, **kwargs)
+            res = super().request(method, url, data=data, **kwargs)
             my_res = Response(res.content, res.headers, res.status_code, res.reason)
-            if not res.headers['Content-Type'].startswith('text/html') or my_res.bs().title.text not in ('Just a moment...', ''):
+            if not res.headers['Content-Type'].startswith('text/html') or not my_res.bs().title or my_res.bs().title.text not in ('Just a moment...', ''):
                 return my_res
             self.get_chrome().get(self.base)
             WebDriverWait(self.chrome, 15).until_not(any_of(title_is('Just a moment...'), title_is('')))
         headers = self.headers.copy()
         del headers['User-Agent']
-        body = repr(data if isinstance(data, str) else urlencode(data)) if data else "null"
+        if data:
+            headers['Content-Type'] = 'application/x-www-form-urlencoded'
+            body = repr(data if isinstance(data, str) else urlencode(data))
+        else:
+            body = 'null'
         content, header_list, status_code, reason = self.chrome.execute_script(f'''
             const res = await fetch({repr(url)}, {{ method: {repr(method)}, headers: {repr(headers)}, body: {body} }})
             return [new Int8Array(await res.arrayBuffer()), [...res.headers], res.status, res.statusText]
