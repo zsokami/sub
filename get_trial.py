@@ -97,7 +97,7 @@ def try_checkin(session: SSPanelSession, opt: dict, cache: dict[str, list[str]])
             cache['last_checkin'].append('0')
         last_checkin = to_zero(str2timestamp(cache['last_checkin'][0]))
         now = time()
-        if now - last_checkin > 24 * 3600:
+        if now - last_checkin > 24.5 * 3600:
             res = session.login(cache['email'][0])
             if not res.get('ret'):
                 raise Exception(f'登录失败: {res}')

@@ -1,26 +1,93 @@
+import json
+import os
 import re
-import time
 from queue import Queue
 from threading import RLock, Thread
-from urllib.parse import unquote_plus, urljoin
+from time import sleep, time
+from urllib.parse import unquote_plus, urlencode, urljoin
 
 import requests
 from bs4 import BeautifulSoup
 from pymailtm import Account, MailTm
+from requests.structures import CaseInsensitiveDict
+from selenium.webdriver.support.expected_conditions import any_of, title_is
+from selenium.webdriver.support.ui import WebDriverWait
+from undetected_chromedriver import Chrome, ChromeOptions
+
+
+class Response:
+    def __init__(self, content: bytes, headers: CaseInsensitiveDict[str], status_code: int, reason: str):
+        self.content = content
+        self.headers = headers
+        self.status_code = status_code
+        self.reason = reason
+
+    @property
+    def text(self):
+        if not hasattr(self, '__text'):
+            self.__text = self.content.decode()
+        return self.__text
+
+    def json(self):
+        if not hasattr(self, '__json'):
+            self.__json = json.loads(self.text)
+        return self.__json
+
+    def bs(self):
+        if not hasattr(self, '__bs'):
+            self.__bs = BeautifulSoup(self.text, 'html.parser')
+        return self.__bs
 
 
 class Session(requests.Session):
-    def __init__(self, host=None, use_proxy=False):
+    def __init__(self, host=None):
         super().__init__()
-        if use_proxy:
-            self.trust_env = False  # 禁用系统代理
-            self.proxies['http'] = self.proxies['https'] = '127.0.0.1:7890'
         self.headers['User-Agent'] = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36'
         self.base = 'https://' + host if host else ''
         self.host = host
 
-    def request(self, method, url, **kwargs):
-        return super().request(method, urljoin(self.base, url), **kwargs)
+    def close(self):
+        super().close()
+        if hasattr(self, 'chrome'):
+            self.chrome.quit()
+
+    def head(self, url, *args, **kwargs) -> Response:
+        return super().head(url, *args, **kwargs)
+
+    def get(self, url, *args, **kwargs) -> Response:
+        return super().get(url, *args, **kwargs)
+
+    def post(self, url, data=None, *args, **kwargs) -> Response:
+        return super().post(url, data, *args, **kwargs)
+
+    def request(self, method, url: str, data=None, *args, **kwargs):
+        url = urljoin(self.base, url)
+        if not hasattr(self, 'chrome'):
+            res = super().request(method, url, data=data, *args, **kwargs)
+            my_res = Response(res.content, res.headers, res.status_code, res.reason)
+            if not res.headers['Content-Type'].startswith('text/html') or my_res.bs().title.text not in ('Just a moment...', ''):
+                return my_res
+            self.get_chrome().get(self.base)
+            WebDriverWait(self.chrome, 15).until_not(any_of(title_is('Just a moment...'), title_is('')))
+        headers = self.headers.copy()
+        del headers['User-Agent']
+        body = repr(data if isinstance(data, str) else urlencode(data)) if data else "null"
+        content, header_list, status_code, reason = self.chrome.execute_script(f'''
+            const res = await fetch({repr(url)}, {{ method: {repr(method)}, headers: {repr(headers)}, body: {body} }})
+            return [new Int8Array(await res.arrayBuffer()), [...res.headers], res.status, res.statusText]
+        ''')
+        return Response(bytes(content), CaseInsensitiveDict(header_list), int(status_code), reason)
+
+    def get_chrome(self):
+        if not hasattr(self, 'chrome'):
+            options = ChromeOptions()
+            options.add_argument('--disable-web-security')
+            options.page_load_strategy = 'eager'
+            self.chrome = Chrome(
+                options=options,
+                driver_executable_path=os.path.join(os.getenv('CHROMEWEBDRIVER'), 'chromedriver')
+            )
+        return self.chrome
 
     def get_ip_info(self):
         """return (ip, 位置, 运营商)"""
@@ -42,7 +109,7 @@ class V2BoardSession(Session):
 
     def register(self, email: str, password=None, email_code=None, invite_code=None) -> dict:
         self.cookies.clear()
-        res = self.post('api/v1/passport/auth/register', data={
+        res = self.post('api/v1/passport/auth/register', {
             'email': email,
             'password': password or email.split('@')[0],
             **({'email_code': email_code} if email_code else {}),
@@ -55,7 +122,7 @@ class V2BoardSession(Session):
         if not email or email == getattr(self, 'email', None):
             return self.login_info
         self.cookies.clear()
-        res = self.post('api/v1/passport/auth/login', data={
+        res = self.post('api/v1/passport/auth/login', {
             'email': email,
             'password': password or email.split('@')[0]
         }).json()
@@ -63,19 +130,19 @@ class V2BoardSession(Session):
         return res
 
     def send_email_code(self, email) -> dict:
-        return self.post('api/v1/passport/comm/sendEmailVerify', data={
+        return self.post('api/v1/passport/comm/sendEmailVerify', {
             'email': email
         }).json()
 
     def order_save(self, data) -> dict:
         return self.post(
             'api/v1/user/order/save',
-            data=data,
+            data,
             headers={'Content-Type': 'application/x-www-form-urlencoded'}
         ).json()
 
     def order_checkout(self, trade_no, method=None) -> dict:
-        return self.post('api/v1/user/order/checkout', data={
+        return self.post('api/v1/user/order/checkout', {
             'trade_no': trade_no,
             **({'method': method} if method else {})
         }).json()
@@ -102,7 +169,7 @@ class SSPanelSession(Session):
     def register(self, email: str, password=None, email_code=None, invite_code=None) -> dict:
         self.cookies.clear()
         password = password or email.split('@')[0]
-        res = self.post('auth/register', data={
+        res = self.post('auth/register', {
             'name': password,
             'email': email,
             'passwd': password,
@@ -120,21 +187,21 @@ class SSPanelSession(Session):
         if 'email' in self.cookies and email == unquote_plus(self.cookies.get('email')):
             return {'ret': 1}
         self.cookies.clear()
-        res = self.post('auth/login', data={
+        res = self.post('auth/login', {
             'email': email,
             'passwd': password or email.split('@')[0]
         }).json()
         return res
 
     def send_email_code(self, email) -> dict:
-        return self.post('auth/send', data={
+        return self.post('auth/send', {
             'email': email
         }).json()
 
     def buy(self, data) -> dict:
         return self.post(
             'user/buy',
-            data=data,
+            data,
             headers={'Content-Type': 'application/x-www-form-urlencoded'}
         ).json()
 
@@ -142,7 +209,7 @@ class SSPanelSession(Session):
         return self.post('user/checkin').json()
 
     def get_sub_url(self, sub=None) -> str:
-        doc = BeautifulSoup(self.get('user').text, 'html.parser')
+        doc = self.get('user').bs()
         sub_url = doc.find(attrs={'data-clipboard-text': True})['data-clipboard-text']
         self.sub_url = f'{sub_url[:sub_url.index("?") + 1]}sub={sub or "3"}'
         return self.sub_url
@@ -205,7 +272,7 @@ class TempEmail:
     def get_email_code(self, keyword) -> str | None:
         queue = Queue(1)
         with self.__lock:
-            self.__queues.append((keyword, queue, time.time() + 60))
+            self.__queues.append((keyword, queue, time() + 60))
             if not self.__th:
                 self.__th = Thread(target=self.__run)
                 self.__th.start()
@@ -213,7 +280,7 @@ class TempEmail:
 
     def __run(self):
         while True:
-            time.sleep(1)
+            sleep(1)
             messages = self.__account.get_messages()
             with self.__lock:
                 new_len = 0
@@ -225,7 +292,7 @@ class TempEmail:
                             queue.put(m[0] if m else m)
                             break
                     else:
-                        if self.__del or time.time() > end_time:
+                        if self.__del or time() > end_time:
                             queue.put(None)
                         else:
                             self.__queues[new_len] = item
