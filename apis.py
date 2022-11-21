@@ -251,7 +251,7 @@ class TempEmail:
         with self.__lock_account:
             if not (account := self.__account):
                 account = self.__account = MailTm().get_account()
-                print('temp email:', account.address)
+                print('temp email:', account.address, account.password)
                 self.__del = False
         return account.address
 
