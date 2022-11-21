@@ -78,7 +78,7 @@ class Session(requests.Session):
             body = 'null'
         content, header_list, status_code, reason = self.chrome.execute_script(f'''
             const res = await fetch({repr(url)}, {{ method: {repr(method)}, headers: {repr(headers)}, body: {body} }})
-            return [new Int8Array(await res.arrayBuffer()), [...res.headers], res.status, res.statusText]
+            return [new Uint8Array(await res.arrayBuffer()), [...res.headers], res.status, res.statusText]
         ''')
         return Response(bytes(content), CaseInsensitiveDict(header_list), int(status_code), reason)
 
