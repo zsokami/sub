@@ -23,7 +23,7 @@ def should_turn(sub_info: dict, now, opt: dict, cache: dict[str, list[str]]):
         not sub_info
         or opt.get('turn') == 'always'
         or float(sub_info['total']) - (used := float(sub_info['upload']) + float(sub_info['download'])) < (used / 3 if 'reg_limit' in opt else (1 << 27))
-        or (opt.get('expire') != 'never' and sub_info.get('expire') and str2timestamp(sub_info.get('expire')) - now < (now - str2timestamp(cache['time'][0]) if 'reg_limit' in opt else 1800))
+        or (opt.get('expire') != 'never' and sub_info.get('expire') and str2timestamp(sub_info.get('expire')) - now < (now - str2timestamp(cache['time'][0]) if 'reg_limit' in opt else 3600))
     )
 
 
