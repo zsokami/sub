@@ -102,9 +102,11 @@ def try_checkin(session: SSPanelSession, opt: dict, cache: dict[str, list[str]])
             if not res.get('ret'):
                 raise Exception(f'登录失败: {res}')
             res = session.checkin()
-            if not (res.get('ret') or ('msg' in res and re_checked_in.search(res['msg']))):
-                raise Exception(f'签到失败: {res}')
-            cache['last_checkin'][0] = timestamp2str(now)
+            if not res.get('ret'):
+                if not ('msg' in res and re_checked_in.search(res['msg'])):
+                    raise Exception(f'签到失败: {res}')
+            else:
+                cache['last_checkin'][0] = timestamp2str(now)
     else:
         cache.pop('last_checkin', None)
 
