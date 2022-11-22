@@ -51,6 +51,14 @@ class Session(requests.Session):
         if hasattr(self, 'chrome'):
             self.chrome.quit()
 
+    def reset(self):
+        self.cookies.clear()
+        self.headers.pop('authorization', None)
+        if hasattr(self, 'chrome'):
+            self.chrome.delete_all_cookies()
+            for cookie in self.chrome_default_cookies:
+                self.chrome.add_cookie(cookie)
+
     def head(self, url, **kwargs) -> Response:
         return super().head(url, **kwargs)
 
@@ -75,8 +83,10 @@ class Session(requests.Session):
                 return res
             self.get_chrome().get(self.base)
             WebDriverWait(self.chrome, 15).until_not(any_of(title_is('Just a moment...'), title_is('')))
-        headers = self.headers.copy()
-        del headers['User-Agent']
+            self.chrome_default_cookies = self.chrome.get_cookies()
+        headers = CaseInsensitiveDict()
+        if 'authorization' in self.headers:
+            headers['authorization'] = self.headers['authorization']
         if data:
             headers['Content-Type'] = 'application/x-www-form-urlencoded'
             body = repr(data if isinstance(data, str) else urlencode(data))
@@ -119,7 +129,7 @@ class V2BoardSession(Session):
                 self.headers['authorization'] = reg_info['data']['auth_data']
 
     def register(self, email: str, password=None, email_code=None, invite_code=None) -> dict:
-        self.cookies.clear()
+        self.reset()
         res = self.post('api/v1/passport/auth/register', {
             'email': email,
             'password': password or email.split('@')[0],
@@ -132,7 +142,7 @@ class V2BoardSession(Session):
     def login(self, email: str = None, password=None) -> dict:
         if not email or email == getattr(self, 'email', None):
             return self.login_info
-        self.cookies.clear()
+        self.reset()
         res = self.post('api/v1/passport/auth/login', {
             'email': email,
             'password': password or email.split('@')[0]
@@ -178,7 +188,7 @@ class V2BoardSession(Session):
 
 class SSPanelSession(Session):
     def register(self, email: str, password=None, email_code=None, invite_code=None) -> dict:
-        self.cookies.clear()
+        self.reset()
         password = password or email.split('@')[0]
         res = self.post('auth/register', {
             'name': password,
@@ -197,7 +207,7 @@ class SSPanelSession(Session):
             email = self.email
         if 'email' in self.cookies and email == unquote_plus(self.cookies.get('email')):
             return {'ret': 1}
-        self.cookies.clear()
+        self.reset()
         res = self.post('auth/login', {
             'email': email,
             'passwd': password or email.split('@')[0]
