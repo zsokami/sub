@@ -68,7 +68,7 @@ class Session(requests.Session):
             if (
                 not res.headers['Content-Type'].startswith('text/html')
                 or not res.content
-                or res.content[0] != b'<'
+                or res.content[0] != 60
                 or not res.bs().title
                 or res.bs().title.text not in ('Just a moment...', '')
             ):
