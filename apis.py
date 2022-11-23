@@ -267,8 +267,9 @@ class TempEmail:
         return self
 
     def __exit__(self, *_):
-        if not self.del_email():
-            print('删除邮箱失败')
+        return
+        # if not self.del_email():
+        #     print('删除邮箱失败')
 
     def get_email(self) -> str:
         with self.__lock_account:
