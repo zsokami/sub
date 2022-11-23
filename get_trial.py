@@ -80,7 +80,7 @@ def register(session: V2BoardSession | SSPanelSession, opt: dict):
         if not res.get(s_key):
             raise Exception(f'发送邮箱验证码失败: {res}')
 
-        email_code = temp_email.get_email_code(session.host)
+        email_code = temp_email.get_email_code(opt['name'])
         if not email_code:
             raise Exception('获取邮箱验证码失败')
 
