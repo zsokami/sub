@@ -87,7 +87,12 @@ def register(session: V2BoardSession | SSPanelSession, opt: dict):
         if not email_code:
             raise Exception('获取邮箱验证码失败')
 
-        res = session.register(temp_email.get_email(), email_code=email_code, invite_code=invite_code)
+        res = session.register(
+            temp_email.get_email(),
+            email_code=email_code,
+            invite_code=invite_code,
+            email_code_key=opt.get('email_code_key')
+        )
         if is_reg_ok(res, s_key, m_key):
             return
 

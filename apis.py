@@ -187,7 +187,7 @@ class V2BoardSession(Session):
 
 
 class SSPanelSession(Session):
-    def register(self, email: str, password=None, email_code=None, invite_code=None) -> dict:
+    def register(self, email: str, password=None, email_code=None, invite_code=None, email_code_key=None) -> dict:
         self.reset()
         password = password or email.split('@')[0]
         res = self.post('auth/register', {
@@ -195,7 +195,7 @@ class SSPanelSession(Session):
             'email': email,
             'passwd': password,
             'repasswd': password,
-            **({'email_code': email_code} if email_code else {}),
+            **({email_code_key or 'email_code': email_code} if email_code else {}),
             **({'invite_code': invite_code} if invite_code else {})
         }).json()
         if res['ret']:
@@ -267,9 +267,8 @@ class TempEmail:
         return self
 
     def __exit__(self, *_):
-        return
-        # if not self.del_email():
-        #     print('删除邮箱失败')
+        if not self.del_email():
+            print('删除邮箱失败')
 
     def get_email(self) -> str:
         with self.__lock_account:
