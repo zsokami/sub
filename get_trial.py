@@ -1,9 +1,10 @@
-from operator import itemgetter
 import re
 from base64 import b64decode, b64encode
 from concurrent.futures import ThreadPoolExecutor
 from datetime import timedelta
 from itertools import chain
+from operator import itemgetter
+from random import choice
 from time import time
 
 from apis import Session, SSPanelSession, TempEmail, V2BoardSession
@@ -13,6 +14,8 @@ from utils import (get_id, get_name, read, read_cfg, remove, rename, size2str,
 re_non_empty_base64 = re.compile(rb'^(?=[A-Za-z0-9+/]+={0,2}$)(?:.{4})+$')
 re_checked_in = re.compile(r'已经?签到')
 re_exclude = re.compile(r'剩余流量|套餐到期|过期时间|重置')
+
+subconverters = [row[0] for row in read_cfg('subconverters.cfg')['default']]
 
 
 # 注册/登录/解析/下载
@@ -153,7 +156,10 @@ def get_nodes_v2board(host, opt: dict, cache: dict[str, list[str]]):
     try:
         if 'sub_url' in cache:
             now = time()
-            sub_info = session.get_sub_info(cache['sub_url'][0])
+            try:
+                sub_info = session.get_sub_info(cache['sub_url'][0])
+            except Exception as e:
+                raise Exception(f'更新订阅信息失败: {e}')
             turn = should_turn(sub_info, now, opt, cache)
 
         if turn:
@@ -194,6 +200,12 @@ def get_nodes_v2board(host, opt: dict, cache: dict[str, list[str]]):
     return log
 
 
+def cvt_to_b64_sub_url_if_clash(sub_url: str):
+    if 'clash' in sub_url[sub_url.index('?') + 1:]:
+        return f'https://{choice(subconverters)}/sub?target=mixed&emoji=false&url={sub_url}'
+    return sub_url
+
+
 def get_nodes_sspanel(host, opt: dict, cache: dict[str, list[str]]):
     log = []
     session = SSPanelSession(host)
@@ -209,7 +221,11 @@ def get_nodes_sspanel(host, opt: dict, cache: dict[str, list[str]]):
     try:
         if 'sub_url' in cache:
             now = time()
-            sub_info, sub_content = session.get_sub(cache['sub_url'][0], opt.get('sub'))
+            sub_url = cvt_to_b64_sub_url_if_clash(cache['sub_url'][0])
+            try:
+                sub_info, sub_content = session.get_sub(sub_url)
+            except Exception as e:
+                raise Exception(f'更新订阅失败: {e}')
             turn = should_turn(sub_info, now, opt, cache)
 
         if turn:
@@ -226,7 +242,7 @@ def get_nodes_sspanel(host, opt: dict, cache: dict[str, list[str]]):
                 cache['尝试签到失败'] = [e]
                 log.append(f'尝试签到失败 {host} {e}')
 
-            cache['sub_url'] = [session.get_sub_url(opt.get('sub'))]
+            cache['sub_url'] = [session.get_sub_url({k: opt[k] for k in opt.keys() & ('sub', 'clash')})]
             cache['time'] = [timestamp2str(time())]
             log.append(f'更新订阅链接{"(新注册)" if is_new_reg else ""} {cache["sub_url"][0]}')
 
@@ -238,13 +254,14 @@ def get_nodes_sspanel(host, opt: dict, cache: dict[str, list[str]]):
     if 'sub_url' in cache:
         try:
             if turn:
-                sub_info, sub_content = session.get_sub(cache['sub_url'][0], opt.get('sub'))
+                sub_url = cvt_to_b64_sub_url_if_clash(cache['sub_url'][0])
+                sub_info, sub_content = session.get_sub(sub_url)
             check_and_write_content(host, sub_content)
             cache_sub_info(sub_info, opt, cache)
             cache.pop('更新订阅失败', None)
         except Exception as e:
             cache['更新订阅失败'] = [e]
-            log.append(f'更新订阅失败 {host} {cache["sub_url"][0]} {e}')
+            log.append(f'更新订阅失败 {host} {sub_url} {e}')
 
     return log
 

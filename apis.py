@@ -229,17 +229,23 @@ class SSPanelSession(Session):
     def checkin(self) -> dict:
         return self.post('user/checkin').json()
 
-    def get_sub_url(self, sub=None) -> str:
+    def get_sub_url(self, params=None) -> str:
+        if not params:
+            params = 'sub=3'
+        elif isinstance(params, dict):
+            params = urlencode(params)
         doc = self.get('user').bs()
         sub_url = doc.find(attrs={'data-clipboard-text': True})['data-clipboard-text']
-        self.sub_url = f'{sub_url[:sub_url.index("?") + 1]}sub={sub or "3"}'
+        self.sub_url = f'{sub_url[:sub_url.index("?") + 1]}{params}'
         return self.sub_url
 
-    def get_sub(self, url=None, sub=None) -> tuple[dict, bytes]:
+    def get_sub(self, url=None, params=None) -> tuple[dict, bytes]:
         if not url:
-            url = getattr(self, 'sub_url', None) or self.get_sub_url(sub)
-        if sub:
-            url = f'{url[:url.index("?") + 1]}sub={sub}'
+            url = getattr(self, 'sub_url', None) or self.get_sub_url(params)
+        if params:
+            if isinstance(params, dict):
+                params = urlencode(params)
+            url = f'{url[:url.index("?") + 1]}{params}'
         res = self.get(url)
         info = dict(kv.split('=') for kv in res.headers['Subscription-Userinfo'].split('; '))
         return info, res.content
