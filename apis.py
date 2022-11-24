@@ -128,12 +128,12 @@ class V2BoardSession(Session):
             if 'v2board_session' not in self.cookies:
                 self.headers['authorization'] = reg_info['data']['auth_data']
 
-    def register(self, email: str, password=None, email_code=None, invite_code=None, email_code_key=None) -> dict:
+    def register(self, email: str, password=None, email_code=None, invite_code=None) -> dict:
         self.reset()
         res = self.post('api/v1/passport/auth/register', {
             'email': email,
             'password': password or email.split('@')[0],
-            **({email_code_key or 'email_code': email_code} if email_code else {}),
+            **({'email_code': email_code} if email_code else {}),
             **({'invite_code': invite_code} if invite_code else {})
         }).json()
         self.__set_auth(email, res)
@@ -187,11 +187,11 @@ class V2BoardSession(Session):
 
 
 class SSPanelSession(Session):
-    def register(self, email: str, password=None, email_code=None, invite_code=None, email_code_key=None) -> dict:
+    def register(self, email: str, password=None, email_code=None, invite_code=None, email_code_key=None, name_eq_email=None) -> dict:
         self.reset()
         password = password or email.split('@')[0]
         res = self.post('auth/register', {
-            'name': email,
+            'name': email if name_eq_email == 'T' else password,
             'email': email,
             'passwd': password,
             'repasswd': password,

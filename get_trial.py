@@ -62,9 +62,9 @@ def is_reg_ok(res: dict, s_key, m_key):
 
 def register(session: V2BoardSession | SSPanelSession, opt: dict):
     s_key, m_key = ('data', 'message') if isinstance(session, V2BoardSession) else ('ret', 'msg')
-    invite_code = opt.get('invite_code')
+    kwargs = {k: opt[k] for k in opt.keys() & ('invite_code', 'email_code_key', 'name_eq_email')}
     try:
-        res = session.register(get_id() + '@gmail.com', invite_code=invite_code)
+        res = session.register(get_id() + '@gmail.com', **kwargs)
     except Exception as e:
         raise Exception(f'发送注册请求失败: {e}')
     if is_reg_ok(res, s_key, m_key):
@@ -72,7 +72,7 @@ def register(session: V2BoardSession | SSPanelSession, opt: dict):
 
     if '邮箱后缀' in res[m_key]:
         try:
-            res = session.register(get_id() + '@qq.com', invite_code=invite_code)
+            res = session.register(get_id() + '@qq.com', **kwargs)
         except Exception as e:
             raise Exception(f'发送注册请求失败: {e}')
         if is_reg_ok(res, s_key, m_key):
@@ -87,12 +87,7 @@ def register(session: V2BoardSession | SSPanelSession, opt: dict):
         if not email_code:
             raise Exception('获取邮箱验证码失败')
 
-        res = session.register(
-            temp_email.get_email(),
-            email_code=email_code,
-            invite_code=invite_code,
-            email_code_key=opt.get('email_code_key')
-        )
+        res = session.register(temp_email.get_email(), email_code=email_code, **kwargs)
         if is_reg_ok(res, s_key, m_key):
             return
 
