@@ -33,8 +33,13 @@ def should_turn(sub_info: dict, now, opt: dict, cache: dict[str, list[str]]):
 def check_and_write_content(host, content):
     if not re_non_empty_base64.fullmatch(content):
         raise Exception('no base64' if content else 'no content')
-    nodes = {node for node in b64decode(content).splitlines() if not re_exclude.search(get_name(node))}
-    write(f'trials/{host}', b64encode(b'\n'.join(nodes) + b'\n'))
+    nodes = b''
+    node_set = set()
+    for node in b64decode(content).splitlines():
+        if not (node in node_set or re_exclude.search(get_name(node))):
+            node_set.add(node)
+            nodes += node + b'\n'
+    write(f'trials/{host}', b64encode(nodes))
 
 
 def cache_sub_info(sub_info, opt: dict, cache: dict[str, list[str]]):
