@@ -33,7 +33,8 @@ def should_turn(sub_info: dict, now, opt: dict, cache: dict[str, list[str]]):
 def check_and_write_content(host, content):
     if not re_non_empty_base64.fullmatch(content):
         raise Exception('no base64' if content else 'no content')
-    write(f'trials/{host}', content)
+    nodes = {node for node in b64decode(content).splitlines() if not re_exclude.search(get_name(node))}
+    write(f'trials/{host}', b64encode(b'\n'.join(nodes) + b'\n'))
 
 
 def cache_sub_info(sub_info, opt: dict, cache: dict[str, list[str]]):
@@ -302,12 +303,10 @@ nodes = b''
 total_node_n = 0
 for host, _opt in opt.items():
     suffix = _opt["name"]
-    node_n = 0
-    for node in b64decode(read(f'trials/{host}', True)).splitlines():
-        name = get_name(node)
-        if not re_exclude.search(name):
-            nodes += rename(node, f'{name} - {suffix}') + b'\n'
-            node_n += 1
+    cur_nodes = b64decode(read(f'trials/{host}', True)).splitlines()
+    node_n = len(cur_nodes)
+    for node in cur_nodes:
+        nodes += rename(node, f'{get_name(node)} - {suffix}') + b'\n'
     if (d := node_n - (int(cache[host]['node_n'][0]) if 'node_n' in cache[host] else 0)) != 0:
         print(f'{host} 节点数 {"+" if d > 0 else ""}{d} ({node_n})')
     cache[host]['node_n'] = node_n
