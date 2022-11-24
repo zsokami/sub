@@ -191,7 +191,7 @@ class SSPanelSession(Session):
         self.reset()
         password = password or email.split('@')[0]
         res = self.post('auth/register', {
-            'name': password,
+            'name': email,
             'email': email,
             'passwd': password,
             'repasswd': password,
