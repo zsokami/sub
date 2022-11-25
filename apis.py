@@ -187,16 +187,17 @@ class V2BoardSession(Session):
 
 
 class SSPanelSession(Session):
-    def register(self, email: str, password=None, email_code=None, invite_code=None, email_code_key=None, name_eq_email=None) -> dict:
+    def register(self, email: str, password=None, email_code=None, invite_code=None, name_eq_email=None, reg_fmt=None) -> dict:
         self.reset()
+        email_code_k, invite_code_k = ('email_code', 'invite_code') if reg_fmt == 'B' else ('emailcode', 'code')
         password = password or email.split('@')[0]
         res = self.post('auth/register', {
             'name': email if name_eq_email == 'T' else password,
             'email': email,
             'passwd': password,
             'repasswd': password,
-            **({email_code_key or 'email_code': email_code} if email_code else {}),
-            **({'invite_code': invite_code} if invite_code else {})
+            **({email_code_k: email_code} if email_code else {}),
+            **({invite_code_k: invite_code} if invite_code else {})
         }).json()
         if res['ret']:
             self.email = email

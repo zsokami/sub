@@ -68,7 +68,10 @@ def is_reg_ok(res: dict, s_key, m_key):
 
 def register(session: V2BoardSession | SSPanelSession, opt: dict):
     s_key, m_key = ('data', 'message') if isinstance(session, V2BoardSession) else ('ret', 'msg')
-    kwargs = {k: opt[k] for k in opt.keys() & ('invite_code', 'email_code_key', 'name_eq_email')}
+    kwargs = {k: opt[k] for k in opt.keys() & ('name_eq_email', 'reg_fmt')}
+    invite_code = opt.get('invite_code')
+    if isinstance(invite_code, str):
+        kwargs['invite_code'] = choice(invite_code.split())
     try:
         res = session.register(get_id() + '@gmail.com', **kwargs)
     except Exception as e:
