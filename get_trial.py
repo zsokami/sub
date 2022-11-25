@@ -100,7 +100,7 @@ def register(session: V2BoardSession | SSPanelSession, opt: dict):
         if is_reg_ok(res, s_key, m_key):
             return
 
-    raise Exception(f'注册失败: {res}')
+    raise Exception(f'注册失败: {res}{" " + kwargs.get("invite_code") if "邀请" in res[m_key] else ""}')
 
 
 def try_checkin(session: SSPanelSession, opt: dict, cache: dict[str, list[str]]):
