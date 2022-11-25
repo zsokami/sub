@@ -1,13 +1,13 @@
 import json
 import os
-import random
 import re
-import string
 from base64 import b64decode, b64encode, urlsafe_b64decode, urlsafe_b64encode
 from collections import defaultdict
 from datetime import datetime, timedelta, timezone
 from itertools import chain
 from math import log
+from random import choices, randint
+from string import ascii_lowercase
 from threading import RLock
 from typing import TypeVar
 from urllib.parse import (parse_qs, parse_qsl, quote, unquote_plus, urlencode,
@@ -109,7 +109,7 @@ def get_id():
     global id
     with lock_id:
         if not id:
-            id = ''.join(random.choices(string.ascii_lowercase + string.digits, k=random.randint(8, 15)))
+            id = f'{"".join(choices(ascii_lowercase, k=randint(7, 12)))}{randint(0, 999)}'
             print('id:', id)
     return id
 
