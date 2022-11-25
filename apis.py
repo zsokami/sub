@@ -4,7 +4,7 @@ import re
 from queue import Queue
 from threading import RLock, Thread
 from time import sleep, time
-from urllib.parse import unquote_plus, urlencode, urljoin
+from urllib.parse import parse_qsl, unquote_plus, urlencode, urljoin, urlsplit
 
 import requests
 from bs4 import BeautifulSoup
@@ -236,6 +236,10 @@ class SSPanelSession(Session):
             params = urlencode(params)
         doc = self.get('user').bs()
         sub_url = doc.find(attrs={'data-clipboard-text': True})['data-clipboard-text']
+        for k, v in parse_qsl(urlsplit(sub_url).query):
+            if k == 'url':
+                sub_url = v
+                break
         self.sub_url = f'{sub_url[:sub_url.index("?") + 1]}{params}'
         return self.sub_url
 
