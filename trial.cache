@@ -1,7 +1,7 @@
 [www.zhenyejiedian.com]
 email  y5asz0tyjumby@gmail.com
 node_n  10
-sub_info  59.22K  1G  2022-11-26 20:29:12+08:00  (剩余 1024M 19:45:16.701361)
+sub_info  59.22K  1G  2022-11-26 20:29:12+08:00  (剩余 1024M 19:32:43.354136)
 sub_url  https://www.zhenyejiedian.com/api/v1/client/subscribe?token=492f1a0703430a6251a4883d7d6bb866
 time  2022-11-25 20:29:13.007014+08:00
 
@@ -9,14 +9,14 @@ time  2022-11-25 20:29:13.007014+08:00
 email  unz5vonx@gmail.com
 last_checkin  2022-11-26 00:43:54.657753+08:00
 node_n  74
-sub_info  773M  5.616G  2022-11-27 22:19:04+08:00  (剩余 4.861G 1 day, 21:35:06.678737)
+sub_info  773.6M  5.616G  2022-11-27 22:19:04+08:00  (剩余 4.861G 1 day, 21:22:34.509337)
 sub_url  https://apiv2.pptiok2020.com/apiv2/jdsrakwnx7peiu7l?sub=2
 time  2022-11-24 22:19:05.263954+08:00
 
 [ckcloud.icu]
 email  importedmuesli3@karenkey.com
 node_n  8
-sub_info  386.2K  5G  2022-11-26 11:18:32+08:00  (剩余 5G 10:34:35.523478)
+sub_info  407.7K  5G  2022-11-26 11:18:32+08:00  (剩余 5G 10:22:01.960549)
 sub_url  https://ckcloud.icu/api/v1/client/subscribe?token=4fa0ce9f8b8a2f9950b84d1a6d3fc97f
 time  2022-11-25 23:18:33.695529+08:00
 
@@ -24,7 +24,7 @@ time  2022-11-25 23:18:33.695529+08:00
 email  culturedshads5@karenkey.com
 last_checkin  2022-11-26 00:43:54.659592+08:00
 node_n  90
-sub_info  166.2M  1.75G  2022-11-26 04:10:33+08:00  (剩余 1.588G 3:26:32.921166)
+sub_info  166.8M  1.75G  2022-11-26 04:10:33+08:00  (剩余 1.587G 3:13:59.604019)
 sub_url  https://network.ayucloud.nl/link/HJTnME2oIxlbqj5A?clash=1
 time  2022-11-25 04:10:36.129478+08:00
 
@@ -32,7 +32,7 @@ time  2022-11-25 04:10:36.129478+08:00
 email  ee0dl0w88ud@gmail.com
 last_checkin  2022-11-26 00:43:54.661706+08:00
 node_n  21
-sub_info  83.18M  11.02G  2022-11-26 13:58:32+08:00  (剩余 10.93G 13:14:34.473307)
+sub_info  83.31M  11.02G  2022-11-26 13:58:32+08:00  (剩余 10.93G 13:02:03.385011)
 sub_url  https://1.amazom.group/link/H0rajdhTwiydPDZs?sub=3
 time  2022-11-25 13:58:33.076740+08:00
 
@@ -40,7 +40,7 @@ time  2022-11-25 13:58:33.076740+08:00
 email  pq1u3dmqffx2@gmail.com
 last_checkin  2022-11-26 00:43:54.663227+08:00
 node_n  138
-sub_info  3.316G  5.517G  2022-11-27 15:41:25+08:00  (剩余 2.2G 1 day, 14:57:27.234626)
+sub_info  3.323G  5.517G  2022-11-27 15:41:25+08:00  (剩余 2.194G 1 day, 14:44:54.978222)
 sub_url  https://apiv2.lipulai.com/api_version2/lpyeqapbebxglcs8?sub=3
 time  2022-11-24 15:41:26.077788+08:00
 
@@ -52,3 +52,4 @@ sub_info  124.5M  5.354G  2022-11-26 01:30:14+08:00  (剩余 5.232G 1:11:56.1342
 sub_url  https://service-6tjm1nze.trafficmanager.net/sub?sub=2
 time  2022-11-26 00:44:16.339625+08:00
 更新订阅失败  'subscription-userinfo'
+更新订阅链接失败  更新订阅失败: 'subscription-userinfo'
