@@ -310,7 +310,9 @@ with ThreadPoolExecutor(32) as executor, TempEmail() as temp_email:
 nodes = b''
 total_node_n = 0
 for host, _opt in opt.items():
-    suffix = _opt["name"]
+    suffix = _opt['name']
+    if 'speed_limit' in _opt:
+        suffix += '⚠️限速' + _opt['speed_limit']
     cur_nodes = b64decode(read(f'trials/{host}', True)).splitlines()
     node_n = len(cur_nodes)
     for node in cur_nodes:
