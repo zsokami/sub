@@ -287,7 +287,7 @@ opt = {
     for host, *opt in chain(cfg['v2board'], cfg['sspanel'])
 }
 
-cache = read_cfg('trial.cache', True)
+cache = read_cfg('trial.cache', dict_items=True)
 
 for host in [*cache]:
     if host not in opt:
