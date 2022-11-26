@@ -1,14 +1,14 @@
 [www.zhenyejiedian.com]
 email  dezmptnjbdq852@gmail.com
 node_n  10
-sub_info  886.5M  1G  2022-11-27 19:30:28+08:00  (剩余 137.5M 16:54:20.481093)
+sub_info  886.9M  1G  2022-11-27 19:30:28+08:00  (剩余 137.1M 16:42:27.917964)
 sub_url  https://www.zhenyejiedian.com/api/v1/client/subscribe?token=a7fa923ddf31af773d3b154117a8b65c
 time  2022-11-26 19:30:28.751951+08:00
 
 [ckcloud.icu]
 email  vengefulrhino8@karenkey.com
 node_n  8
-sub_info  552.3M  5G  2022-11-27 09:40:44+08:00  (剩余 4.461G 7:04:35.462294)
+sub_info  553.8M  5G  2022-11-27 09:40:44+08:00  (剩余 4.459G 6:52:42.795037)
 sub_url  https://ckcloud.icu/api/v1/client/subscribe?token=8eec85fd5ffaa05d61990898fc6e4196
 time  2022-11-26 21:40:45.734394+08:00
 
@@ -16,15 +16,16 @@ time  2022-11-26 21:40:45.734394+08:00
 email  excludedheron2@karenkey.com
 last_checkin  2022-11-27 02:36:33.840418+08:00
 node_n  91
-sub_info  0B  1.09G  2022-11-28 02:36:32+08:00  (剩余 1.09G 23:59:53.359385)
+sub_info  0B  1.09G  2022-11-28 02:36:32+08:00  (剩余 1.09G 23:48:28.082182)
 sub_url  https://network.ayucloud.nl/link/JDA8EJtZV5qE08oh?clash=1
 time  2022-11-27 02:36:35.159746+08:00
+更新订阅链接失败  更新订阅失败: HTTPSConnectionPool(host='sub.id9.cc', port=443): Max retries exceeded with url: /sub?target=mixed&emoji=false&url=https://network.ayucloud.nl/link/JDA8EJtZV5qE08oh?clash=1 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:997)')))
 
 [shynia.com]
 email  rlyuf06uzinmf@gmail.com
 last_checkin  2022-11-27 00:43:22.225823+08:00
 node_n  21
-sub_info  1.136G  11.25G  2022-11-27 13:19:24+08:00  (剩余 10.11G 10:43:16.490332)
+sub_info  1.137G  11.25G  2022-11-27 13:19:24+08:00  (剩余 10.11G 10:31:23.526873)
 sub_url  https://1.amazom.group/link/h6rkExrn0hJihjqG?sub=3
 time  2022-11-26 13:19:25.506520+08:00
 
@@ -32,13 +33,13 @@ time  2022-11-26 13:19:25.506520+08:00
 email  solidwhiting5@karenkey.com
 last_checkin  2022-11-27 00:56:30.255524+08:00
 node_n  37
-sub_info  22.12M  5.213G  2022-11-28 00:56:30+08:00  (剩余 5.191G 22:20:21.042864)
+sub_info  24.07M  5.213G  2022-11-28 00:56:30+08:00  (剩余 5.189G 22:08:28.274463)
 sub_url  https://yysub.trafficmanager.net/link/Ja25HC5Qzfpvodqz?sub=2
 time  2022-11-27 00:56:31.677986+08:00
 
 [user.bafang.vip]
 email  jtkqvxg305@gmail.com
 node_n  28
-sub_info  1.257G  100G  2022-12-26 22:57:24+08:00  (剩余 98.74G 29 days, 20:21:13.986168)
+sub_info  1.26G  100G  2022-12-26 22:57:24+08:00  (剩余 98.74G 29 days, 20:09:21.279755)
 sub_url  https://www.bfyun.top/api/v1/client/subscribe?token=98fc24ac320897391e04583115ad622b
 time  2022-11-26 22:57:22.203099+08:00
