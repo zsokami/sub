@@ -309,19 +309,26 @@ with ThreadPoolExecutor(32) as executor, TempEmail() as temp_email:
 
 nodes = b''
 total_node_n = 0
+unlimited_speed_nodes = b''
+unlimited_speed_node_n = 0
 for host, _opt in opt.items():
-    suffix = _opt['name']
-    if 'speed_limit' in _opt:
-        suffix += '⚠️限速' + _opt['speed_limit']
     cur_nodes = b64decode(read(f'trials/{host}', True)).splitlines()
     node_n = len(cur_nodes)
-    for node in cur_nodes:
-        nodes += rename(node, f'{get_name(node)} - {suffix}') + b'\n'
     if (d := node_n - (int(cache[host]['node_n'][0]) if 'node_n' in cache[host] else 0)) != 0:
         print(f'{host} 节点数 {"+" if d > 0 else ""}{d} ({node_n})')
     cache[host]['node_n'] = node_n
+    suffix = _opt['name']
+    if 'speed_limit' in _opt:
+        suffix += '⚠️限速' + _opt['speed_limit']
+    cur_nodes = b'\n'.join(rename(node, f'{get_name(node)} - {suffix}') for node in cur_nodes) + b'\n'
+    nodes += cur_nodes
     total_node_n += node_n
+    if 'speed_limit' not in _opt:
+        unlimited_speed_nodes += cur_nodes
+        unlimited_speed_node_n += node_n
 
 print('总节点数', total_node_n)
+print('不限速节点数', unlimited_speed_node_n)
 write('trial', b64encode(nodes))
+write('trial_unlimited_speed', b64encode(unlimited_speed_nodes))
 write_cfg('trial.cache', cache)

@@ -45,10 +45,10 @@ def remove(path):
 # 自定义配置文件读写
 
 
-def read_cfg(path, dict_items=False):
+def read_cfg(path=None, text=None, dict_items=False):
     cfg = defaultdict((lambda: defaultdict(list)) if dict_items else list)
     g = cfg['default']
-    for m in re_cfg_item_or_k.finditer(read(path)):
+    for m in re_cfg_item_or_k.finditer(text or read(path)):
         vs = re_cfg_item_v_sep.split(m[1])
         m = re_cfg_k.fullmatch(vs[0])
         if m:
