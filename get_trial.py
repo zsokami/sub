@@ -17,6 +17,8 @@ re_exclude = re.compile(r'剩余流量|套餐到期|过期时间|重置')
 
 subconverters = [row[0] for row in read_cfg('subconverters.cfg')['default']]
 
+temp_email = TempEmail()
+
 
 # 注册/登录/解析/下载
 
@@ -294,7 +296,7 @@ for host in [*cache]:
         remove(f'trials/{host}')
         del cache[host]
 
-with ThreadPoolExecutor(32) as executor, TempEmail() as temp_email:
+with ThreadPoolExecutor(32) as executor:
     f_ip_info = executor.submit(get_ip_info)
     hosts = [host for host, *_ in cfg['v2board']]
     getter = itemgetter(*hosts)

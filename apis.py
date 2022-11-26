@@ -1,18 +1,21 @@
 import json
 import os
 import re
+from concurrent.futures import ThreadPoolExecutor
 from queue import Queue
+from random import choice
 from threading import RLock, Thread
 from time import sleep, time
 from urllib.parse import parse_qsl, unquote_plus, urlencode, urljoin, urlsplit
 
 import requests
 from bs4 import BeautifulSoup
-from pymailtm import Account, MailTm
 from requests.structures import CaseInsensitiveDict
 from selenium.webdriver.support.expected_conditions import any_of, title_is
 from selenium.webdriver.support.ui import WebDriverWait
 from undetected_chromedriver import Chrome, ChromeOptions
+
+from utils import get_id
 
 
 class Response:
@@ -37,6 +40,9 @@ class Response:
         if not hasattr(self, '__bs'):
             self.__bs = BeautifulSoup(self.text, 'html.parser')
         return self.__bs
+
+    def __str__(self):
+        return f'{self.status_code} {self.reason} {self.text}'
 
 
 class Session(requests.Session):
@@ -263,49 +269,33 @@ class TempEmail:
     def __init__(self):
         self.__lock_account = RLock()
         self.__lock = RLock()
-        self.__account: Account = None
-        self.__queues: list[tuple[str, Queue]] = []
-        self.__th: Thread = None
-        self.__del = True
-
-    def __enter__(self):
-        return self
-
-    def __exit__(self, *_):
-        if not self.del_email():
-            print('删除邮箱失败')
+        self.__queues: list[tuple[str, Queue, float]] = []
 
     def get_email(self) -> str:
         with self.__lock_account:
-            if not (account := self.__account):
-                account = self.__account = MailTm().get_account()
-                print('temp email:', account.address, account.password)
-                self.__del = False
-        return account.address
-
-    def del_email(self) -> bool:
-        self.__del = True
-        while True:
-            self.__lock.acquire()
-            th = self.__th
-            if not th:
-                break
-            self.__lock.release()
-            th.join()
-        with self.__lock_account:
-            if self.__account:
-                succeed = self.__account.delete_account()
-                if succeed:
-                    self.__account = None
-                return succeed
-        self.__lock.release()
-        return True
+            if not hasattr(self, '__address'):
+                session = Session('api.mail.gw')
+                r = session.get('domains')
+                if r.status_code != 200:
+                    raise Exception(f'获取邮箱域名失败: {r}')
+                domain = choice([item['domain'] for item in r.json()['hydra:member']])
+                account = {'address': f'{get_id()}@{domain}', 'password': get_id()}
+                r = session.post('accounts', json=account)
+                if r.status_code != 201:
+                    raise Exception(f'创建账户失败: {r}')
+                r = session.post('token', json=account)
+                if r.status_code != 200:
+                    raise Exception(f'获取 token 失败: {r}')
+                session.headers['Authorization'] = f'Bearer {r.json()["token"]}'
+                self.__session = session
+                self.__address = account['address']
+        return self.__address
 
     def get_email_code(self, keyword) -> str | None:
         queue = Queue(1)
         with self.__lock:
             self.__queues.append((keyword, queue, time() + 60))
-            if not self.__th:
+            if not hasattr(self, '__th'):
                 self.__th = Thread(target=self.__run)
                 self.__th.start()
         return queue.get()
@@ -313,23 +303,31 @@ class TempEmail:
     def __run(self):
         while True:
             sleep(1)
-            messages = self.__account.get_messages()
+            messages = []
+            session = self.__session
+            r = session.get('messages')
+            if r.status_code == 200:
+                items = r.json()['hydra:member']
+                if items:
+                    for r in ThreadPoolExecutor(len(items)).map(lambda item: session.get(f'messages/{item["id"]}'), items):
+                        if r.status_code == 200:
+                            messages.append(r.json()['text'])
             with self.__lock:
                 new_len = 0
                 for item in self.__queues:
                     keyword, queue, end_time = item
                     for message in messages:
-                        if keyword in message.text:
-                            m = re_email_code.search(message.text)
+                        if keyword in message:
+                            m = re_email_code.search(message)
                             queue.put(m[0] if m else m)
                             break
                     else:
-                        if self.__del or time() > end_time:
+                        if time() > end_time:
                             queue.put(None)
                         else:
                             self.__queues[new_len] = item
                             new_len += 1
                 del self.__queues[new_len:]
                 if new_len == 0:
-                    self.__th = None
+                    delattr(self, '__th')
                     break
