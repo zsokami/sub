@@ -319,7 +319,7 @@ for host, _opt in opt.items():
     cache[host]['node_n'] = node_n
     suffix = _opt['name']
     if 'speed_limit' in _opt:
-        suffix += '⚠️限速' + _opt['speed_limit']
+        suffix += ' ⚠️限速 ' + _opt['speed_limit']
     cur_nodes = b'\n'.join(rename(node, f'{get_name(node)} - {suffix}') for node in cur_nodes) + b'\n'
     nodes += cur_nodes
     total_node_n += node_n
