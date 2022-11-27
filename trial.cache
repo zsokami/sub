@@ -1,14 +1,14 @@
 [www.zhenyejiedian.com]
 email  uzpqremkmsfp368@gmail.com
 node_n  10
-sub_info  21.37M  1G  2022-11-28 04:41:37+08:00  (剩余 1003M 13:03:40.588436)
+sub_info  22.79M  1G  2022-11-28 04:41:37+08:00  (剩余 1001M 12:55:44.668174)
 sub_url  https://www.zhenyejiedian.com/api/v1/client/subscribe?token=63bc15063c609ebfdb7b01f44ca6ce0e
 time  2022-11-27 04:41:37.586274+08:00
 
 [ckcloud.icu]
 email  fnaogehbssyy432@bukhariansiddur.com
 node_n  8
-sub_info  0B  5G  2022-11-28 03:38:07+08:00  (剩余 5G 11:59:57.190953)
+sub_info  0B  5G  2022-11-28 03:38:07+08:00  (剩余 5G 11:52:13.137245)
 sub_url  https://ckcloud.icu/api/v1/client/subscribe?token=60def8a162e90df61caab7579750f2ca
 time  2022-11-27 15:38:08.845913+08:00
 
@@ -16,7 +16,7 @@ time  2022-11-27 15:38:08.845913+08:00
 email  excludedheron2@karenkey.com
 last_checkin  2022-11-27 02:36:33.840418+08:00
 node_n  91
-sub_info  92.27M  1.09G  2022-11-28 02:36:32+08:00  (剩余 1024M 10:58:30.484442)
+sub_info  97.11M  1.09G  2022-11-28 02:36:32+08:00  (剩余 1019M 10:50:32.307310)
 sub_url  https://network.ayucloud.nl/link/JDA8EJtZV5qE08oh?clash=1
 time  2022-11-27 02:36:35.159746+08:00
 
@@ -24,7 +24,7 @@ time  2022-11-27 02:36:35.159746+08:00
 email  nepppbmuog628@gmail.com
 last_checkin  2022-11-27 12:38:24.828897+08:00
 node_n  21
-sub_info  10.75M  10.75G  2022-11-28 12:38:24+08:00  (剩余 10.74G 21:00:26.968718)
+sub_info  11.63M  10.75G  2022-11-28 12:38:24+08:00  (剩余 10.74G 20:52:31.107011)
 sub_url  https://1.amazom.group/link/sWvPgoNoeJZZo65y?sub=3
 time  2022-11-27 12:38:25.540156+08:00
 
@@ -32,7 +32,7 @@ time  2022-11-27 12:38:25.540156+08:00
 email  solidwhiting5@karenkey.com
 last_checkin  2022-11-27 00:56:30.255524+08:00
 node_n  37
-sub_info  67.18M  5.213G  2022-11-28 00:56:30+08:00  (剩余 5.147G 9:18:31.750427)
+sub_info  69.13M  5.213G  2022-11-28 00:56:30+08:00  (剩余 5.145G 9:10:36.108657)
 sub_url  https://yysub.trafficmanager.net/link/Ja25HC5Qzfpvodqz?sub=2
 time  2022-11-27 00:56:31.677986+08:00
 
@@ -44,4 +44,4 @@ sub_url  https://www.bfyun.top/api/v1/client/subscribe?token=98fc24ac320897391e0
 time  2022-11-26 22:57:22.203099+08:00
 更新订阅信息失败  no sub_info
 更新订阅失败  no base64
-更新订阅链接失败  发送登录请求失败: Message:
+更新订阅链接失败  下单失败: {'message': '该优惠券每人只能用 1 次'}
