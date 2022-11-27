@@ -273,7 +273,7 @@ class TempEmail:
 
     def get_email(self) -> str:
         with self.__lock_account:
-            if not hasattr(self, '__address'):
+            if not hasattr(self, '_TempEmail__address'):
                 session = Session('api.mail.gw')
                 r = session.get('domains')
                 if r.status_code != 200:
@@ -295,7 +295,7 @@ class TempEmail:
         queue = Queue(1)
         with self.__lock:
             self.__queues.append((keyword, queue, time() + 60))
-            if not hasattr(self, '__th'):
+            if not hasattr(self, '_TempEmail__th'):
                 self.__th = Thread(target=self.__run)
                 self.__th.start()
         return queue.get()
@@ -329,5 +329,5 @@ class TempEmail:
                             new_len += 1
                 del self.__queues[new_len:]
                 if new_len == 0:
-                    delattr(self, '__th')
+                    delattr(self, '_TempEmail__th')
                     break
