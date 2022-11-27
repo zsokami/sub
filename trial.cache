@@ -1,22 +1,23 @@
 [www.zhenyejiedian.com]
 email  uzpqremkmsfp368@gmail.com
 node_n  10
-sub_info  0B  1G  2022-11-28 04:41:37+08:00  (剩余 1G 20:48:58.227620)
+sub_info  0B  1G  2022-11-28 04:41:37+08:00  (剩余 1G 19:29:02.881142)
 sub_url  https://www.zhenyejiedian.com/api/v1/client/subscribe?token=63bc15063c609ebfdb7b01f44ca6ce0e
 time  2022-11-27 04:41:37.586274+08:00
 
 [ckcloud.icu]
 email  vengefulrhino8@karenkey.com
 node_n  8
-sub_info  576.7M  5G  2022-11-27 09:40:44+08:00  (剩余 4.437G 1:48:04.002338)
+sub_info  675.2M  5G  2022-11-27 09:40:44+08:00  (剩余 4.341G 0:27:57.719385)
 sub_url  https://ckcloud.icu/api/v1/client/subscribe?token=8eec85fd5ffaa05d61990898fc6e4196
 time  2022-11-26 21:40:45.734394+08:00
+更新订阅链接失败  创建账户失败: 422 Unprocessable Entity {"@context":"\/contexts\/ConstraintViolationList","@type":"ConstraintViolationList","hydra:title":"An error occurred","hydra:description":"address: This value is already used.","violations":[{"propertyPath":"address","message":"This value is already used.","code":"23bd9dbf-6b9b-41cd-a99e-4844bcf3077f"}]}
 
 [bbs.cloudnetwork.pro]
 email  excludedheron2@karenkey.com
 last_checkin  2022-11-27 02:36:33.840418+08:00
 node_n  91
-sub_info  18.63M  1.09G  2022-11-28 02:36:32+08:00  (剩余 1.072G 18:43:49.185919)
+sub_info  18.63M  1.09G  2022-11-28 02:36:32+08:00  (剩余 1.072G 17:23:53.406457)
 sub_url  https://network.ayucloud.nl/link/JDA8EJtZV5qE08oh?clash=1
 time  2022-11-27 02:36:35.159746+08:00
 
@@ -24,7 +25,7 @@ time  2022-11-27 02:36:35.159746+08:00
 email  rlyuf06uzinmf@gmail.com
 last_checkin  2022-11-27 00:43:22.225823+08:00
 node_n  21
-sub_info  1.145G  11.25G  2022-11-27 13:19:24+08:00  (剩余 10.1G 5:26:44.971993)
+sub_info  1.145G  11.25G  2022-11-27 13:19:24+08:00  (剩余 10.1G 4:06:49.911557)
 sub_url  https://1.amazom.group/link/h6rkExrn0hJihjqG?sub=3
 time  2022-11-26 13:19:25.506520+08:00
 
@@ -32,13 +33,13 @@ time  2022-11-26 13:19:25.506520+08:00
 email  solidwhiting5@karenkey.com
 last_checkin  2022-11-27 00:56:30.255524+08:00
 node_n  37
-sub_info  38.39M  5.213G  2022-11-28 00:56:30+08:00  (剩余 5.175G 17:03:49.312616)
+sub_info  38.39M  5.213G  2022-11-28 00:56:30+08:00  (剩余 5.175G 15:43:49.506752)
 sub_url  https://yysub.trafficmanager.net/link/Ja25HC5Qzfpvodqz?sub=2
 time  2022-11-27 00:56:31.677986+08:00
 
 [user.bafang.vip]
 email  jtkqvxg305@gmail.com
-node_n  28
-sub_info  1.28G  100G  2022-12-26 22:57:24+08:00  (剩余 98.72G 29 days, 15:04:42.893675)
+node_n  27
+sub_info  1.28G  100G  2022-12-26 22:57:24+08:00  (剩余 98.72G 29 days, 13:44:47.288884)
 sub_url  https://www.bfyun.top/api/v1/client/subscribe?token=98fc24ac320897391e04583115ad622b
 time  2022-11-26 22:57:22.203099+08:00
