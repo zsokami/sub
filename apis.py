@@ -79,7 +79,7 @@ class Session(requests.Session):
         if not hasattr(self, 'chrome'):
             res = super().request(method, url, data=data, **kwargs)
             res = Response(res.content, res.headers, res.status_code, res.reason)
-            if (
+            if res.status_code != 403 and (
                 not res.headers['Content-Type'].startswith('text/html')
                 or not res.content
                 or res.content[0] != 60
@@ -87,7 +87,9 @@ class Session(requests.Session):
                 or res.bs().title.text not in ('Just a moment...', '')
             ):
                 return res
-            self.get_chrome().get(self.base)
+        cur_host = urlsplit(url).hostname
+        if urlsplit(self.get_chrome().current_url).hostname != cur_host:
+            self.chrome.get('https://' + cur_host)
             WebDriverWait(self.chrome, 15).until_not(any_of(title_is('Just a moment...'), title_is('')))
             self.chrome_default_cookies = self.chrome.get_cookies()
         headers = CaseInsensitiveDict()
