@@ -1,14 +1,14 @@
 [www.zhenyejiedian.com]
 email  ejqlhwyup892@gmail.com
 node_n  10
-sub_info  7.821M  1G  2022-12-02 17:32:57+08:00  (剩余 1016M 18:44:59.746600)
+sub_info  8.186M  1G  2022-12-02 17:32:57+08:00  (剩余 1016M 18:37:02.478599)
 sub_url  https://api.qingyuge.top/api/v1/client/subscribe?token=91bf54dba8bc0dcd12224512538536c3
 time  2022-12-01 17:32:57.357718+08:00
 
 [ckcloud.icu]
 email  upymnhqfkgov653@bukhariansiddur.com
 node_n  8
-sub_info  16.81M  5G  2022-12-02 08:59:46+08:00  (剩余 4.984G 10:11:48.060425)
+sub_info  18.32M  5G  2022-12-02 08:59:46+08:00  (剩余 4.982G 10:03:50.533319)
 sub_url  https://ckcloud.icu/api/v1/client/subscribe?token=189533c4b549fe6b670e58a11ad21dd5
 time  2022-12-01 20:59:47.520118+08:00
 
@@ -16,7 +16,7 @@ time  2022-12-01 20:59:47.520118+08:00
 email  zzrdaqy683@gmail.com
 last_checkin  2022-12-01 21:50:13.070623+08:00
 node_n  91
-sub_info  3.839M  1.041G  2022-12-02 21:50:11+08:00  (剩余 1.037G 23:02:11.747377)
+sub_info  9.166M  1.041G  2022-12-02 21:50:11+08:00  (剩余 1.032G 22:54:15.242481)
 sub_url  https://network.ayucloud.nl/link/qowCdfSdoExoslaZ?clash=1
 time  2022-12-01 21:50:15.332588+08:00
 
@@ -24,7 +24,7 @@ time  2022-12-01 21:50:15.332588+08:00
 email  qoqlyumksce777@gmail.com
 last_checkin  2022-12-01 11:02:33.935703+08:00
 node_n  24
-sub_info  2.812G  10.82G  2022-12-02 11:02:33+08:00  (剩余 8.01G 12:14:36.023722)
+sub_info  2.825G  10.82G  2022-12-02 11:02:33+08:00  (剩余 7.997G 12:06:38.501959)
 sub_url  https://1.amazom.group/link/EsYlLH4lFFynVM1o?sub=3
 time  2022-12-01 11:02:34.684141+08:00
 
@@ -32,7 +32,7 @@ time  2022-12-01 11:02:34.684141+08:00
 email  zzrdaqy683@bukhariansiddur.com
 last_checkin  2022-12-01 21:50:19.057579+08:00
 node_n  37
-sub_info  1.677M  5.325G  2022-12-02 21:50:18+08:00  (剩余 5.324G 23:02:19.558874)
+sub_info  3.732M  5.325G  2022-12-02 21:50:18+08:00  (剩余 5.322G 22:54:22.453138)
 sub_url  https://yysub.trafficmanager.net/link/2sssu2CBaqseer0p?sub=2
 time  2022-12-01 21:50:20.764140+08:00
 
@@ -42,6 +42,6 @@ node_n  62
 sub_info  0B  5G  2022-12-02 00:39:57+08:00  (剩余 5G 1:59:58.088166)
 sub_url  http://dd.cxld.sbs/api/v1/client/subscribe?token=69452c47328eccff58ff7c0b2b4e0f39
 time  2022-12-01 22:39:57.673919+08:00
-更新订阅信息失败  HTTPConnectionPool(host='dd.cxld.sbs', port=80): Max retries exceeded with url: /api/v1/client/subscribe?token=69452c47328eccff58ff7c0b2b4e0f39&flag=clash (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f5b92e4f130>, 'Connection to dd.cxld.sbs timed out. (connect timeout=None)'))
-更新订阅失败  HTTPConnectionPool(host='dd.cxld.sbs', port=80): Max retries exceeded with url: /api/v1/client/subscribe?token=69452c47328eccff58ff7c0b2b4e0f39 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f5b92e4c8e0>, 'Connection to dd.cxld.sbs timed out. (connect timeout=None)'))
-更新订阅链接失败  更新订阅信息失败: HTTPConnectionPool(host='dd.cxld.sbs', port=80): Max retries exceeded with url: /api/v1/client/subscribe?token=69452c47328eccff58ff7c0b2b4e0f39&flag=clash (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f5b92e4d000>, 'Connection to dd.cxld.sbs timed out. (connect timeout=None)'))
+更新订阅信息失败  HTTPConnectionPool(host='dd.cxld.sbs', port=80): Max retries exceeded with url: /api/v1/client/subscribe?token=69452c47328eccff58ff7c0b2b4e0f39&flag=clash (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7ff265cb0670>, 'Connection to dd.cxld.sbs timed out. (connect timeout=None)'))
+更新订阅失败  HTTPConnectionPool(host='dd.cxld.sbs', port=80): Max retries exceeded with url: /api/v1/client/subscribe?token=69452c47328eccff58ff7c0b2b4e0f39 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7ff265cb11e0>, 'Connection to dd.cxld.sbs timed out. (connect timeout=None)'))
+更新订阅链接失败  更新订阅信息失败: HTTPConnectionPool(host='dd.cxld.sbs', port=80): Max retries exceeded with url: /api/v1/client/subscribe?token=69452c47328eccff58ff7c0b2b4e0f39&flag=clash (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7ff265cb15d0>, 'Connection to dd.cxld.sbs timed out. (connect timeout=None)'))
