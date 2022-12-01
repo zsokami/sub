@@ -1,14 +1,14 @@
 [www.zhenyejiedian.com]
 email  ejqlhwyup892@gmail.com
 node_n  14
-sub_info  186M  1G  2022-12-02 17:32:57+08:00  (剩余 838M 10:53:36.616639)
+sub_info  186M  1G  2022-12-02 17:32:57+08:00  (剩余 838M 10:45:35.688359)
 sub_url  https://api.qingyuge.top/api/v1/client/subscribe?token=91bf54dba8bc0dcd12224512538536c3
 time  2022-12-01 17:32:57.357718+08:00
 
 [ckcloud.icu]
 email  upymnhqfkgov653@bukhariansiddur.com
 node_n  8
-sub_info  903.8M  5G  2022-12-02 08:59:46+08:00  (剩余 4.117G 2:20:24.632083)
+sub_info  903.8M  5G  2022-12-02 08:59:46+08:00  (剩余 4.117G 2:12:23.695410)
 sub_url  https://ckcloud.icu/api/v1/client/subscribe?token=189533c4b549fe6b670e58a11ad21dd5
 time  2022-12-01 20:59:47.520118+08:00
 
@@ -16,15 +16,16 @@ time  2022-12-01 20:59:47.520118+08:00
 email  zzrdaqy683@gmail.com
 last_checkin  2022-12-02 00:49:48.904369+08:00
 node_n  91
-sub_info  478.4M  1.729G  2022-12-02 21:50:11+08:00  (剩余 1.261G 15:10:49.257236)
+sub_info  478.4M  1.729G  2022-12-02 21:50:11+08:00  (剩余 1.261G 15:02:47.906645)
 sub_url  https://network.ayucloud.nl/link/qowCdfSdoExoslaZ?clash=1
 time  2022-12-01 21:50:15.332588+08:00
+更新订阅链接失败  更新订阅失败: HTTPSConnectionPool(host='clashapi.rokeyyan.com', port=443): Max retries exceeded with url: /sub?target=mixed&emoji=false&url=https://network.ayucloud.nl/link/qowCdfSdoExoslaZ?clash=1 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)')))
 
 [shynia.com]
 email  qoqlyumksce777@gmail.com
 last_checkin  2022-12-02 00:49:48.918965+08:00
 node_n  24
-sub_info  3.366G  10.94G  2022-12-02 11:02:33+08:00  (剩余 7.571G 4:23:12.588387)
+sub_info  3.366G  10.94G  2022-12-02 11:02:33+08:00  (剩余 7.571G 4:15:11.502106)
 sub_url  https://1.amazom.group/link/EsYlLH4lFFynVM1o?sub=3
 time  2022-12-01 11:02:34.684141+08:00
 
@@ -32,13 +33,13 @@ time  2022-12-01 11:02:34.684141+08:00
 email  zzrdaqy683@bukhariansiddur.com
 last_checkin  2022-12-02 00:49:48.920280+08:00
 node_n  37
-sub_info  98.16M  5.541G  2022-12-02 21:50:18+08:00  (剩余 5.445G 15:10:56.422681)
+sub_info  98.16M  5.541G  2022-12-02 21:50:18+08:00  (剩余 5.445G 15:02:55.523103)
 sub_url  https://yysub.trafficmanager.net/link/2sssu2CBaqseer0p?sub=2
 time  2022-12-01 21:50:20.764140+08:00
 
 [user.bafang.vip]
 email  xlkniyp426@gmail.com
 node_n  67
-sub_info  0B  5G  2022-12-02 08:18:04+08:00  (剩余 5G 1:38:42.590028)
+sub_info  0B  5G  2022-12-02 08:18:04+08:00  (剩余 5G 1:30:41.587570)
 sub_url  https://www.bfyun.top/api/v1/client/subscribe?token=7286121aa4f42c2200d18872f2c999bc
 time  2022-12-02 06:18:05.224827+08:00
