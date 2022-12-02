@@ -234,7 +234,7 @@ def get_nodes_sspanel(host, opt: dict, cache: dict[str, list[str]]):
             try:
                 sub_info, sub_content = session.get_sub(sub_url)
             except Exception as e:
-                raise Exception(f'更新订阅失败: {e}')
+                raise Exception(f'更新订阅失败: {sub_url} {e}')
             turn = should_turn(sub_info, now, opt, cache)
 
         if turn:
