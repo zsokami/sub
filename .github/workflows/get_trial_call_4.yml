@@ -5,4 +5,3 @@ on:
 jobs:
   call_4:
     uses: ./.github/workflows/get_trial.yml
-    concurrency: ${{ github.ref }}
