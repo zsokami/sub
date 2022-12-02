@@ -27,17 +27,17 @@ class Response:
 
     @property
     def text(self):
-        if not hasattr(self, '__text'):
+        if not hasattr(self, '_Response__text'):
             self.__text = self.content.decode()
         return self.__text
 
     def json(self):
-        if not hasattr(self, '__json'):
+        if not hasattr(self, '_Response__json'):
             self.__json = json.loads(self.text)
         return self.__json
 
     def bs(self):
-        if not hasattr(self, '__bs'):
+        if not hasattr(self, '_Response__bs'):
             self.__bs = BeautifulSoup(self.text, 'html.parser')
         return self.__bs
 
