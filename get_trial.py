@@ -211,7 +211,7 @@ def get_nodes_v2board(host, opt: dict, cache: dict[str, list[str]]):
 
 def cvt_to_b64_sub_url_if_clash(sub_url: str):
     if 'clash' in sub_url[sub_url.index('?') + 1:]:
-        return f'https://{choice(subconverters)}/sub?target=mixed&emoji=false&url={sub_url}'
+        return f'https://{choice(subconverters)}/sub?target=mixed&add_emoji=false&remove_emoji=false&url={sub_url}'
     return sub_url
 
 
