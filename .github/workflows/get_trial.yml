@@ -1,8 +1,9 @@
 name: get_trial.py
 on:
+  workflow_call:
   workflow_dispatch:
   schedule:
-    - cron: '3/5 * * * *'
+    - cron: 1/15 * * * *
 jobs:
   main:
     runs-on: ubuntu-latest
