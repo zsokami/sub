@@ -2,6 +2,7 @@ name: get_trial.py
 on:
   schedule:
     - cron: 13/15 * * * *
+concurrency: ${{ github.ref }}
 jobs:
   call_4:
     uses: ./.github/workflows/get_trial.yml

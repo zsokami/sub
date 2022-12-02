@@ -1,8 +1,9 @@
 name: get_trial.py
 on:
+  workflow_dispatch:
   schedule:
-    - cron: 10/15 * * * *
+    - cron: 1/15 * * * *
 concurrency: ${{ github.ref }}
 jobs:
-  call_3:
+  call_0:
     uses: ./.github/workflows/get_trial.yml

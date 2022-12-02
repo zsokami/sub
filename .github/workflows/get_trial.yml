@@ -1,13 +1,9 @@
 name: get_trial.py
 on:
   workflow_call:
-  workflow_dispatch:
-  schedule:
-    - cron: 1/15 * * * *
 jobs:
   main:
     runs-on: ubuntu-latest
-    concurrency: ${{ github.ref }}
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-python@v4
