@@ -1,7 +1,7 @@
 name: get_trial.py
 on:
   schedule:
-    - cron: 7/15 * * * *
+    - cron: 13/30 * * * *
 concurrency: ${{ github.ref }}
 jobs:
   call_2:
