@@ -1,25 +1,23 @@
 [www.zhenyejiedian.com]
 email  djrahesh179@gmail.com
 node_n  9
-sub_info  1.572M  1G  2022-12-07 17:28:15+08:00  (剩余 1022M 16:57:25.411691)
+sub_info  1.646M  1G  2022-12-07 17:28:15+08:00  (剩余 1022M 16:54:00.758164)
 sub_url  https://api.qingyuge.top/api/v1/client/subscribe?token=f7ad0ff8a6203cd0b34c0ad564882241
 time  2022-12-06 17:28:15.422132+08:00
 
 [ckcloud.icu]
 email  rgvbnhrm830@bukhariansiddur.com
 node_n  8
-sub_info  21.03M  5G  2022-12-07 10:45:36+08:00  (剩余 4.979G 10:46:28.859850)
+sub_info  4.497M  5G  2022-12-07 10:45:36+08:00  (剩余 4.996G 10:09:11.401813)
 sub_url  https://ckcloud.icu/api/v1/client/subscribe?token=75da0cabd3bdf8229d739b9069dbc317
 time  2022-12-06 22:45:36.813355+08:00
-更新订阅信息失败  no sub_info
-更新订阅失败  no base64
-更新订阅链接失败  发送注册请求失败: Expecting value: line 1 column 1 (char 0)
+更新订阅链接失败  更新订阅信息失败: HTTPSConnectionPool(host='ckcloud.icu', port=443): Max retries exceeded with url: /api/v1/client/subscribe?token=75da0cabd3bdf8229d739b9069dbc317&flag=clash (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7fcc4cfa7790>, 'Connection to ckcloud.icu timed out. (connect timeout=None)'))
 
 [bbs.cloudnetwork.pro]
 email  tuqmugisefx120@gmail.com
 last_checkin  2022-12-07 00:30:48.685172+08:00
 node_n  91
-sub_info  116M  1.718G  2022-12-07 18:22:38+08:00  (剩余 1.604G 17:51:43.019221)
+sub_info  117.8M  1.718G  2022-12-07 18:22:38+08:00  (剩余 1.603G 17:48:22.896494)
 sub_url  https://network.ayucloud.nl/link/D4oJfMsTGCYLWxQ9?clash=1
 time  2022-12-06 18:22:41.426338+08:00
 
@@ -27,7 +25,7 @@ time  2022-12-06 18:22:41.426338+08:00
 email  eniqnxb47@gmail.com
 last_checkin  2022-12-07 00:30:48.687363+08:00
 node_n  24
-sub_info  169.2M  11.44G  2022-12-07 20:42:05+08:00  (剩余 11.27G 20:11:14.571744)
+sub_info  169.8M  11.44G  2022-12-07 20:42:05+08:00  (剩余 11.27G 20:07:49.953001)
 sub_url  https://1.amazom.group/link/4AJ4Q9bsoWBTOr9G?sub=3
 time  2022-12-06 20:42:06.217169+08:00
 
@@ -35,20 +33,20 @@ time  2022-12-06 20:42:06.217169+08:00
 email  eniqnxb47@bukhariansiddur.com
 last_checkin  2022-12-07 00:30:48.689038+08:00
 node_n  37
-sub_info  33.73M  5.4G  2022-12-07 20:42:17+08:00  (剩余 5.367G 20:11:15.737220)
+sub_info  35.02M  5.4G  2022-12-07 20:42:17+08:00  (剩余 5.366G 20:07:57.850152)
 sub_url  https://yysub.trafficmanager.net/link/afdZCgdydXo7KpUl?sub=2
 time  2022-12-06 20:42:19.008855+08:00
 
 [user.bafang.vip]
 email  frzuoyiuoxyw159@gmail.com
 node_n  43
-sub_info  0B  5G  2022-12-07 01:22:13+08:00  (剩余 5G 0:51:22.585234)
+sub_info  0B  5G  2022-12-07 01:22:13+08:00  (剩余 5G 0:47:58.091542)
 sub_url  http://dd.cxld.sbs/api/v1/client/subscribe?token=5deea92aa04390d698f8841a3dcac991
 time  2022-12-06 23:22:14.230366+08:00
 
 [cloud.hhygj.xyz]
 email  frzuoyiuoxyw159@gmail.com
 node_n  2
-sub_info  12.94K  2G  2022-12-07 02:22:10+08:00  (剩余 2G 1:51:18.885049)
+sub_info  12.94K  2G  2022-12-07 02:22:10+08:00  (剩余 2G 1:47:53.147857)
 sub_url  https://tblackdy.rtshdsd.top/api/v1/client/subscribe?token=997777d894f6184ccbae3f87bb640040
 time  2022-12-06 23:22:10.866349+08:00
