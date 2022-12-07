@@ -1,14 +1,14 @@
 [www.zhenyejiedian.com]
 email  djrahesh179@gmail.com
 node_n  12
-sub_info  58.69M  1G  2022-12-07 17:28:15+08:00  (剩余 965.3M 2:09:39.897977)
+sub_info  58.98M  1G  2022-12-07 17:28:15+08:00  (剩余 965M 2:07:19.732422)
 sub_url  https://api.qingyuge.top/api/v1/client/subscribe?token=f7ad0ff8a6203cd0b34c0ad564882241
 time  2022-12-06 17:28:15.422132+08:00
 
 [ckcloud.icu]
 email  hxdkqlduzqxm483@bukhariansiddur.com
 node_n  8
-sub_info  312.7M  5G  2022-12-07 22:53:32+08:00  (剩余 4.695G 7:34:56.041800)
+sub_info  313.1M  5G  2022-12-07 22:53:32+08:00  (剩余 4.694G 7:32:35.927706)
 sub_url  https://ckcloud.icu/api/v1/client/subscribe?token=6ad38e7a22eff60b468fb8e3c5064b31
 time  2022-12-07 10:53:33.486937+08:00
 
@@ -16,7 +16,7 @@ time  2022-12-07 10:53:33.486937+08:00
 email  tuqmugisefx120@gmail.com
 last_checkin  2022-12-07 00:30:48.685172+08:00
 node_n  91
-sub_info  1.254G  1.718G  2022-12-07 18:22:38+08:00  (剩余 475.4M 3:04:00.227048)
+sub_info  1.255G  1.718G  2022-12-07 18:22:38+08:00  (剩余 473.8M 3:01:40.438424)
 sub_url  https://network.ayucloud.nl/link/D4oJfMsTGCYLWxQ9?clash=1
 time  2022-12-06 18:22:41.426338+08:00
 
@@ -24,7 +24,7 @@ time  2022-12-06 18:22:41.426338+08:00
 email  eniqnxb47@gmail.com
 last_checkin  2022-12-07 00:30:48.687363+08:00
 node_n  24
-sub_info  800.2M  11.44G  2022-12-07 20:42:05+08:00  (剩余 10.65G 5:23:29.809484)
+sub_info  800.7M  11.44G  2022-12-07 20:42:05+08:00  (剩余 10.65G 5:21:09.500701)
 sub_url  https://1.amazom.group/link/4AJ4Q9bsoWBTOr9G?sub=3
 time  2022-12-06 20:42:06.217169+08:00
 
@@ -32,22 +32,20 @@ time  2022-12-06 20:42:06.217169+08:00
 email  eniqnxb47@bukhariansiddur.com
 last_checkin  2022-12-07 00:30:48.689038+08:00
 node_n  37
-sub_info  112M  5.4G  2022-12-07 20:42:17+08:00  (剩余 5.291G 5:23:35.999440)
+sub_info  112.6M  5.4G  2022-12-07 20:42:17+08:00  (剩余 5.29G 5:21:20.746893)
 sub_url  https://yysub.trafficmanager.net/link/afdZCgdydXo7KpUl?sub=2
 time  2022-12-06 20:42:19.008855+08:00
 
 [user.bafang.vip]
 email  ucozzqhjze405@gmail.com
 node_n  43
-sub_info  16.93M  5G  2022-12-07 15:29:27+08:00  (剩余 4.983G 0:30:25.053948)
+sub_info  0B  5G  2022-12-07 16:18:48+08:00  (剩余 5G 0:57:52.199618)
 sub_url  http://www.bfyun.top/api/v1/client/subscribe?token=c46740dc0102af1566ba18474ef56c3d
 time  2022-12-07 15:18:49.338282+08:00
-更新订阅信息失败  Message: javascript error: Failed to fetch (Session info: chrome=107.0.5304.121) Stacktrace: #0 0x55d163020463 <unknown> #1 0x55d162de48d8 <unknown> #2 0x55d162de7e67 <unknown> #3 0x55d162de7ce0 <unknown> #4 0x55d162de8a2a <unknown> #5 0x55d162e5cf5e <unknown> #6 0x55d162e43622 <unknown> #7 0x55d162e5c30f <unknown> #8 0x55d162e43443 <unknown> #9 0x55d162e143c5 <unknown> #10 0x55d162e15531 <unknown> #11 0x55d163072dce <unknown> #12 0x55d163076192 <unknown> #13 0x55d16305793e <unknown> #14 0x55d163077103 <unknown> #15 0x55d16304ad85 <unknown> #16 0x55d1630980a8 <unknown> #17 0x55d163098239 <unknown> #18 0x55d1630b3492 <unknown> #19 0x7fb9cf9f2b43 <unknown>
-更新订阅失败  Message: javascript error: Failed to fetch (Session info: chrome=107.0.5304.121) Stacktrace: #0 0x55d163020463 <unknown> #1 0x55d162de48d8 <unknown> #2 0x55d162de7e67 <unknown> #3 0x55d162de7ce0 <unknown> #4 0x55d162de8a2a <unknown> #5 0x55d162e5cf5e <unknown> #6 0x55d162e43622 <unknown> #7 0x55d162e5c30f <unknown> #8 0x55d162e43443 <unknown> #9 0x55d162e143c5 <unknown> #10 0x55d162e15531 <unknown> #11 0x55d163072dce <unknown> #12 0x55d163076192 <unknown> #13 0x55d16305793e <unknown> #14 0x55d163077103 <unknown> #15 0x55d16304ad85 <unknown> #16 0x55d1630980a8 <unknown> #17 0x55d163098239 <unknown> #18 0x55d1630b3492 <unknown> #19 0x7fb9cf9f2b43 <unknown>
 
 [cloud.hhygj.xyz]
 email  ucozzqhjze405@gmail.com
 node_n  2
-sub_info  0B  2G  2022-12-07 18:18:36+08:00  (剩余 2G 2:59:57.253427)
+sub_info  0B  2G  2022-12-07 18:18:36+08:00  (剩余 2G 2:57:39.301632)
 sub_url  https://tblackdy.rtshdsd.top/api/v1/client/subscribe?token=6396c93ac2178fefd33bae3637f5787c
 time  2022-12-07 15:18:37.269079+08:00
