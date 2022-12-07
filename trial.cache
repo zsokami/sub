@@ -1,14 +1,14 @@
 [www.zhenyejiedian.com]
 email  djrahesh179@gmail.com
 node_n  11
-sub_info  21.81M  1G  2022-12-07 17:28:15+08:00  (剩余 1002M 5:29:11.592585)
+sub_info  23.74M  1G  2022-12-07 17:28:15+08:00  (剩余 1000M 5:02:15.936338)
 sub_url  https://api.qingyuge.top/api/v1/client/subscribe?token=f7ad0ff8a6203cd0b34c0ad564882241
 time  2022-12-06 17:28:15.422132+08:00
 
 [ckcloud.icu]
 email  hxdkqlduzqxm483@bukhariansiddur.com
 node_n  8
-sub_info  9.391M  5G  2022-12-07 22:53:32+08:00  (剩余 4.991G 10:54:27.649091)
+sub_info  12.6M  5G  2022-12-07 22:53:32+08:00  (剩余 4.988G 10:27:31.912925)
 sub_url  https://ckcloud.icu/api/v1/client/subscribe?token=6ad38e7a22eff60b468fb8e3c5064b31
 time  2022-12-07 10:53:33.486937+08:00
 
@@ -16,7 +16,7 @@ time  2022-12-07 10:53:33.486937+08:00
 email  tuqmugisefx120@gmail.com
 last_checkin  2022-12-07 00:30:48.685172+08:00
 node_n  91
-sub_info  1.207G  1.718G  2022-12-07 18:22:38+08:00  (剩余 522.7M 6:23:32.930283)
+sub_info  1.218G  1.718G  2022-12-07 18:22:38+08:00  (剩余 511.4M 5:56:34.929589)
 sub_url  https://network.ayucloud.nl/link/D4oJfMsTGCYLWxQ9?clash=1
 time  2022-12-06 18:22:41.426338+08:00
 
@@ -24,7 +24,7 @@ time  2022-12-06 18:22:41.426338+08:00
 email  eniqnxb47@gmail.com
 last_checkin  2022-12-07 00:30:48.687363+08:00
 node_n  24
-sub_info  663.9M  11.44G  2022-12-07 20:42:05+08:00  (剩余 10.79G 8:43:01.476156)
+sub_info  672M  11.44G  2022-12-07 20:42:05+08:00  (剩余 10.78G 8:16:06.300525)
 sub_url  https://1.amazom.group/link/4AJ4Q9bsoWBTOr9G?sub=3
 time  2022-12-06 20:42:06.217169+08:00
 
@@ -32,20 +32,22 @@ time  2022-12-06 20:42:06.217169+08:00
 email  eniqnxb47@bukhariansiddur.com
 last_checkin  2022-12-07 00:30:48.689038+08:00
 node_n  37
-sub_info  88.1M  5.4G  2022-12-07 20:42:17+08:00  (剩余 5.314G 8:43:12.532919)
+sub_info  93.15M  5.4G  2022-12-07 20:42:17+08:00  (剩余 5.309G 8:16:17.154718)
 sub_url  https://yysub.trafficmanager.net/link/afdZCgdydXo7KpUl?sub=2
 time  2022-12-06 20:42:19.008855+08:00
 
 [user.bafang.vip]
-email  qmdzhevmpkwd767@gmail.com
+email  kooqvnanzvcd40@gmail.com
 node_n  42
 sub_info  3.338M  5G  2022-12-07 12:26:44+08:00  (剩余 4.997G 0:27:39.950256)
-sub_url  http://dd.cxld.sbs/api/v1/client/subscribe?token=24fa2d69e508e2ad464f0a14b2d9214a
-time  2022-12-07 11:26:44.954661+08:00
+sub_url  http://dd.cxld.sbs/api/v1/client/subscribe?token=d1fca2617c6ebd2223f948fa34e6f4b5
+time  2022-12-07 12:26:05.614144+08:00
+更新订阅信息失败  Message: javascript error: Failed to fetch (Session info: chrome=108.0.5359.94) Stacktrace: #0 0x55d5d51fd2a3 <unknown> #1 0x55d5d4fbbf77 <unknown> #2 0x55d5d4fbf9c8 <unknown> #3 0x55d5d4fbf792 <unknown> #4 0x55d5d4fc03fc <unknown> #5 0x55d5d5030f9e <unknown> #6 0x55d5d5018b32 <unknown> #7 0x55d5d503047c <unknown> #8 0x55d5d5018903 <unknown> #9 0x55d5d4febece <unknown> #10 0x55d5d4fecfde <unknown> #11 0x55d5d524d63e <unknown> #12 0x55d5d5250b79 <unknown> #13 0x55d5d523389e <unknown> #14 0x55d5d5251a83 <unknown> #15 0x55d5d5226505 <unknown> #16 0x55d5d5272ca8 <unknown> #17 0x55d5d5272e36 <unknown> #18 0x55d5d528e333 <unknown> #19 0x7f0a96ea0b43 <unknown>
+更新订阅失败  Message: javascript error: Failed to fetch (Session info: chrome=108.0.5359.94) Stacktrace: #0 0x55d5d51fd2a3 <unknown> #1 0x55d5d4fbbf77 <unknown> #2 0x55d5d4fbf9c8 <unknown> #3 0x55d5d4fbf792 <unknown> #4 0x55d5d4fc03fc <unknown> #5 0x55d5d5030f9e <unknown> #6 0x55d5d5018b32 <unknown> #7 0x55d5d503047c <unknown> #8 0x55d5d5018903 <unknown> #9 0x55d5d4febece <unknown> #10 0x55d5d4fecfde <unknown> #11 0x55d5d524d63e <unknown> #12 0x55d5d5250b79 <unknown> #13 0x55d5d523389e <unknown> #14 0x55d5d5251a83 <unknown> #15 0x55d5d5226505 <unknown> #16 0x55d5d5272ca8 <unknown> #17 0x55d5d5272e36 <unknown> #18 0x55d5d528e333 <unknown> #19 0x7f0a96ea0b43 <unknown>
 
 [cloud.hhygj.xyz]
 email  mxwkcgy414@gmail.com
 node_n  2
-sub_info  861.5K  2G  2022-12-07 13:00:07+08:00  (剩余 1.999G 1:01:02.554607)
+sub_info  1.125M  2G  2022-12-07 13:00:07+08:00  (剩余 1.999G 0:34:06.920853)
 sub_url  https://tblackdy.rtshdsd.top/api/v1/client/subscribe?token=377e4c91c6a5a5c81172c3c344eeb6f9
 time  2022-12-07 10:00:08.266232+08:00
