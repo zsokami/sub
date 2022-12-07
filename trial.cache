@@ -1,14 +1,14 @@
 [www.zhenyejiedian.com]
 email  djrahesh179@gmail.com
 node_n  12
-sub_info  46.83M  1G  2022-12-07 17:28:15+08:00  (剩余 977.2M 3:01:12.587199)
+sub_info  46.83M  1G  2022-12-07 17:28:15+08:00  (剩余 977.2M 2:58:52.223619)
 sub_url  https://api.qingyuge.top/api/v1/client/subscribe?token=f7ad0ff8a6203cd0b34c0ad564882241
 time  2022-12-06 17:28:15.422132+08:00
 
 [ckcloud.icu]
 email  hxdkqlduzqxm483@bukhariansiddur.com
 node_n  8
-sub_info  103.6M  5G  2022-12-07 22:53:32+08:00  (剩余 4.899G 8:26:28.745687)
+sub_info  103.6M  5G  2022-12-07 22:53:32+08:00  (剩余 4.899G 8:24:08.429452)
 sub_url  https://ckcloud.icu/api/v1/client/subscribe?token=6ad38e7a22eff60b468fb8e3c5064b31
 time  2022-12-07 10:53:33.486937+08:00
 
@@ -16,7 +16,7 @@ time  2022-12-07 10:53:33.486937+08:00
 email  tuqmugisefx120@gmail.com
 last_checkin  2022-12-07 00:30:48.685172+08:00
 node_n  91
-sub_info  1.231G  1.718G  2022-12-07 18:22:38+08:00  (剩余 498M 3:55:34.075761)
+sub_info  1.231G  1.718G  2022-12-07 18:22:38+08:00  (剩余 498M 3:53:14.307833)
 sub_url  https://network.ayucloud.nl/link/D4oJfMsTGCYLWxQ9?clash=1
 time  2022-12-06 18:22:41.426338+08:00
 
@@ -24,7 +24,7 @@ time  2022-12-06 18:22:41.426338+08:00
 email  eniqnxb47@gmail.com
 last_checkin  2022-12-07 00:30:48.687363+08:00
 node_n  24
-sub_info  790.9M  11.44G  2022-12-07 20:42:05+08:00  (剩余 10.66G 6:15:02.536073)
+sub_info  790.9M  11.44G  2022-12-07 20:42:05+08:00  (剩余 10.66G 6:12:42.341659)
 sub_url  https://1.amazom.group/link/4AJ4Q9bsoWBTOr9G?sub=3
 time  2022-12-06 20:42:06.217169+08:00
 
@@ -32,20 +32,22 @@ time  2022-12-06 20:42:06.217169+08:00
 email  eniqnxb47@bukhariansiddur.com
 last_checkin  2022-12-07 00:30:48.689038+08:00
 node_n  37
-sub_info  101.3M  5.4G  2022-12-07 20:42:17+08:00  (剩余 5.301G 6:15:13.370466)
+sub_info  101.3M  5.4G  2022-12-07 20:42:17+08:00  (剩余 5.301G 6:12:52.425945)
 sub_url  https://yysub.trafficmanager.net/link/afdZCgdydXo7KpUl?sub=2
 time  2022-12-06 20:42:19.008855+08:00
 
 [user.bafang.vip]
-email  ovzwkrbbxpb894@gmail.com
+email  vobvvkp133@gmail.com
 node_n  43
 sub_info  1.448M  5G  2022-12-07 14:55:04+08:00  (剩余 4.999G 0:28:00.780216)
-sub_url  http://www.bfyun.top/api/v1/client/subscribe?token=3078992a2f9793699dac751fe9d6aaf8
-time  2022-12-07 13:55:05.322774+08:00
+sub_url  http://www.bfyun.top/api/v1/client/subscribe?token=4a6fc92fc7de5c0fc3401db69544c46d
+time  2022-12-07 14:29:28.173373+08:00
+更新订阅信息失败  Message: javascript error: Failed to fetch (Session info: chrome=107.0.5304.121) Stacktrace: #0 0x55b31d7fe463 <unknown> #1 0x55b31d5c28d8 <unknown> #2 0x55b31d5c5e67 <unknown> #3 0x55b31d5c5ce0 <unknown> #4 0x55b31d5c6a2a <unknown> #5 0x55b31d63af5e <unknown> #6 0x55b31d621622 <unknown> #7 0x55b31d63a30f <unknown> #8 0x55b31d621443 <unknown> #9 0x55b31d5f23c5 <unknown> #10 0x55b31d5f3531 <unknown> #11 0x55b31d850dce <unknown> #12 0x55b31d854192 <unknown> #13 0x55b31d83593e <unknown> #14 0x55b31d855103 <unknown> #15 0x55b31d828d85 <unknown> #16 0x55b31d8760a8 <unknown> #17 0x55b31d876239 <unknown> #18 0x55b31d891492 <unknown> #19 0x7f49c8ef9b43 <unknown>
+更新订阅失败  Message: javascript error: Failed to fetch (Session info: chrome=107.0.5304.121) Stacktrace: #0 0x55b31d7fe463 <unknown> #1 0x55b31d5c28d8 <unknown> #2 0x55b31d5c5e67 <unknown> #3 0x55b31d5c5ce0 <unknown> #4 0x55b31d5c6a2a <unknown> #5 0x55b31d63af5e <unknown> #6 0x55b31d621622 <unknown> #7 0x55b31d63a30f <unknown> #8 0x55b31d621443 <unknown> #9 0x55b31d5f23c5 <unknown> #10 0x55b31d5f3531 <unknown> #11 0x55b31d850dce <unknown> #12 0x55b31d854192 <unknown> #13 0x55b31d83593e <unknown> #14 0x55b31d855103 <unknown> #15 0x55b31d828d85 <unknown> #16 0x55b31d8760a8 <unknown> #17 0x55b31d876239 <unknown> #18 0x55b31d891492 <unknown> #19 0x7f49c8ef9b43 <unknown>
 
 [cloud.hhygj.xyz]
 email  xoxdojs338@gmail.com
 node_n  2
-sub_info  44.75K  2G  2022-12-07 15:35:16+08:00  (剩余 2G 1:08:12.674137)
+sub_info  44.75K  2G  2022-12-07 15:35:16+08:00  (剩余 2G 1:05:52.419977)
 sub_url  https://tblackdy.rtshdsd.top/api/v1/client/subscribe?token=da37282386e7daae7c2cfb0ed716a05b
 time  2022-12-07 12:35:17.248603+08:00
