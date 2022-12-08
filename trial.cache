@@ -1,14 +1,14 @@
 [www.zhenyejiedian.com]
 email  cfdcgmtiiet175@gmail.com
 node_n  12
-sub_info  91.53K  1G  2022-12-09 16:54:45+08:00  (剩余 1024M 23:55:42.665219)
+sub_info  193.8K  1G  2022-12-09 16:54:45+08:00  (剩余 1024M 23:34:29.226666)
 sub_url  https://api.qingyuge.top/api/v1/client/subscribe?token=7c673a13b35eeeae23ae5a7cc48ae92d
 time  2022-12-08 16:54:45.729290+08:00
 
 [ckcloud.icu]
 email  oqavxue744@bukhariansiddur.com
 node_n  8
-sub_info  14.28M  5G  2022-12-08 22:48:56+08:00  (剩余 4.986G 5:49:52.817192)
+sub_info  14.55M  5G  2022-12-08 22:48:56+08:00  (剩余 4.986G 5:28:39.458986)
 sub_url  https://ckcloud.icu/api/v1/client/subscribe?token=f1ad0b27a6c2a2194b9be142935623bb
 time  2022-12-08 10:48:57.231616+08:00
 
@@ -16,7 +16,7 @@ time  2022-12-08 10:48:57.231616+08:00
 email  mjyvmlgx75@gmail.com
 last_checkin  2022-12-08 00:30:09.013860+08:00
 node_n  91
-sub_info  262.1M  1.93G  2022-12-08 17:59:09+08:00  (剩余 1.674G 1:00:05.055954)
+sub_info  263.2M  1.93G  2022-12-08 17:59:09+08:00  (剩余 1.673G 0:38:51.255304)
 sub_url  https://network.ayucloud.nl/link/DY5G6fQU0KuDWWUw?clash=1
 time  2022-12-07 17:59:13.172603+08:00
 
@@ -24,7 +24,7 @@ time  2022-12-07 17:59:13.172603+08:00
 email  fskxxsrt524@gmail.com
 last_checkin  2022-12-08 00:30:09.015773+08:00
 node_n  24
-sub_info  536.8M  10.55G  2022-12-08 20:39:26+08:00  (剩余 10.03G 3:40:23.275483)
+sub_info  870M  10.55G  2022-12-08 20:39:26+08:00  (剩余 9.703G 3:19:10.293515)
 sub_url  https://1.amazom.group/link/fWuLGDW0ld47lsj6?sub=3
 time  2022-12-07 20:39:27.468239+08:00
 
@@ -32,20 +32,22 @@ time  2022-12-07 20:39:27.468239+08:00
 email  fskxxsrt524@bukhariansiddur.com
 last_checkin  2022-12-08 00:30:09.016979+08:00
 node_n  37
-sub_info  100.9M  5.499G  2022-12-08 20:39:44+08:00  (剩余 5.401G 3:40:40.180997)
+sub_info  101.3M  5.499G  2022-12-08 20:39:44+08:00  (剩余 5.4G 3:19:26.623359)
 sub_url  https://yysub.trafficmanager.net/link/5jhkJQZiRr9DBykS?sub=2
 time  2022-12-07 20:39:46.023905+08:00
 
 [user.bafang.vip]
-email  wwdhuddqbnyf381@gmail.com
+email  takyavrpfzkb212@gmail.com
 node_n  42
 sub_info  1.809M  5G  2022-12-08 17:29:20+08:00  (剩余 4.998G 0:30:17.137652)
-sub_url  http://www.bfyun.top/api/v1/client/subscribe?token=9fc8381ef0ab8c1a076e0fa1f652e152
-time  2022-12-08 16:29:20.806720+08:00
+sub_url  http://www.bfyun.top/api/v1/client/subscribe?token=ee5e168659eb77ab4403a5e711aa207c
+time  2022-12-08 17:20:21.169323+08:00
+更新订阅信息失败  Message: javascript error: Failed to fetch (Session info: chrome=107.0.5304.121) Stacktrace: #0 0x5570b071d463 <unknown> #1 0x5570b04e18d8 <unknown> #2 0x5570b04e4e67 <unknown> #3 0x5570b04e4ce0 <unknown> #4 0x5570b04e5a2a <unknown> #5 0x5570b0559f5e <unknown> #6 0x5570b0540622 <unknown> #7 0x5570b055930f <unknown> #8 0x5570b0540443 <unknown> #9 0x5570b05113c5 <unknown> #10 0x5570b0512531 <unknown> #11 0x5570b076fdce <unknown> #12 0x5570b0773192 <unknown> #13 0x5570b075493e <unknown> #14 0x5570b0774103 <unknown> #15 0x5570b0747d85 <unknown> #16 0x5570b07950a8 <unknown> #17 0x5570b0795239 <unknown> #18 0x5570b07b0492 <unknown> #19 0x7efea8277b43 <unknown>
+更新订阅失败  Message: javascript error: Failed to fetch (Session info: chrome=107.0.5304.121) Stacktrace: #0 0x5570b071d463 <unknown> #1 0x5570b04e18d8 <unknown> #2 0x5570b04e4e67 <unknown> #3 0x5570b04e4ce0 <unknown> #4 0x5570b04e5a2a <unknown> #5 0x5570b0559f5e <unknown> #6 0x5570b0540622 <unknown> #7 0x5570b055930f <unknown> #8 0x5570b0540443 <unknown> #9 0x5570b05113c5 <unknown> #10 0x5570b0512531 <unknown> #11 0x5570b076fdce <unknown> #12 0x5570b0773192 <unknown> #13 0x5570b075493e <unknown> #14 0x5570b0774103 <unknown> #15 0x5570b0747d85 <unknown> #16 0x5570b07950a8 <unknown> #17 0x5570b0795239 <unknown> #18 0x5570b07b0492 <unknown> #19 0x7efea8277b43 <unknown>
 
 [cloud.hhygj.xyz]
 email  idrseuabo927@gmail.com
 node_n  2
-sub_info  80.76K  2G  2022-12-08 18:18:50+08:00  (剩余 2G 1:19:46.434633)
+sub_info  107.7K  2G  2022-12-08 18:18:50+08:00  (剩余 2G 0:58:33.501421)
 sub_url  https://tblackdy.rtshdsd.top/api/v1/client/subscribe?token=8837bd25d768b7483d19eebbba28a0f8
 time  2022-12-08 15:18:50.921345+08:00
