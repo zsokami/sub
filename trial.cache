@@ -1,14 +1,14 @@
 [www.zhenyejiedian.com]
 email  cfdcgmtiiet175@gmail.com
 node_n  12
-sub_info  20.65M  1G  2022-12-09 16:54:45+08:00  (剩余 1003M 14:26:42.051083)
+sub_info  20.65M  1G  2022-12-09 16:54:45+08:00  (剩余 1003M 14:25:59.072484)
 sub_url  https://api.qingyuge.top/api/v1/client/subscribe?token=7c673a13b35eeeae23ae5a7cc48ae92d
 time  2022-12-08 16:54:45.729290+08:00
 
 [ckcloud.icu]
 email  ppgoixdvqkn736@bukhariansiddur.com
 node_n  8
-sub_info  20.35M  5G  2022-12-09 10:23:18+08:00  (剩余 4.98G 7:55:14.096358)
+sub_info  20.35M  5G  2022-12-09 10:23:18+08:00  (剩余 4.98G 7:54:31.293972)
 sub_url  https://ckcloud.icu/api/v1/client/subscribe?token=ef79cb4798bf132fb157e680e9b00db9
 time  2022-12-08 22:23:19.508453+08:00
 
@@ -16,7 +16,7 @@ time  2022-12-08 22:23:19.508453+08:00
 email  uwmtxarl315@gmail.com
 last_checkin  2022-12-09 00:30:36.379904+08:00
 node_n  91
-sub_info  127.2M  1.857G  2022-12-09 17:39:27+08:00  (剩余 1.733G 15:11:23.059521)
+sub_info  127.2M  1.857G  2022-12-09 17:39:27+08:00  (剩余 1.733G 15:10:39.812429)
 sub_url  https://network.ayucloud.nl/link/km8tCrUOg17LGxkR?clash=1
 time  2022-12-08 17:39:31.101506+08:00
 
@@ -24,7 +24,7 @@ time  2022-12-08 17:39:31.101506+08:00
 email  wxdqtvlcihub273@gmail.com
 last_checkin  2022-12-09 00:30:36.381053+08:00
 node_n  24
-sub_info  4.531G  11.26G  2022-12-09 20:39:50+08:00  (剩余 6.729G 18:11:46.328850)
+sub_info  4.531G  11.26G  2022-12-09 20:39:50+08:00  (剩余 6.729G 18:11:03.627127)
 sub_url  https://1.amazom.group/link/eduJ3pPwhiu5kMLH?sub=3
 time  2022-12-08 20:39:51.603176+08:00
 
@@ -32,20 +32,22 @@ time  2022-12-08 20:39:51.603176+08:00
 email  cttnwbjns358@bukhariansiddur.com
 last_checkin  2022-12-09 00:30:36.382364+08:00
 node_n  37
-sub_info  183.5M  5.653G  2022-12-09 20:53:01+08:00  (剩余 5.474G 18:24:57.087580)
+sub_info  183.5M  5.653G  2022-12-09 20:53:01+08:00  (剩余 5.474G 18:24:14.093121)
 sub_url  https://yysub.trafficmanager.net/link/NZLcq5N3oy9veTpX?sub=2
 time  2022-12-08 20:53:04.560625+08:00
 
 [user.bafang.vip]
-email  fycffdix220@gmail.com
+email  jbkoqlmuxcsa808@gmail.com
 node_n  46
 sub_info  1.042M  5G  2022-12-09 02:54:54+08:00  (剩余 4.999G 0:26:50.582356)
-sub_url  http://dd.cxld.sbs/api/v1/client/subscribe?token=e6a402c635ec8aa951219b66cff10bc6
-time  2022-12-09 01:54:55.546179+08:00
+sub_url  http://dd.cxld.sbs/api/v1/client/subscribe?token=8fe7cea4a9862619723d67fd14ed50a5
+time  2022-12-09 02:28:51.802147+08:00
+更新订阅信息失败  Message: javascript error: Failed to fetch (Session info: chrome=108.0.5359.94) Stacktrace: #0 0x55b3eda5c2a3 <unknown> #1 0x55b3ed81af77 <unknown> #2 0x55b3ed81e9c8 <unknown> #3 0x55b3ed81e792 <unknown> #4 0x55b3ed81f3fc <unknown> #5 0x55b3ed88ff9e <unknown> #6 0x55b3ed877b32 <unknown> #7 0x55b3ed88f47c <unknown> #8 0x55b3ed877903 <unknown> #9 0x55b3ed84aece <unknown> #10 0x55b3ed84bfde <unknown> #11 0x55b3edaac63e <unknown> #12 0x55b3edaafb79 <unknown> #13 0x55b3eda9289e <unknown> #14 0x55b3edab0a83 <unknown> #15 0x55b3eda85505 <unknown> #16 0x55b3edad1ca8 <unknown> #17 0x55b3edad1e36 <unknown> #18 0x55b3edaed333 <unknown> #19 0x7f04eca45b43 <unknown>
+更新订阅失败  Message: javascript error: Failed to fetch (Session info: chrome=108.0.5359.94) Stacktrace: #0 0x55b3eda5c2a3 <unknown> #1 0x55b3ed81af77 <unknown> #2 0x55b3ed81e9c8 <unknown> #3 0x55b3ed81e792 <unknown> #4 0x55b3ed81f3fc <unknown> #5 0x55b3ed88ff9e <unknown> #6 0x55b3ed877b32 <unknown> #7 0x55b3ed88f47c <unknown> #8 0x55b3ed877903 <unknown> #9 0x55b3ed84aece <unknown> #10 0x55b3ed84bfde <unknown> #11 0x55b3edaac63e <unknown> #12 0x55b3edaafb79 <unknown> #13 0x55b3eda9289e <unknown> #14 0x55b3edab0a83 <unknown> #15 0x55b3eda85505 <unknown> #16 0x55b3edad1ca8 <unknown> #17 0x55b3edad1e36 <unknown> #18 0x55b3edaed333 <unknown> #19 0x7f04eca45b43 <unknown>
 
 [cloud.hhygj.xyz]
 email  fycffdix220@gmail.com
 node_n  2
-sub_info  53.85K  2G  2022-12-09 04:54:50+08:00  (剩余 2G 2:26:45.945178)
+sub_info  53.85K  2G  2022-12-09 04:54:50+08:00  (剩余 2G 2:26:03.070014)
 sub_url  https://tblackdy.rtshdsd.top/api/v1/client/subscribe?token=cce0f908f378d1db3597c677dd8ec992
 time  2022-12-09 01:54:51.571496+08:00
