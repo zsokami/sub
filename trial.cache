@@ -1,14 +1,14 @@
 [www.zhenyejiedian.com]
 email  wfnjoqyir334@gmail.com
 node_n  10
-sub_info  6.871M  1G  2022-12-11 16:25:36+08:00  (剩余 1017M 20:30:40.588537)
+sub_info  8.671M  1G  2022-12-11 16:25:36+08:00  (剩余 1015M 20:26:49.350892)
 sub_url  https://api.qingyuge.top/api/v1/client/subscribe?token=fc3b486464db642eb83575d57a199da4
 time  2022-12-10 16:25:36.478110+08:00
 
 [ckcloud.icu]
 email  ysqmsrmwivz116@bukhariansiddur.com
 node_n  8
-sub_info  69.56M  5G  2022-12-10 21:41:45+08:00  (剩余 4.932G 1:46:48.418695)
+sub_info  70.58M  5G  2022-12-10 21:41:45+08:00  (剩余 4.931G 1:42:57.687050)
 sub_url  https://ckcloud.icu/api/v1/client/subscribe?token=4c76643e9a80a86610835b02135b7bd8
 time  2022-12-10 09:41:46.173270+08:00
 
@@ -16,7 +16,7 @@ time  2022-12-10 09:41:46.173270+08:00
 email  ofotmxuy23@gmail.com
 last_checkin  2022-12-10 16:54:44.519231+08:00
 node_n  91
-sub_info  292.4M  1.04G  2022-12-11 16:54:43+08:00  (剩余 772.6M 20:59:45.022030)
+sub_info  295.5M  1.04G  2022-12-11 16:54:43+08:00  (剩余 769.5M 20:55:54.735839)
 sub_url  https://network.ayucloud.nl/link/AzqmvTwmS6F1lnOH?clash=1
 time  2022-12-10 16:54:46.196376+08:00
 
@@ -24,7 +24,7 @@ time  2022-12-10 16:54:46.196376+08:00
 email  iiwkrjgb922@gmail.com
 last_checkin  2022-12-10 00:33:08.742007+08:00
 node_n  24
-sub_info  6.474G  10.31G  2022-12-10 20:38:24+08:00  (剩余 3.838G 0:43:28.081135)
+sub_info  6.479G  10.31G  2022-12-10 20:38:24+08:00  (剩余 3.834G 0:39:37.655537)
 sub_url  https://1.amazom.group/link/mBOrN0zeyeHfyG8i?sub=3
 time  2022-12-09 20:38:25.037324+08:00
 
@@ -32,21 +32,22 @@ time  2022-12-09 20:38:25.037324+08:00
 email  iiwkrjgb922@bukhariansiddur.com
 last_checkin  2022-12-10 00:33:08.743811+08:00
 node_n  37
-sub_info  78.92M  5.622G  2022-12-10 20:38:33+08:00  (剩余 5.545G 0:43:36.454809)
+sub_info  80.38M  5.622G  2022-12-10 20:38:33+08:00  (剩余 5.544G 0:39:45.141963)
 sub_url  https://yysub.trafficmanager.net/link/8zmnYRlQVsRw5cmd?sub=2
 time  2022-12-09 20:38:35.040357+08:00
 
 [user.bafang.vip]
-email  hxxkgjkxtwti14@gmail.com
+email  dvlcrbeong565@gmail.com
 node_n  51
 sub_info  18.25M  5G  2022-12-10 20:16:57+08:00  (剩余 4.982G 0:21:39.667795)
-sub_url  http://dd.cxld.sbs/api/v1/client/subscribe?token=c15ec179b924ad6c918f37bfa22ca5e4
-time  2022-12-10 19:16:58.087986+08:00
-更新订阅链接失败  注册失败: {'message': '注册频繁，请等待1小时后再次尝试'}
+sub_url  http://www.bfyun.top/api/v1/client/subscribe?token=eec0c82f747d18d1e21a4daf36d115af
+time  2022-12-10 19:58:52.677829+08:00
+更新订阅信息失败  Message: javascript error: Failed to fetch (Session info: chrome=108.0.5341.0) Stacktrace: #0 0x5588dea832a3 <unknown> #1 0x5588de841f77 <unknown> #2 0x5588de8459c8 <unknown> #3 0x5588de845792 <unknown> #4 0x5588de8463fc <unknown> #5 0x5588de8b6f9e <unknown> #6 0x5588de89eb32 <unknown> #7 0x5588de8b647c <unknown> #8 0x5588de89e903 <unknown> #9 0x5588de871ece <unknown> #10 0x5588de872fde <unknown> #11 0x5588dead363e <unknown> #12 0x5588dead6b79 <unknown> #13 0x5588deab989e <unknown> #14 0x5588dead7a83 <unknown> #15 0x5588deaac505 <unknown> #16 0x5588deaf8ca8 <unknown> #17 0x5588deaf8e36 <unknown> #18 0x5588deb14333 <unknown> #19 0x7f0a63c38b43 <unknown>
+更新订阅失败  Message: javascript error: Failed to fetch (Session info: chrome=108.0.5341.0) Stacktrace: #0 0x5588dea832a3 <unknown> #1 0x5588de841f77 <unknown> #2 0x5588de8459c8 <unknown> #3 0x5588de845792 <unknown> #4 0x5588de8463fc <unknown> #5 0x5588de8b6f9e <unknown> #6 0x5588de89eb32 <unknown> #7 0x5588de8b647c <unknown> #8 0x5588de89e903 <unknown> #9 0x5588de871ece <unknown> #10 0x5588de872fde <unknown> #11 0x5588dead363e <unknown> #12 0x5588dead6b79 <unknown> #13 0x5588deab989e <unknown> #14 0x5588dead7a83 <unknown> #15 0x5588deaac505 <unknown> #16 0x5588deaf8ca8 <unknown> #17 0x5588deaf8e36 <unknown> #18 0x5588deb14333 <unknown> #19 0x7f0a63c38b43 <unknown>
 
 [cloud.hhygj.xyz]
 email  zdfqnhczxfp603@gmail.com
 node_n  2
-sub_info  377K  2G  2022-12-10 21:30:32+08:00  (剩余 2G 1:35:35.681127)
+sub_info  462.7K  2G  2022-12-10 21:30:32+08:00  (剩余 2G 1:31:44.863598)
 sub_url  https://tblackdy.rtshdsd.top/api/v1/client/subscribe?token=e5f740d86711a6fe65571c27da4cfc7a
 time  2022-12-10 18:30:32.709240+08:00
