@@ -1,14 +1,14 @@
 [www.zhenyejiedian.com]
 email  kyfvqbfop165@gmail.com
 node_n  12
-sub_info  141.5M  1G  2022-12-10 16:28:47+08:00  (剩余 882.5M 3:59:30.210982)
+sub_info  141.5M  1G  2022-12-10 16:28:47+08:00  (剩余 882.5M 3:54:06.700467)
 sub_url  https://api.qingyuge.top/api/v1/client/subscribe?token=f59e396493df55a907095b8945db33e7
 time  2022-12-09 16:28:47.612233+08:00
 
 [ckcloud.icu]
 email  ysqmsrmwivz116@bukhariansiddur.com
 node_n  8
-sub_info  213B  5G  2022-12-10 21:41:45+08:00  (剩余 5G 9:12:27.340623)
+sub_info  213B  5G  2022-12-10 21:41:45+08:00  (剩余 5G 9:07:07.378286)
 sub_url  https://ckcloud.icu/api/v1/client/subscribe?token=4c76643e9a80a86610835b02135b7bd8
 time  2022-12-10 09:41:46.173270+08:00
 
@@ -16,7 +16,7 @@ time  2022-12-10 09:41:46.173270+08:00
 email  cyypobqj297@gmail.com
 last_checkin  2022-12-10 00:33:08.740487+08:00
 node_n  91
-sub_info  178.9M  1.91G  2022-12-10 17:20:10+08:00  (剩余 1.735G 4:50:51.420224)
+sub_info  178.9M  1.91G  2022-12-10 17:20:10+08:00  (剩余 1.735G 4:45:31.824260)
 sub_url  https://network.ayucloud.nl/link/wiKrdwgjPVb4Q6Hm?clash=1
 time  2022-12-09 17:20:13.261090+08:00
 
@@ -24,7 +24,7 @@ time  2022-12-09 17:20:13.261090+08:00
 email  iiwkrjgb922@gmail.com
 last_checkin  2022-12-10 00:33:08.742007+08:00
 node_n  24
-sub_info  4.96G  10.31G  2022-12-10 20:38:24+08:00  (剩余 5.353G 8:09:07.106191)
+sub_info  4.96G  10.31G  2022-12-10 20:38:24+08:00  (剩余 5.353G 8:03:47.428901)
 sub_url  https://1.amazom.group/link/mBOrN0zeyeHfyG8i?sub=3
 time  2022-12-09 20:38:25.037324+08:00
 
@@ -32,20 +32,22 @@ time  2022-12-09 20:38:25.037324+08:00
 email  iiwkrjgb922@bukhariansiddur.com
 last_checkin  2022-12-10 00:33:08.743811+08:00
 node_n  37
-sub_info  58.85M  5.622G  2022-12-10 20:38:33+08:00  (剩余 5.565G 8:09:15.088538)
+sub_info  58.85M  5.622G  2022-12-10 20:38:33+08:00  (剩余 5.565G 8:03:55.125325)
 sub_url  https://yysub.trafficmanager.net/link/8zmnYRlQVsRw5cmd?sub=2
 time  2022-12-09 20:38:35.040357+08:00
 
 [user.bafang.vip]
-email  zkpaxei217@gmail.com
+email  amhqjfggq325@gmail.com
 node_n  47
 sub_info  0B  5G  2022-12-10 12:59:04+08:00  (剩余 5G 0:29:46.801572)
-sub_url  http://dd.cxld.sbs/api/v1/client/subscribe?token=4b44d7bc55b6fc0c5d01a5b9991e3b8a
-time  2022-12-10 11:59:04.520669+08:00
+sub_url  http://dd.cxld.sbs/api/v1/client/subscribe?token=72140d772770fcea0036101fe82cef7e
+time  2022-12-10 12:34:41.039064+08:00
+更新订阅信息失败  Message: javascript error: Failed to fetch (Session info: chrome=108.0.5359.94) Stacktrace: #0 0x55612ae972a3 <unknown> #1 0x55612ac55f77 <unknown> #2 0x55612ac599c8 <unknown> #3 0x55612ac59792 <unknown> #4 0x55612ac5a3fc <unknown> #5 0x55612accaf9e <unknown> #6 0x55612acb2b32 <unknown> #7 0x55612acca47c <unknown> #8 0x55612acb2903 <unknown> #9 0x55612ac85ece <unknown> #10 0x55612ac86fde <unknown> #11 0x55612aee763e <unknown> #12 0x55612aeeab79 <unknown> #13 0x55612aecd89e <unknown> #14 0x55612aeeba83 <unknown> #15 0x55612aec0505 <unknown> #16 0x55612af0cca8 <unknown> #17 0x55612af0ce36 <unknown> #18 0x55612af28333 <unknown> #19 0x7fcf7dd42b43 <unknown>
+更新订阅失败  Message: javascript error: Failed to fetch (Session info: chrome=108.0.5359.94) Stacktrace: #0 0x55612ae972a3 <unknown> #1 0x55612ac55f77 <unknown> #2 0x55612ac599c8 <unknown> #3 0x55612ac59792 <unknown> #4 0x55612ac5a3fc <unknown> #5 0x55612accaf9e <unknown> #6 0x55612acb2b32 <unknown> #7 0x55612acca47c <unknown> #8 0x55612acb2903 <unknown> #9 0x55612ac85ece <unknown> #10 0x55612ac86fde <unknown> #11 0x55612aee763e <unknown> #12 0x55612aeeab79 <unknown> #13 0x55612aecd89e <unknown> #14 0x55612aeeba83 <unknown> #15 0x55612aec0505 <unknown> #16 0x55612af0cca8 <unknown> #17 0x55612af0ce36 <unknown> #18 0x55612af28333 <unknown> #19 0x7fcf7dd42b43 <unknown>
 
 [cloud.hhygj.xyz]
 email  cnyxrwojqs380@gmail.com
 node_n  2
-sub_info  0B  2G  2022-12-10 13:34:34+08:00  (剩余 2G 1:05:15.868266)
+sub_info  0B  2G  2022-12-10 13:34:34+08:00  (剩余 2G 0:59:55.411443)
 sub_url  https://tblackdy.rtshdsd.top/api/v1/client/subscribe?token=a95cbd37434d116c08ec22da5db04479
 time  2022-12-10 10:34:35.600732+08:00
