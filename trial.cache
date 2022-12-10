@@ -1,14 +1,14 @@
 [www.zhenyejiedian.com]
 email  wfnjoqyir334@gmail.com
 node_n  10
-sub_info  180.9M  1G  2022-12-11 16:25:36+08:00  (剩余 843.1M 8:40:29.066839)
+sub_info  180.9M  1G  2022-12-11 16:25:36+08:00  (剩余 843.1M 8:30:57.533428)
 sub_url  https://api.qingyuge.top/api/v1/client/subscribe?token=fc3b486464db642eb83575d57a199da4
 time  2022-12-10 16:25:36.478110+08:00
 
 [ckcloud.icu]
 email  dxapgsvdonu749@bukhariansiddur.com
 node_n  8
-sub_info  6.618M  5G  2022-12-11 09:24:15+08:00  (剩余 4.994G 1:39:07.576135)
+sub_info  6.618M  5G  2022-12-11 09:24:15+08:00  (剩余 4.994G 1:29:35.650523)
 sub_url  https://ckcloud.icu/api/v1/client/subscribe?token=d4bfb3a9f84314e246d04dcb0443a080
 time  2022-12-10 21:24:15.912624+08:00
 
@@ -16,7 +16,7 @@ time  2022-12-10 21:24:15.912624+08:00
 email  ofotmxuy23@gmail.com
 last_checkin  2022-12-11 00:31:42.324029+08:00
 node_n  91
-sub_info  581.5M  1.631G  2022-12-11 16:54:43+08:00  (剩余 1.063G 9:09:33.185834)
+sub_info  581.5M  1.631G  2022-12-11 16:54:43+08:00  (剩余 1.063G 9:00:00.996586)
 sub_url  https://network.ayucloud.nl/link/AzqmvTwmS6F1lnOH?clash=1
 time  2022-12-10 16:54:46.196376+08:00
 
@@ -24,7 +24,7 @@ time  2022-12-10 16:54:46.196376+08:00
 email  bnpehnm140@gmail.com
 last_checkin  2022-12-11 00:31:42.325830+08:00
 node_n  24
-sub_info  1.138G  10.99G  2022-12-11 20:36:56+08:00  (剩余 9.852G 12:51:48.804308)
+sub_info  1.138G  10.99G  2022-12-11 20:36:56+08:00  (剩余 9.852G 12:42:17.421073)
 sub_url  https://1.amazom.group/link/qGvGU55s1CjcNMMH?sub=3
 time  2022-12-10 20:36:57.728513+08:00
 
@@ -32,20 +32,22 @@ time  2022-12-10 20:36:57.728513+08:00
 email  bnpehnm140@bukhariansiddur.com
 last_checkin  2022-12-11 00:31:42.327203+08:00
 node_n  37
-sub_info  25.13M  5.476G  2022-12-11 20:37:05+08:00  (剩余 5.451G 12:51:57.466818)
+sub_info  25.13M  5.476G  2022-12-11 20:37:05+08:00  (剩余 5.451G 12:42:23.606674)
 sub_url  https://yysub.trafficmanager.net/link/Et1lL3Wht99WAzla?sub=2
 time  2022-12-10 20:37:06.988435+08:00
 
 [user.bafang.vip]
-email  qwgzdokidg880@gmail.com
+email  xkoyvznebkne432@gmail.com
 node_n  56
 sub_info  0B  5G  2022-12-11 08:20:39+08:00  (剩余 5G 0:35:31.709086)
-sub_url  http://www.bfyun.top/api/v1/client/subscribe?token=ef38248ed3e2579e963d64cc93e531f2
-time  2022-12-11 07:20:39.998093+08:00
+sub_url  http://www.bfyun.top/api/v1/client/subscribe?token=91e79f07acf0ad3cc79672adcdd8cae4
+time  2022-12-11 07:54:50.151300+08:00
+更新订阅信息失败  Message: javascript error: Failed to fetch (Session info: chrome=108.0.5341.0) Stacktrace: #0 0x55651d0e92a3 <unknown> #1 0x55651cea7f77 <unknown> #2 0x55651ceab9c8 <unknown> #3 0x55651ceab792 <unknown> #4 0x55651ceac3fc <unknown> #5 0x55651cf1cf9e <unknown> #6 0x55651cf04b32 <unknown> #7 0x55651cf1c47c <unknown> #8 0x55651cf04903 <unknown> #9 0x55651ced7ece <unknown> #10 0x55651ced8fde <unknown> #11 0x55651d13963e <unknown> #12 0x55651d13cb79 <unknown> #13 0x55651d11f89e <unknown> #14 0x55651d13da83 <unknown> #15 0x55651d112505 <unknown> #16 0x55651d15eca8 <unknown> #17 0x55651d15ee36 <unknown> #18 0x55651d17a333 <unknown> #19 0x7fbff0f5fb43 <unknown>
+更新订阅失败  Message: javascript error: Failed to fetch (Session info: chrome=108.0.5341.0) Stacktrace: #0 0x55651d0e92a3 <unknown> #1 0x55651cea7f77 <unknown> #2 0x55651ceab9c8 <unknown> #3 0x55651ceab792 <unknown> #4 0x55651ceac3fc <unknown> #5 0x55651cf1cf9e <unknown> #6 0x55651cf04b32 <unknown> #7 0x55651cf1c47c <unknown> #8 0x55651cf04903 <unknown> #9 0x55651ced7ece <unknown> #10 0x55651ced8fde <unknown> #11 0x55651d13963e <unknown> #12 0x55651d13cb79 <unknown> #13 0x55651d11f89e <unknown> #14 0x55651d13da83 <unknown> #15 0x55651d112505 <unknown> #16 0x55651d15eca8 <unknown> #17 0x55651d15ee36 <unknown> #18 0x55651d17a333 <unknown> #19 0x7fbff0f5fb43 <unknown>
 
 [cloud.hhygj.xyz]
 email  uokduada218@gmail.com
 node_n  2
-sub_info  0B  2G  2022-12-11 10:39:24+08:00  (剩余 2G 2:54:15.910075)
+sub_info  0B  2G  2022-12-11 10:39:24+08:00  (剩余 2G 2:44:44.090483)
 sub_url  https://tblackdy.rtshdsd.top/api/v1/client/subscribe?token=8d2b6e0dd6e1e9512c16435a95431cf1
 time  2022-12-11 07:39:25.216186+08:00
