@@ -1,14 +1,14 @@
 [www.zhenyejiedian.com]
 email  qbmuizyxnmg320@gmail.com
 node_n  10
-sub_info  3.251M  1G  2022-12-12 15:59:00+08:00  (剩余 1021M 16:14:00.580178)
+sub_info  3.446M  1G  2022-12-12 15:59:00+08:00  (剩余 1021M 16:04:09.347907)
 sub_url  https://api.qingyuge.top/api/v1/client/subscribe?token=be6dbb2d5add915ec530daf65b1750d6
 time  2022-12-11 15:59:00.876954+08:00
 
 [ckcloud.icu]
 email  nztsubsic123@bukhariansiddur.com
 node_n  8
-sub_info  1.668M  5G  2022-12-12 09:27:42+08:00  (剩余 4.998G 9:42:41.614399)
+sub_info  1.807M  5G  2022-12-12 09:27:42+08:00  (剩余 4.998G 9:32:50.427335)
 sub_url  https://ckcloud.icu/api/v1/client/subscribe?token=72c476933622e4e8e2e0a487971a16a0
 time  2022-12-11 21:27:43.509515+08:00
 
@@ -16,7 +16,7 @@ time  2022-12-11 21:27:43.509515+08:00
 email  hlgwhtsyeb335@gmail.com
 last_checkin  2022-12-11 12:54:49.390248+08:00
 node_n  91
-sub_info  75.2M  1.109G  2022-12-12 12:54:48+08:00  (剩余 1.036G 13:09:46.203465)
+sub_info  75.57M  1.109G  2022-12-12 12:54:48+08:00  (剩余 1.036G 12:59:56.131609)
 sub_url  https://network.ayucloud.nl/link/mPIGpOgM4A9p1WIH?clash=1
 time  2022-12-11 12:54:51.193244+08:00
 
@@ -24,7 +24,7 @@ time  2022-12-11 12:54:51.193244+08:00
 email  nubxnptcpyoq319@gmail.com
 last_checkin  2022-12-11 20:37:35.451052+08:00
 node_n  24
-sub_info  885M  10.68G  2022-12-12 20:37:35+08:00  (剩余 9.817G 20:52:35.821439)
+sub_info  885.1M  10.68G  2022-12-12 20:37:35+08:00  (剩余 9.817G 20:42:44.436939)
 sub_url  https://1.amazom.group/link/PCFfLDAWFmIug4bg?sub=3
 time  2022-12-11 20:37:36.240893+08:00
 
@@ -32,20 +32,22 @@ time  2022-12-11 20:37:36.240893+08:00
 email  oiuvkac682@bukhariansiddur.com
 last_checkin  2022-12-11 20:50:05.160983+08:00
 node_n  37
-sub_info  2.914M  5.179G  2022-12-12 20:50:04+08:00  (剩余 5.176G 21:05:03.750278)
+sub_info  3.233M  5.179G  2022-12-12 20:50:04+08:00  (剩余 5.176G 20:55:12.327549)
 sub_url  https://yysub.trafficmanager.net/link/WVcFWWuxO0OBDVNK?sub=2
 time  2022-12-11 20:50:07.151578+08:00
 
 [user.bafang.vip]
-email  dcfrlovqhle401@gmail.com
+email  cpymfnctumeb698@gmail.com
 node_n  50
 sub_info  2.679M  5G  2022-12-12 00:20:40+08:00  (剩余 4.997G 0:35:35.406590)
-sub_url  http://dd.cxld.sbs/api/v1/client/subscribe?token=0a7ce677704f709470d6014a46576d32
-time  2022-12-11 23:20:41.140653+08:00
+sub_url  http://www.bfyun.top/api/v1/client/subscribe?token=d7edd66084f5f939fb9cebc58f48dd68
+time  2022-12-11 23:55:22.029907+08:00
+更新订阅信息失败  Message: javascript error: Failed to fetch (Session info: chrome=108.0.5341.0) Stacktrace: #0 0x55e0a37a32a3 <unknown> #1 0x55e0a3561f77 <unknown> #2 0x55e0a35659c8 <unknown> #3 0x55e0a3565792 <unknown> #4 0x55e0a35663fc <unknown> #5 0x55e0a35d6f9e <unknown> #6 0x55e0a35beb32 <unknown> #7 0x55e0a35d647c <unknown> #8 0x55e0a35be903 <unknown> #9 0x55e0a3591ece <unknown> #10 0x55e0a3592fde <unknown> #11 0x55e0a37f363e <unknown> #12 0x55e0a37f6b79 <unknown> #13 0x55e0a37d989e <unknown> #14 0x55e0a37f7a83 <unknown> #15 0x55e0a37cc505 <unknown> #16 0x55e0a3818ca8 <unknown> #17 0x55e0a3818e36 <unknown> #18 0x55e0a3834333 <unknown> #19 0x7f453b779b43 <unknown>
+更新订阅失败  Message: timeout: Timed out receiving message from renderer: 2.958 (Session info: chrome=108.0.5341.0) Stacktrace: #0 0x55e0a37a32a3 <unknown> #1 0x55e0a3561f77 <unknown> #2 0x55e0a354c4e9 <unknown> #3 0x55e0a354c225 <unknown> #4 0x55e0a354adc6 <unknown> #5 0x55e0a354b3a8 <unknown> #6 0x55e0a355872f <unknown> #7 0x55e0a3559382 <unknown> #8 0x55e0a356a390 <unknown> #9 0x55e0a356e71b <unknown> #10 0x55e0a354b965 <unknown> #11 0x55e0a356a13f <unknown> #12 0x55e0a35d6690 <unknown> #13 0x55e0a35be903 <unknown> #14 0x55e0a3591ece <unknown> #15 0x55e0a3592fde <unknown> #16 0x55e0a37f363e <unknown> #17 0x55e0a37f6b79 <unknown> #18 0x55e0a37d989e <unknown> #19 0x55e0a37f7a83 <unknown> #20 0x55e0a37cc505 <unknown> #21 0x55e0a3818ca8 <unknown> #22 0x55e0a3818e36 <unknown> #23 0x55e0a3834333 <unknown> #24 0x7f453b779b43 <unknown>
 
 [cloud.hhygj.xyz]
 email  tnbrwdblg254@gmail.com
 node_n  2
-sub_info  86.17K  2G  2022-12-12 00:38:52+08:00  (剩余 2G 0:53:51.522480)
+sub_info  145.4K  2G  2022-12-12 00:38:52+08:00  (剩余 2G 0:44:00.113720)
 sub_url  https://tblackdy.rtshdsd.top/api/v1/client/subscribe?token=004054cad2f8e2f714f8634a5024b059
 time  2022-12-11 21:38:53.580826+08:00
