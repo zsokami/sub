@@ -1,14 +1,14 @@
 [www.zhenyejiedian.com]
 email  rakfoxxvy190@gmail.com
 node_n  10
-sub_info  5.112M  1G  2022-12-13 15:38:48+08:00  (剩余 1019M 21:10:52.317889)
+sub_info  5.338M  1G  2022-12-13 15:38:48+08:00  (剩余 1019M 21:06:10.498904)
 sub_url  https://api.qingyuge.top/api/v1/client/subscribe?token=f664a372b0f263ad25bc8b65accefc77
 time  2022-12-12 15:38:49.048226+08:00
 
 [ckcloud.icu]
 email  vdyqnrgwzouf976@bukhariansiddur.com
 node_n  8
-sub_info  8.068M  5G  2022-12-12 21:48:31+08:00  (剩余 4.992G 3:20:34.266607)
+sub_info  8.092M  5G  2022-12-12 21:48:31+08:00  (剩余 4.992G 3:15:52.749507)
 sub_url  https://ckcloud.icu/api/v1/client/subscribe?token=09425cafa870ae09d7366d6891d70a01
 time  2022-12-12 09:48:32.106167+08:00
 
@@ -16,7 +16,7 @@ time  2022-12-12 09:48:32.106167+08:00
 email  gpxkjwuwrzbx977@gmail.com
 last_checkin  2022-12-12 12:28:45.718441+08:00
 node_n  91
-sub_info  16.64M  1.112G  2022-12-13 12:28:44+08:00  (剩余 1.096G 18:00:46.814857)
+sub_info  16.7M  1.112G  2022-12-13 12:28:44+08:00  (剩余 1.096G 17:56:05.126214)
 sub_url  https://network.ayucloud.nl/link/c16tZnU2eLSiohH0?clash=1
 time  2022-12-12 12:28:47.581399+08:00
 
@@ -24,7 +24,7 @@ time  2022-12-12 12:28:47.581399+08:00
 email  nubxnptcpyoq319@gmail.com
 last_checkin  2022-12-12 00:31:42.664735+08:00
 node_n  24
-sub_info  4.39G  11.57G  2022-12-12 20:37:35+08:00  (剩余 7.177G 2:09:39.188267)
+sub_info  4.39G  11.57G  2022-12-12 20:37:35+08:00  (剩余 7.177G 2:04:57.424054)
 sub_url  https://1.amazom.group/link/PCFfLDAWFmIug4bg?sub=3
 time  2022-12-11 20:37:36.240893+08:00
 
@@ -32,20 +32,22 @@ time  2022-12-11 20:37:36.240893+08:00
 email  oiuvkac682@bukhariansiddur.com
 last_checkin  2022-12-12 00:31:42.666442+08:00
 node_n  37
-sub_info  27.73M  5.491G  2022-12-12 20:50:04+08:00  (剩余 5.464G 2:21:56.837266)
+sub_info  27.74M  5.491G  2022-12-12 20:50:04+08:00  (剩余 5.464G 2:17:21.153375)
 sub_url  https://yysub.trafficmanager.net/link/WVcFWWuxO0OBDVNK?sub=2
 time  2022-12-11 20:50:07.151578+08:00
 
 [user.bafang.vip]
-email  fxhmdxv948@gmail.com
+email  knadxsv595@gmail.com
 node_n  71
 sub_info  0B  5G  2022-12-12 18:59:08+08:00  (剩余 5G 0:31:09.907898)
-sub_url  http://www.bfyun.top/api/v1/client/subscribe?token=32140e406bb4223136b0dc11fc6ee22c
-time  2022-12-12 17:59:08.997130+08:00
+sub_url  http://www.bfyun.top/api/v1/client/subscribe?token=3b1285904ece1a85a89729ced9974efe
+time  2022-12-12 18:32:43.126599+08:00
+更新订阅信息失败  Message: javascript error: Failed to fetch (Session info: chrome=108.0.5359.94) Stacktrace: #0 0x55fe2a4b62a3 <unknown> #1 0x55fe2a274f77 <unknown> #2 0x55fe2a2789c8 <unknown> #3 0x55fe2a278792 <unknown> #4 0x55fe2a2793fc <unknown> #5 0x55fe2a2e9f9e <unknown> #6 0x55fe2a2d1b32 <unknown> #7 0x55fe2a2e947c <unknown> #8 0x55fe2a2d1903 <unknown> #9 0x55fe2a2a4ece <unknown> #10 0x55fe2a2a5fde <unknown> #11 0x55fe2a50663e <unknown> #12 0x55fe2a509b79 <unknown> #13 0x55fe2a4ec89e <unknown> #14 0x55fe2a50aa83 <unknown> #15 0x55fe2a4df505 <unknown> #16 0x55fe2a52bca8 <unknown> #17 0x55fe2a52be36 <unknown> #18 0x55fe2a547333 <unknown> #19 0x7f24ff008b43 <unknown>
+更新订阅失败  Message: javascript error: Failed to fetch (Session info: chrome=108.0.5359.94) Stacktrace: #0 0x55fe2a4b62a3 <unknown> #1 0x55fe2a274f77 <unknown> #2 0x55fe2a2789c8 <unknown> #3 0x55fe2a278792 <unknown> #4 0x55fe2a2793fc <unknown> #5 0x55fe2a2e9f9e <unknown> #6 0x55fe2a2d1b32 <unknown> #7 0x55fe2a2e947c <unknown> #8 0x55fe2a2d1903 <unknown> #9 0x55fe2a2a4ece <unknown> #10 0x55fe2a2a5fde <unknown> #11 0x55fe2a50663e <unknown> #12 0x55fe2a509b79 <unknown> #13 0x55fe2a4ec89e <unknown> #14 0x55fe2a50aa83 <unknown> #15 0x55fe2a4df505 <unknown> #16 0x55fe2a52bca8 <unknown> #17 0x55fe2a52be36 <unknown> #18 0x55fe2a547333 <unknown> #19 0x7f24ff008b43 <unknown>
 
 [cloud.hhygj.xyz]
 email  olmaphudboiz683@gmail.com
 node_n  2
-sub_info  296.2K  2G  2022-12-12 20:39:31+08:00  (剩余 2G 2:11:34.317658)
+sub_info  307K  2G  2022-12-12 20:39:31+08:00  (剩余 2G 2:06:52.523418)
 sub_url  https://tblackdy.rtshdsd.top/api/v1/client/subscribe?token=edd4f159a5c317c230a3a4e1b2a79086
 time  2022-12-12 17:39:31.605653+08:00
