@@ -1,14 +1,14 @@
 [www.zhenyejiedian.com]
 email  vececlxhr636@gmail.com
 node_n  10
-sub_info  0B  1G  2022-12-13 21:36:40+08:00  (剩余 1G 23:51:43.031090)
+sub_info  0B  1G  2022-12-13 21:36:40+08:00  (剩余 1G 23:42:00.828495)
 sub_url  https://api.qingyuge.top/api/v1/client/subscribe?token=3c9eef25830ba0f14e3b4782d806dcf3
 time  2022-12-12 21:36:40.123311+08:00
 
 [ckcloud.icu]
 email  ycezkiutt776@bukhariansiddur.com
 node_n  8
-sub_info  0B  5G  2022-12-13 09:28:58+08:00  (剩余 5G 11:44:00.160033)
+sub_info  0B  5G  2022-12-13 09:28:58+08:00  (剩余 5G 11:34:10.545005)
 sub_url  https://ckcloud.icu/api/v1/client/subscribe?token=3e9cfd1dc70fcfb20939c32ed4b1699a
 time  2022-12-12 21:28:59.254668+08:00
 
@@ -16,7 +16,7 @@ time  2022-12-12 21:28:59.254668+08:00
 email  gpxkjwuwrzbx977@gmail.com
 last_checkin  2022-12-12 12:28:45.718441+08:00
 node_n  91
-sub_info  24.46M  1.112G  2022-12-13 12:28:44+08:00  (剩余 1.088G 14:43:45.157593)
+sub_info  24.97M  1.112G  2022-12-13 12:28:44+08:00  (剩余 1.088G 14:34:03.299167)
 sub_url  https://network.ayucloud.nl/link/c16tZnU2eLSiohH0?clash=1
 time  2022-12-12 12:28:47.581399+08:00
 
@@ -24,7 +24,7 @@ time  2022-12-12 12:28:47.581399+08:00
 email  fuogiqhpp398@gmail.com
 last_checkin  2022-12-12 20:41:03.901248+08:00
 node_n  24
-sub_info  1.065M  10.92G  2022-12-13 20:41:03+08:00  (剩余 10.92G 22:56:06.053652)
+sub_info  1.209M  10.92G  2022-12-13 20:41:03+08:00  (剩余 10.92G 22:46:24.059185)
 sub_url  https://1.amazom.group/link/tbAxrvbaeTbT4sIB?sub=3
 time  2022-12-12 20:41:06.017974+08:00
 
@@ -32,20 +32,22 @@ time  2022-12-12 20:41:06.017974+08:00
 email  fuogiqhpp398@bukhariansiddur.com
 last_checkin  2022-12-12 20:41:12.394058+08:00
 node_n  37
-sub_info  1.733M  5.249G  2022-12-13 20:41:12+08:00  (剩余 5.247G 22:55:58.172590)
+sub_info  2.533M  5.249G  2022-12-13 20:41:12+08:00  (剩余 5.247G 22:46:31.477442)
 sub_url  https://yysub.trafficmanager.net/link/cyt9kfQDy9b3a8qZ?sub=2
 time  2022-12-12 20:41:13.833150+08:00
 
 [user.bafang.vip]
-email  fzlpjbkpimwi280@gmail.com
+email  vuwxoqbbiqh978@gmail.com
 node_n  71
 sub_info  0B  5G  2022-12-12 22:18:13+08:00  (剩余 5G 0:33:15.238939)
-sub_url  http://www.bfyun.top/api/v1/client/subscribe?token=e074f82fe175e97d81fdf25cd396aa1a
-time  2022-12-12 21:18:14.112352+08:00
+sub_url  http://www.bfyun.top/api/v1/client/subscribe?token=be296c716332d38700055e3e0484b1f5
+time  2022-12-12 21:55:15.126832+08:00
+更新订阅信息失败  Message: javascript error: Failed to fetch (Session info: chrome=108.0.5341.0) Stacktrace: #0 0x563aecb3d2a3 <unknown> #1 0x563aec8fbf77 <unknown> #2 0x563aec8ff9c8 <unknown> #3 0x563aec8ff792 <unknown> #4 0x563aec9003fc <unknown> #5 0x563aec970f9e <unknown> #6 0x563aec958b32 <unknown> #7 0x563aec97047c <unknown> #8 0x563aec958903 <unknown> #9 0x563aec92bece <unknown> #10 0x563aec92cfde <unknown> #11 0x563aecb8d63e <unknown> #12 0x563aecb90b79 <unknown> #13 0x563aecb7389e <unknown> #14 0x563aecb91a83 <unknown> #15 0x563aecb66505 <unknown> #16 0x563aecbb2ca8 <unknown> #17 0x563aecbb2e36 <unknown> #18 0x563aecbce333 <unknown> #19 0x7f6fa3d54b43 <unknown>
+更新订阅失败  Message: javascript error: Failed to fetch (Session info: chrome=108.0.5341.0) Stacktrace: #0 0x563aecb3d2a3 <unknown> #1 0x563aec8fbf77 <unknown> #2 0x563aec8ff9c8 <unknown> #3 0x563aec8ff792 <unknown> #4 0x563aec9003fc <unknown> #5 0x563aec970f9e <unknown> #6 0x563aec958b32 <unknown> #7 0x563aec97047c <unknown> #8 0x563aec958903 <unknown> #9 0x563aec92bece <unknown> #10 0x563aec92cfde <unknown> #11 0x563aecb8d63e <unknown> #12 0x563aecb90b79 <unknown> #13 0x563aecb7389e <unknown> #14 0x563aecb91a83 <unknown> #15 0x563aecb66505 <unknown> #16 0x563aecbb2ca8 <unknown> #17 0x563aecbb2e36 <unknown> #18 0x563aecbce333 <unknown> #19 0x7f6fa3d54b43 <unknown>
 
 [cloud.hhygj.xyz]
 email  fuogiqhpp398@gmail.com
 node_n  2
-sub_info  237K  2G  2022-12-12 23:41:03+08:00  (剩余 2G 1:56:04.931606)
+sub_info  331.7K  2G  2022-12-12 23:41:03+08:00  (剩余 2G 1:46:22.907747)
 sub_url  https://tblackdy.rtshdsd.top/api/v1/client/subscribe?token=5904032e48c9201665d19cb5c1fc892a
 time  2022-12-12 20:41:04.486470+08:00
