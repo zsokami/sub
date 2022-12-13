@@ -1,14 +1,14 @@
 [www.zhenyejiedian.com]
 email  vececlxhr636@gmail.com
 node_n  14
-sub_info  6.996M  1G  2022-12-13 21:36:40+08:00  (剩余 1017M 7:51:44.790209)
+sub_info  7.045M  1G  2022-12-13 21:36:40+08:00  (剩余 1017M 7:42:02.543311)
 sub_url  https://api.qingyuge.top/api/v1/client/subscribe?token=3c9eef25830ba0f14e3b4782d806dcf3
 time  2022-12-12 21:36:40.123311+08:00
 
 [ckcloud.icu]
 email  wtaonuos906@bukhariansiddur.com
 node_n  8
-sub_info  1.957M  5G  2022-12-13 21:52:28+08:00  (剩余 4.998G 8:07:31.879585)
+sub_info  2.049M  5G  2022-12-13 21:52:28+08:00  (剩余 4.998G 7:57:49.807719)
 sub_url  https://ckcloud.icu/api/v1/client/subscribe?token=721780ca60659cd747b527ac231c4dd7
 time  2022-12-13 09:52:29.385258+08:00
 
@@ -16,7 +16,7 @@ time  2022-12-13 09:52:29.385258+08:00
 email  jmeilnq862@gmail.com
 last_checkin  2022-12-13 12:26:06.476228+08:00
 node_n  91
-sub_info  503.6M  1.075G  2022-12-14 12:26:05+08:00  (剩余 597.4M 22:41:07.763858)
+sub_info  504.3M  1.075G  2022-12-14 12:26:05+08:00  (剩余 596.7M 22:31:26.207313)
 sub_url  https://network.ayucloud.nl/link/FglNM4y605PEcBuX?clash=1
 time  2022-12-13 12:26:08.475380+08:00
 
@@ -24,7 +24,7 @@ time  2022-12-13 12:26:08.475380+08:00
 email  fuogiqhpp398@gmail.com
 last_checkin  2022-12-13 00:31:29.401289+08:00
 node_n  23
-sub_info  6.945M  11.86G  2022-12-13 20:41:03+08:00  (剩余 11.86G 6:56:07.303241)
+sub_info  7.011M  11.86G  2022-12-13 20:41:03+08:00  (剩余 11.86G 6:46:25.877147)
 sub_url  https://1.amazom.group/link/tbAxrvbaeTbT4sIB?sub=3
 time  2022-12-12 20:41:06.017974+08:00
 
@@ -32,20 +32,22 @@ time  2022-12-12 20:41:06.017974+08:00
 email  fuogiqhpp398@bukhariansiddur.com
 last_checkin  2022-12-13 00:31:29.402853+08:00
 node_n  37
-sub_info  17.32M  5.479G  2022-12-13 20:41:12+08:00  (剩余 5.462G 6:56:12.511963)
+sub_info  17.48M  5.479G  2022-12-13 20:41:12+08:00  (剩余 5.461G 6:46:33.264630)
 sub_url  https://yysub.trafficmanager.net/link/cyt9kfQDy9b3a8qZ?sub=2
 time  2022-12-12 20:41:13.833150+08:00
 
 [user.bafang.vip]
-email  fqqpqko323@gmail.com
+email  pxndohbzcwd309@gmail.com
 node_n  71
 sub_info  0B  5G  2022-12-13 14:19:32+08:00  (剩余 5G 0:34:36.781801)
-sub_url  http://dd.cxld.sbs/api/v1/client/subscribe?token=9d58b1dac85e570ee87ae03828cba69e
-time  2022-12-13 13:19:33.283914+08:00
+sub_url  http://dd.cxld.sbs/api/v1/client/subscribe?token=87025d2c8caa2dbcfc9bb09666c68a88
+time  2022-12-13 13:54:56.858955+08:00
+更新订阅信息失败  Message: javascript error: Failed to fetch (Session info: chrome=108.0.5341.0) Stacktrace: #0 0x564c6fb8a2a3 <unknown> #1 0x564c6f948f77 <unknown> #2 0x564c6f94c9c8 <unknown> #3 0x564c6f94c792 <unknown> #4 0x564c6f94d3fc <unknown> #5 0x564c6f9bdf9e <unknown> #6 0x564c6f9a5b32 <unknown> #7 0x564c6f9bd47c <unknown> #8 0x564c6f9a5903 <unknown> #9 0x564c6f978ece <unknown> #10 0x564c6f979fde <unknown> #11 0x564c6fbda63e <unknown> #12 0x564c6fbddb79 <unknown> #13 0x564c6fbc089e <unknown> #14 0x564c6fbdea83 <unknown> #15 0x564c6fbb3505 <unknown> #16 0x564c6fbffca8 <unknown> #17 0x564c6fbffe36 <unknown> #18 0x564c6fc1b333 <unknown> #19 0x7ff41b82db43 <unknown>
+更新订阅失败  Message: javascript error: Failed to fetch (Session info: chrome=108.0.5341.0) Stacktrace: #0 0x564c6fb8a2a3 <unknown> #1 0x564c6f948f77 <unknown> #2 0x564c6f94c9c8 <unknown> #3 0x564c6f94c792 <unknown> #4 0x564c6f94d3fc <unknown> #5 0x564c6f9bdf9e <unknown> #6 0x564c6f9a5b32 <unknown> #7 0x564c6f9bd47c <unknown> #8 0x564c6f9a5903 <unknown> #9 0x564c6f978ece <unknown> #10 0x564c6f979fde <unknown> #11 0x564c6fbda63e <unknown> #12 0x564c6fbddb79 <unknown> #13 0x564c6fbc089e <unknown> #14 0x564c6fbdea83 <unknown> #15 0x564c6fbb3505 <unknown> #16 0x564c6fbffca8 <unknown> #17 0x564c6fbffe36 <unknown> #18 0x564c6fc1b333 <unknown> #19 0x7ff41b82db43 <unknown>
 
 [cloud.hhygj.xyz]
 email  krvbnhp615@gmail.com
 node_n  2
-sub_info  447.1K  2G  2022-12-13 15:35:31+08:00  (剩余 2G 1:50:34.195774)
+sub_info  498.7K  2G  2022-12-13 15:35:31+08:00  (剩余 2G 1:40:52.385008)
 sub_url  https://tblackdy.rtshdsd.top/api/v1/client/subscribe?token=8a93ec382b66d53e873632d60b9d861d
 time  2022-12-13 12:35:32.589035+08:00
