@@ -1,14 +1,14 @@
 [www.zhenyejiedian.com]
 email  bxfwzftatocn776@gmail.com
 node_n  14
-sub_info  5.845M  1G  2022-12-14 21:15:22+08:00  (剩余 1018M 20:16:15.415108)
+sub_info  7.311M  1G  2022-12-14 21:15:22+08:00  (剩余 1017M 19:56:26.652773)
 sub_url  https://api.qingyuge.top/api/v1/client/subscribe?token=c99f99103ba432753f63305c67acfc53
 time  2022-12-13 21:15:22.565187+08:00
 
 [ckcloud.icu]
 email  loxfoyf619@bukhariansiddur.com
 node_n  8
-sub_info  8.676M  5G  2022-12-14 06:41:55+08:00  (剩余 4.992G 5:42:47.532825)
+sub_info  11.67M  5G  2022-12-14 06:41:55+08:00  (剩余 4.989G 5:22:58.867506)
 sub_url  https://ckcloud.icu/api/v1/client/subscribe?token=8fab91a6005c68d020762914664420b3
 time  2022-12-13 18:41:55.989868+08:00
 
@@ -16,7 +16,7 @@ time  2022-12-13 18:41:55.989868+08:00
 email  tbnmaccaim865@gmail.com
 last_checkin  2022-12-14 00:52:11.805097+08:00
 node_n  91
-sub_info  67.96M  1.85G  2022-12-14 16:27:17+08:00  (剩余 1.783G 15:28:07.765679)
+sub_info  76.82M  1.85G  2022-12-14 16:27:17+08:00  (剩余 1.775G 15:08:20.328433)
 sub_url  https://network.ayucloud.nl/link/0FS6gfm1lMUO62TB?clash=1
 time  2022-12-13 16:27:20.433732+08:00
 
@@ -24,7 +24,7 @@ time  2022-12-13 16:27:20.433732+08:00
 email  jrpsexjdtork530@gmail.com
 last_checkin  2022-12-14 00:30:22.831298+08:00
 node_n  23
-sub_info  14.38M  11.34G  2022-12-14 20:39:51+08:00  (剩余 11.32G 19:40:44.240134)
+sub_info  17.38M  11.34G  2022-12-14 20:39:51+08:00  (剩余 11.32G 19:20:55.383700)
 sub_url  https://1.amazom.group/link/S9wzf6wRzhZcTpQt?sub=3
 time  2022-12-13 20:39:52.598358+08:00
 
@@ -32,20 +32,22 @@ time  2022-12-13 20:39:52.598358+08:00
 email  girnquds7@bukhariansiddur.com
 last_checkin  2022-12-14 00:30:22.832512+08:00
 node_n  37
-sub_info  20.59M  5.382G  2022-12-14 20:44:57+08:00  (剩余 5.362G 19:45:49.058611)
+sub_info  25.08M  5.382G  2022-12-14 20:44:57+08:00  (剩余 5.357G 19:26:00.417252)
 sub_url  https://yysub.trafficmanager.net/link/LDkncK6UISY6ijC8?sub=2
 time  2022-12-13 20:44:59.523207+08:00
 
 [user.bafang.vip]
-email  ltrlsehbcjhc819@gmail.com
+email  hhpgdbk312@gmail.com
 node_n  71
 sub_info  26.25M  5G  2022-12-14 01:30:27+08:00  (剩余 4.974G 0:31:20.302457)
-sub_url  http://dd.cxld.sbs/api/v1/client/subscribe?token=c32d54d4312df4f1d5bf972295a16b75
-time  2022-12-14 00:30:27.708785+08:00
+sub_url  http://dd.cxld.sbs/api/v1/client/subscribe?token=5495974029087fef2238b67b1eea9423
+time  2022-12-14 01:18:59.475274+08:00
+更新订阅信息失败  Message: javascript error: Failed to fetch (Session info: chrome=108.0.5359.94) Stacktrace: #0 0x55b8242022a3 <unknown> #1 0x55b823fc0f77 <unknown> #2 0x55b823fc49c8 <unknown> #3 0x55b823fc4792 <unknown> #4 0x55b823fc53fc <unknown> #5 0x55b824035f9e <unknown> #6 0x55b82401db32 <unknown> #7 0x55b82403547c <unknown> #8 0x55b82401d903 <unknown> #9 0x55b823ff0ece <unknown> #10 0x55b823ff1fde <unknown> #11 0x55b82425263e <unknown> #12 0x55b824255b79 <unknown> #13 0x55b82423889e <unknown> #14 0x55b824256a83 <unknown> #15 0x55b82422b505 <unknown> #16 0x55b824277ca8 <unknown> #17 0x55b824277e36 <unknown> #18 0x55b824293333 <unknown> #19 0x7f89176c0b43 <unknown>
+更新订阅失败  Message: javascript error: Failed to fetch (Session info: chrome=108.0.5359.94) Stacktrace: #0 0x55b8242022a3 <unknown> #1 0x55b823fc0f77 <unknown> #2 0x55b823fc49c8 <unknown> #3 0x55b823fc4792 <unknown> #4 0x55b823fc53fc <unknown> #5 0x55b824035f9e <unknown> #6 0x55b82401db32 <unknown> #7 0x55b82403547c <unknown> #8 0x55b82401d903 <unknown> #9 0x55b823ff0ece <unknown> #10 0x55b823ff1fde <unknown> #11 0x55b82425263e <unknown> #12 0x55b824255b79 <unknown> #13 0x55b82423889e <unknown> #14 0x55b824256a83 <unknown> #15 0x55b82422b505 <unknown> #16 0x55b824277ca8 <unknown> #17 0x55b824277e36 <unknown> #18 0x55b824293333 <unknown> #19 0x7f89176c0b43 <unknown>
 
 [cloud.hhygj.xyz]
 email  txwsanigi287@gmail.com
 node_n  2
-sub_info  1.005M  2G  2022-12-14 02:26:20+08:00  (剩余 1.999G 1:27:12.424783)
+sub_info  1.267M  2G  2022-12-14 02:26:20+08:00  (剩余 1.999G 1:07:23.587060)
 sub_url  https://tblackdy.rtshdsd.top/api/v1/client/subscribe?token=4bd06486df348fe16ccd9571d65207e5
 time  2022-12-13 23:26:20.791689+08:00
