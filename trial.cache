@@ -1,14 +1,14 @@
 [www.zhenyejiedian.com]
 email  bxfwzftatocn776@gmail.com
 node_n  14
-sub_info  1.682M  1G  2022-12-14 21:15:22+08:00  (剩余 1022M 20:44:58.353480)
+sub_info  2.068M  1G  2022-12-14 21:15:22+08:00  (剩余 1022M 20:41:31.189311)
 sub_url  https://api.qingyuge.top/api/v1/client/subscribe?token=c99f99103ba432753f63305c67acfc53
 time  2022-12-13 21:15:22.565187+08:00
 
 [ckcloud.icu]
 email  loxfoyf619@bukhariansiddur.com
 node_n  8
-sub_info  2.828M  5G  2022-12-14 06:41:55+08:00  (剩余 4.997G 6:11:30.557679)
+sub_info  3.537M  5G  2022-12-14 06:41:55+08:00  (剩余 4.997G 6:08:03.235105)
 sub_url  https://ckcloud.icu/api/v1/client/subscribe?token=8fab91a6005c68d020762914664420b3
 time  2022-12-13 18:41:55.989868+08:00
 
@@ -21,13 +21,13 @@ sub_url  https://network.ayucloud.nl/link/0FS6gfm1lMUO62TB?clash=1
 time  2022-12-13 16:27:20.433732+08:00
 尝试签到失败  Expecting value: line 1 column 1 (char 0)
 更新订阅失败  'subscription-userinfo'
-更新订阅链接失败  更新订阅失败: https://api.nexconvert.com/sub?target=mixed&add_emoji=false&remove_emoji=false&url=https://network.ayucloud.nl/link/0FS6gfm1lMUO62TB?clash=1 'subscription-userinfo'
+更新订阅链接失败  更新订阅失败: https://api.subcloud.xyz/sub?target=mixed&add_emoji=false&remove_emoji=false&url=https://network.ayucloud.nl/link/0FS6gfm1lMUO62TB?clash=1 'subscription-userinfo'
 
 [shynia.com]
 email  jrpsexjdtork530@gmail.com
 last_checkin  2022-12-14 00:30:22.831298+08:00
 node_n  23
-sub_info  8.439M  11.34G  2022-12-14 20:39:51+08:00  (剩余 11.33G 20:09:26.994658)
+sub_info  9.09M  11.34G  2022-12-14 20:39:51+08:00  (剩余 11.33G 20:05:59.908694)
 sub_url  https://1.amazom.group/link/S9wzf6wRzhZcTpQt?sub=3
 time  2022-12-13 20:39:52.598358+08:00
 
@@ -35,22 +35,20 @@ time  2022-12-13 20:39:52.598358+08:00
 email  girnquds7@bukhariansiddur.com
 last_checkin  2022-12-14 00:30:22.832512+08:00
 node_n  37
-sub_info  11.95M  5.382G  2022-12-14 20:44:57+08:00  (剩余 5.37G 20:14:26.522052)
+sub_info  12.76M  5.382G  2022-12-14 20:44:57+08:00  (剩余 5.369G 20:11:02.170533)
 sub_url  https://yysub.trafficmanager.net/link/LDkncK6UISY6ijC8?sub=2
 time  2022-12-13 20:44:59.523207+08:00
 
 [user.bafang.vip]
 email  ltrlsehbcjhc819@gmail.com
 node_n  71
-sub_info  18.48M  5G  2022-12-14 00:26:35+08:00  (剩余 4.982G 0:27:44.597894)
+sub_info  0B  5G  2022-12-14 01:30:27+08:00  (剩余 5G 0:56:36.047873)
 sub_url  http://dd.cxld.sbs/api/v1/client/subscribe?token=c32d54d4312df4f1d5bf972295a16b75
 time  2022-12-14 00:30:27.708785+08:00
-更新订阅信息失败  Message: javascript error: Failed to fetch (Session info: chrome=108.0.5359.94) Stacktrace: #0 0x560b133262a3 <unknown> #1 0x560b130e4f77 <unknown> #2 0x560b130e89c8 <unknown> #3 0x560b130e8792 <unknown> #4 0x560b130e93fc <unknown> #5 0x560b13159f9e <unknown> #6 0x560b13141b32 <unknown> #7 0x560b1315947c <unknown> #8 0x560b13141903 <unknown> #9 0x560b13114ece <unknown> #10 0x560b13115fde <unknown> #11 0x560b1337663e <unknown> #12 0x560b13379b79 <unknown> #13 0x560b1335c89e <unknown> #14 0x560b1337aa83 <unknown> #15 0x560b1334f505 <unknown> #16 0x560b1339bca8 <unknown> #17 0x560b1339be36 <unknown> #18 0x560b133b7333 <unknown> #19 0x7f949afeab43 <unknown>
-更新订阅失败  Message: javascript error: Failed to fetch (Session info: chrome=108.0.5359.94) Stacktrace: #0 0x560b133262a3 <unknown> #1 0x560b130e4f77 <unknown> #2 0x560b130e89c8 <unknown> #3 0x560b130e8792 <unknown> #4 0x560b130e93fc <unknown> #5 0x560b13159f9e <unknown> #6 0x560b13141b32 <unknown> #7 0x560b1315947c <unknown> #8 0x560b13141903 <unknown> #9 0x560b13114ece <unknown> #10 0x560b13115fde <unknown> #11 0x560b1337663e <unknown> #12 0x560b13379b79 <unknown> #13 0x560b1335c89e <unknown> #14 0x560b1337aa83 <unknown> #15 0x560b1334f505 <unknown> #16 0x560b1339bca8 <unknown> #17 0x560b1339be36 <unknown> #18 0x560b133b7333 <unknown> #19 0x7f949afeab43 <unknown>
 
 [cloud.hhygj.xyz]
 email  txwsanigi287@gmail.com
 node_n  2
-sub_info  533.2K  2G  2022-12-14 02:26:20+08:00  (剩余 1.999G 1:55:55.282160)
+sub_info  581.7K  2G  2022-12-14 02:26:20+08:00  (剩余 1.999G 1:52:27.620578)
 sub_url  https://tblackdy.rtshdsd.top/api/v1/client/subscribe?token=4bd06486df348fe16ccd9571d65207e5
 time  2022-12-13 23:26:20.791689+08:00
