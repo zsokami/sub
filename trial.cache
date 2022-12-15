@@ -1,14 +1,14 @@
 [www.zhenyejiedian.com]
 email  hzphckqegprl162@gmail.com
 node_n  14
-sub_info  22.9M  1G  2022-12-16 20:40:07+08:00  (剩余 1001M 16:12:19.775096)
+sub_info  22.9M  1G  2022-12-16 20:40:07+08:00  (剩余 1001M 16:11:03.091095)
 sub_url  https://api.qingyuge.top/api/v1/client/subscribe?token=a536e85b2c4a51948ce3738915e4877b
 time  2022-12-15 20:40:07.539419+08:00
 
 [ckcloud.icu]
 email  wqemxuk484@bukhariansiddur.com
 node_n  8
-sub_info  33.94M  5G  2022-12-16 04:37:07+08:00  (剩余 4.967G 0:09:09.403970)
+sub_info  33.94M  5G  2022-12-16 04:37:07+08:00  (剩余 4.967G 0:07:54.634040)
 sub_url  https://ckcloud.icu/api/v1/client/subscribe?token=665d78908eb0c24c85613cc98404502e
 time  2022-12-15 16:37:08.470359+08:00
 更新订阅链接失败  注册失败: {'message': '邮箱后缀不处于白名单中'}
@@ -17,7 +17,7 @@ time  2022-12-15 16:37:08.470359+08:00
 email  xztlmbtiu911@gmail.com
 last_checkin  2022-12-16 03:24:59.271681+08:00
 node_n  91
-sub_info  821.4K  1.177G  2022-12-17 03:24:58+08:00  (剩余 1.176G 22:57:09.432699)
+sub_info  821.4K  1.177G  2022-12-17 03:24:58+08:00  (剩余 1.176G 22:55:52.837153)
 sub_url  https://network.ayucloud.nl/link/pvJdWY8aPiIf9QsH?clash=1
 time  2022-12-16 03:25:01.258631+08:00
 
@@ -25,7 +25,7 @@ time  2022-12-16 03:25:01.258631+08:00
 email  lmjszfuwdab39@gmail.com
 last_checkin  2022-12-16 00:30:44.983179+08:00
 node_n  23
-sub_info  718.7M  11.3G  2022-12-16 23:22:22+08:00  (剩余 10.6G 18:54:34.609614)
+sub_info  718.7M  11.3G  2022-12-16 23:22:22+08:00  (剩余 10.6G 18:53:17.906489)
 sub_url  https://1.amazom.group/link/WejMHabj9mQUikzF?sub=3
 time  2022-12-15 23:22:22.797112+08:00
 
@@ -33,20 +33,22 @@ time  2022-12-15 23:22:22.797112+08:00
 email  llrquhh515@bukhariansiddur.com
 last_checkin  2022-12-16 00:30:44.984269+08:00
 node_n  37
-sub_info  86.35M  5.532G  2022-12-16 20:45:31+08:00  (剩余 5.448G 16:17:42.326561)
+sub_info  86.35M  5.532G  2022-12-16 20:45:31+08:00  (剩余 5.448G 16:16:25.868979)
 sub_url  https://yysub.trafficmanager.net/link/SiaC7XmGTnhpVqkj?sub=2
 time  2022-12-15 20:45:33.514302+08:00
 
 [user.bafang.vip]
-email  vrwyfqjw914@gmail.com
+email  ovoumeft757@gmail.com
 node_n  83
 sub_info  1.409M  5G  2022-12-16 04:55:24+08:00  (剩余 4.999G 0:27:36.320632)
-sub_url  http://dd.cxld.sbs/api/v1/client/subscribe?token=34ea214543b666870259ad0729995a62
-time  2022-12-16 03:55:24.864735+08:00
+sub_url  http://www.bfyun.top/api/v1/client/subscribe?token=7f69b81a8d0d692cfa781e108e977fef
+time  2022-12-16 04:29:18.686360+08:00
+更新订阅信息失败  Message: javascript error: Failed to fetch (Session info: chrome=108.0.5341.0) Stacktrace: #0 0x5560ed40b2a3 <unknown> #1 0x5560ed1c9f77 <unknown> #2 0x5560ed1cd9c8 <unknown> #3 0x5560ed1cd792 <unknown> #4 0x5560ed1ce3fc <unknown> #5 0x5560ed23ef9e <unknown> #6 0x5560ed226b32 <unknown> #7 0x5560ed23e47c <unknown> #8 0x5560ed226903 <unknown> #9 0x5560ed1f9ece <unknown> #10 0x5560ed1fafde <unknown> #11 0x5560ed45b63e <unknown> #12 0x5560ed45eb79 <unknown> #13 0x5560ed44189e <unknown> #14 0x5560ed45fa83 <unknown> #15 0x5560ed434505 <unknown> #16 0x5560ed480ca8 <unknown> #17 0x5560ed480e36 <unknown> #18 0x5560ed49c333 <unknown> #19 0x7f287bae7b43 <unknown>
+更新订阅失败  Message: javascript error: Failed to fetch (Session info: chrome=108.0.5341.0) Stacktrace: #0 0x5560ed40b2a3 <unknown> #1 0x5560ed1c9f77 <unknown> #2 0x5560ed1cd9c8 <unknown> #3 0x5560ed1cd792 <unknown> #4 0x5560ed1ce3fc <unknown> #5 0x5560ed23ef9e <unknown> #6 0x5560ed226b32 <unknown> #7 0x5560ed23e47c <unknown> #8 0x5560ed226903 <unknown> #9 0x5560ed1f9ece <unknown> #10 0x5560ed1fafde <unknown> #11 0x5560ed45b63e <unknown> #12 0x5560ed45eb79 <unknown> #13 0x5560ed44189e <unknown> #14 0x5560ed45fa83 <unknown> #15 0x5560ed434505 <unknown> #16 0x5560ed480ca8 <unknown> #17 0x5560ed480e36 <unknown> #18 0x5560ed49c333 <unknown> #19 0x7f287bae7b43 <unknown>
 
 [cloud.hhygj.xyz]
 email  tlqvxdw98@gmail.com
 node_n  2
-sub_info  862.1K  2G  2022-12-16 04:59:07+08:00  (剩余 1.999G 0:31:18.730007)
+sub_info  862.1K  2G  2022-12-16 04:59:07+08:00  (剩余 1.999G 0:30:01.960268)
 sub_url  https://tblackdy.rtshdsd.top/api/v1/client/subscribe?token=b4dd9a0470d89250a1594c7b4a9ba033
 time  2022-12-16 01:59:07.962510+08:00
