@@ -1,53 +1,53 @@
 [www.zhenyejiedian.com]
 email  hzphckqegprl162@gmail.com
 node_n  14
-sub_info  119.8M  1G  2022-12-16 20:40:07+08:00  (剩余 904.2M 21:41:10.946903)
+sub_info  120.4M  1G  2022-12-16 20:40:07+08:00  (剩余 903.6M 21:17:45.485645)
 sub_url  https://api.qingyuge.top/api/v1/client/subscribe?token=a536e85b2c4a51948ce3738915e4877b
 time  2022-12-15 20:40:07.539419+08:00
 
 [ckcloud.icu]
 email  wqemxuk484@bukhariansiddur.com
 node_n  8
-sub_info  130.5M  5G  2022-12-16 04:37:07+08:00  (剩余 4.873G 5:38:10.086751)
+sub_info  1.076G  5G  2022-12-16 04:37:07+08:00  (剩余 3.924G 5:14:44.691618)
 sub_url  https://ckcloud.icu/api/v1/client/subscribe?token=665d78908eb0c24c85613cc98404502e
 time  2022-12-15 16:37:08.470359+08:00
 
 [bbs.cloudnetwork.pro]
-email  vaqbcbmpduok500@gmail.com
-last_checkin  2022-12-15 00:30:35.988711+08:00
+email  lmjszfuwdab39@gmail.com
+last_checkin  2022-12-15 23:22:25.999720+08:00
 node_n  91
-sub_info  802.5M  1.63G  2022-12-15 23:22:32+08:00  (剩余 866.5M 0:27:28.914381)
-sub_url  https://network.ayucloud.nl/link/ZBE3mKohXzdkMMIu?clash=1
-time  2022-12-14 23:22:35.266446+08:00
-更新订阅失败  'subscription-userinfo'
-更新订阅链接失败  更新订阅失败: https://www.nameless13.com/sub?target=mixed&add_emoji=false&remove_emoji=false&url=https://network.ayucloud.nl/link/ZBE3mKohXzdkMMIu?clash=1 'subscription-userinfo'
+sub_info  0B  1.157G  2022-12-16 23:22:25+08:00  (剩余 1.157G 23:59:55.406094)
+sub_url  https://network.ayucloud.nl/link/vG2MdleOaPWcEm5t?clash=1
+time  2022-12-15 23:22:27.981510+08:00
 
 [shynia.com]
-email  wspmxowqvr97@gmail.com
-last_checkin  2022-12-15 00:30:35.991552+08:00
+email  lmjszfuwdab39@gmail.com
+last_checkin  2022-12-15 23:22:22.115066+08:00
 node_n  23
-sub_info  74.33M  11.04G  2022-12-15 23:41:00+08:00  (剩余 10.97G 0:42:04.111484)
-sub_url  https://1.amazom.group/link/vn4d1692HW2FHOlB?sub=3
-time  2022-12-14 23:41:01.545412+08:00
+sub_info  0B  10.89G  2022-12-16 23:22:22+08:00  (剩余 10.89G 23:59:58.820453)
+sub_url  https://1.amazom.group/link/WejMHabj9mQUikzF?sub=3
+time  2022-12-15 23:22:22.797112+08:00
 
 [yypro.pro]
 email  llrquhh515@bukhariansiddur.com
 last_checkin  2022-12-15 20:45:31.816402+08:00
 node_n  37
-sub_info  28.49M  5.224G  2022-12-16 20:45:31+08:00  (剩余 5.196G 21:46:30.374732)
+sub_info  29.47M  5.224G  2022-12-16 20:45:31+08:00  (剩余 5.195G 21:23:04.423786)
 sub_url  https://yysub.trafficmanager.net/link/SiaC7XmGTnhpVqkj?sub=2
 time  2022-12-15 20:45:33.514302+08:00
 
 [user.bafang.vip]
-email  ppmggsak650@gmail.com
+email  lmjszfuwdab39@gmail.com
 node_n  82
 sub_info  2.041M  5G  2022-12-15 23:29:54+08:00  (剩余 4.998G 0:30:57.408648)
-sub_url  http://www.bfyun.top/api/v1/client/subscribe?token=969e3148b258eabd534c8b6e102485cd
-time  2022-12-15 22:29:55.131604+08:00
+sub_url  http://dd.cxld.sbs/api/v1/client/subscribe?token=44660a2fe54dbcfb39662ea8f03af85f
+time  2022-12-15 23:22:34.030494+08:00
+更新订阅信息失败  Message: javascript error: Failed to fetch (Session info: chrome=108.0.5359.98) Stacktrace: #0 0x561f759d92a3 <unknown> #1 0x561f75797f77 <unknown> #2 0x561f7579b9c8 <unknown> #3 0x561f7579b792 <unknown> #4 0x561f7579c3fc <unknown> #5 0x561f7580cf9e <unknown> #6 0x561f757f4b32 <unknown> #7 0x561f7580c47c <unknown> #8 0x561f757f4903 <unknown> #9 0x561f757c7ece <unknown> #10 0x561f757c8fde <unknown> #11 0x561f75a2963e <unknown> #12 0x561f75a2cb79 <unknown> #13 0x561f75a0f89e <unknown> #14 0x561f75a2da83 <unknown> #15 0x561f75a02505 <unknown> #16 0x561f75a4eca8 <unknown> #17 0x561f75a4ee36 <unknown> #18 0x561f75a6a333 <unknown> #19 0x7f5d6f4a2b43 <unknown>
+更新订阅失败  Message: javascript error: Failed to fetch (Session info: chrome=108.0.5359.98) Stacktrace: #0 0x561f759d92a3 <unknown> #1 0x561f75797f77 <unknown> #2 0x561f7579b9c8 <unknown> #3 0x561f7579b792 <unknown> #4 0x561f7579c3fc <unknown> #5 0x561f7580cf9e <unknown> #6 0x561f757f4b32 <unknown> #7 0x561f7580c47c <unknown> #8 0x561f757f4903 <unknown> #9 0x561f757c7ece <unknown> #10 0x561f757c8fde <unknown> #11 0x561f75a2963e <unknown> #12 0x561f75a2cb79 <unknown> #13 0x561f75a0f89e <unknown> #14 0x561f75a2da83 <unknown> #15 0x561f75a02505 <unknown> #16 0x561f75a4eca8 <unknown> #17 0x561f75a4ee36 <unknown> #18 0x561f75a6a333 <unknown> #19 0x7f5d6f4a2b43 <unknown>
 
 [cloud.hhygj.xyz]
-email  hzphckqegprl162@gmail.com
+email  lmjszfuwdab39@gmail.com
 node_n  2
-sub_info  1.578M  2G  2022-12-15 23:40:07+08:00  (剩余 1.998G 0:41:09.818665)
-sub_url  https://tblackdy.rtshdsd.top/api/v1/client/subscribe?token=8836c4a96d44781fc6f22b1e21d36a53
-time  2022-12-15 20:40:08.594774+08:00
+sub_info  0B  2G  2022-12-16 02:22:26+08:00  (剩余 2G 2:59:57.114060)
+sub_url  https://tblackdy.rtshdsd.top/api/v1/client/subscribe?token=9e7926cf7b3c82299f85bb706ba4231f
+time  2022-12-15 23:22:27.361721+08:00
