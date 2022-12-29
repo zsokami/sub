@@ -1,4 +1,5 @@
 import os
+from copy import deepcopy
 from random import choice
 from time import time
 from urllib.parse import quote, urljoin
@@ -83,7 +84,7 @@ def gen_clash_config(config_path, providers_dir, name_to_node_map=None, provider
                 provider_node_names_set.add(provider_node_names)
                 provider_set.add(os.path.splitext(os.path.basename(path))[0])
 
-    cfg = base_cfg.copy()
+    cfg = deepcopy(base_cfg)
 
     providers = cfg['proxy-providers']
     base_provider = base_cfg['proxy-providers']['All']
