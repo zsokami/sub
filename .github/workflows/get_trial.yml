@@ -17,7 +17,7 @@ jobs:
       - name: Prepare
         run: |
           sudo chmod 777 $CHROMEWEBDRIVER/chromedriver
-          pip install requests beautifulsoup4 undetected-chromedriver
+          pip install requests beautifulsoup4 undetected-chromedriver ruamel.yaml
       - name: Run get_trial.py
         run: xvfb-run --auto-servernum python get_trial.py
       - name: Commit
