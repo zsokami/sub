@@ -35,8 +35,6 @@ node_n  70
 sub_info  0B  5G  2022-12-30 01:46:12+08:00  (剩余 5G 0:55:26.876002)
 sub_url  http://www.bfyun.top/api/v1/client/subscribe?token=097d4c2540e9a6a8f0a171f0ed120bd9
 time  2022-12-30 00:46:12.718369+08:00
-更新订阅信息失败  Message: javascript error: Failed to fetch (Session info: chrome=108.0.5341.0) Stacktrace: #0 0x5629f4aba2a3 <unknown> #1 0x5629f4878f77 <unknown> #2 0x5629f487c9c8 <unknown> #3 0x5629f487c792 <unknown> #4 0x5629f487d3fc <unknown> #5 0x5629f48edf9e <unknown> #6 0x5629f48d5b32 <unknown> #7 0x5629f48ed47c <unknown> #8 0x5629f48d5903 <unknown> #9 0x5629f48a8ece <unknown> #10 0x5629f48a9fde <unknown> #11 0x5629f4b0a63e <unknown> #12 0x5629f4b0db79 <unknown> #13 0x5629f4af089e <unknown> #14 0x5629f4b0ea83 <unknown> #15 0x5629f4ae3505 <unknown> #16 0x5629f4b2fca8 <unknown> #17 0x5629f4b2fe36 <unknown> #18 0x5629f4b4b333 <unknown> #19 0x7fb05f24bb43 <unknown>
-更新订阅失败  Message: javascript error: Failed to fetch (Session info: chrome=108.0.5341.0) Stacktrace: #0 0x5629f4aba2a3 <unknown> #1 0x5629f4878f77 <unknown> #2 0x5629f487c9c8 <unknown> #3 0x5629f487c792 <unknown> #4 0x5629f487d3fc <unknown> #5 0x5629f48edf9e <unknown> #6 0x5629f48d5b32 <unknown> #7 0x5629f48ed47c <unknown> #8 0x5629f48d5903 <unknown> #9 0x5629f48a8ece <unknown> #10 0x5629f48a9fde <unknown> #11 0x5629f4b0a63e <unknown> #12 0x5629f4b0db79 <unknown> #13 0x5629f4af089e <unknown> #14 0x5629f4b0ea83 <unknown> #15 0x5629f4ae3505 <unknown> #16 0x5629f4b2fca8 <unknown> #17 0x5629f4b2fe36 <unknown> #18 0x5629f4b4b333 <unknown> #19 0x7fb05f24bb43 <unknown>
 
 [cloud.hhygj.xyz]
 email  edksnwsp608@gmail.com
