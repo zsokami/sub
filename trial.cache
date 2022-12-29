@@ -1,7 +1,7 @@
 [www.zhenyejiedian.com]
 email  edksnwsp608@gmail.com
 node_n  8
-sub_info  1.375M  1G  2022-12-31 00:46:05+08:00  (剩余 1023M 22:59:37.400414)
+sub_info  1.541M  1G  2022-12-31 00:46:05+08:00  (剩余 1022M 22:50:24.568148)
 sub_url  https://api.qingyuge.top/api/v1/client/subscribe?token=34a076ea5c2080cb7d48b3cee5f542ad
 time  2022-12-30 00:46:05.726681+08:00
 
@@ -12,12 +12,13 @@ node_n  92
 sub_info  13.6M  1.146G  2022-12-31 00:50:48+08:00  (剩余 1.133G 23:04:22.576648)
 sub_url  https://network.ayucloud.nl/link/ro0CfYz92bqvLbgn?clash=1
 time  2022-12-30 00:50:50.916638+08:00
+更新旧订阅失败  HTTPSConnectionPool(host='api.v1.mk', port=443): Max retries exceeded with url: /sub?target=clash&udp=true&scv=true&expand=false&classic=true&exclude=Traffic%7CExpire%7C%E5%89%A9%E4%BD%99%E6%B5%81%E9%87%8F%7C%E5%88%B0%E6%9C%9F%7C%E6%97%B6%E9%97%B4%7C%E9%87%8D%E7%BD%AE%7C%E5%AE%98.%3F%E7%BD%91%7C%E5%AE%98%E6%96%B9%7C%E4%BA%A7%E5%93%81%7C%E5%B9%B3%E5%8F%B0%7C%E5%8B%BF%E8%BF%9E%7C%E4%BF%AE%E5%A4%8D%7C%E6%9B%B4%E6%96%B0%7C%E5%9C%B0%E5%9D%80%7C%E7%BD%91%E7%AB%99%7C%E7%BD%91%E5%9D%80%7C%E5%94%AE%E5%90%8E%7C%E5%AE%A2%E6%9C%8D%7C%E8%81%94%E7%B3%BB%7C%E4%BD%BF%E7%94%A8%7C%E8%B4%AD%E4%B9%B0%7C%E5%85%AC%E5%91%8A&url=https%3A//network.ayucloud.nl/link/ro0CfYz92bqvLbgn%3Fclash%3D1%231672336537.3133636&rename=%24%40%20-%20AyucLouD-Services&config=https://raw.githubusercontent.com/zsokami/ACL4SSR/main/ACL4SSR_Online_Full_Mannix.ini (Caused by ReadTimeoutError("HTTPSConnectionPool(host='api.v1.mk', port=443): Read timed out. (read timeout=5)"))
 
 [shynia.com]
 email  edksnwsp608@gmail.com
 last_checkin  2022-12-30 00:46:06.077207+08:00
 node_n  21
-sub_info  5.819M  10.6G  2022-12-31 00:46:05+08:00  (剩余 10.59G 22:59:38.298073)
+sub_info  6.465M  10.6G  2022-12-31 00:46:05+08:00  (剩余 10.59G 22:50:24.068370)
 sub_url  https://1.amazom.group/link/L9Sqydg3YcOASFLr?sub=3
 time  2022-12-30 00:46:07.154384+08:00
 
@@ -25,7 +26,7 @@ time  2022-12-30 00:46:07.154384+08:00
 email  mpabjwigu800@bukhariansiddur.com
 last_checkin  2022-12-30 00:50:53.843589+08:00
 node_n  36
-sub_info  6.68M  5.387G  2022-12-31 00:50:53+08:00  (剩余 5.38G 23:04:26.093763)
+sub_info  7.435M  5.387G  2022-12-31 00:50:53+08:00  (剩余 5.379G 22:55:13.296410)
 sub_url  https://yysub.trafficmanager.net/link/Kqjanc0xHbUvTbp3?sub=2
 time  2022-12-30 00:50:54.814189+08:00
 
@@ -35,11 +36,12 @@ node_n  70
 sub_info  123.7M  5G  2022-12-30 02:28:27+08:00  (剩余 4.879G 0:41:59.568821)
 sub_url  http://dd.ewmld2.one/api/v1/client/subscribe?token=db6d9983164a5a4392c1a14eaee2e986
 time  2022-12-30 01:28:27.917099+08:00
+更新旧订阅失败  HTTPSConnectionPool(host='sub.d1.mk', port=443): Max retries exceeded with url: /sub?target=mixed&exclude=Traffic%7CExpire%7C%E5%89%A9%E4%BD%99%E6%B5%81%E9%87%8F%7C%E5%88%B0%E6%9C%9F%7C%E6%97%B6%E9%97%B4%7C%E9%87%8D%E7%BD%AE%7C%E5%AE%98.%3F%E7%BD%91%7C%E5%AE%98%E6%96%B9%7C%E4%BA%A7%E5%93%81%7C%E5%B9%B3%E5%8F%B0%7C%E5%8B%BF%E8%BF%9E%7C%E4%BF%AE%E5%A4%8D%7C%E6%9B%B4%E6%96%B0%7C%E5%9C%B0%E5%9D%80%7C%E7%BD%91%E7%AB%99%7C%E7%BD%91%E5%9D%80%7C%E5%94%AE%E5%90%8E%7C%E5%AE%A2%E6%9C%8D%7C%E8%81%94%E7%B3%BB%7C%E4%BD%BF%E7%94%A8%7C%E8%B4%AD%E4%B9%B0%7C%E5%85%AC%E5%91%8A&url=http%3A//dd.ewmld2.one/api/v1/client/subscribe%3Ftoken%3Ddb6d9983164a5a4392c1a14eaee2e986%231672336537.3106353&rename=%24%40%20-%20%E5%85%AB%E6%96%B9%E4%BA%91&config=https://raw.githubusercontent.com/zsokami/ACL4SSR/main/ACL4SSR_Online_Full_Mannix.ini (Caused by ReadTimeoutError("HTTPSConnectionPool(host='sub.d1.mk', port=443): Read timed out. (read timeout=5)"))
 
 [cloud.hhygj.xyz]
 email  edksnwsp608@gmail.com
 node_n  2
-sub_info  793.4K  2G  2022-12-30 03:46:07+08:00  (剩余 1.999G 1:59:42.170579)
+sub_info  814.9K  2G  2022-12-30 03:46:07+08:00  (剩余 1.999G 1:50:26.801276)
 sub_url  https://tblack.xyz/api/v1/client/subscribe?token=57aca574522bbf0416c085eb4c832bfb
 time  2022-12-30 00:46:07.887436+08:00
 
@@ -49,3 +51,4 @@ node_n  12
 sub_info  3.074M  1G  2022-12-31 00:46:13+08:00  (剩余 1021M 22:59:48.245234)
 sub_url  https://biubiufast.com/api/v1/client/subscribe?token=1b87d7a639d98c9193358730ffaa5b92
 time  2022-12-30 00:46:13.293405+08:00
+更新旧订阅失败  HTTPSConnectionPool(host='api.v1.mk', port=443): Max retries exceeded with url: /sub?target=clash&udp=true&scv=true&expand=false&classic=true&exclude=Traffic%7CExpire%7C%E5%89%A9%E4%BD%99%E6%B5%81%E9%87%8F%7C%E5%88%B0%E6%9C%9F%7C%E6%97%B6%E9%97%B4%7C%E9%87%8D%E7%BD%AE%7C%E5%AE%98.%3F%E7%BD%91%7C%E5%AE%98%E6%96%B9%7C%E4%BA%A7%E5%93%81%7C%E5%B9%B3%E5%8F%B0%7C%E5%8B%BF%E8%BF%9E%7C%E4%BF%AE%E5%A4%8D%7C%E6%9B%B4%E6%96%B0%7C%E5%9C%B0%E5%9D%80%7C%E7%BD%91%E7%AB%99%7C%E7%BD%91%E5%9D%80%7C%E5%94%AE%E5%90%8E%7C%E5%AE%A2%E6%9C%8D%7C%E8%81%94%E7%B3%BB%7C%E4%BD%BF%E7%94%A8%7C%E8%B4%AD%E4%B9%B0%7C%E5%85%AC%E5%91%8A&url=https%3A//biubiufast.com/api/v1/client/subscribe%3Ftoken%3D1b87d7a639d98c9193358730ffaa5b92%231672336537.3114552&rename=%24%40%20-%20BIUBIU%20FAST&config=https://raw.githubusercontent.com/zsokami/ACL4SSR/main/ACL4SSR_Online_Full_Mannix.ini (Caused by ReadTimeoutError("HTTPSConnectionPool(host='api.v1.mk', port=443): Read timed out. (read timeout=5)"))
