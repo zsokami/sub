@@ -1,7 +1,7 @@
 import os
 from random import choice
 from time import time
-from urllib.parse import quote
+from urllib.parse import quote, urljoin
 
 from ruamel.yaml import YAML, CommentedMap
 
@@ -43,7 +43,7 @@ def get(url, suffix=None):
         '&config=https://raw.githubusercontent.com/zsokami/ACL4SSR/main/ACL4SSR_Online_Full_Mannix.ini'
     )
     base64 = res.content
-    return info, base64, clash, base64_url, clash_url
+    return info, base64, clash, urljoin(seesion.base, base64_url), urljoin(seesion.base, clash_url)
 
 
 def parse_node_groups(clash):
