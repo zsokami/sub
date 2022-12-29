@@ -74,7 +74,7 @@ proxy-providers:
     url: https://ghproxy.com/https://raw.githubusercontent.com/zsokami/sub/trials_providers/cloud.hhygj.xyz/All.yaml
     interval: 360
     path: trials_providers/cloud.hhygj.xyz/All.yaml
-    health-check: &id001
+    health-check:
       enable: true
       url: https://i.ytimg.com/generate_204
       interval: 30
@@ -83,13 +83,19 @@ proxy-providers:
     url: https://ghproxy.com/https://raw.githubusercontent.com/zsokami/sub/trials_providers/cloud.hhygj.xyz/HK.yaml
     interval: 360
     path: trials_providers/cloud.hhygj.xyz/HK.yaml
-    health-check: *id001
+    health-check:
+      enable: true
+      url: https://i.ytimg.com/generate_204
+      interval: 30
   SG:
     type: http
     url: https://ghproxy.com/https://raw.githubusercontent.com/zsokami/sub/trials_providers/cloud.hhygj.xyz/SG.yaml
     interval: 360
     path: trials_providers/cloud.hhygj.xyz/SG.yaml
-    health-check: *id001
+    health-check:
+      enable: true
+      url: https://i.ytimg.com/generate_204
+      interval: 30
 rules:
 - RULE-SET,LocalAreaNetwork,DIRECT
 - RULE-SET,ChinaOnly,DIRECT

@@ -85,7 +85,7 @@ proxy-providers:
     url: https://ghproxy.com/https://raw.githubusercontent.com/zsokami/sub/trials_providers/biubiufast.com/All.yaml
     interval: 360
     path: trials_providers/biubiufast.com/All.yaml
-    health-check: &id001
+    health-check:
       enable: true
       url: https://i.ytimg.com/generate_204
       interval: 30
@@ -94,19 +94,28 @@ proxy-providers:
     url: https://ghproxy.com/https://raw.githubusercontent.com/zsokami/sub/trials_providers/biubiufast.com/HK.yaml
     interval: 360
     path: trials_providers/biubiufast.com/HK.yaml
-    health-check: *id001
+    health-check:
+      enable: true
+      url: https://i.ytimg.com/generate_204
+      interval: 30
   JP:
     type: http
     url: https://ghproxy.com/https://raw.githubusercontent.com/zsokami/sub/trials_providers/biubiufast.com/JP.yaml
     interval: 360
     path: trials_providers/biubiufast.com/JP.yaml
-    health-check: *id001
+    health-check:
+      enable: true
+      url: https://i.ytimg.com/generate_204
+      interval: 30
   US:
     type: http
     url: https://ghproxy.com/https://raw.githubusercontent.com/zsokami/sub/trials_providers/biubiufast.com/US.yaml
     interval: 360
     path: trials_providers/biubiufast.com/US.yaml
-    health-check: *id001
+    health-check:
+      enable: true
+      url: https://i.ytimg.com/generate_204
+      interval: 30
 rules:
 - RULE-SET,LocalAreaNetwork,DIRECT
 - RULE-SET,ChinaOnly,DIRECT

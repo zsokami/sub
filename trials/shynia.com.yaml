@@ -133,7 +133,7 @@ proxy-providers:
     url: https://ghproxy.com/https://raw.githubusercontent.com/zsokami/sub/trials_providers/shynia.com/All.yaml
     interval: 360
     path: trials_providers/shynia.com/All.yaml
-    health-check: &id001
+    health-check:
       enable: true
       url: https://i.ytimg.com/generate_204
       interval: 30
@@ -142,43 +142,64 @@ proxy-providers:
     url: https://ghproxy.com/https://raw.githubusercontent.com/zsokami/sub/trials_providers/shynia.com/HK.yaml
     interval: 360
     path: trials_providers/shynia.com/HK.yaml
-    health-check: *id001
+    health-check:
+      enable: true
+      url: https://i.ytimg.com/generate_204
+      interval: 30
   TW:
     type: http
     url: https://ghproxy.com/https://raw.githubusercontent.com/zsokami/sub/trials_providers/shynia.com/TW.yaml
     interval: 360
     path: trials_providers/shynia.com/TW.yaml
-    health-check: *id001
+    health-check:
+      enable: true
+      url: https://i.ytimg.com/generate_204
+      interval: 30
   CN:
     type: http
     url: https://ghproxy.com/https://raw.githubusercontent.com/zsokami/sub/trials_providers/shynia.com/CN.yaml
     interval: 360
     path: trials_providers/shynia.com/CN.yaml
-    health-check: *id001
+    health-check:
+      enable: true
+      url: https://i.ytimg.com/generate_204
+      interval: 30
   SG:
     type: http
     url: https://ghproxy.com/https://raw.githubusercontent.com/zsokami/sub/trials_providers/shynia.com/SG.yaml
     interval: 360
     path: trials_providers/shynia.com/SG.yaml
-    health-check: *id001
+    health-check:
+      enable: true
+      url: https://i.ytimg.com/generate_204
+      interval: 30
   JP:
     type: http
     url: https://ghproxy.com/https://raw.githubusercontent.com/zsokami/sub/trials_providers/shynia.com/JP.yaml
     interval: 360
     path: trials_providers/shynia.com/JP.yaml
-    health-check: *id001
+    health-check:
+      enable: true
+      url: https://i.ytimg.com/generate_204
+      interval: 30
   US:
     type: http
     url: https://ghproxy.com/https://raw.githubusercontent.com/zsokami/sub/trials_providers/shynia.com/US.yaml
     interval: 360
     path: trials_providers/shynia.com/US.yaml
-    health-check: *id001
+    health-check:
+      enable: true
+      url: https://i.ytimg.com/generate_204
+      interval: 30
   Other:
     type: http
     url: https://ghproxy.com/https://raw.githubusercontent.com/zsokami/sub/trials_providers/shynia.com/Other.yaml
     interval: 360
     path: trials_providers/shynia.com/Other.yaml
-    health-check: *id001
+    health-check:
+      enable: true
+      url: https://i.ytimg.com/generate_204
+      interval: 30
 rules:
 - RULE-SET,LocalAreaNetwork,DIRECT
 - RULE-SET,ChinaOnly,DIRECT

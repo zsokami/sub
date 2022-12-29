@@ -133,7 +133,7 @@ proxy-providers:
     url: https://ghproxy.com/https://raw.githubusercontent.com/zsokami/sub/trials_providers/bbs.cloudnetwork.pro/All.yaml
     interval: 360
     path: trials_providers/bbs.cloudnetwork.pro/All.yaml
-    health-check: &id001
+    health-check:
       enable: true
       url: https://i.ytimg.com/generate_204
       interval: 30
@@ -142,43 +142,64 @@ proxy-providers:
     url: https://ghproxy.com/https://raw.githubusercontent.com/zsokami/sub/trials_providers/bbs.cloudnetwork.pro/HK.yaml
     interval: 360
     path: trials_providers/bbs.cloudnetwork.pro/HK.yaml
-    health-check: *id001
+    health-check:
+      enable: true
+      url: https://i.ytimg.com/generate_204
+      interval: 30
   TW:
     type: http
     url: https://ghproxy.com/https://raw.githubusercontent.com/zsokami/sub/trials_providers/bbs.cloudnetwork.pro/TW.yaml
     interval: 360
     path: trials_providers/bbs.cloudnetwork.pro/TW.yaml
-    health-check: *id001
+    health-check:
+      enable: true
+      url: https://i.ytimg.com/generate_204
+      interval: 30
   CN:
     type: http
     url: https://ghproxy.com/https://raw.githubusercontent.com/zsokami/sub/trials_providers/bbs.cloudnetwork.pro/CN.yaml
     interval: 360
     path: trials_providers/bbs.cloudnetwork.pro/CN.yaml
-    health-check: *id001
+    health-check:
+      enable: true
+      url: https://i.ytimg.com/generate_204
+      interval: 30
   SG:
     type: http
     url: https://ghproxy.com/https://raw.githubusercontent.com/zsokami/sub/trials_providers/bbs.cloudnetwork.pro/SG.yaml
     interval: 360
     path: trials_providers/bbs.cloudnetwork.pro/SG.yaml
-    health-check: *id001
+    health-check:
+      enable: true
+      url: https://i.ytimg.com/generate_204
+      interval: 30
   JP:
     type: http
     url: https://ghproxy.com/https://raw.githubusercontent.com/zsokami/sub/trials_providers/bbs.cloudnetwork.pro/JP.yaml
     interval: 360
     path: trials_providers/bbs.cloudnetwork.pro/JP.yaml
-    health-check: *id001
+    health-check:
+      enable: true
+      url: https://i.ytimg.com/generate_204
+      interval: 30
   US:
     type: http
     url: https://ghproxy.com/https://raw.githubusercontent.com/zsokami/sub/trials_providers/bbs.cloudnetwork.pro/US.yaml
     interval: 360
     path: trials_providers/bbs.cloudnetwork.pro/US.yaml
-    health-check: *id001
+    health-check:
+      enable: true
+      url: https://i.ytimg.com/generate_204
+      interval: 30
   Other:
     type: http
     url: https://ghproxy.com/https://raw.githubusercontent.com/zsokami/sub/trials_providers/bbs.cloudnetwork.pro/Other.yaml
     interval: 360
     path: trials_providers/bbs.cloudnetwork.pro/Other.yaml
-    health-check: *id001
+    health-check:
+      enable: true
+      url: https://i.ytimg.com/generate_204
+      interval: 30
 rules:
 - RULE-SET,LocalAreaNetwork,DIRECT
 - RULE-SET,ChinaOnly,DIRECT
