@@ -9,7 +9,7 @@ from ruamel.yaml import YAML, CommentedMap
 from apis import Session
 from utils import clear_files, list_file_paths, read, read_cfg, write
 
-GITHUB_REPOSITORY = os.getenv('GITHUB_REPOSITORY')
+github_raw_url_prefix = f"https://ghproxy.com/https://raw.githubusercontent.com/{os.getenv('GITHUB_REPOSITORY')}/{os.getenv('GITHUB_REF_NAME')}"
 
 subconverters = [row[0] for row in read_cfg('subconverters.cfg')['default']]
 exclude_en = quote('Traffic|Expire|剩余流量|到期|时间|重置|官.?网|官方|产品|平台|勿连|修复|更新|地址|网站|网址|售后|客服|联系|使用|购买|公告')
@@ -91,7 +91,7 @@ def gen_clash_config(config_path, providers_dir, name_to_node_map=None, provider
     for k in base_cfg['proxy-providers']:
         if k in provider_set:
             provider = deepcopy(base_provider)
-            provider['url'] = f'https://ghproxy.com/https://raw.githubusercontent.com/{GITHUB_REPOSITORY}/{providers_dir}/{k}.yaml'
+            provider['url'] = f'{github_raw_url_prefix}/{providers_dir}/{k}.yaml'
             provider['path'] = f'{providers_dir}/{k}.yaml'
             providers[k] = provider
         else:
