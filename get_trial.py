@@ -224,7 +224,7 @@ def save_sub_clash(clash, host):
     gen_clash_config(f'trials/{host}.yaml', f'trials_providers/{host}', *parse_node_groups(clash))
 
 
-def save_sub(info, base64, clash, base64_url, clash_url, host, opt: dict, cache: dict[str, list[str]]):
+def save_sub(info, base64, clash, base64_url, clash_url, host, opt: dict, cache: dict[str, list[str]], log: list):
     cache.pop('保存订阅信息失败', None)
     cache.pop('保存base64订阅失败', None)
     cache.pop('保存clash订阅失败', None)
@@ -249,7 +249,7 @@ def save_sub(info, base64, clash, base64_url, clash_url, host, opt: dict, cache:
 def get_and_save(session: V2BoardSession | SSPanelSession, opt: dict, cache: dict[str, list[str]], log: list):
     sub = try_turn(session, opt, cache, log)
     if sub:
-        save_sub(*sub, session.host, opt, cache)
+        save_sub(*sub, session.host, opt, cache, log)
 
 
 def get_nodes_v2board(host, opt: dict, cache: dict[str, list[str]]):

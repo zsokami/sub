@@ -54,8 +54,10 @@ def clear_files(dir_path):
 
 
 def list_file_paths(dir_path):
-    all_paths = [os.path.join(dir_path, name) for name in os.listdir(dir_path)]
-    return [path for path in all_paths if os.path.isfile(path)]
+    if os.path.isdir(dir_path):
+        all_paths = [os.path.join(dir_path, name) for name in os.listdir(dir_path)]
+        return [path for path in all_paths if os.path.isfile(path)]
+    return []
 
 
 # 自定义配置文件读写
