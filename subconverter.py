@@ -90,7 +90,7 @@ def gen_clash_config(config_path, providers_dir, name_to_node_map=None, provider
     base_provider = base_cfg['proxy-providers']['All']
     for k in base_cfg['proxy-providers']:
         if k in provider_set:
-            provider = base_provider.copy()
+            provider = deepcopy(base_provider)
             provider['url'] = f'https://ghproxy.com/https://raw.githubusercontent.com/{GITHUB_REPOSITORY}/{providers_dir}/{k}.yaml'
             provider['path'] = f'{providers_dir}/{k}.yaml'
             providers[k] = provider
