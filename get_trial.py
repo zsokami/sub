@@ -32,7 +32,7 @@ def get_sub(opt: dict, cache: dict[str, list[str]]):
 
 def should_turn(opt: dict, cache: dict[str, list[str]]):
     if 'sub_url' not in cache:
-        return True
+        return True, None
 
     now = time()
     info, *rest = get_sub(opt, cache)
