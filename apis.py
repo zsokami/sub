@@ -10,10 +10,12 @@ from urllib.parse import parse_qsl, unquote_plus, urlencode, urljoin, urlsplit
 
 import requests
 from bs4 import BeautifulSoup
+from requests.adapters import HTTPAdapter
 from requests.structures import CaseInsensitiveDict
 from selenium.webdriver.support.expected_conditions import any_of, title_is
 from selenium.webdriver.support.ui import WebDriverWait
 from undetected_chromedriver import Chrome, ChromeOptions
+from urllib3 import Retry
 
 from utils import get_id
 
@@ -46,9 +48,11 @@ class Response:
 
 
 class Session(requests.Session):
-    def __init__(self, host=None):
+    def __init__(self, host=None, user_agent=None):
         super().__init__()
-        self.headers['User-Agent'] = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36'
+        self.mount('https://', HTTPAdapter(max_retries=Retry(total=5, backoff_factor=0.1)))
+        self.mount('http://', HTTPAdapter(max_retries=Retry(total=5, backoff_factor=0.1)))
+        self.headers['User-Agent'] = user_agent or 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36'
         self.base = 'https://' + host if host else ''
         self.host = host
 
@@ -74,13 +78,14 @@ class Session(requests.Session):
     def post(self, url, data=None, **kwargs) -> Response:
         return super().post(url, data, **kwargs)
 
-    def request(self, method, url: str, data=None, **kwargs):
+    def request(self, method, url: str, data=None, timeout=5, **kwargs):
         url = urljoin(self.base, url)
         if not hasattr(self, 'chrome'):
-            res = super().request(method, url, data=data, **kwargs)
+            res = super().request(method, url, data=data, timeout=timeout, **kwargs)
             res = Response(res.content, res.headers, res.status_code, res.reason)
             if res.status_code != 403 and (
-                not res.headers['Content-Type'].startswith('text/html')
+                'Content-Type' not in res.headers
+                or not res.headers['Content-Type'].startswith('text/html')
                 or not res.content
                 or res.content[0] != 60
                 or not res.bs().title
@@ -108,8 +113,11 @@ class Session(requests.Session):
 
     def get_chrome(self):
         if not hasattr(self, 'chrome'):
+            print(f'{self.host} using Chrome')
             options = ChromeOptions()
             options.add_argument('--disable-web-security')
+            options.add_argument('--ignore-certificate-errors')
+            options.add_argument('--allow-running-insecure-content')
             options.page_load_strategy = 'eager'
             self.chrome = Chrome(
                 options=options,
@@ -180,19 +188,6 @@ class V2BoardSession(Session):
         self.sub_url = self.get('api/v1/user/getSubscribe').json()['data']['subscribe_url']
         return self.sub_url
 
-    def get_sub_info(self, url=None) -> dict | None:
-        if not url:
-            url = getattr(self, 'sub_url', None) or self.get_sub_url()
-        info = self.head(url + '&flag=clash').headers.get('Subscription-Userinfo')
-        if info:
-            info = dict(kv.split('=') for kv in info.split('; '))
-        return info
-
-    def get_sub_content(self, url=None) -> bytes:
-        if not url:
-            url = getattr(self, 'sub_url', None) or self.get_sub_url()
-        return self.get(url).content
-
 
 class SSPanelSession(Session):
     def register(self, email: str, password=None, email_code=None, invite_code=None, name_eq_email=None, reg_fmt=None) -> dict:
@@ -252,17 +247,6 @@ class SSPanelSession(Session):
         self.sub_url = f'{sub_url[:sub_url.index("?") + 1]}{params}'
         return self.sub_url
 
-    def get_sub(self, url=None, params=None) -> tuple[dict, bytes]:
-        if not url:
-            url = getattr(self, 'sub_url', None) or self.get_sub_url(params)
-        if params:
-            if isinstance(params, dict):
-                params = urlencode(params)
-            url = f'{url[:url.index("?") + 1]}{params}'
-        res = self.get(url)
-        info = dict(kv.split('=') for kv in res.headers['Subscription-Userinfo'].split('; '))
-        return info, res.content
-
 
 re_email_code = re.compile(r'(?<!\d)\d{6}(?!\d)')
 
@@ -307,13 +291,16 @@ class TempEmail:
             sleep(1)
             messages = []
             session = self.__session
-            r = session.get('messages')
-            if r.status_code == 200:
-                items = r.json()['hydra:member']
-                if items:
-                    for r in ThreadPoolExecutor(len(items)).map(lambda item: session.get(f'messages/{item["id"]}'), items):
-                        if r.status_code == 200:
-                            messages.append(r.json()['text'])
+            try:
+                r = session.get('messages')
+                if r.status_code == 200:
+                    items = r.json()['hydra:member']
+                    if items:
+                        for r in ThreadPoolExecutor(len(items)).map(lambda item: session.get(f'messages/{item["id"]}'), items):
+                            if r.status_code == 200:
+                                messages.append(r.json()['text'])
+            except Exception as e:
+                print(f'TempEmail.__run: {e}')
             with self.__lock:
                 new_len = 0
                 for item in self.__queues:

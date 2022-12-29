@@ -23,23 +23,39 @@ re_sort_key = re.compile(r'(\D+)(\d+)')
 # 文件读写删
 
 
-def read(path, b=False):
+def read(path, b=False, reader=None):
     if os.path.isfile(path):
-        with open(path, 'rb' if b else 'r') as f:
-            return f.read()
-    return b'' if b else ''
+        with (open(path, 'rb') if b or reader else open(path, 'r', encoding='utf8')) as f:
+            return reader(f) if reader else f.read()
+    return None if reader else b'' if b else ''
 
 
 def write(path, first, *rest):
     os.makedirs(os.path.normpath(os.path.dirname(path)), exist_ok=True)
-    with (open(path, 'w', newline='') if isinstance(first, str) else open(path, 'wb')) as f:
-        f.write(first)
-        f.writelines(rest)
+    if hasattr(first, '__call__'):
+        with open(path, 'wb') as f:
+            first(f)
+    else:
+        with (open(path, 'w', newline='', encoding='utf8') if isinstance(first, str) else open(path, 'wb')) as f:
+            f.write(first)
+            f.writelines(rest)
 
 
 def remove(path):
-    if os.path.exists(path):
+    if os.path.isfile(path):
         os.remove(path)
+    elif os.path.isdir(path):
+        os.rmdir(path)
+
+
+def clear_files(dir_path):
+    for path in list_file_paths(dir_path):
+        os.remove(path)
+
+
+def list_file_paths(dir_path):
+    all_paths = [os.path.join(dir_path, name) for name in os.listdir(dir_path)]
+    return [path for path in all_paths if os.path.isfile(path)]
 
 
 # 自定义配置文件读写

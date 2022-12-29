@@ -1,0 +1,241 @@
+%YAML 1.1
+---
+mixed-port: 7890
+allow-lan: true
+mode: rule
+log-level: info
+external-controller: :9090
+proxy-groups:
+- name: ✈️ ‍起飞
+  type: select
+  proxies:
+  - ⚡ ‍低延迟
+  - 🇭🇰 ‍香港
+  - 🇹🇼 ‍台湾
+  - 🇨🇳 ‍中国
+  - 🇸🇬 ‍新加坡
+  - 🇯🇵 ‍日本
+  - 🇺🇸 ‍美国
+  - 🎏 ‍其他
+  - 👆🏻 ‍指定
+  - 👆🏻🇭🇰 ‍香港
+  - 👆🏻🇹🇼 ‍台湾
+  - 👆🏻🇨🇳 ‍中国
+  - 👆🏻🇸🇬 ‍新加坡
+  - 👆🏻🇯🇵 ‍日本
+  - 👆🏻🇺🇸 ‍美国
+  - 👆🏻🎏 ‍其他
+  - DIRECT
+- name: ⚡ ‍低延迟
+  type: url-test
+  tolerance: 50
+  use:
+  - All
+- name: 🛩️ ‍墙内
+  type: select
+  proxies:
+  - DIRECT
+  - REJECT
+  - ✈️ ‍起飞
+- name: 💩 ‍广告
+  type: select
+  proxies:
+  - REJECT
+  - 🛩️ ‍墙内
+  - ✈️ ‍起飞
+- name: 📺 ‍B站
+  type: select
+  proxies:
+  - 🇨🇳 ‍中国
+  - 🇭🇰 ‍香港
+  - 🇹🇼 ‍台湾
+  - 🛩️ ‍墙内
+  - ✈️ ‍起飞
+  - 👆🏻🇭🇰 ‍香港
+  - 👆🏻🇹🇼 ‍台湾
+  - 👆🏻🇨🇳 ‍中国
+- name: 🌐 ‍未知站点
+  type: select
+  proxies:
+  - ✈️ ‍起飞
+  - 🛩️ ‍墙内
+  - 💩 ‍广告
+- name: 🇭🇰 ‍香港
+  type: url-test
+  tolerance: 50
+  use:
+  - HK
+- name: 🇹🇼 ‍台湾
+  type: url-test
+  tolerance: 50
+  use:
+  - TW
+- name: 🇨🇳 ‍中国
+  type: url-test
+  tolerance: 50
+  use:
+  - CN
+- name: 🇸🇬 ‍新加坡
+  type: url-test
+  tolerance: 50
+  use:
+  - SG
+- name: 🇯🇵 ‍日本
+  type: url-test
+  tolerance: 50
+  use:
+  - JP
+- name: 🇺🇸 ‍美国
+  type: url-test
+  tolerance: 50
+  use:
+  - US
+- name: 🎏 ‍其他
+  type: url-test
+  tolerance: 50
+  use:
+  - Other
+- name: 👆🏻 ‍指定
+  type: select
+  use:
+  - All
+- name: 👆🏻🇭🇰 ‍香港
+  type: select
+  use:
+  - HK
+- name: 👆🏻🇹🇼 ‍台湾
+  type: select
+  use:
+  - TW
+- name: 👆🏻🇨🇳 ‍中国
+  type: select
+  use:
+  - CN
+- name: 👆🏻🇸🇬 ‍新加坡
+  type: select
+  use:
+  - SG
+- name: 👆🏻🇯🇵 ‍日本
+  type: select
+  use:
+  - JP
+- name: 👆🏻🇺🇸 ‍美国
+  type: select
+  use:
+  - US
+- name: 👆🏻🎏 ‍其他
+  type: select
+  use:
+  - Other
+proxy-providers:
+  All:
+    type: http
+    url:
+    interval: 360
+    path:
+    health-check:
+      enable: true
+      url: https://i.ytimg.com/generate_204
+      interval: 30
+  HK:
+  TW:
+  CN:
+  SG:
+  JP:
+  US:
+  Other:
+rules:
+- RULE-SET,LocalAreaNetwork,DIRECT
+- RULE-SET,ChinaOnly,DIRECT
+- RULE-SET,UnBan,🛩️ ‍墙内
+- RULE-SET,BanAD,💩 ‍广告
+- RULE-SET,BanProgramAD,💩 ‍广告
+- RULE-SET,GoogleCN,🛩️ ‍墙内
+- RULE-SET,SteamCN,🛩️ ‍墙内
+- RULE-SET,BilibiliHMT,📺 ‍B站
+- RULE-SET,Bilibili,📺 ‍B站
+- RULE-SET,ProxyGFWlist,✈️ ‍起飞
+- RULE-SET,ChinaDomain,🛩️ ‍墙内
+- RULE-SET,ChinaCompanyIp,🛩️ ‍墙内
+- RULE-SET,Download,🛩️ ‍墙内
+- GEOIP,CN,🛩️ ‍墙内
+- MATCH,🌐 ‍未知站点
+rule-providers:
+  LocalAreaNetwork:
+    type: http
+    behavior: classical
+    url: https://ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/LocalAreaNetwork.yaml
+    path: rule_providers/LocalAreaNetwork.yaml
+    interval: 86400
+  ChinaOnly:
+    type: http
+    behavior: classical
+    url: https://ghproxy.com/https://raw.githubusercontent.com/zsokami/ACL4SSR/main/ChinaOnly.yaml
+    path: rule_providers/ChinaOnly.yaml
+    interval: 86400
+  UnBan:
+    type: http
+    behavior: classical
+    url: https://ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/UnBan.yaml
+    path: rule_providers/UnBan.yaml
+    interval: 86400
+  BanAD:
+    type: http
+    behavior: classical
+    url: https://ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/BanAD.yaml
+    path: rule_providers/BanAD.yaml
+    interval: 86400
+  BanProgramAD:
+    type: http
+    behavior: classical
+    url: https://ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/BanProgramAD.yaml
+    path: rule_providers/BanProgramAD.yaml
+    interval: 86400
+  GoogleCN:
+    type: http
+    behavior: classical
+    url: https://ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/GoogleCN.yaml
+    path: rule_providers/GoogleCN.yaml
+    interval: 86400
+  SteamCN:
+    type: http
+    behavior: classical
+    url: https://ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/SteamCN.yaml
+    path: rule_providers/SteamCN.yaml
+    interval: 86400
+  BilibiliHMT:
+    type: http
+    behavior: classical
+    url: https://ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/BilibiliHMT.yaml
+    path: rule_providers/BilibiliHMT.yaml
+    interval: 86400
+  Bilibili:
+    type: http
+    behavior: classical
+    url: https://ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Bilibili.yaml
+    path: rule_providers/Bilibili.yaml
+    interval: 86400
+  ProxyGFWlist:
+    type: http
+    behavior: classical
+    url: https://ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/ProxyGFWlist.yaml
+    path: rule_providers/ProxyGFWlist.yaml
+    interval: 86400
+  ChinaDomain:
+    type: http
+    behavior: classical
+    url: https://ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/ChinaDomain.yaml
+    path: rule_providers/ChinaDomain.yaml
+    interval: 86400
+  ChinaCompanyIp:
+    type: http
+    behavior: ipcidr
+    url: https://ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/ChinaCompanyIp.yaml
+    path: rule_providers/ChinaCompanyIp.yaml
+    interval: 86400
+  Download:
+    type: http
+    behavior: classical
+    url: https://ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Download.yaml
+    path: rule_providers/Download.yaml
+    interval: 86400

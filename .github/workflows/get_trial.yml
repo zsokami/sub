@@ -1,6 +1,9 @@
 name: get_trial.py
 on:
-  workflow_call:
+  workflow_dispatch:
+  schedule:
+    - cron: 2/5 * * * *
+concurrency: ${{ github.ref }}
 jobs:
   main:
     runs-on: ubuntu-latest
