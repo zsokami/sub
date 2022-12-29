@@ -127,7 +127,7 @@ def get_id():
     global id
     with lock_id:
         if not id:
-            id = f'{"".join(choices(ascii_lowercase, k=randint(7, 12)))}{randint(0, 999)}'
+            id = f'{"".join(choices(ascii_lowercase, k=randint(7, 9)))}{randint(0, 999)}'
             print('id:', id)
     return id
 
