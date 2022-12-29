@@ -317,7 +317,7 @@ for host, _opt in opt.items():
                 map[name] = s
 
     cur_nodes = b64decode(read(f'trials/{host}', True))
-    node_n = cur_nodes.count('\n')
+    node_n = cur_nodes.count(b'\n')
     if (d := node_n - (int(cache[host]['node_n'][0]) if 'node_n' in cache[host] else 0)) != 0:
         print(f'{host} 节点数 {"+" if d > 0 else ""}{d} ({node_n})')
     cache[host]['node_n'] = node_n
