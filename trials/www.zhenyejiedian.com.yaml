@@ -93,7 +93,7 @@ proxy-groups:
 proxy-providers:
   All:
     type: http
-    url: https://ghproxy.com/https://raw.githubusercontent.com/zsokami/sub/trials_providers/www.zhenyejiedian.com/All.yaml
+    url: https://ghproxy.com/https://raw.githubusercontent.com/zsokami/sub/main/trials_providers/www.zhenyejiedian.com/All.yaml
     interval: 360
     path: trials_providers/www.zhenyejiedian.com/All.yaml
     health-check:
@@ -102,7 +102,7 @@ proxy-providers:
       interval: 30
   HK:
     type: http
-    url: https://ghproxy.com/https://raw.githubusercontent.com/zsokami/sub/trials_providers/www.zhenyejiedian.com/HK.yaml
+    url: https://ghproxy.com/https://raw.githubusercontent.com/zsokami/sub/main/trials_providers/www.zhenyejiedian.com/HK.yaml
     interval: 360
     path: trials_providers/www.zhenyejiedian.com/HK.yaml
     health-check:
@@ -111,7 +111,7 @@ proxy-providers:
       interval: 30
   JP:
     type: http
-    url: https://ghproxy.com/https://raw.githubusercontent.com/zsokami/sub/trials_providers/www.zhenyejiedian.com/JP.yaml
+    url: https://ghproxy.com/https://raw.githubusercontent.com/zsokami/sub/main/trials_providers/www.zhenyejiedian.com/JP.yaml
     interval: 360
     path: trials_providers/www.zhenyejiedian.com/JP.yaml
     health-check:
@@ -120,7 +120,7 @@ proxy-providers:
       interval: 30
   US:
     type: http
-    url: https://ghproxy.com/https://raw.githubusercontent.com/zsokami/sub/trials_providers/www.zhenyejiedian.com/US.yaml
+    url: https://ghproxy.com/https://raw.githubusercontent.com/zsokami/sub/main/trials_providers/www.zhenyejiedian.com/US.yaml
     interval: 360
     path: trials_providers/www.zhenyejiedian.com/US.yaml
     health-check:
@@ -129,7 +129,7 @@ proxy-providers:
       interval: 30
   Other:
     type: http
-    url: https://ghproxy.com/https://raw.githubusercontent.com/zsokami/sub/trials_providers/www.zhenyejiedian.com/Other.yaml
+    url: https://ghproxy.com/https://raw.githubusercontent.com/zsokami/sub/main/trials_providers/www.zhenyejiedian.com/Other.yaml
     interval: 360
     path: trials_providers/www.zhenyejiedian.com/Other.yaml
     health-check:

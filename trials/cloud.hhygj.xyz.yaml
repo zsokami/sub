@@ -71,7 +71,7 @@ proxy-groups:
 proxy-providers:
   All:
     type: http
-    url: https://ghproxy.com/https://raw.githubusercontent.com/zsokami/sub/trials_providers/cloud.hhygj.xyz/All.yaml
+    url: https://ghproxy.com/https://raw.githubusercontent.com/zsokami/sub/main/trials_providers/cloud.hhygj.xyz/All.yaml
     interval: 360
     path: trials_providers/cloud.hhygj.xyz/All.yaml
     health-check:
@@ -80,7 +80,7 @@ proxy-providers:
       interval: 30
   HK:
     type: http
-    url: https://ghproxy.com/https://raw.githubusercontent.com/zsokami/sub/trials_providers/cloud.hhygj.xyz/HK.yaml
+    url: https://ghproxy.com/https://raw.githubusercontent.com/zsokami/sub/main/trials_providers/cloud.hhygj.xyz/HK.yaml
     interval: 360
     path: trials_providers/cloud.hhygj.xyz/HK.yaml
     health-check:
@@ -89,7 +89,7 @@ proxy-providers:
       interval: 30
   SG:
     type: http
-    url: https://ghproxy.com/https://raw.githubusercontent.com/zsokami/sub/trials_providers/cloud.hhygj.xyz/SG.yaml
+    url: https://ghproxy.com/https://raw.githubusercontent.com/zsokami/sub/main/trials_providers/cloud.hhygj.xyz/SG.yaml
     interval: 360
     path: trials_providers/cloud.hhygj.xyz/SG.yaml
     health-check:

@@ -130,7 +130,7 @@ proxy-groups:
 proxy-providers:
   All:
     type: http
-    url: https://ghproxy.com/https://raw.githubusercontent.com/zsokami/sub/trials_providers/unlimited_speed/All.yaml
+    url: https://ghproxy.com/https://raw.githubusercontent.com/zsokami/sub/main/trials_providers/unlimited_speed/All.yaml
     interval: 360
     path: trials_providers/unlimited_speed/All.yaml
     health-check:
@@ -139,7 +139,7 @@ proxy-providers:
       interval: 30
   HK:
     type: http
-    url: https://ghproxy.com/https://raw.githubusercontent.com/zsokami/sub/trials_providers/unlimited_speed/HK.yaml
+    url: https://ghproxy.com/https://raw.githubusercontent.com/zsokami/sub/main/trials_providers/unlimited_speed/HK.yaml
     interval: 360
     path: trials_providers/unlimited_speed/HK.yaml
     health-check:
@@ -148,7 +148,7 @@ proxy-providers:
       interval: 30
   TW:
     type: http
-    url: https://ghproxy.com/https://raw.githubusercontent.com/zsokami/sub/trials_providers/unlimited_speed/TW.yaml
+    url: https://ghproxy.com/https://raw.githubusercontent.com/zsokami/sub/main/trials_providers/unlimited_speed/TW.yaml
     interval: 360
     path: trials_providers/unlimited_speed/TW.yaml
     health-check:
@@ -157,7 +157,7 @@ proxy-providers:
       interval: 30
   CN:
     type: http
-    url: https://ghproxy.com/https://raw.githubusercontent.com/zsokami/sub/trials_providers/unlimited_speed/CN.yaml
+    url: https://ghproxy.com/https://raw.githubusercontent.com/zsokami/sub/main/trials_providers/unlimited_speed/CN.yaml
     interval: 360
     path: trials_providers/unlimited_speed/CN.yaml
     health-check:
@@ -166,7 +166,7 @@ proxy-providers:
       interval: 30
   SG:
     type: http
-    url: https://ghproxy.com/https://raw.githubusercontent.com/zsokami/sub/trials_providers/unlimited_speed/SG.yaml
+    url: https://ghproxy.com/https://raw.githubusercontent.com/zsokami/sub/main/trials_providers/unlimited_speed/SG.yaml
     interval: 360
     path: trials_providers/unlimited_speed/SG.yaml
     health-check:
@@ -175,7 +175,7 @@ proxy-providers:
       interval: 30
   JP:
     type: http
-    url: https://ghproxy.com/https://raw.githubusercontent.com/zsokami/sub/trials_providers/unlimited_speed/JP.yaml
+    url: https://ghproxy.com/https://raw.githubusercontent.com/zsokami/sub/main/trials_providers/unlimited_speed/JP.yaml
     interval: 360
     path: trials_providers/unlimited_speed/JP.yaml
     health-check:
@@ -184,7 +184,7 @@ proxy-providers:
       interval: 30
   US:
     type: http
-    url: https://ghproxy.com/https://raw.githubusercontent.com/zsokami/sub/trials_providers/unlimited_speed/US.yaml
+    url: https://ghproxy.com/https://raw.githubusercontent.com/zsokami/sub/main/trials_providers/unlimited_speed/US.yaml
     interval: 360
     path: trials_providers/unlimited_speed/US.yaml
     health-check:
@@ -193,7 +193,7 @@ proxy-providers:
       interval: 30
   Other:
     type: http
-    url: https://ghproxy.com/https://raw.githubusercontent.com/zsokami/sub/trials_providers/unlimited_speed/Other.yaml
+    url: https://ghproxy.com/https://raw.githubusercontent.com/zsokami/sub/main/trials_providers/unlimited_speed/Other.yaml
     interval: 360
     path: trials_providers/unlimited_speed/Other.yaml
     health-check:
