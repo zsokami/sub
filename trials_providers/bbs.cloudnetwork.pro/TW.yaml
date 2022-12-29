@@ -1,13 +1,6 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇹🇼 台湾01 - 八方云, server: tw2.czs1000.com, port: 4011, type: vmess, uuid: 6876d001-e324-4f96-bb4c-3334c6b9b75a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: tw2.czs1000.com, udp: true}
-- {name: 🇹🇼 台湾02 - 八方云, server: tw2.czs1000.com, port: 1001, type: vmess, uuid: 6876d001-e324-4f96-bb4c-3334c6b9b75a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: tw2.czs1000.com, udp: true}
-- {name: 🇹🇼 台湾03 - 八方云, server: tw3.czs1000.com, port: 1001, type: vmess, uuid: 6876d001-e324-4f96-bb4c-3334c6b9b75a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: tw3.czs1000.com, udp: true}
-- {name: 🇹🇼 台湾04 - 八方云, server: tw4.czs1000.com, port: 1001, type: vmess, uuid: 6876d001-e324-4f96-bb4c-3334c6b9b75a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: tw4.czs1000.com, udp: true}
-- {name: 🇹🇼 台湾05 - 八方云, server: tw5.czs1000.com, port: 1001, type: vmess, uuid: 6876d001-e324-4f96-bb4c-3334c6b9b75a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: tw5.czs1000.com, udp: true}
-- {name: 🇹🇼 台湾06 - 八方云, server: tw6.czs1000.com, port: 1001, type: vmess, uuid: 6876d001-e324-4f96-bb4c-3334c6b9b75a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: tw6.czs1000.com, udp: true}
-- {name: 🇹🇼 台湾07 - 八方云, server: tw7.czs1000.com, port: 1001, type: vmess, uuid: 6876d001-e324-4f96-bb4c-3334c6b9b75a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: tw7.czs1000.com, udp: true}
 - {name: 🇹🇼 Game 台湾01-标准 - AyucLouD-Services, server: 201201level3.unclemanco.com, port: 919, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: f5d0a71894.download.windowsupdate.com}, udp: true}
 - {name: 🇹🇼 Game 台湾02-标准 - AyucLouD-Services, server: 201201level3.unclemanco.com, port: 825, type: ss, cipher: aes-128-gcm, password: QHPy2u, plugin: obfs, plugin-opts: {mode: http, host: f5d0a71894.download.windowsupdate.com}, udp: true}
 - {name: 🇹🇼 Game 台湾03-专线 - AyucLouD-Services, server: 201201level3.unclemanco.com, port: 834, type: ss, cipher: aes-128-gcm, password: QHPy2u, plugin: obfs, plugin-opts: {mode: http, host: f5d0a71894.download.windowsupdate.com}, udp: true}
@@ -22,8 +15,3 @@ proxies:
 - {name: 🇹🇼 Video 台湾 D-标准 - AyucLouD-Services, server: 201201level2.unclemanco.com, port: 926, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: f5d0a71894.download.windowsupdate.com}, udp: true}
 - {name: 🇹🇼 Video 台湾 E-解锁 - AyucLouD-Services, server: 201201level2.unclemanco.com, port: 39004, type: ss, cipher: aes-128-gcm, password: ayds23sd1, plugin: obfs, plugin-opts: {mode: http, host: f5d0a71894.download.windowsupdate.com}, udp: true}
 - {name: 🇹🇼 Web 台湾 I-通用 - AyucLouD-Services, server: 201201level1.unclemanco.com, port: 9047, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: f5d0a71894.download.windowsupdate.com}, udp: true}
-- {name: 🇹🇼 Hinet 台湾 | 迪士尼 | Netflix | 3.0x | V1 - 酸奶VPN, server: xn--kdkakb3kc.xn--y8jhmm6gn.com, port: 38526, type: vmess, uuid: 5d73e6cc-e7e0-348b-a129-751e7bceb896, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny, headers: {Host: xn--kdkakb3kc.xn--y8jhmm6gn.com}}, udp: true}
-- {name: 🇹🇼 UC 台湾01 | Youtube免广告 | 3.0x | V1 - 酸奶VPN, server: 165.154.226.95, port: 38526, type: vmess, uuid: 5d73e6cc-e7e0-348b-a129-751e7bceb896, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny}, udp: true}
-- {name: 🇹🇼 UC 台湾02 | Youtube免广告 | 2.0x | V1 - 酸奶VPN, server: 165.154.226.205, port: 38526, type: vmess, uuid: 5d73e6cc-e7e0-348b-a129-751e7bceb896, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny}, udp: true}
-- {name: 🇹🇼 K40台灣 - 云翼网络, server: gtm-sg-6wr2u201t05.gtm-i2d4.com, port: 45023, type: ss, cipher: aes-128-gcm, password: QlGaIZ, udp: true}
-- {name: 🇹🇼 K41台灣 - 云翼网络, server: gtm-sg-6wr2u201t05.gtm-i2d4.com, port: 45044, type: ss, cipher: aes-128-gcm, password: QlGaIZ, udp: true}

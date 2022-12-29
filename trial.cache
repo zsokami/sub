@@ -1,40 +1,38 @@
 [www.zhenyejiedian.com]
 email  edksnwsp608@gmail.com
 node_n  8
-sub_info  0B  1G  2022-12-31 00:46:05+08:00  (剩余 1G 23:59:58.731770)
+sub_info  0B  1G  2022-12-31 00:46:05+08:00  (剩余 1G 23:55:19.823591)
 sub_url  https://api.qingyuge.top/api/v1/client/subscribe?token=34a076ea5c2080cb7d48b3cee5f542ad
 time  2022-12-30 00:46:05.726681+08:00
 
 [bbs.cloudnetwork.pro]
-email  xztlmbtiu911@gmail.com
-last_checkin  2022-12-30 00:46:03.289500+08:00
-node_n  91
-sub_info  20.38M  1.177G  2022-12-17 03:24:58+08:00  (剩余 1.157G 16:07:00.371233)
-sub_url  https://network.ayucloud.nl/link/pvJdWY8aPiIf9QsH?clash=1
-time  2022-12-16 03:25:01.258631+08:00
-更新旧订阅失败  HTTPSConnectionPool(host='sub.qingsay.com', port=443): Max retries exceeded with url: /sub?target=clash&udp=true&scv=true&expand=false&classic=true&exclude=Traffic%7CExpire%7C%E5%89%A9%E4%BD%99%E6%B5%81%E9%87%8F%7C%E5%88%B0%E6%9C%9F%7C%E6%97%B6%E9%97%B4%7C%E9%87%8D%E7%BD%AE%7C%E5%AE%98.%3F%E7%BD%91%7C%E5%AE%98%E6%96%B9%7C%E4%BA%A7%E5%93%81%7C%E5%B9%B3%E5%8F%B0%7C%E5%8B%BF%E8%BF%9E%7C%E4%BF%AE%E5%A4%8D%7C%E6%9B%B4%E6%96%B0%7C%E5%9C%B0%E5%9D%80%7C%E7%BD%91%E7%AB%99%7C%E7%BD%91%E5%9D%80%7C%E5%94%AE%E5%90%8E%7C%E5%AE%A2%E6%9C%8D%7C%E8%81%94%E7%B3%BB%7C%E4%BD%BF%E7%94%A8%7C%E8%B4%AD%E4%B9%B0%7C%E5%85%AC%E5%91%8A&url=https%3A//network.ayucloud.nl/link/pvJdWY8aPiIf9QsH%3Fclash%3D1%231672332365.2217972&rename=%24%40%20-%20AyucLouD-Services&config=https://raw.githubusercontent.com/zsokami/ACL4SSR/main/ACL4SSR_Online_Full_Mannix.ini (Caused by ReadTimeoutError("HTTPSConnectionPool(host='sub.qingsay.com', port=443): Read timed out. (read timeout=5)"))
+email  mpabjwigu800@gmail.com
+last_checkin  2022-12-30 00:50:48.852411+08:00
+node_n  92
+sub_info  0B  1.146G  2022-12-31 00:50:48+08:00  (剩余 1.146G 23:59:53.897561)
+sub_url  https://network.ayucloud.nl/link/ro0CfYz92bqvLbgn?clash=1
+time  2022-12-30 00:50:50.916638+08:00
 
 [shynia.com]
 email  edksnwsp608@gmail.com
 last_checkin  2022-12-30 00:46:06.077207+08:00
 node_n  21
-sub_info  0B  10.6G  2022-12-31 00:46:05+08:00  (剩余 10.6G 23:59:56.716570)
+sub_info  0B  10.6G  2022-12-31 00:46:05+08:00  (剩余 10.6G 23:55:18.615485)
 sub_url  https://1.amazom.group/link/L9Sqydg3YcOASFLr?sub=3
 time  2022-12-30 00:46:07.154384+08:00
 
 [yypro.pro]
-email  llrquhh515@bukhariansiddur.com
-last_checkin  2022-12-30 00:46:03.292626+08:00
-node_n  37
-sub_info  96.64M  5.532G  2022-12-16 20:45:31+08:00  (剩余 5.438G 9:27:33.001416)
-sub_url  https://yysub.trafficmanager.net/link/SiaC7XmGTnhpVqkj?sub=2
-time  2022-12-15 20:45:33.514302+08:00
-更新旧订阅失败  HTTPSConnectionPool(host='sub.qingsay.com', port=443): Max retries exceeded with url: /sub?target=clash&udp=true&scv=true&expand=false&classic=true&exclude=Traffic%7CExpire%7C%E5%89%A9%E4%BD%99%E6%B5%81%E9%87%8F%7C%E5%88%B0%E6%9C%9F%7C%E6%97%B6%E9%97%B4%7C%E9%87%8D%E7%BD%AE%7C%E5%AE%98.%3F%E7%BD%91%7C%E5%AE%98%E6%96%B9%7C%E4%BA%A7%E5%93%81%7C%E5%B9%B3%E5%8F%B0%7C%E5%8B%BF%E8%BF%9E%7C%E4%BF%AE%E5%A4%8D%7C%E6%9B%B4%E6%96%B0%7C%E5%9C%B0%E5%9D%80%7C%E7%BD%91%E7%AB%99%7C%E7%BD%91%E5%9D%80%7C%E5%94%AE%E5%90%8E%7C%E5%AE%A2%E6%9C%8D%7C%E8%81%94%E7%B3%BB%7C%E4%BD%BF%E7%94%A8%7C%E8%B4%AD%E4%B9%B0%7C%E5%85%AC%E5%91%8A&url=https%3A//yysub.trafficmanager.net/link/SiaC7XmGTnhpVqkj%3Fsub%3D2%231672332365.9402642&rename=%24%40%20-%20%E4%BA%91%E7%BF%BC%E7%BD%91%E7%BB%9C&config=https://raw.githubusercontent.com/zsokami/ACL4SSR/main/ACL4SSR_Online_Full_Mannix.ini (Caused by ReadTimeoutError("HTTPSConnectionPool(host='sub.qingsay.com', port=443): Read timed out. (read timeout=5)"))
+email  mpabjwigu800@bukhariansiddur.com
+last_checkin  2022-12-30 00:50:53.843589+08:00
+node_n  36
+sub_info  0B  5.387G  2022-12-31 00:50:53+08:00  (剩余 5.387G 23:59:56.310519)
+sub_url  https://yysub.trafficmanager.net/link/Kqjanc0xHbUvTbp3?sub=2
+time  2022-12-30 00:50:54.814189+08:00
 
 [user.bafang.vip]
 email  edksnwsp608@gmail.com
 node_n  70
-sub_info  0B  5G  2022-12-30 01:46:12+08:00  (剩余 5G 0:59:58.358328)
+sub_info  0B  5G  2022-12-30 01:46:12+08:00  (剩余 5G 0:55:26.876002)
 sub_url  http://www.bfyun.top/api/v1/client/subscribe?token=097d4c2540e9a6a8f0a171f0ed120bd9
 time  2022-12-30 00:46:12.718369+08:00
 更新订阅信息失败  Message: javascript error: Failed to fetch (Session info: chrome=108.0.5341.0) Stacktrace: #0 0x5629f4aba2a3 <unknown> #1 0x5629f4878f77 <unknown> #2 0x5629f487c9c8 <unknown> #3 0x5629f487c792 <unknown> #4 0x5629f487d3fc <unknown> #5 0x5629f48edf9e <unknown> #6 0x5629f48d5b32 <unknown> #7 0x5629f48ed47c <unknown> #8 0x5629f48d5903 <unknown> #9 0x5629f48a8ece <unknown> #10 0x5629f48a9fde <unknown> #11 0x5629f4b0a63e <unknown> #12 0x5629f4b0db79 <unknown> #13 0x5629f4af089e <unknown> #14 0x5629f4b0ea83 <unknown> #15 0x5629f4ae3505 <unknown> #16 0x5629f4b2fca8 <unknown> #17 0x5629f4b2fe36 <unknown> #18 0x5629f4b4b333 <unknown> #19 0x7fb05f24bb43 <unknown>
@@ -43,13 +41,13 @@ time  2022-12-30 00:46:12.718369+08:00
 [cloud.hhygj.xyz]
 email  edksnwsp608@gmail.com
 node_n  2
-sub_info  0B  2G  2022-12-30 03:46:07+08:00  (剩余 2G 2:59:57.989040)
+sub_info  0B  2G  2022-12-30 03:46:07+08:00  (剩余 2G 2:55:22.817462)
 sub_url  https://tblack.xyz/api/v1/client/subscribe?token=57aca574522bbf0416c085eb4c832bfb
 time  2022-12-30 00:46:07.887436+08:00
 
 [biubiufast.com]
 email  edksnwsp608@bukhariansiddur.com
 node_n  12
-sub_info  0B  1G  2022-12-31 00:46:13+08:00  (剩余 1G 23:59:55.226056)
+sub_info  0B  1G  2022-12-31 00:46:13+08:00  (剩余 1G 23:55:28.554471)
 sub_url  https://biubiufast.com/api/v1/client/subscribe?token=1b87d7a639d98c9193358730ffaa5b92
 time  2022-12-30 00:46:13.293405+08:00
