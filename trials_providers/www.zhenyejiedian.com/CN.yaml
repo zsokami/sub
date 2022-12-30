@@ -1,4 +1,5 @@
 %YAML 1.1
 ---
 proxies:
+- {name: 🇭🇰 香港A - 幻神, server: 18.162.51.112, port: 45342, type: vmess, uuid: ba32ad0a-3228-40e4-b021-c3d39c66c072, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇭🇰 I香港A(解锁奈飞) - 幻神, server: 43.198.85.166, port: 43632, type: vmess, uuid: ba32ad0a-3228-40e4-b021-c3d39c66c072, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
