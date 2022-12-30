@@ -1,10 +1,10 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇹🇼 台湾01 - 八方云, server: tw2.czs1000.com, port: 4011, type: vmess, uuid: c98a2786-8d84-4360-9fee-1ee1fb3266bb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: tw2.czs1000.com, udp: true}
-- {name: 🇹🇼 台湾02 - 八方云, server: tw2.czs1000.com, port: 1001, type: vmess, uuid: c98a2786-8d84-4360-9fee-1ee1fb3266bb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: tw2.czs1000.com, udp: true}
-- {name: 🇹🇼 台湾03 - 八方云, server: tw3.czs1000.com, port: 1001, type: vmess, uuid: c98a2786-8d84-4360-9fee-1ee1fb3266bb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: tw3.czs1000.com, udp: true}
-- {name: 🇹🇼 台湾04 - 八方云, server: tw4.czs1000.com, port: 1001, type: vmess, uuid: c98a2786-8d84-4360-9fee-1ee1fb3266bb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: tw4.czs1000.com, udp: true}
-- {name: 🇹🇼 台湾05 - 八方云, server: tw5.czs1000.com, port: 1001, type: vmess, uuid: c98a2786-8d84-4360-9fee-1ee1fb3266bb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: tw5.czs1000.com, udp: true}
-- {name: 🇹🇼 台湾06 - 八方云, server: tw6.czs1000.com, port: 1001, type: vmess, uuid: c98a2786-8d84-4360-9fee-1ee1fb3266bb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: tw6.czs1000.com, udp: true}
-- {name: 🇹🇼 台湾07 - 八方云, server: tw7.czs1000.com, port: 1001, type: vmess, uuid: c98a2786-8d84-4360-9fee-1ee1fb3266bb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: tw7.czs1000.com, udp: true}
+- {name: 🇹🇼 台湾01 - 八方云, server: tw2.czs1000.com, port: 4011, type: vmess, uuid: 9c8d0277-cab6-46ca-94dd-c8fa54bbec47, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: tw2.czs1000.com, udp: true}
+- {name: 🇹🇼 台湾02 - 八方云, server: tw2.czs1000.com, port: 1001, type: vmess, uuid: 9c8d0277-cab6-46ca-94dd-c8fa54bbec47, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: tw2.czs1000.com, udp: true}
+- {name: 🇹🇼 台湾03 - 八方云, server: tw3.czs1000.com, port: 1001, type: vmess, uuid: 9c8d0277-cab6-46ca-94dd-c8fa54bbec47, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: tw3.czs1000.com, udp: true}
+- {name: 🇹🇼 台湾04 - 八方云, server: tw4.czs1000.com, port: 1001, type: vmess, uuid: 9c8d0277-cab6-46ca-94dd-c8fa54bbec47, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: tw4.czs1000.com, udp: true}
+- {name: 🇹🇼 台湾05 - 八方云, server: tw5.czs1000.com, port: 1001, type: vmess, uuid: 9c8d0277-cab6-46ca-94dd-c8fa54bbec47, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: tw5.czs1000.com, udp: true}
+- {name: 🇹🇼 台湾06 - 八方云, server: tw6.czs1000.com, port: 1001, type: vmess, uuid: 9c8d0277-cab6-46ca-94dd-c8fa54bbec47, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: tw6.czs1000.com, udp: true}
+- {name: 🇹🇼 台湾07 - 八方云, server: tw7.czs1000.com, port: 1001, type: vmess, uuid: 9c8d0277-cab6-46ca-94dd-c8fa54bbec47, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: tw7.czs1000.com, udp: true}
