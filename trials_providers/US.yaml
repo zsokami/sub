@@ -1,7 +1,7 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇺🇸 美国A - 幻神, server: 54.242.2.51, port: 43632, type: vmess, uuid: 7e9365e9-460a-403c-bca1-311d48a3204f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 美国A - 幻神, server: 34.233.124.216, port: 43632, type: vmess, uuid: 7e9365e9-460a-403c-bca1-311d48a3204f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇺🇸 美国01 - 八方云, server: us1.18878a24-49d8-4fb2-a1e3-f37dce7cf2a8.czs1000.com, port: 11217, type: vmess, uuid: 30e69f54-889e-4b42-8eb2-ef6e12dd8aba, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b, headers: {Host: tlu.dl.delivery.mp.microsoft.com}}, udp: true}
 - {name: 🇺🇸 美国02 - 八方云, server: us2.18878a24-49d8-4fb2-a1e3-f37dce7cf2a8.czs1000.com, port: 11218, type: vmess, uuid: 30e69f54-889e-4b42-8eb2-ef6e12dd8aba, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b, headers: {Host: tlu.dl.delivery.mp.microsoft.com}}, udp: true}
 - {name: 🇺🇸 美国03|高速|流媒体解锁 - 八方云, server: us3.czs1000.com, port: 11227, type: vmess, uuid: 30e69f54-889e-4b42-8eb2-ef6e12dd8aba, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b, headers: {Host: tlu.dl.delivery.mp.microsoft.com}}, udp: true}
