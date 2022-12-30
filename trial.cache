@@ -1,7 +1,7 @@
 [www.zhenyejiedian.com]
 email  dqpzsfdd473@gmail.com
 node_n  6
-sub_info  820.7M  1G  2022-12-31 15:37:28+08:00  (剩余 203.3M 17:12:43.883557)
+sub_info  823.5M  1G  2022-12-31 15:37:28+08:00  (剩余 200.5M 17:03:28.860939)
 sub_url  https://api.qingyuge.top/api/v1/client/subscribe?token=7f8e686072ce9e88efe93ec402f41b03
 time  2022-12-30 15:37:28.416669+08:00
 
@@ -12,12 +12,13 @@ node_n  92
 sub_info  807.3M  1.15G  2022-12-31 15:46:24+08:00  (剩余 370.7M 17:21:21.813005)
 sub_url  https://network.ayucloud.nl/link/3b6b1VwJsBdX0T40?clash=1
 time  2022-12-30 15:46:27.428964+08:00
+更新旧订阅失败  HTTPSConnectionPool(host='api.wcc.best', port=443): Read timed out.
 
 [shynia.com]
 email  edksnwsp608@gmail.com
 last_checkin  2022-12-30 00:46:06.077207+08:00
 node_n  21
-sub_info  4.979G  10.6G  2022-12-31 00:46:05+08:00  (剩余 5.62G 2:21:18.704889)
+sub_info  5.016G  10.6G  2022-12-31 00:46:05+08:00  (剩余 5.582G 2:12:02.589686)
 sub_url  https://1.amazom.group/link/L9Sqydg3YcOASFLr?sub=3
 time  2022-12-30 00:46:07.154384+08:00
 
@@ -25,7 +26,7 @@ time  2022-12-30 00:46:07.154384+08:00
 email  mpabjwigu800@bukhariansiddur.com
 last_checkin  2022-12-30 00:50:53.843589+08:00
 node_n  36
-sub_info  1.793G  5.387G  2022-12-31 00:50:53+08:00  (剩余 3.593G 2:26:10.638052)
+sub_info  1.797G  5.387G  2022-12-31 00:50:53+08:00  (剩余 3.59G 2:16:52.822651)
 sub_url  https://yysub.trafficmanager.net/link/Kqjanc0xHbUvTbp3?sub=2
 time  2022-12-30 00:50:54.814189+08:00
 
@@ -35,17 +36,18 @@ node_n  68
 sub_info  13.52M  5G  2022-12-30 23:12:19+08:00  (剩余 4.987G 0:47:45.386724)
 sub_url  http://www.bfyun.top/api/v1/client/subscribe?token=4615396f3981539f3a037820a5cc5eec
 time  2022-12-30 22:12:19.512890+08:00
+更新旧订阅失败  HTTPSConnectionPool(host='api.wcc.best', port=443): Read timed out.
 
 [cloud.hhygj.xyz]
 email  udxkhyac57@gmail.com
 node_n  2
-sub_info  0B  2G  2022-12-30 23:28:55+08:00  (剩余 2G 1:04:21.273046)
+sub_info  0B  2G  2022-12-30 23:28:55+08:00  (剩余 2G 0:54:57.402639)
 sub_url  https://tblack.xyz/api/v1/client/subscribe?token=83c3adf6e88e2a01c3095280376dfbb2
 time  2022-12-30 20:28:56.431341+08:00
 
 [biubiufast.com]
 email  lwbnifdqf681@bukhariansiddur.com
 node_n  12
-sub_info  287.7M  1G  2022-12-31 19:30:36+08:00  (剩余 736.3M 21:06:01.052037)
+sub_info  289.5M  1G  2022-12-31 19:30:36+08:00  (剩余 734.5M 20:56:37.875333)
 sub_url  https://biubiufast.com/api/v1/client/subscribe?token=67fdd83a97c6abe02ae8a666dd9c8716
 time  2022-12-30 19:30:36.288557+08:00
