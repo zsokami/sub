@@ -3,4 +3,3 @@
 proxies:
 - {name: 🇰🇷 韩国E - 幻神, server: 52.78.188.53, port: 43632, type: vmess, uuid: ba32ad0a-3228-40e4-b021-c3d39c66c072, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇰🇷 韩国F - 幻神, server: 3.38.96.102, port: 43632, type: vmess, uuid: ba32ad0a-3228-40e4-b021-c3d39c66c072, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇬🇧 英国A - 幻神, server: 13.40.60.121, port: 43632, type: vmess, uuid: ba32ad0a-3228-40e4-b021-c3d39c66c072, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
