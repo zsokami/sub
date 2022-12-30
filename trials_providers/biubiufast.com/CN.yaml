@@ -1,7 +1,7 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇭🇰 香港 | 直连 - BIUBIU FAST, server: hk1.biubiufast.quest, port: 8846, type: trojan, password: a951959c-aa05-4f2f-a3ba-88c5b5e6dde6, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 莞港专线 | 香港 - BIUBIU FAST, server: ink-dg-hk-iplc.inkiwike.com, port: 10368, type: trojan, password: a951959c-aa05-4f2f-a3ba-88c5b5e6dde6, sni: hk1.biubiufast.quest, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 沪美专线 | 香港 - BIUBIU FAST, server: 101.227.56.234, port: 10027, type: trojan, password: a951959c-aa05-4f2f-a3ba-88c5b5e6dde6, sni: hk1.biubiufast.quest, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 沪日专线 | 香港 - BIUBIU FAST, server: sh-jp2-ink.inkisp.com, port: 10052, type: trojan, password: a951959c-aa05-4f2f-a3ba-88c5b5e6dde6, sni: hk1.biubiufast.quest, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 香港 | 直连 - BIUBIU FAST, server: hk1.biubiufast.quest, port: 8846, type: trojan, password: c21a2f26-073b-4002-941d-2a413cb51f1d, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 莞港专线 | 香港 - BIUBIU FAST, server: ink-dg-hk-iplc.inkiwike.com, port: 10368, type: trojan, password: c21a2f26-073b-4002-941d-2a413cb51f1d, sni: hk1.biubiufast.quest, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 沪美专线 | 香港 - BIUBIU FAST, server: 101.227.56.234, port: 10027, type: trojan, password: c21a2f26-073b-4002-941d-2a413cb51f1d, sni: hk1.biubiufast.quest, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 沪日专线 | 香港 - BIUBIU FAST, server: sh-jp2-ink.inkisp.com, port: 10052, type: trojan, password: c21a2f26-073b-4002-941d-2a413cb51f1d, sni: hk1.biubiufast.quest, skip-cert-verify: true, udp: true}
