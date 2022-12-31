@@ -1,8 +1,8 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇯🇵 日本A - 幻神, server: 54.168.247.16, port: 43632, type: vmess, uuid: 07a8914a-2d1d-424c-b3ed-3d25338812b0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 日本C - 幻神, server: 13.114.102.193, port: 43632, type: vmess, uuid: 07a8914a-2d1d-424c-b3ed-3d25338812b0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本A - 幻神, server: 54.168.247.16, port: 43632, type: vmess, uuid: 0926b322-d8b4-491a-986f-c2e38e353451, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本C - 幻神, server: 13.114.102.193, port: 43632, type: vmess, uuid: 0926b322-d8b4-491a-986f-c2e38e353451, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇯🇵 日本01 - 八方云, server: jp1.czs1000.com, port: 4122, type: vmess, uuid: 95598060-4e92-4c97-97cc-22a2a05dc42a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: jp1.czs1000.com, udp: true}
 - {name: 🇯🇵 日本02 - 八方云, server: jp2.czs1000.com, port: 8886, type: vmess, uuid: 95598060-4e92-4c97-97cc-22a2a05dc42a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: jp2.czs1000.com, udp: true}
 - {name: 🇯🇵 日本03 - 八方云, server: jp3.czs1000.com, port: 8886, type: vmess, uuid: 95598060-4e92-4c97-97cc-22a2a05dc42a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: jp3.czs1000.com, udp: true}
