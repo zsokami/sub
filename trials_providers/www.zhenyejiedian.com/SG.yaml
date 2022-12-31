@@ -1,4 +1,4 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇸🇬 新加坡A - 幻神, server: 13.215.140.57, port: 43632, type: vmess, uuid: f297f88a-7ec0-4a64-85b1-8ea59d6769e7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇸🇬 新加坡A - 幻神, server: 13.215.140.57, port: 43632, type: vmess, uuid: e1d0035c-7c47-433e-a254-e6cd99269f82, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
