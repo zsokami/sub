@@ -2,4 +2,6 @@
 ---
 proxies:
 - {name: 🇭🇰 香港体验 - Tblack cloud, server: 01.123445566.xyz, port: 15414, type: ss, cipher: chacha20-ietf-poly1305, password: bbdc8040-02ab-46cf-be6c-0f40f850e265, udp: true}
+- {name: 🇭🇰 香港测试上海 - Tblack cloud, server: vj5uk1zh9lf5ldxwoh.ziir.cn, port: 15417, type: ss, cipher: chacha20-ietf-poly1305, password: bbdc8040-02ab-46cf-be6c-0f40f850e265, udp: true}
+- {name: 🇭🇰 香港测试广州 - Tblack cloud, server: yebneydrqw3pijk7wm.ziir.cn, port: 15417, type: ss, cipher: chacha20-ietf-poly1305, password: bbdc8040-02ab-46cf-be6c-0f40f850e265, udp: true}
 - {name: 🇸🇬 新加坡体验 - Tblack cloud, server: 01.123445566.xyz, port: 42716, type: ss, cipher: chacha20-ietf-poly1305, password: bbdc8040-02ab-46cf-be6c-0f40f850e265, udp: true}
