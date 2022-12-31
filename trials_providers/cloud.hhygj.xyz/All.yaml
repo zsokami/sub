@@ -1,6 +1,6 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇭🇰 香港体验 - Tblack cloud, server: 01.123445566.xyz, port: 15414, type: ss, cipher: chacha20-ietf-poly1305, password: 6d564b25-ddab-4773-b7f9-5880fe27206a, udp: true}
-- {name: 🇭🇰 香港测试 - Tblack cloud, server: 01.123445566.xyz, port: 20309, type: ss, cipher: chacha20-ietf-poly1305, password: 6d564b25-ddab-4773-b7f9-5880fe27206a, udp: true}
-- {name: 🇸🇬 新加坡体验 - Tblack cloud, server: 01.123445566.xyz, port: 42716, type: ss, cipher: chacha20-ietf-poly1305, password: 6d564b25-ddab-4773-b7f9-5880fe27206a, udp: true}
+- {name: 🇭🇰 香港体验 - Tblack cloud, server: 01.123445566.xyz, port: 15414, type: ss, cipher: chacha20-ietf-poly1305, password: a7121738-6f4d-4304-ac03-257e7aaf3d2d, udp: true}
+- {name: 🇭🇰 香港测试 - Tblack cloud, server: 01.123445566.xyz, port: 20309, type: ss, cipher: chacha20-ietf-poly1305, password: a7121738-6f4d-4304-ac03-257e7aaf3d2d, udp: true}
+- {name: 🇸🇬 新加坡体验 - Tblack cloud, server: 01.123445566.xyz, port: 42716, type: ss, cipher: chacha20-ietf-poly1305, password: a7121738-6f4d-4304-ac03-257e7aaf3d2d, udp: true}
