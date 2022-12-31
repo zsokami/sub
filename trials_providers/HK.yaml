@@ -1,8 +1,8 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇭🇰 香港A - 幻神, server: 18.162.51.112, port: 45342, type: vmess, uuid: 0926b322-d8b4-491a-986f-c2e38e353451, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 I香港A(解锁奈飞) - 幻神, server: 16.162.22.91, port: 43632, type: vmess, uuid: 0926b322-d8b4-491a-986f-c2e38e353451, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 香港A - 幻神, server: 18.162.51.112, port: 45342, type: vmess, uuid: e25149a6-fb82-4aca-b00a-7ada5be2cdc1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 I香港A(解锁奈飞) - 幻神, server: 16.162.22.91, port: 43632, type: vmess, uuid: e25149a6-fb82-4aca-b00a-7ada5be2cdc1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇭🇰 香港01|高速|免流 - 八方云, server: hk1.jstcx.com, port: 80, type: vmess, uuid: 4df7b378-9e15-4e9f-bedc-ed4f15129848, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b, headers: {Host: tlu.dl.delivery.mp.microsoft.com}}, udp: true}
 - {name: 🇭🇰 香港02|高速|免流 - 八方云, server: hk2.jstcx.com, port: 80, type: vmess, uuid: 4df7b378-9e15-4e9f-bedc-ed4f15129848, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b, headers: {Host: tlu.dl.delivery.mp.microsoft.com}}, udp: true}
 - {name: 🇭🇰 香港03|高速|免流 - 八方云, server: hk3.jstcx.com, port: 80, type: vmess, uuid: 4df7b378-9e15-4e9f-bedc-ed4f15129848, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b, headers: {Host: tlu.dl.delivery.mp.microsoft.com}}, udp: true}
