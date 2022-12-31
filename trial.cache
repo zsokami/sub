@@ -4,12 +4,13 @@ node_n  8
 sub_info  0B  1G  2023-01-01 18:20:26+08:00  (剩余 1G 23:41:19.480446)
 sub_url  https://api.qingyuge.top/api/v1/client/subscribe?token=70af62ada5e2b65e980b6cf5bcb84a29
 time  2022-12-31 18:20:26.317162+08:00
+更新旧订阅失败  HTTPSConnectionPool(host='api.wcc.best', port=443): Max retries exceeded with url: /sub?target=clash&udp=true&scv=true&expand=false&classic=true&exclude=Traffic%7CExpire%7C%E5%89%A9%E4%BD%99%E6%B5%81%E9%87%8F%7C%E5%88%B0%E6%9C%9F%7C%E6%97%B6%E9%97%B4%7C%E9%87%8D%E7%BD%AE%7C%E5%AE%98.%3F%E7%BD%91%7C%E5%AE%98%E6%96%B9%7C%E4%BA%A7%E5%93%81%7C%E5%B9%B3%E5%8F%B0%7C%E5%8B%BF%E8%BF%9E%7C%E4%BF%AE%E5%A4%8D%7C%E6%9B%B4%E6%96%B0%7C%E5%9C%B0%E5%9D%80%7C%E7%BD%91%E7%AB%99%7C%E7%BD%91%E5%9D%80%7C%E5%94%AE%E5%90%8E%7C%E5%AE%A2%E6%9C%8D%7C%E8%81%94%E7%B3%BB%7C%E4%BD%BF%E7%94%A8%7C%E8%B4%AD%E4%B9%B0%7C%E5%85%AC%E5%91%8A&url=https%3A//api.qingyuge.top/api/v1/client/subscribe%3Ftoken%3D70af62ada5e2b65e980b6cf5bcb84a29%231672483683.7677376&rename=%24%40%20-%20%E5%B9%BB%E7%A5%9E&config=https://raw.githubusercontent.com/zsokami/ACL4SSR/main/ACL4SSR_Online_Full_Mannix.ini (Caused by ReadTimeoutError("HTTPSConnectionPool(host='api.wcc.best', port=443): Read timed out. (read timeout=5)"))
 
 [bbs.cloudnetwork.pro]
 email  exrmihbii596@gmail.com
 last_checkin  2022-12-31 16:28:03.313762+08:00
 node_n  92
-sub_info  184.5M  1.014G  2023-01-01 16:28:02+08:00  (剩余 853.5M 21:48:55.175397)
+sub_info  300.5M  1.014G  2023-01-01 16:28:02+08:00  (剩余 737.5M 21:39:55.253726)
 sub_url  https://network.ayucloud.nl/link/O9IDN3aW5HyP6t5B?clash=1
 time  2022-12-31 16:28:05.386808+08:00
 
@@ -17,7 +18,7 @@ time  2022-12-31 16:28:05.386808+08:00
 email  ihicoxas339@gmail.com
 last_checkin  2022-12-31 12:32:54.835287+08:00
 node_n  21
-sub_info  6.982G  10.58G  2023-01-01 12:32:54+08:00  (剩余 3.596G 17:53:45.783982)
+sub_info  7.42G  10.58G  2023-01-01 12:32:54+08:00  (剩余 3.158G 17:44:47.890365)
 sub_url  https://1.amazom.group/link/YhqVUJ5xhWt2RyUx?sub=3
 time  2022-12-31 12:32:55.538154+08:00
 
@@ -25,28 +26,27 @@ time  2022-12-31 12:32:55.538154+08:00
 email  kdvtefozl99@bukhariansiddur.com
 last_checkin  2022-12-31 00:26:13.887171+08:00
 node_n  36
-sub_info  3.421G  5.288G  2023-01-01 00:26:13+08:00  (剩余 1.867G 5:47:05.185527)
+sub_info  3.483G  5.288G  2023-01-01 00:26:13+08:00  (剩余 1.805G 5:38:06.485887)
 sub_url  https://yysub.trafficmanager.net/link/deSb9g4eQi71We2G?sub=2
 time  2022-12-31 00:26:14.827135+08:00
 
 [user.bafang.vip]
-email  fyjyeksq28@gmail.com
+email  tszvkrlzc22@gmail.com
 node_n  73
-sub_info  0B  5G  2022-12-31 19:00:48+08:00  (剩余 5G 0:30:40.475314)
-sub_url  http://dd.cxld.sbs/api/v1/client/subscribe?token=6577d7c745546d49ddf60cc978b62a86
-time  2022-12-31 18:00:48.252186+08:00
-更新旧订阅失败  HTTPSConnectionPool(host='api.wcc.best', port=443): Max retries exceeded with url: /sub?target=clash&udp=true&scv=true&expand=false&classic=true&exclude=Traffic%7CExpire%7C%E5%89%A9%E4%BD%99%E6%B5%81%E9%87%8F%7C%E5%88%B0%E6%9C%9F%7C%E6%97%B6%E9%97%B4%7C%E9%87%8D%E7%BD%AE%7C%E5%AE%98.%3F%E7%BD%91%7C%E5%AE%98%E6%96%B9%7C%E4%BA%A7%E5%93%81%7C%E5%B9%B3%E5%8F%B0%7C%E5%8B%BF%E8%BF%9E%7C%E4%BF%AE%E5%A4%8D%7C%E6%9B%B4%E6%96%B0%7C%E5%9C%B0%E5%9D%80%7C%E7%BD%91%E7%AB%99%7C%E7%BD%91%E5%9D%80%7C%E5%94%AE%E5%90%8E%7C%E5%AE%A2%E6%9C%8D%7C%E8%81%94%E7%B3%BB%7C%E4%BD%BF%E7%94%A8%7C%E8%B4%AD%E4%B9%B0%7C%E5%85%AC%E5%91%8A&url=http%3A//dd.cxld.sbs/api/v1/client/subscribe%3Ftoken%3D6577d7c745546d49ddf60cc978b62a86%231672483144.6265812&rename=%24%40%20-%20%E5%85%AB%E6%96%B9%E4%BA%91&config=https://raw.githubusercontent.com/zsokami/ACL4SSR/main/ACL4SSR_Online_Full_Mannix.ini (Caused by ReadTimeoutError("HTTPSConnectionPool(host='api.wcc.best', port=443): Read timed out. (read timeout=5)"))
+sub_info  0B  5G  2022-12-31 19:48:08+08:00  (剩余 5G 0:59:55.240029)
+sub_url  http://dd.cxld.sbs/api/v1/client/subscribe?token=3c958d5f582cbc71224e661d28bac69a
+time  2022-12-31 18:48:09.031569+08:00
 
 [cloud.hhygj.xyz]
 email  ddzytahre180@gmail.com
 node_n  2
-sub_info  0B  2G  2022-12-31 20:51:37+08:00  (剩余 2G 2:12:30.318912)
+sub_info  0B  2G  2022-12-31 20:51:37+08:00  (剩余 2G 2:03:28.103985)
 sub_url  http://tblackdy.rtshdsd.top/api/v1/client/subscribe?token=de626aa63ca2d2a69a6c448343b98d63
 time  2022-12-31 17:51:38.534523+08:00
 
 [biubiufast.com]
 email  tobxqzcm550@gmail.com
 node_n  12
-sub_info  0B  1G  2023-01-01 18:30:10+08:00  (剩余 1G 23:51:01.141820)
+sub_info  0B  1G  2023-01-01 18:30:10+08:00  (剩余 1G 23:42:03.937581)
 sub_url  https://biubiufast.com/api/v1/client/subscribe?token=6395ee2c23c0d73b1567919de545f85a
 time  2022-12-31 18:30:10.302108+08:00
