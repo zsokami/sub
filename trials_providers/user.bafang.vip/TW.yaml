@@ -1,5 +1,5 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇹🇼 台湾01 - 八方云, server: tw1.baf1.sbs, port: 4011, type: vmess, uuid: 7fd8366d-6470-493d-b321-b89be47b93fa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: tw1.baf1.sbs, udp: true}
-- {name: 🇹🇼 台湾02 - 八方云, server: tw2.baf1.sbs, port: 1001, type: vmess, uuid: 7fd8366d-6470-493d-b321-b89be47b93fa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: tw2.baf1.sbs, udp: true}
+- {name: 🇹🇼 台湾01 - 八方云, server: tw1.baf1.sbs, port: 4011, type: vmess, uuid: 61cdefb1-0165-4c38-9ecf-6f7275a10a27, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: tw1.baf1.sbs, udp: true}
+- {name: 🇹🇼 台湾02 - 八方云, server: tw2.baf1.sbs, port: 1001, type: vmess, uuid: 61cdefb1-0165-4c38-9ecf-6f7275a10a27, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: tw2.baf1.sbs, udp: true}
