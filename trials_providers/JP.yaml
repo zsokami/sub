@@ -1,7 +1,7 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇯🇵 日本A - 幻神, server: 43.206.193.26, port: 43632, type: vmess, uuid: 50eba74f-844e-4b5f-ad39-1518663f1025, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本A - 幻神, server: 52.68.139.213, port: 43632, type: vmess, uuid: 50eba74f-844e-4b5f-ad39-1518663f1025, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇯🇵 日本C - 幻神, server: 13.113.174.37, port: 43632, type: vmess, uuid: 50eba74f-844e-4b5f-ad39-1518663f1025, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇯🇵 日本01|高速|免流 - 八方云, server: jp1.baf1.sbs, port: 80, type: vmess, uuid: ad52ffc3-87c3-43ed-8781-d29f4eeb2f20, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b, headers: {Host: tlu.dl.delivery.mp.microsoft.com}}, udp: true}
 - {name: 🇯🇵 日本02|高速|免流 - 八方云, server: jp2.baf1.sbs, port: 80, type: vmess, uuid: ad52ffc3-87c3-43ed-8781-d29f4eeb2f20, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b, headers: {Host: tlu.dl.delivery.mp.microsoft.com}}, udp: true}
