@@ -1,8 +1,8 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇹🇼 台湾01 - 八方云, server: tw1.baf1.sbs, port: 4011, type: vmess, uuid: ad52ffc3-87c3-43ed-8781-d29f4eeb2f20, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: tw1.baf1.sbs, udp: true}
-- {name: 🇹🇼 台湾02 - 八方云, server: tw2.baf1.sbs, port: 1001, type: vmess, uuid: ad52ffc3-87c3-43ed-8781-d29f4eeb2f20, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: tw2.baf1.sbs, udp: true}
+- {name: 🇹🇼 台湾01 - 八方云, server: tw1.baf1.sbs, port: 4011, type: vmess, uuid: 66dbd926-653d-4699-a406-390b343637e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: tw1.baf1.sbs, udp: true}
+- {name: 🇹🇼 台湾02 - 八方云, server: tw2.baf1.sbs, port: 1001, type: vmess, uuid: 66dbd926-653d-4699-a406-390b343637e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: tw2.baf1.sbs, udp: true}
 - {name: 🇹🇼 Game 台湾01-标准 - AyucLouD-Services, server: 201201level3.unclemanco.com, port: 919, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: 635f072028.download.windowsupdate.com}, udp: true}
 - {name: 🇹🇼 Game 台湾02-标准 - AyucLouD-Services, server: 201201level3.unclemanco.com, port: 825, type: ss, cipher: aes-128-gcm, password: QHPy2u, plugin: obfs, plugin-opts: {mode: http, host: 635f072028.download.windowsupdate.com}, udp: true}
 - {name: 🇹🇼 Game 台湾03-专线 - AyucLouD-Services, server: 201201level3.unclemanco.com, port: 834, type: ss, cipher: aes-128-gcm, password: QHPy2u, plugin: obfs, plugin-opts: {mode: http, host: 635f072028.download.windowsupdate.com}, udp: true}
