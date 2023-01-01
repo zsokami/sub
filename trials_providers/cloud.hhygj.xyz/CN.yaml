@@ -2,4 +2,3 @@
 ---
 proxies:
 - {name: 🇭🇰 香港体验 - Tblack cloud, server: shct8c16g.xfltd.top, port: 15414, type: ss, cipher: chacha20-ietf-poly1305, password: 976e7fa7-183e-4a51-80aa-59e2fd494319, udp: true}
-- {name: 🇭🇰 香港测试 - Tblack cloud, server: 01.123445566.xyz, port: 20309, type: ss, cipher: chacha20-ietf-poly1305, password: 976e7fa7-183e-4a51-80aa-59e2fd494319, udp: true}
