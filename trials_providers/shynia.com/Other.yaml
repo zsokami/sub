@@ -1,6 +1,6 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇫🇷 FR 法国 | tiktok | 2.0x | V1 - 酸奶VPN, server: 20.239.195.70, port: 58161, type: vmess, uuid: 1c41ee6e-73fc-3922-a36a-b0e10ad797dd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny}, udp: true}
-- {name: 🇰🇷 Korea 韩国   | 中转 | 推特 | 1.0x | V1 - 酸奶VPN, server: 20.239.195.70, port: 56719, type: vmess, uuid: 1c41ee6e-73fc-3922-a36a-b0e10ad797dd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny}, udp: true}
-- {name: 🇬🇧 UK 英国 | tiktok | 2.0x | V1 - 酸奶VPN, server: 20.239.195.70, port: 37814, type: vmess, uuid: 1c41ee6e-73fc-3922-a36a-b0e10ad797dd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny}, udp: true}
+- {name: 🇫🇷 FR 法国 | tiktok | 2.0x | V1 - 酸奶VPN, server: 20.239.195.70, port: 58161, type: vmess, uuid: 4912dc3e-1c4a-3516-b37e-5052baadc82e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny}, udp: true}
+- {name: 🇰🇷 Korea 韩国   | 中转 | 推特 | 1.0x | V1 - 酸奶VPN, server: 20.239.195.70, port: 56719, type: vmess, uuid: 4912dc3e-1c4a-3516-b37e-5052baadc82e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny}, udp: true}
+- {name: 🇬🇧 UK 英国 | tiktok | 2.0x | V1 - 酸奶VPN, server: 20.239.195.70, port: 37814, type: vmess, uuid: 4912dc3e-1c4a-3516-b37e-5052baadc82e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny}, udp: true}
