@@ -10,11 +10,9 @@ proxy-groups:
   type: select
   proxies:
   - ⚡ ‍低延迟
-  - 🇭🇰 ‍香港
   - 🇯🇵 ‍日本
   - 🇺🇸 ‍美国
   - 👆🏻 ‍指定
-  - 👆🏻🇭🇰 ‍香港
   - 👆🏻🇯🇵 ‍日本
   - 👆🏻🇺🇸 ‍美国
   - DIRECT
@@ -38,21 +36,14 @@ proxy-groups:
 - name: 📺 ‍B站
   type: select
   proxies:
-  - 🇭🇰 ‍香港
   - 🛩️ ‍墙内
   - ✈️ ‍起飞
-  - 👆🏻🇭🇰 ‍香港
 - name: 🌐 ‍未知站点
   type: select
   proxies:
   - ✈️ ‍起飞
   - 🛩️ ‍墙内
   - 💩 ‍广告
-- name: 🇭🇰 ‍香港
-  type: url-test
-  tolerance: 50
-  use:
-  - HK
 - name: 🇯🇵 ‍日本
   type: url-test
   tolerance: 50
@@ -67,10 +58,6 @@ proxy-groups:
   type: select
   use:
   - All
-- name: 👆🏻🇭🇰 ‍香港
-  type: select
-  use:
-  - HK
 - name: 👆🏻🇯🇵 ‍日本
   type: select
   use:
@@ -85,15 +72,6 @@ proxy-providers:
     url: https://ghproxy.com/https://raw.githubusercontent.com/zsokami/sub/main/trials_providers/biubiufast.com/All.yaml
     interval: 360
     path: trials_providers/biubiufast.com/All.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  HK:
-    type: http
-    url: https://ghproxy.com/https://raw.githubusercontent.com/zsokami/sub/main/trials_providers/biubiufast.com/HK.yaml
-    interval: 360
-    path: trials_providers/biubiufast.com/HK.yaml
     health-check:
       enable: true
       url: https://i.ytimg.com/generate_204
