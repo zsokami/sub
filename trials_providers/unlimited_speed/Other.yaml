@@ -2,7 +2,7 @@
 ---
 proxies:
 - {name: 🇰🇷 韩国E - 幻神, server: 52.79.126.105, port: 43632, type: vmess, uuid: e443439f-fef8-49aa-af58-53b4adef6eae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇰🇷 韩国F - 幻神, server: 13.125.195.208, port: 43632, type: vmess, uuid: e443439f-fef8-49aa-af58-53b4adef6eae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇰🇷 韩国F - 幻神, server: 43.201.51.180, port: 43632, type: vmess, uuid: e443439f-fef8-49aa-af58-53b4adef6eae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇰🇷 韩国01|高速|免流 - 八方云, server: kr1.baf1.sbs, port: 80, type: vmess, uuid: 397de2c3-8adb-4f05-8121-a689b7e2bcd1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b, headers: {Host: tlu.dl.delivery.mp.microsoft.com}}, udp: true}
 - {name: 🇬🇧 英国01 - 八方云, server: gb1.czs1000.com, port: 11217, type: vmess, uuid: 397de2c3-8adb-4f05-8121-a689b7e2bcd1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b, headers: {Host: tlu.dl.delivery.mp.microsoft.com}}, udp: true}
 - {name: 🇬🇧 英国02 - 八方云, server: 138.68.179.172, port: 11231, type: vmess, uuid: 397de2c3-8adb-4f05-8121-a689b7e2bcd1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b, headers: {Host: tlu.dl.delivery.mp.microsoft.com}}, udp: true}
