@@ -1,7 +1,7 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇺🇸 K30美國 - 云翼网络, server: gtm-sg-6wr2u201t05.gtm-i2d4.com, port: 45032, type: ss, cipher: aes-128-gcm, password: 1Ugj3O, udp: true}
-- {name: 🇺🇸 K31美國 - 云翼网络, server: gtm-sg-6wr2u201t05.gtm-i2d4.com, port: 45020, type: ss, cipher: aes-128-gcm, password: 1Ugj3O, udp: true}
-- {name: 🇺🇸 K32美國 - 云翼网络, server: gtm-sg-6wr2u201t05.gtm-i2d4.com, port: 45024, type: ss, cipher: aes-128-gcm, password: 1Ugj3O, udp: true}
-- {name: 🇺🇸 K33美國 - 云翼网络, server: gtm-sg-6wr2u201t05.gtm-i2d4.com, port: 45025, type: ss, cipher: aes-128-gcm, password: 1Ugj3O, udp: true}
+- {name: 🇺🇸 K30美國 - 云翼网络, server: gtm-sg-6wr2u201t05.gtm-i2d4.com, port: 45032, type: ss, cipher: aes-128-gcm, password: bFsNPV, udp: true}
+- {name: 🇺🇸 K31美國 - 云翼网络, server: gtm-sg-6wr2u201t05.gtm-i2d4.com, port: 45020, type: ss, cipher: aes-128-gcm, password: bFsNPV, udp: true}
+- {name: 🇺🇸 K32美國 - 云翼网络, server: gtm-sg-6wr2u201t05.gtm-i2d4.com, port: 45024, type: ss, cipher: aes-128-gcm, password: bFsNPV, udp: true}
+- {name: 🇺🇸 K33美國 - 云翼网络, server: gtm-sg-6wr2u201t05.gtm-i2d4.com, port: 45025, type: ss, cipher: aes-128-gcm, password: bFsNPV, udp: true}
