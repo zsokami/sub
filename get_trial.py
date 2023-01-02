@@ -66,7 +66,7 @@ def register(session: V2BoardSession | SSPanelSession, opt: dict):
     if is_reg_ok(res, s_key, m_key):
         return
 
-    if '邮箱后缀' in res[m_key]:
+    if '码' not in res[m_key]:
         try:
             res = session.register(email := f'{get_id()}@qq.com', **kwargs)
         except Exception as e:
@@ -91,7 +91,7 @@ def register(session: V2BoardSession | SSPanelSession, opt: dict):
 
 
 def try_checkin(session: SSPanelSession, opt: dict, cache: dict[str, list[str]], log: list):
-    if opt.get('checkin') == 'T' and cache.get('email'):
+    if opt.get('checkin') != 'F' and cache.get('email'):
         if len(cache['last_checkin']) < len(cache['email']):
             cache['last_checkin'] += ['0'] * (len(cache['email']) - len(cache['last_checkin']))
         last_checkin = to_zero(str2timestamp(cache['last_checkin'][0]))
@@ -120,22 +120,22 @@ def do_turn(session: V2BoardSession | SSPanelSession, opt: dict, cache: dict[str
         register(session, opt)
         is_new_reg = True
         cache['email'] = [session.email]
-        if opt.get('checkin') == 'T':
+        if opt.get('checkin') != 'F':
             cache['last_checkin'] = ['0']
     else:
         if len(cache['email']) < int(reg_limit):
             register(session, opt)
             is_new_reg = True
             cache['email'].append(session.email)
-            if opt.get('checkin') == 'T':
+            if opt.get('checkin') != 'F':
                 cache['last_checkin'] += ['0'] * (len(cache['email']) - len(cache['last_checkin']))
         elif len(cache['email']) > int(reg_limit):
             del cache['email'][:-int(reg_limit)]
-            if opt.get('checkin') == 'T':
+            if opt.get('checkin') != 'F':
                 del cache['last_checkin'][:-int(reg_limit)]
 
         cache['email'] = cache['email'][-1:] + cache['email'][:-1]
-        if opt.get('checkin') == 'T':
+        if opt.get('checkin') != 'F':
             cache['last_checkin'] = cache['last_checkin'][-1:] + cache['last_checkin'][:-1]
 
     try:
