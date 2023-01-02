@@ -1,8 +1,8 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇯🇵 日本A - 幻神, server: 54.250.244.47, port: 43632, type: vmess, uuid: eb4fcac3-40ad-4cfb-a72e-fd928a11a23f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 日本C - 幻神, server: 13.112.199.223, port: 43632, type: vmess, uuid: eb4fcac3-40ad-4cfb-a72e-fd928a11a23f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本A - 幻神, server: 54.250.244.47, port: 43632, type: vmess, uuid: 8279d36c-6c79-4a98-bbd5-0352d7e87eb1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本C - 幻神, server: 13.112.199.223, port: 43632, type: vmess, uuid: 8279d36c-6c79-4a98-bbd5-0352d7e87eb1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇯🇵 日本 | 直连 - BIUBIU FAST, server: jp1.biubiufast.quest, port: 8846, type: trojan, password: 31d449da-0f37-452d-a0bb-87802eeefcdb, skip-cert-verify: true, udp: true}
 - {name: 🇯🇵 莞港专线 | 日本 - BIUBIU FAST, server: ink-dg-hk-iplc.inkiwike.com, port: 10209, type: trojan, password: 31d449da-0f37-452d-a0bb-87802eeefcdb, sni: jp1.biubiufast.quest, skip-cert-verify: true, udp: true}
 - {name: 🇯🇵 沪美专线 | 日本 - BIUBIU FAST, server: 101.227.56.234, port: 14667, type: trojan, password: 31d449da-0f37-452d-a0bb-87802eeefcdb, sni: jp1.biubiufast.quest, skip-cert-verify: true, udp: true}
