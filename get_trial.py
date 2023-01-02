@@ -286,6 +286,9 @@ cache = read_cfg('trial.cache', dict_items=True)
 for host in [*cache]:
     if host not in opt:
         remove(f'trials/{host}')
+        remove(f'trials/{host}.yaml')
+        clear_files(f'trials_providers/{host}')
+        remove(f'trials_providers/{host}')
         del cache[host]
 
 with ThreadPoolExecutor(32) as executor:
