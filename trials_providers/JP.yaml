@@ -3,10 +3,10 @@
 proxies:
 - {name: 🇯🇵 日本A - 幻神, server: 54.250.244.47, port: 43632, type: vmess, uuid: 0d411d86-3fbe-42ff-b6b9-2c8829eaba01, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇯🇵 日本C - 幻神, server: 13.112.199.223, port: 43632, type: vmess, uuid: 0d411d86-3fbe-42ff-b6b9-2c8829eaba01, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 日本 | 直连 - BIUBIU FAST, server: jp1.biubiufast.quest, port: 8846, type: trojan, password: 1dea51bc-ec0e-4135-b4cd-ebc1aa576cc2, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 莞港专线 | 日本 - BIUBIU FAST, server: ink-dg-hk-iplc.inkiwike.com, port: 10209, type: trojan, password: 1dea51bc-ec0e-4135-b4cd-ebc1aa576cc2, sni: jp1.biubiufast.quest, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 沪美专线 | 日本 - BIUBIU FAST, server: 101.227.56.234, port: 14667, type: trojan, password: 1dea51bc-ec0e-4135-b4cd-ebc1aa576cc2, sni: jp1.biubiufast.quest, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 沪日专线 | 日本 - BIUBIU FAST, server: sh-jp2-ink.inkisp.com, port: 10065, type: trojan, password: 1dea51bc-ec0e-4135-b4cd-ebc1aa576cc2, sni: jp1.biubiufast.quest, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本 | 直连 - BIUBIU FAST, server: jp1.biubiufast.quest, port: 8846, type: trojan, password: 31d449da-0f37-452d-a0bb-87802eeefcdb, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 莞港专线 | 日本 - BIUBIU FAST, server: ink-dg-hk-iplc.inkiwike.com, port: 10209, type: trojan, password: 31d449da-0f37-452d-a0bb-87802eeefcdb, sni: jp1.biubiufast.quest, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 沪美专线 | 日本 - BIUBIU FAST, server: 101.227.56.234, port: 14667, type: trojan, password: 31d449da-0f37-452d-a0bb-87802eeefcdb, sni: jp1.biubiufast.quest, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 沪日专线 | 日本 - BIUBIU FAST, server: sh-jp2-ink.inkisp.com, port: 10065, type: trojan, password: 31d449da-0f37-452d-a0bb-87802eeefcdb, sni: jp1.biubiufast.quest, skip-cert-verify: true, udp: true}
 - {name: 🇯🇵 Game 日本01-标准 - AyucLouD-Services, server: 201201level3.unclemanco.com, port: 9059, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: bff2472094.download.windowsupdate.com}, udp: true}
 - {name: 🇯🇵 Game 日本02-标准 - AyucLouD-Services, server: 201201level3.unclemanco.com, port: 9062, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: bff2472094.download.windowsupdate.com}, udp: true}
 - {name: 🇯🇵 Game 日本03-标准 - AyucLouD-Services, server: 201201level3.unclemanco.com, port: 819, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: bff2472094.download.windowsupdate.com}, udp: true}
@@ -21,7 +21,7 @@ proxies:
 - {name: 🇯🇵 Video 日本 B-解锁 - AyucLouD-Services, server: 201201level2.unclemanco.com, port: 813, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: bff2472094.download.windowsupdate.com}, udp: true}
 - {name: 🇯🇵 Video 日本 C-原生 - AyucLouD-Services, server: 201201level2.unclemanco.com, port: 4321, type: ss, cipher: aes-128-gcm, password: ay232sffssd1, plugin: obfs, plugin-opts: {mode: http, host: bff2472094.download.windowsupdate.com}, udp: true}
 - {name: 🇯🇵 Web 日本 I-通用 - AyucLouD-Services, server: 201201level1.unclemanco.com, port: 9051, type: ss, cipher: aes-128-gcm, password: QHPy2u, plugin: obfs, plugin-opts: {mode: http, host: bff2472094.download.windowsupdate.com}, udp: true}
-- {name: 🇯🇵 JP 日本 | tiktok | 2.0x | V1 - 酸奶VPN, server: 20.239.195.70, port: 45361, type: vmess, uuid: 4912dc3e-1c4a-3516-b37e-5052baadc82e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny}, udp: true}
+- {name: 🇯🇵 JP 日本 | tiktok | 2.0x | V1 - 酸奶VPN, server: 20.239.195.70, port: 45361, type: vmess, uuid: 060dc473-26b1-37ea-9529-46d7c0c34a24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny}, udp: true}
 - {name: 🇯🇵 K20日本 - 云翼网络, server: gtm-sg-6wr2u201t05.gtm-i2d4.com, port: 45017, type: ss, cipher: aes-128-gcm, password: Xe1sBs, udp: true}
 - {name: 🇯🇵 K21日本 - 云翼网络, server: gtm-sg-6wr2u201t05.gtm-i2d4.com, port: 45027, type: ss, cipher: aes-128-gcm, password: Xe1sBs, udp: true}
 - {name: 🇯🇵 K22日本 - 云翼网络, server: gtm-sg-6wr2u201t05.gtm-i2d4.com, port: 45028, type: ss, cipher: aes-128-gcm, password: Xe1sBs, udp: true}
