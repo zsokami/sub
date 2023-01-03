@@ -11,13 +11,11 @@ proxy-groups:
   proxies:
   - ⚡ ‍低延迟
   - 🇭🇰 ‍香港
-  - 🇸🇬 ‍新加坡
   - 🇯🇵 ‍日本
   - 🇺🇸 ‍美国
   - 🎏 ‍其他
   - 👆🏻 ‍指定
   - 👆🏻🇭🇰 ‍香港
-  - 👆🏻🇸🇬 ‍新加坡
   - 👆🏻🇯🇵 ‍日本
   - 👆🏻🇺🇸 ‍美国
   - 👆🏻🎏 ‍其他
@@ -57,11 +55,6 @@ proxy-groups:
   tolerance: 50
   use:
   - HK
-- name: 🇸🇬 ‍新加坡
-  type: url-test
-  tolerance: 50
-  use:
-  - SG
 - name: 🇯🇵 ‍日本
   type: url-test
   tolerance: 50
@@ -85,10 +78,6 @@ proxy-groups:
   type: select
   use:
   - HK
-- name: 👆🏻🇸🇬 ‍新加坡
-  type: select
-  use:
-  - SG
 - name: 👆🏻🇯🇵 ‍日本
   type: select
   use:
@@ -116,15 +105,6 @@ proxy-providers:
     url: https://ghproxy.com/https://raw.githubusercontent.com/zsokami/sub/main/trials_providers/www.zhenyejiedian.com/HK.yaml
     interval: 360
     path: trials_providers/www.zhenyejiedian.com/HK.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  SG:
-    type: http
-    url: https://ghproxy.com/https://raw.githubusercontent.com/zsokami/sub/main/trials_providers/www.zhenyejiedian.com/SG.yaml
-    interval: 360
-    path: trials_providers/www.zhenyejiedian.com/SG.yaml
     health-check:
       enable: true
       url: https://i.ytimg.com/generate_204
