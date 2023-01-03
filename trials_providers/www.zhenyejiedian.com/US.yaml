@@ -1,4 +1,4 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇺🇸 美国A - 幻神, server: 54.163.48.49, port: 43632, type: vmess, uuid: b8fd9c2b-be9c-4568-9d24-fc9d19851af7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 美国A - 幻神, server: 54.163.48.49, port: 43632, type: vmess, uuid: 08c6a053-4afc-4c8e-904e-f5ec4b59abf0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
