@@ -6,6 +6,6 @@ proxies:
 - {name: 🇭🇰 I香港A(解锁奈飞) - 幻神, server: 16.163.148.152, port: 43632, type: vmess, uuid: 8555842f-cba6-43e7-afed-dc6dc89758a6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇰🇷 韩国E - 幻神, server: 3.35.235.149, port: 43632, type: vmess, uuid: 8555842f-cba6-43e7-afed-dc6dc89758a6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇰🇷 韩国F - 幻神, server: 43.201.35.166, port: 43632, type: vmess, uuid: 8555842f-cba6-43e7-afed-dc6dc89758a6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 日本A - 幻神, server: 18.181.168.42, port: 43632, type: vmess, uuid: 8555842f-cba6-43e7-afed-dc6dc89758a6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本A - 幻神, server: 54.250.148.211, port: 43632, type: vmess, uuid: 8555842f-cba6-43e7-afed-dc6dc89758a6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇯🇵 日本C - 幻神, server: 13.114.216.117, port: 43632, type: vmess, uuid: 8555842f-cba6-43e7-afed-dc6dc89758a6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇺🇸 美国A - 幻神, server: 54.163.48.49, port: 43632, type: vmess, uuid: 8555842f-cba6-43e7-afed-dc6dc89758a6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
