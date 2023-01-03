@@ -1,14 +1,14 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇸🇬 新加坡A - 幻神, server: 18.136.120.154, port: 43632, type: vmess, uuid: 804ce15c-d6b4-4c4e-9380-867342f6d153, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 香港A - 幻神, server: 18.167.12.6, port: 45342, type: vmess, uuid: 804ce15c-d6b4-4c4e-9380-867342f6d153, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 I香港A(解锁奈飞) - 幻神, server: 16.163.148.152, port: 43632, type: vmess, uuid: 804ce15c-d6b4-4c4e-9380-867342f6d153, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇰🇷 韩国E - 幻神, server: 3.35.235.149, port: 43632, type: vmess, uuid: 804ce15c-d6b4-4c4e-9380-867342f6d153, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇰🇷 韩国F - 幻神, server: 3.36.112.107, port: 43632, type: vmess, uuid: 804ce15c-d6b4-4c4e-9380-867342f6d153, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 日本A - 幻神, server: 18.181.168.42, port: 43632, type: vmess, uuid: 804ce15c-d6b4-4c4e-9380-867342f6d153, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 日本C - 幻神, server: 13.114.216.117, port: 43632, type: vmess, uuid: 804ce15c-d6b4-4c4e-9380-867342f6d153, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 美国A - 幻神, server: 3.91.98.72, port: 43632, type: vmess, uuid: 804ce15c-d6b4-4c4e-9380-867342f6d153, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇸🇬 新加坡A - 幻神, server: 18.136.120.154, port: 43632, type: vmess, uuid: b8fd9c2b-be9c-4568-9d24-fc9d19851af7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 香港A - 幻神, server: 18.167.12.6, port: 45342, type: vmess, uuid: b8fd9c2b-be9c-4568-9d24-fc9d19851af7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 I香港A(解锁奈飞) - 幻神, server: 16.163.148.152, port: 43632, type: vmess, uuid: b8fd9c2b-be9c-4568-9d24-fc9d19851af7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇰🇷 韩国E - 幻神, server: 3.35.235.149, port: 43632, type: vmess, uuid: b8fd9c2b-be9c-4568-9d24-fc9d19851af7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇰🇷 韩国F - 幻神, server: 3.36.112.107, port: 43632, type: vmess, uuid: b8fd9c2b-be9c-4568-9d24-fc9d19851af7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本A - 幻神, server: 18.181.168.42, port: 43632, type: vmess, uuid: b8fd9c2b-be9c-4568-9d24-fc9d19851af7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本C - 幻神, server: 13.114.216.117, port: 43632, type: vmess, uuid: b8fd9c2b-be9c-4568-9d24-fc9d19851af7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 美国A - 幻神, server: 3.91.98.72, port: 43632, type: vmess, uuid: b8fd9c2b-be9c-4568-9d24-fc9d19851af7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇯🇵 日本 | 直连 - BIUBIU FAST, server: jp1.biubiufast.quest, port: 8846, type: trojan, password: 31d449da-0f37-452d-a0bb-87802eeefcdb, skip-cert-verify: true, udp: true}
 - {name: 🇺🇸 旧金山 | 直连1 - BIUBIU FAST, server: sfo1.biubiufast.quest, port: 8846, type: trojan, password: 31d449da-0f37-452d-a0bb-87802eeefcdb, skip-cert-verify: true, udp: true}
 - {name: 🇭🇰 香港 | 直连 - BIUBIU FAST, server: hk1.biubiufast.quest, port: 8846, type: trojan, password: 31d449da-0f37-452d-a0bb-87802eeefcdb, skip-cert-verify: true, udp: true}
