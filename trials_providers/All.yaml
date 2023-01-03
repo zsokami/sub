@@ -7,7 +7,7 @@ proxies:
 - {name: 🇰🇷 韩国E - 幻神, server: 3.35.140.132, port: 43632, type: vmess, uuid: 8555842f-cba6-43e7-afed-dc6dc89758a6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇰🇷 韩国F - 幻神, server: 43.201.35.166, port: 43632, type: vmess, uuid: 8555842f-cba6-43e7-afed-dc6dc89758a6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇯🇵 日本A - 幻神, server: 54.250.148.211, port: 43632, type: vmess, uuid: 8555842f-cba6-43e7-afed-dc6dc89758a6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 日本C - 幻神, server: 54.95.231.18, port: 43632, type: vmess, uuid: 8555842f-cba6-43e7-afed-dc6dc89758a6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本C - 幻神, server: 13.231.211.111, port: 43632, type: vmess, uuid: 8555842f-cba6-43e7-afed-dc6dc89758a6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇺🇸 美国A - 幻神, server: 52.91.138.207, port: 43632, type: vmess, uuid: 8555842f-cba6-43e7-afed-dc6dc89758a6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇯🇵 日本 | 直连 - BIUBIU FAST, server: jp1.biubiufast.quest, port: 8846, type: trojan, password: 986ba343-6295-4a1f-99eb-0a4210d89b0b, skip-cert-verify: true, udp: true}
 - {name: 🇺🇸 旧金山 | 直连1 - BIUBIU FAST, server: sfo1.biubiufast.quest, port: 8846, type: trojan, password: 986ba343-6295-4a1f-99eb-0a4210d89b0b, skip-cert-verify: true, udp: true}
