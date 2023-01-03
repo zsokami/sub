@@ -1,5 +1,5 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇰🇷 韩国E - 幻神, server: 3.35.235.149, port: 43632, type: vmess, uuid: 08c6a053-4afc-4c8e-904e-f5ec4b59abf0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇰🇷 韩国F - 幻神, server: 3.36.112.107, port: 43632, type: vmess, uuid: 08c6a053-4afc-4c8e-904e-f5ec4b59abf0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇰🇷 韩国E - 幻神, server: 3.35.235.149, port: 43632, type: vmess, uuid: 8555842f-cba6-43e7-afed-dc6dc89758a6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇰🇷 韩国F - 幻神, server: 3.36.112.107, port: 43632, type: vmess, uuid: 8555842f-cba6-43e7-afed-dc6dc89758a6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
