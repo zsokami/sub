@@ -1,11 +1,11 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇸🇬 新加坡A - 幻神, server: 18.142.56.118, port: 43632, type: vmess, uuid: f958bd42-bf8f-4026-afea-48bb39c712a2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 香港A - 幻神, server: 18.167.12.6, port: 45342, type: vmess, uuid: f958bd42-bf8f-4026-afea-48bb39c712a2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 I香港A(解锁奈飞) - 幻神, server: 16.163.148.152, port: 43632, type: vmess, uuid: f958bd42-bf8f-4026-afea-48bb39c712a2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇰🇷 韩国E - 幻神, server: 3.35.235.149, port: 43632, type: vmess, uuid: f958bd42-bf8f-4026-afea-48bb39c712a2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇰🇷 韩国F - 幻神, server: 3.36.112.107, port: 43632, type: vmess, uuid: f958bd42-bf8f-4026-afea-48bb39c712a2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 日本A - 幻神, server: 18.181.168.42, port: 43632, type: vmess, uuid: f958bd42-bf8f-4026-afea-48bb39c712a2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 日本C - 幻神, server: 13.114.216.117, port: 43632, type: vmess, uuid: f958bd42-bf8f-4026-afea-48bb39c712a2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 美国A - 幻神, server: 3.91.98.72, port: 43632, type: vmess, uuid: f958bd42-bf8f-4026-afea-48bb39c712a2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇸🇬 新加坡A - 幻神, server: 18.142.56.118, port: 43632, type: vmess, uuid: 804ce15c-d6b4-4c4e-9380-867342f6d153, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 香港A - 幻神, server: 18.167.12.6, port: 45342, type: vmess, uuid: 804ce15c-d6b4-4c4e-9380-867342f6d153, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 I香港A(解锁奈飞) - 幻神, server: 16.163.148.152, port: 43632, type: vmess, uuid: 804ce15c-d6b4-4c4e-9380-867342f6d153, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇰🇷 韩国E - 幻神, server: 3.35.235.149, port: 43632, type: vmess, uuid: 804ce15c-d6b4-4c4e-9380-867342f6d153, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇰🇷 韩国F - 幻神, server: 3.36.112.107, port: 43632, type: vmess, uuid: 804ce15c-d6b4-4c4e-9380-867342f6d153, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本A - 幻神, server: 18.181.168.42, port: 43632, type: vmess, uuid: 804ce15c-d6b4-4c4e-9380-867342f6d153, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本C - 幻神, server: 13.114.216.117, port: 43632, type: vmess, uuid: 804ce15c-d6b4-4c4e-9380-867342f6d153, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 美国A - 幻神, server: 3.91.98.72, port: 43632, type: vmess, uuid: 804ce15c-d6b4-4c4e-9380-867342f6d153, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
