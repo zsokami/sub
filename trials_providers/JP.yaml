@@ -22,8 +22,8 @@ proxies:
 - {name: 🇯🇵 Video 日本 C-原生 - AyucLouD-Services, server: 201201level2.unclemanco.com, port: 4321, type: ss, cipher: aes-128-gcm, password: ay232sffssd1, plugin: obfs, plugin-opts: {mode: http, host: f4d3d72223.download.windowsupdate.com}, udp: true}
 - {name: 🇯🇵 Web 日本 I-通用 - AyucLouD-Services, server: 201201level1.unclemanco.com, port: 9051, type: ss, cipher: aes-128-gcm, password: QHPy2u, plugin: obfs, plugin-opts: {mode: http, host: f4d3d72223.download.windowsupdate.com}, udp: true}
 - {name: 🇯🇵 JP 日本 | tiktok | 2.0x | V1 - 酸奶VPN, server: 20.239.195.70, port: 45361, type: vmess, uuid: f9cb3093-8d4e-3758-a2d3-96d14356c543, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny}, udp: true}
-- {name: 🇯🇵 K20日本 - 云翼网络, server: gtm-sg-6wr2u201t05.gtm-i2d4.com, port: 45017, type: ss, cipher: aes-128-gcm, password: iagJ2u, udp: true}
-- {name: 🇯🇵 K21日本 - 云翼网络, server: gtm-sg-6wr2u201t05.gtm-i2d4.com, port: 45027, type: ss, cipher: aes-128-gcm, password: iagJ2u, udp: true}
-- {name: 🇯🇵 K22日本 - 云翼网络, server: gtm-sg-6wr2u201t05.gtm-i2d4.com, port: 45028, type: ss, cipher: aes-128-gcm, password: iagJ2u, udp: true}
-- {name: 🇯🇵 K23日本 - 云翼网络, server: gtm-sg-6wr2u201t05.gtm-i2d4.com, port: 45016, type: ss, cipher: aes-128-gcm, password: iagJ2u, udp: true}
-- {name: 🇯🇵 K24日本 - 云翼网络, server: gtm-sg-6wr2u201t05.gtm-i2d4.com, port: 45015, type: ss, cipher: aes-128-gcm, password: iagJ2u, udp: true}
+- {name: 🇯🇵 K20日本 - 云翼网络, server: gtm-sg-6wr2u201t05.gtm-i2d4.com, port: 45017, type: ss, cipher: aes-128-gcm, password: 5PYKKi, udp: true}
+- {name: 🇯🇵 K21日本 - 云翼网络, server: gtm-sg-6wr2u201t05.gtm-i2d4.com, port: 45027, type: ss, cipher: aes-128-gcm, password: 5PYKKi, udp: true}
+- {name: 🇯🇵 K22日本 - 云翼网络, server: gtm-sg-6wr2u201t05.gtm-i2d4.com, port: 45028, type: ss, cipher: aes-128-gcm, password: 5PYKKi, udp: true}
+- {name: 🇯🇵 K23日本 - 云翼网络, server: gtm-sg-6wr2u201t05.gtm-i2d4.com, port: 45016, type: ss, cipher: aes-128-gcm, password: 5PYKKi, udp: true}
+- {name: 🇯🇵 K24日本 - 云翼网络, server: gtm-sg-6wr2u201t05.gtm-i2d4.com, port: 45015, type: ss, cipher: aes-128-gcm, password: 5PYKKi, udp: true}
