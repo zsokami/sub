@@ -169,7 +169,7 @@ class V2BoardSession(Session):
     def send_email_code(self, email) -> dict:
         return self.post('api/v1/passport/comm/sendEmailVerify', {
             'email': email
-        }).json()
+        }, timeout=60).json()
 
     def order_save(self, data) -> dict:
         return self.post(
@@ -190,17 +190,22 @@ class V2BoardSession(Session):
 
 
 class SSPanelSession(Session):
-    def register(self, email: str, password=None, email_code=None, invite_code=None, name_eq_email=None, reg_fmt=None) -> dict:
+    def __init__(self, host=None, user_agent=None, auth_path=None):
+        super().__init__(host, user_agent)
+        self.auth_path = auth_path or 'auth'
+
+    def register(self, email: str, password=None, email_code=None, invite_code=None, name_eq_email=None, reg_fmt=None, im_type=False) -> dict:
         self.reset()
         email_code_k, invite_code_k = ('email_code', 'invite_code') if reg_fmt == 'B' else ('emailcode', 'code')
         password = password or email.split('@')[0]
-        res = self.post('auth/register', {
+        res = self.post(f'{self.auth_path}/register', {
             'name': email if name_eq_email == 'T' else password,
             'email': email,
             'passwd': password,
             'repasswd': password,
             **({email_code_k: email_code} if email_code else {}),
-            **({invite_code_k: invite_code} if invite_code else {})
+            **({invite_code_k: invite_code} if invite_code else {}),
+            **({'imtype': 1, 'wechat': password} if im_type else {})
         }).json()
         if res['ret']:
             self.email = email
@@ -212,16 +217,16 @@ class SSPanelSession(Session):
         if 'email' in self.cookies and email == unquote_plus(self.cookies.get('email')):
             return {'ret': 1}
         self.reset()
-        res = self.post('auth/login', {
+        res = self.post(f'{self.auth_path}/login', {
             'email': email,
             'passwd': password or email.split('@')[0]
         }).json()
         return res
 
     def send_email_code(self, email) -> dict:
-        return self.post('auth/send', {
+        return self.post(f'{self.auth_path}/send', {
             'email': email
-        }).json()
+        }, timeout=60).json()
 
     def buy(self, data) -> dict:
         return self.post(
@@ -244,7 +249,7 @@ class SSPanelSession(Session):
             if k == 'url':
                 sub_url = v
                 break
-        self.sub_url = f'{sub_url[:sub_url.index("?") + 1]}{params}'
+        self.sub_url = f'{sub_url.split("?")[0]}?{params}'
         return self.sub_url
 
 

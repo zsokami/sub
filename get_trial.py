@@ -59,6 +59,7 @@ def register(session: V2BoardSession | SSPanelSession, opt: dict):
     invite_code = opt.get('invite_code')
     if isinstance(invite_code, str):
         kwargs['invite_code'] = choice(invite_code.split())
+    email_code = None
     try:
         res = session.register(email := f'{get_id()}@gmail.com', **kwargs)
     except Exception as e:
@@ -66,7 +67,7 @@ def register(session: V2BoardSession | SSPanelSession, opt: dict):
     if is_reg_ok(res, s_key, m_key):
         return
 
-    if '码' not in res[m_key]:
+    if '码' not in res[m_key] and '联' not in res[m_key]:
         try:
             res = session.register(email := f'{get_id()}@qq.com', **kwargs)
         except Exception as e:
@@ -87,11 +88,23 @@ def register(session: V2BoardSession | SSPanelSession, opt: dict):
         if is_reg_ok(res, s_key, m_key):
             return
 
+    if '联' in res[m_key]:
+        try:
+            res = session.register(email, email_code=email_code, im_type=True, **kwargs)
+        except Exception as e:
+            raise Exception(f'发送注册请求失败({email}): {e}')
+        if is_reg_ok(res, s_key, m_key):
+            return
+
     raise Exception(f'注册失败({email}): {res}{" " + kwargs.get("invite_code") if "邀请" in res[m_key] else ""}')
 
 
+def is_checkin(session, opt: dict):
+    return isinstance(session, SSPanelSession) and opt.get('checkin') != 'F'
+
+
 def try_checkin(session: SSPanelSession, opt: dict, cache: dict[str, list[str]], log: list):
-    if opt.get('checkin') != 'F' and cache.get('email'):
+    if is_checkin(session, opt) and cache.get('email'):
         if len(cache['last_checkin']) < len(cache['email']):
             cache['last_checkin'] += ['0'] * (len(cache['email']) - len(cache['last_checkin']))
         last_checkin = to_zero(str2timestamp(cache['last_checkin'][0]))
@@ -108,7 +121,7 @@ def try_checkin(session: SSPanelSession, opt: dict, cache: dict[str, list[str]],
                 cache.pop('尝试签到失败', None)
             except Exception as e:
                 cache['尝试签到失败'] = [e]
-                log.append(f'尝试签到失败({host}): {e}')
+                log.append(f'尝试签到失败({session.host}): {e}')
     else:
         cache.pop('last_checkin', None)
 
@@ -120,22 +133,22 @@ def do_turn(session: V2BoardSession | SSPanelSession, opt: dict, cache: dict[str
         register(session, opt)
         is_new_reg = True
         cache['email'] = [session.email]
-        if opt.get('checkin') != 'F':
+        if is_checkin(session, opt):
             cache['last_checkin'] = ['0']
     else:
         if len(cache['email']) < int(reg_limit):
             register(session, opt)
             is_new_reg = True
             cache['email'].append(session.email)
-            if opt.get('checkin') != 'F':
+            if is_checkin(session, opt):
                 cache['last_checkin'] += ['0'] * (len(cache['email']) - len(cache['last_checkin']))
         elif len(cache['email']) > int(reg_limit):
             del cache['email'][:-int(reg_limit)]
-            if opt.get('checkin') != 'F':
+            if is_checkin(session, opt):
                 del cache['last_checkin'][:-int(reg_limit)]
 
         cache['email'] = cache['email'][-1:] + cache['email'][:-1]
-        if opt.get('checkin') != 'F':
+        if is_checkin(session, opt):
             cache['last_checkin'] = cache['last_checkin'][-1:] + cache['last_checkin'][:-1]
 
     try:
@@ -193,7 +206,7 @@ def try_turn(session: V2BoardSession | SSPanelSession, opt: dict, cache: dict[st
             sub = get_sub(opt, cache)
         except Exception as e:
             cache['获取订阅失败'] = [e]
-            log.append(f'获取订阅失败({host})({cache["sub_url"][0]}): {e}')
+            log.append(f'获取订阅失败({session.host})({cache["sub_url"][0]}): {e}')
 
     return sub
 
@@ -261,7 +274,7 @@ def get_nodes_v2board(host, opt: dict, cache: dict[str, list[str]]):
 
 def get_nodes_sspanel(host, opt: dict, cache: dict[str, list[str]]):
     log = []
-    session = SSPanelSession(host)
+    session = SSPanelSession(host, auth_path=opt.get('auth_path'))
     try_checkin(session, opt, cache, log)
     get_and_save(session, opt, cache, log)
     return log

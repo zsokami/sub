@@ -203,5 +203,5 @@ def _encode_ssr(de: str):
 
 def size2str(size):
     size = float(size)
-    n = int(size and log(size, 1024))
+    n = int(size and log(abs(size), 1024))
     return f'{size / 1024 ** n:.4g}{"BKMGTPE"[n]}'
