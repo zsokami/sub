@@ -260,6 +260,7 @@ def save_sub(info, base64, clash, base64_url, clash_url, host, opt: dict, cache:
 
 
 def get_and_save(session: V2BoardSession | SSPanelSession, opt: dict, cache: dict[str, list[str]], log: list):
+    try_checkin(session, opt, cache, log)
     sub = try_turn(session, opt, cache, log)
     if sub:
         save_sub(*sub, session.host, opt, cache, log)
@@ -275,7 +276,6 @@ def get_nodes_v2board(host, opt: dict, cache: dict[str, list[str]]):
 def get_nodes_sspanel(host, opt: dict, cache: dict[str, list[str]]):
     log = []
     session = SSPanelSession(host, auth_path=opt.get('auth_path'))
-    try_checkin(session, opt, cache, log)
     get_and_save(session, opt, cache, log)
     return log
 
