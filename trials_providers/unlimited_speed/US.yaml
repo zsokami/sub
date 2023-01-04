@@ -1,7 +1,7 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇺🇸 美国A - 幻神, server: 52.91.138.207, port: 43632, type: vmess, uuid: a19a44b9-5c89-45bc-b600-fdbaf080932d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 美国A - 幻神, server: 52.91.138.207, port: 43632, type: vmess, uuid: f7af38e7-0143-44fe-a023-8f9a3d9c6521, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇺🇸 旧金山 | 直连1 - BIUBIU FAST, server: sfo1.biubiufast.quest, port: 8846, type: trojan, password: 314b92ff-ac3b-4005-b44c-b51ae6485cde, skip-cert-verify: true, udp: true}
 - {name: 🇺🇸 莞港专线 | 旧金山 - BIUBIU FAST, server: ink-dg-hk-iplc.inkiwike.com, port: 10258, type: trojan, password: 314b92ff-ac3b-4005-b44c-b51ae6485cde, sni: sfo1.biubiufast.quest, skip-cert-verify: true, udp: true}
 - {name: 🇺🇸 沪日专线 | 旧金山 - BIUBIU FAST, server: sh-jp2-ink.inkisp.com, port: 10016, type: trojan, password: 314b92ff-ac3b-4005-b44c-b51ae6485cde, sni: sfo1.biubiufast.quest, skip-cert-verify: true, udp: true}
