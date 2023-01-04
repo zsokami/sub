@@ -1,15 +1,15 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇯🇵 日本 | 直连 - BIUBIU FAST, server: jp1.biubiufast.quest, port: 8846, type: trojan, password: 986ba343-6295-4a1f-99eb-0a4210d89b0b, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 旧金山 | 直连1 - BIUBIU FAST, server: sfo1.biubiufast.quest, port: 8846, type: trojan, password: 986ba343-6295-4a1f-99eb-0a4210d89b0b, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 香港 | 直连 - BIUBIU FAST, server: hk1.biubiufast.quest, port: 8846, type: trojan, password: 986ba343-6295-4a1f-99eb-0a4210d89b0b, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 莞港专线 | 日本 - BIUBIU FAST, server: ink-dg-hk-iplc.inkiwike.com, port: 10209, type: trojan, password: 986ba343-6295-4a1f-99eb-0a4210d89b0b, sni: jp1.biubiufast.quest, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 莞港专线 | 旧金山 - BIUBIU FAST, server: ink-dg-hk-iplc.inkiwike.com, port: 10258, type: trojan, password: 986ba343-6295-4a1f-99eb-0a4210d89b0b, sni: sfo1.biubiufast.quest, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 莞港专线 | 香港 - BIUBIU FAST, server: ink-dg-hk-iplc.inkiwike.com, port: 10368, type: trojan, password: 986ba343-6295-4a1f-99eb-0a4210d89b0b, sni: hk1.biubiufast.quest, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 沪美专线 | 香港 - BIUBIU FAST, server: 101.227.56.234, port: 10027, type: trojan, password: 986ba343-6295-4a1f-99eb-0a4210d89b0b, sni: hk1.biubiufast.quest, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 沪美专线 | 日本 - BIUBIU FAST, server: 101.227.56.234, port: 14667, type: trojan, password: 986ba343-6295-4a1f-99eb-0a4210d89b0b, sni: jp1.biubiufast.quest, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 沪日专线 | 日本 - BIUBIU FAST, server: sh-jp2-ink.inkisp.com, port: 10065, type: trojan, password: 986ba343-6295-4a1f-99eb-0a4210d89b0b, sni: jp1.biubiufast.quest, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 沪日专线 | 旧金山 - BIUBIU FAST, server: sh-jp2-ink.inkisp.com, port: 10016, type: trojan, password: 986ba343-6295-4a1f-99eb-0a4210d89b0b, sni: sfo1.biubiufast.quest, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 沪日专线 | 香港 - BIUBIU FAST, server: sh-jp2-ink.inkisp.com, port: 10052, type: trojan, password: 986ba343-6295-4a1f-99eb-0a4210d89b0b, sni: hk1.biubiufast.quest, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 沪美专线 | 旧金山 - BIUBIU FAST, server: 101.227.56.234, port: 10013, type: trojan, password: 986ba343-6295-4a1f-99eb-0a4210d89b0b, sni: sfo1.biubiufast.quest, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本 | 直连 - BIUBIU FAST, server: jp1.biubiufast.quest, port: 8846, type: trojan, password: 314b92ff-ac3b-4005-b44c-b51ae6485cde, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 旧金山 | 直连1 - BIUBIU FAST, server: sfo1.biubiufast.quest, port: 8846, type: trojan, password: 314b92ff-ac3b-4005-b44c-b51ae6485cde, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 香港 | 直连 - BIUBIU FAST, server: hk1.biubiufast.quest, port: 8846, type: trojan, password: 314b92ff-ac3b-4005-b44c-b51ae6485cde, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 莞港专线 | 日本 - BIUBIU FAST, server: ink-dg-hk-iplc.inkiwike.com, port: 10209, type: trojan, password: 314b92ff-ac3b-4005-b44c-b51ae6485cde, sni: jp1.biubiufast.quest, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 莞港专线 | 旧金山 - BIUBIU FAST, server: ink-dg-hk-iplc.inkiwike.com, port: 10258, type: trojan, password: 314b92ff-ac3b-4005-b44c-b51ae6485cde, sni: sfo1.biubiufast.quest, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 莞港专线 | 香港 - BIUBIU FAST, server: ink-dg-hk-iplc.inkiwike.com, port: 10368, type: trojan, password: 314b92ff-ac3b-4005-b44c-b51ae6485cde, sni: hk1.biubiufast.quest, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 沪美专线 | 香港 - BIUBIU FAST, server: 101.227.56.234, port: 10027, type: trojan, password: 314b92ff-ac3b-4005-b44c-b51ae6485cde, sni: hk1.biubiufast.quest, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 沪美专线 | 日本 - BIUBIU FAST, server: 101.227.56.234, port: 14667, type: trojan, password: 314b92ff-ac3b-4005-b44c-b51ae6485cde, sni: jp1.biubiufast.quest, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 沪日专线 | 日本 - BIUBIU FAST, server: sh-jp2-ink.inkisp.com, port: 10065, type: trojan, password: 314b92ff-ac3b-4005-b44c-b51ae6485cde, sni: jp1.biubiufast.quest, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 沪日专线 | 旧金山 - BIUBIU FAST, server: sh-jp2-ink.inkisp.com, port: 10016, type: trojan, password: 314b92ff-ac3b-4005-b44c-b51ae6485cde, sni: sfo1.biubiufast.quest, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 沪日专线 | 香港 - BIUBIU FAST, server: sh-jp2-ink.inkisp.com, port: 10052, type: trojan, password: 314b92ff-ac3b-4005-b44c-b51ae6485cde, sni: hk1.biubiufast.quest, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 沪美专线 | 旧金山 - BIUBIU FAST, server: 101.227.56.234, port: 10013, type: trojan, password: 314b92ff-ac3b-4005-b44c-b51ae6485cde, sni: sfo1.biubiufast.quest, skip-cert-verify: true, udp: true}
