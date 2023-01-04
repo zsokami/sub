@@ -41,14 +41,14 @@ proxies:
 - {name: 🇫🇷 FR 法国 | tiktok | 2.0x | V1 - 酸奶VPN, server: 20.239.195.70, port: 58161, type: vmess, uuid: 1cc34c0c-fb3d-39a7-9810-c29a9f431a0e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny}, udp: true}
 - {name: 🇰🇷 Korea 韩国   | 中转 | 推特 | 1.0x | V1 - 酸奶VPN, server: 20.239.195.70, port: 56719, type: vmess, uuid: 1cc34c0c-fb3d-39a7-9810-c29a9f431a0e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny}, udp: true}
 - {name: 🇬🇧 UK 英国 | tiktok | 2.0x | V1 - 酸奶VPN, server: 20.239.195.70, port: 37814, type: vmess, uuid: 1cc34c0c-fb3d-39a7-9810-c29a9f431a0e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny}, udp: true}
-- {name: 🇰🇷 K50韓國 - 云翼网络, server: gtm-sg-6wr2u201t05.gtm-i2d4.com, port: 45022, type: ss, cipher: aes-128-gcm, password: TJpUwH, udp: true}
-- {name: 🇮🇳 K51印度 - 云翼网络, server: gtm-sg-6wr2u201t05.gtm-i2d4.com, port: 45021, type: ss, cipher: aes-128-gcm, password: TJpUwH, udp: true}
-- {name: 🇬🇧 K52英国 - 云翼网络, server: gtm-sg-6wr2u201t05.gtm-i2d4.com, port: 45035, type: ss, cipher: aes-128-gcm, password: TJpUwH, udp: true}
-- {name: 🇵🇰 K53巴基斯坦 - 云翼网络, server: gtm-sg-6wr2u201t05.gtm-i2d4.com, port: 45036, type: ss, cipher: aes-128-gcm, password: TJpUwH, udp: true}
-- {name: 🇦🇺 K54澳大利亚 - 云翼网络, server: gtm-sg-6wr2u201t05.gtm-i2d4.com, port: 45043, type: ss, cipher: aes-128-gcm, password: TJpUwH, udp: true}
-- {name: 🇵🇭 K55菲律宾 - 云翼网络, server: gtm-sg-6wr2u201t05.gtm-i2d4.com, port: 45046, type: ss, cipher: aes-128-gcm, password: TJpUwH, udp: true}
-- {name: 🇹🇭 K56泰国 - 云翼网络, server: gtm-sg-6wr2u201t05.gtm-i2d4.com, port: 42339, type: ss, cipher: aes-128-gcm, password: TJpUwH, udp: true}
-- {name: 🇦🇷 K57阿根廷 - 云翼网络, server: gtm-sg-6wr2u201t05.gtm-i2d4.com, port: 42340, type: ss, cipher: aes-128-gcm, password: TJpUwH, udp: true}
-- {name: 🇹🇷 K58土耳其 - 云翼网络, server: gtm-sg-6wr2u201t05.gtm-i2d4.com, port: 42341, type: ss, cipher: aes-128-gcm, password: TJpUwH, udp: true}
-- {name: 🇷🇺 K59俄罗斯 - 云翼网络, server: gtm-sg-6wr2u201t05.gtm-i2d4.com, port: 45045, type: ss, cipher: aes-128-gcm, password: TJpUwH, udp: true}
-- {name: 🇧🇷 K60巴西 - 云翼网络, server: gtm-sg-6wr2u201t05.gtm-i2d4.com, port: 42342, type: ss, cipher: aes-128-gcm, password: TJpUwH, udp: true}
+- {name: 🇰🇷 K50韓國 - 云翼网络, server: gtm-sg-6wr2u201t05.gtm-i2d4.com, port: 45022, type: ss, cipher: aes-128-gcm, password: qrG4r4, udp: true}
+- {name: 🇮🇳 K51印度 - 云翼网络, server: gtm-sg-6wr2u201t05.gtm-i2d4.com, port: 45021, type: ss, cipher: aes-128-gcm, password: qrG4r4, udp: true}
+- {name: 🇬🇧 K52英国 - 云翼网络, server: gtm-sg-6wr2u201t05.gtm-i2d4.com, port: 45035, type: ss, cipher: aes-128-gcm, password: qrG4r4, udp: true}
+- {name: 🇵🇰 K53巴基斯坦 - 云翼网络, server: gtm-sg-6wr2u201t05.gtm-i2d4.com, port: 45036, type: ss, cipher: aes-128-gcm, password: qrG4r4, udp: true}
+- {name: 🇦🇺 K54澳大利亚 - 云翼网络, server: gtm-sg-6wr2u201t05.gtm-i2d4.com, port: 45043, type: ss, cipher: aes-128-gcm, password: qrG4r4, udp: true}
+- {name: 🇵🇭 K55菲律宾 - 云翼网络, server: gtm-sg-6wr2u201t05.gtm-i2d4.com, port: 45046, type: ss, cipher: aes-128-gcm, password: qrG4r4, udp: true}
+- {name: 🇹🇭 K56泰国 - 云翼网络, server: gtm-sg-6wr2u201t05.gtm-i2d4.com, port: 42339, type: ss, cipher: aes-128-gcm, password: qrG4r4, udp: true}
+- {name: 🇦🇷 K57阿根廷 - 云翼网络, server: gtm-sg-6wr2u201t05.gtm-i2d4.com, port: 42340, type: ss, cipher: aes-128-gcm, password: qrG4r4, udp: true}
+- {name: 🇹🇷 K58土耳其 - 云翼网络, server: gtm-sg-6wr2u201t05.gtm-i2d4.com, port: 42341, type: ss, cipher: aes-128-gcm, password: qrG4r4, udp: true}
+- {name: 🇷🇺 K59俄罗斯 - 云翼网络, server: gtm-sg-6wr2u201t05.gtm-i2d4.com, port: 45045, type: ss, cipher: aes-128-gcm, password: qrG4r4, udp: true}
+- {name: 🇧🇷 K60巴西 - 云翼网络, server: gtm-sg-6wr2u201t05.gtm-i2d4.com, port: 42342, type: ss, cipher: aes-128-gcm, password: qrG4r4, udp: true}
