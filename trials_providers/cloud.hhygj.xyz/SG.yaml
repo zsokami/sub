@@ -1,4 +1,4 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇸🇬 新加坡体验 - Tblack cloud, server: shct8c16g.xfltd.top, port: 42716, type: ss, cipher: chacha20-ietf-poly1305, password: 34ae749e-a782-45ff-94ca-ec98420b77f8, udp: true}
+- {name: 🇸🇬 新加坡体验 - Tblack cloud, server: shct8c16g.xfltd.top, port: 42716, type: ss, cipher: chacha20-ietf-poly1305, password: c94ce287-7d49-4781-bf62-8d32f4fb32a4, udp: true}
