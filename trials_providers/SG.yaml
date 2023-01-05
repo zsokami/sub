@@ -1,14 +1,14 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇸🇬 新加坡体验 - Tblack cloud, server: shct8c16g.xfltd.top, port: 42716, type: ss, cipher: chacha20-ietf-poly1305, password: 15c5df39-7bd2-42f1-974a-e65800e73a25, udp: true}
+- {name: 🇸🇬 新加坡体验 - Tblack cloud, server: shct8c16g.xfltd.top, port: 42716, type: ss, cipher: chacha20-ietf-poly1305, password: f8c64dd5-a96d-417b-a231-3640bd65de65, udp: true}
 - {name: 🇸🇬 Game 新加坡01-标准 - AyucLouD-Services, server: 201201level3.unclemanco.com, port: 9060, type: ss, cipher: aes-128-gcm, password: QHPy2u, plugin: obfs, plugin-opts: {mode: http, host: 0608172228.download.windowsupdate.com}, udp: true}
 - {name: 🇸🇬 Game 新加坡02-标准 - AyucLouD-Services, server: 201201level3.unclemanco.com, port: 9037, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: 0608172228.download.windowsupdate.com}, udp: true}
 - {name: 🇸🇬 Game 新加坡03-标准 - AyucLouD-Services, server: 201201level3.unclemanco.com, port: 902, type: ss, cipher: aes-128-gcm, password: ayuc211, plugin: obfs, plugin-opts: {mode: http, host: 0608172228.download.windowsupdate.com}, udp: true}
 - {name: 🇸🇬 Video 新加坡 B-标准 - AyucLouD-Services, server: 201201level2.unclemanco.com, port: 19999, type: ss, cipher: aes-128-gcm, password: 'dajkdkjda&dja*/?', plugin: obfs, plugin-opts: {mode: http, host: 0608172228.download.windowsupdate.com}, udp: true}
 - {name: 🇸🇬 Video 新加坡 A-解锁 - AyucLouD-Services, server: 201201level2.unclemanco.com, port: 9038, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: 0608172228.download.windowsupdate.com}, udp: true}
 - {name: 🇸🇬 Web 新加坡 I-通用 - AyucLouD-Services, server: 201201level1.unclemanco.com, port: 6879, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: 0608172228.download.windowsupdate.com}, udp: true}
-- {name: 🇸🇬 SGP 新加坡 | 中转 | 奈飞 | 5.0x | V1 - 酸奶VPN, server: 20.239.195.70, port: 39991, type: vmess, uuid: 21c257c7-4844-39f0-8cad-832a0dd9906b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny}, udp: true}
+- {name: 🇸🇬 SGP 新加坡 | 中转 | 奈飞 | 5.0x | V1 - 酸奶VPN, server: 20.239.195.70, port: 39991, type: vmess, uuid: c8863f36-74a7-3ec6-be57-86b530f2f703, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny}, udp: true}
 - {name: 🇸🇬 K10新加坡 - 云翼网络, server: gtm-sg-6wr2u201t05.gtm-i2d4.com, port: 45007, type: ss, cipher: aes-128-gcm, password: 5PYKKi, udp: true}
 - {name: 🇸🇬 K11新加坡 - 云翼网络, server: gtm-sg-6wr2u201t05.gtm-i2d4.com, port: 45006, type: ss, cipher: aes-128-gcm, password: 5PYKKi, udp: true}
 - {name: 🇸🇬 K12新加坡 - 云翼网络, server: gtm-sg-6wr2u201t05.gtm-i2d4.com, port: 45039, type: ss, cipher: aes-128-gcm, password: 5PYKKi, udp: true}
