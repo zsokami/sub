@@ -1,7 +1,7 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇺🇸 美国A - 幻神, server: 54.211.62.70, port: 43632, type: vmess, uuid: 865983e6-d885-4bbd-927c-bdab5731c02a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 美国A - 幻神, server: 54.211.62.70, port: 43632, type: vmess, uuid: 5d97b0db-b57f-4cd6-baca-fb52dd64a113, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇺🇸 旧金山 | 直连1 - BIUBIU FAST, server: sfo1.biubiufast.quest, port: 8846, type: trojan, password: 4d43eb78-70aa-4300-9fa6-7dfa6ae31ff3, skip-cert-verify: true, udp: true}
 - {name: 🇺🇸 莞港专线 | 旧金山 - BIUBIU FAST, server: ink-dg-hk-iplc.inkiwike.com, port: 10258, type: trojan, password: 4d43eb78-70aa-4300-9fa6-7dfa6ae31ff3, sni: sfo1.biubiufast.quest, skip-cert-verify: true, udp: true}
 - {name: 🇺🇸 沪日专线 | 旧金山 - BIUBIU FAST, server: sh-jp2-ink.inkisp.com, port: 10016, type: trojan, password: 4d43eb78-70aa-4300-9fa6-7dfa6ae31ff3, sni: sfo1.biubiufast.quest, skip-cert-verify: true, udp: true}
@@ -18,8 +18,8 @@ proxies:
 - {name: 🇺🇸 Web 美国 I-通用 - AyucLouD-Services, server: 201201level1.unclemanco.com, port: 925, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: aa0cc72241.download.windowsupdate.com}, udp: true}
 - {name: 🇺🇸 Web 美国 II-通用 - AyucLouD-Services, server: 201201level1.unclemanco.com, port: 812, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: aa0cc72241.download.windowsupdate.com}, udp: true}
 - {name: 🇺🇸 Web 美国 III-通用 - AyucLouD-Services, server: 201201level1.unclemanco.com, port: 837, type: ss, cipher: aes-128-gcm, password: ayucl12s1, plugin: obfs, plugin-opts: {mode: http, host: aa0cc72241.download.windowsupdate.com}, udp: true}
-- {name: 🇺🇸 USA 美国01 | 中转 | 1.0x | V1 - 酸奶VPN, server: 20.239.94.32, port: 38901, type: vmess, uuid: c8863f36-74a7-3ec6-be57-86b530f2f703, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny}, udp: true}
-- {name: 🇺🇸 USA 美国02 | 中转 | 1.0x | V1 - 酸奶VPN, server: 20.239.94.32, port: 47812, type: vmess, uuid: c8863f36-74a7-3ec6-be57-86b530f2f703, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny}, udp: true}
+- {name: 🇺🇸 USA 美国01 | 中转 | 1.0x | V1 - 酸奶VPN, server: 20.239.94.32, port: 38901, type: vmess, uuid: 2b478832-dd44-3245-b6bf-dd07c5f1b635, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny}, udp: true}
+- {name: 🇺🇸 USA 美国02 | 中转 | 1.0x | V1 - 酸奶VPN, server: 20.239.94.32, port: 47812, type: vmess, uuid: 2b478832-dd44-3245-b6bf-dd07c5f1b635, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny}, udp: true}
 - {name: 🇺🇸 K30美國 - 云翼网络, server: gtm-sg-6wr2u201t05.gtm-i2d4.com, port: 45032, type: ss, cipher: aes-128-gcm, password: 5PYKKi, udp: true}
 - {name: 🇺🇸 K31美國 - 云翼网络, server: gtm-sg-6wr2u201t05.gtm-i2d4.com, port: 45020, type: ss, cipher: aes-128-gcm, password: 5PYKKi, udp: true}
 - {name: 🇺🇸 K32美國 - 云翼网络, server: gtm-sg-6wr2u201t05.gtm-i2d4.com, port: 45024, type: ss, cipher: aes-128-gcm, password: 5PYKKi, udp: true}
