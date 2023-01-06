@@ -1,6 +1,6 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇭🇰 香港A - 幻神, server: 16.162.47.239, port: 45342, type: vmess, uuid: 441bc372-474a-42a6-96e2-975a1a7896f1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 香港sw - 幻神, server: 16.163.144.38, port: 43632, type: ss, cipher: chacha20-ietf-poly1305, password: 441bc372-474a-42a6-96e2-975a1a7896f1, udp: true}
-- {name: 🇭🇰 I香港A(解锁奈飞) - 幻神, server: 16.163.148.152, port: 43632, type: vmess, uuid: 441bc372-474a-42a6-96e2-975a1a7896f1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 香港A - 幻神, server: 16.162.47.239, port: 45342, type: vmess, uuid: cd29ae81-11fa-49cd-a5cb-4fa9b7a02de8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 香港sw - 幻神, server: 16.163.144.38, port: 43632, type: ss, cipher: chacha20-ietf-poly1305, password: cd29ae81-11fa-49cd-a5cb-4fa9b7a02de8, udp: true}
+- {name: 🇭🇰 I香港A(解锁奈飞) - 幻神, server: 16.163.148.152, port: 43632, type: vmess, uuid: cd29ae81-11fa-49cd-a5cb-4fa9b7a02de8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
