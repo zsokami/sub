@@ -5,10 +5,10 @@ proxies:
 - {name: 🇭🇰 香港sw - 幻神, server: 18.163.195.215, port: 43632, type: ss, cipher: chacha20-ietf-poly1305, password: 48742e54-5e0c-4afc-bcf4-dc0de5ae9fbf, udp: true}
 - {name: 🇭🇰 I香港A(解锁奈飞) - 幻神, server: 16.163.148.152, port: 43632, type: vmess, uuid: 48742e54-5e0c-4afc-bcf4-dc0de5ae9fbf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇰🇷 韩国E - 幻神, server: 43.201.64.212, port: 43632, type: vmess, uuid: 48742e54-5e0c-4afc-bcf4-dc0de5ae9fbf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇰🇷 韩国F - 幻神, server: 3.34.200.91, port: 43632, type: vmess, uuid: 48742e54-5e0c-4afc-bcf4-dc0de5ae9fbf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇰🇷 韩国F - 幻神, server: 3.34.193.44, port: 43632, type: vmess, uuid: 48742e54-5e0c-4afc-bcf4-dc0de5ae9fbf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇯🇵 日本A - 幻神, server: 13.115.47.110, port: 43632, type: vmess, uuid: 48742e54-5e0c-4afc-bcf4-dc0de5ae9fbf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇯🇵 日本C - 幻神, server: 18.179.112.228, port: 43632, type: vmess, uuid: 48742e54-5e0c-4afc-bcf4-dc0de5ae9fbf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 美国A - 幻神, server: 3.90.12.112, port: 43632, type: vmess, uuid: 48742e54-5e0c-4afc-bcf4-dc0de5ae9fbf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 美国A - 幻神, server: 54.198.146.63, port: 43632, type: vmess, uuid: 48742e54-5e0c-4afc-bcf4-dc0de5ae9fbf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇯🇵 日本 | 直连 - BIUBIU FAST, server: jp1.biubiufast.quest, port: 8846, type: trojan, password: 4833d9fb-25e7-491f-a5c7-446cfd270996, skip-cert-verify: true, udp: true}
 - {name: 🇺🇸 旧金山 | 直连1 - BIUBIU FAST, server: sfo1.biubiufast.quest, port: 8846, type: trojan, password: 4833d9fb-25e7-491f-a5c7-446cfd270996, skip-cert-verify: true, udp: true}
 - {name: 🇭🇰 香港 | 直连 - BIUBIU FAST, server: hk1.biubiufast.quest, port: 8846, type: trojan, password: 4833d9fb-25e7-491f-a5c7-446cfd270996, skip-cert-verify: true, udp: true}
