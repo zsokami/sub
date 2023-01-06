@@ -3,4 +3,4 @@
 proxies:
 - {name: 🇹🇼 Hinet 台湾 | 迪士尼 | Netflix | 3.0x | V1 - 酸奶VPN, server: xn--kdkakb3kc.xn--y8jhmm6gn.com, port: 38526, type: vmess, uuid: ef3df1ff-8259-3d14-9a99-9d01eab86c95, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny, headers: {Host: xn--kdkakb3kc.xn--y8jhmm6gn.com}}, udp: true}
 - {name: 🇹🇼 UC 台湾01 | Youtube免广告 | 3.0x | V1 - 酸奶VPN, server: 165.154.253.123, port: 38526, type: vmess, uuid: ef3df1ff-8259-3d14-9a99-9d01eab86c95, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny}, udp: true}
-- {name: 🇹🇼 UC 台湾02 | Youtube免广告 | 2.0x | V1 - 酸奶VPN, server: 165.154.237.22, port: 38526, type: vmess, uuid: ef3df1ff-8259-3d14-9a99-9d01eab86c95, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny}, udp: true}
+- {name: 🇹🇼 UC 台湾02 | Youtube免广告 | 2.0x | V1 - 酸奶VPN, server: 165.154.226.134, port: 38526, type: vmess, uuid: ef3df1ff-8259-3d14-9a99-9d01eab86c95, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny}, udp: true}
