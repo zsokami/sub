@@ -1,7 +1,7 @@
 [www.zhenyejiedian.com]
 email  kppaghy722@gmail.com
 node_n  8
-sub_info  308.6K  1G  2023-01-08 01:11:13+08:00  (剩余 1024M 23:17:11.930003)
+sub_info  515.7K  1G  2023-01-08 01:11:13+08:00  (剩余 1023M 22:59:37.028926)
 sub_url  https://api.qingyuge.top/api/v1/client/subscribe?token=bf863608bc8faa6f12f4388f005775be
 time  2023-01-07 01:11:13.998789+08:00
 
@@ -9,7 +9,7 @@ time  2023-01-07 01:11:13.998789+08:00
 email  xnyrzyjrz380@bukhariansiddur.com
 last_checkin  2023-01-07 00:46:01.949537+08:00
 node_n  92
-sub_info  638.5M  1.715G  2023-01-07 17:41:28+08:00  (剩余 1.091G 15:47:28.803854)
+sub_info  640.8M  1.715G  2023-01-07 17:41:28+08:00  (剩余 1.089G 15:29:51.250663)
 sub_url  https://network.ayucloud.nl/link/5QztRnaAHwW1eSOz?clash=1
 time  2023-01-06 17:41:31.979074+08:00
 
@@ -17,7 +17,7 @@ time  2023-01-06 17:41:31.979074+08:00
 email  lmrwulrp553@gmail.com
 last_checkin  2023-01-07 01:26:53.875261+08:00
 node_n  21
-sub_info  1.22M  10.68G  2023-01-08 01:26:53+08:00  (剩余 10.68G 23:32:49.854784)
+sub_info  2.214M  10.68G  2023-01-08 01:26:53+08:00  (剩余 10.68G 23:15:17.931215)
 sub_url  https://1.amazom.group/link/wfjJoqyxzZwU7HRD?sub=3
 time  2023-01-07 01:26:54.929871+08:00
 
@@ -25,21 +25,20 @@ time  2023-01-07 01:26:54.929871+08:00
 email  bdmnxha595@bukhariansiddur.com
 last_checkin  2023-01-07 00:46:01.952104+08:00
 node_n  36
-sub_info  1.332M  5.516G  2023-01-07 23:16:33+08:00  (剩余 5.514G 21:22:34.199708)
+sub_info  2.634M  5.516G  2023-01-07 23:16:33+08:00  (剩余 5.513G 21:04:58.545359)
 sub_url  https://yysub.trafficmanager.net/link/otgpgNfVjFKZhdQ8?sub=2
 time  2023-01-06 23:16:34.395960+08:00
 
 [cloud.hhygj.xyz]
-email  jjqfjieuc353@gmail.com
+email  xusunyfdf27@gmail.com
 node_n  2
-sub_info  11.31K  2G  2023-01-07 02:30:09+08:00  (剩余 2G 0:36:08.061915)
-sub_url  http://tblackdy.rtshdsd.top/api/v1/client/subscribe?token=70067a04ce19afb976990e1699790452
-time  2023-01-06 23:30:09.437804+08:00
+sub_info  0B  2G  2023-01-07 05:11:35+08:00  (剩余 2G 2:59:56.966799)
+sub_url  http://tblackdy.rtshdsd.top/api/v1/client/subscribe?token=35843d88163117a9939673554d6cb535
+time  2023-01-07 02:11:35.647539+08:00
 
 [biubiufast.com]
 email  tvnheyy946@gmail.com
 node_n  12
-sub_info  1.079G  5G  2023-01-07 09:25:14+08:00  (剩余 3.921G 7:40:21.106810)
+sub_info  1.08G  5G  2023-01-07 09:25:14+08:00  (剩余 3.92G 7:13:40.791943)
 sub_url  https://biubiufast.com/api/v1/client/subscribe?token=3d0ea5482b74fb66808573faf9cc8742
 time  2023-01-06 09:25:14.694317+08:00
-更新旧订阅失败  HTTPSConnectionPool(host='api.v1.mk', port=443): Max retries exceeded with url: /sub?target=mixed&exclude=Traffic%7CExpire%7C%E5%89%A9%E4%BD%99%E6%B5%81%E9%87%8F%7C%E5%88%B0%E6%9C%9F%7C%E6%97%B6%E9%97%B4%7C%E9%87%8D%E7%BD%AE%7C%E5%AE%98.%3F%E7%BD%91%7C%E5%AE%98%E6%96%B9%7C%E4%BA%A7%E5%93%81%7C%E5%B9%B3%E5%8F%B0%7C%E5%8B%BF%E8%BF%9E%7C%E4%BF%AE%E5%A4%8D%7C%E6%9B%B4%E6%96%B0%7C%E5%9C%B0%E5%9D%80%7C%E7%BD%91%E7%AB%99%7C%E7%BD%91%E5%9D%80%7C%E5%94%AE%E5%90%8E%7C%E5%AE%A2%E6%9C%8D%7C%E8%81%94%E7%B3%BB%7C%E4%BD%BF%E7%94%A8%7C%E8%B4%AD%E4%B9%B0%7C%E5%85%AC%E5%91%8A&url=https%3A//biubiufast.com/api/v1/client/subscribe%3Ftoken%3D3d0ea5482b74fb66808573faf9cc8742%231673027636.4162686&rename=%24%40%20-%20BIUBIU%20FAST&config=https://raw.githubusercontent.com/zsokami/ACL4SSR/main/ACL4SSR_Online_Full_Mannix.ini (Caused by ReadTimeoutError("HTTPSConnectionPool(host='api.v1.mk', port=443): Read timed out. (read timeout=5)"))
