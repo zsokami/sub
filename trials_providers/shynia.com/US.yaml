@@ -1,5 +1,5 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇺🇸 USA 美国01 | 中转 | 1.0x | V1 - 酸奶VPN, server: 20.239.94.32, port: 38901, type: vmess, uuid: 94ecef92-d7aa-32db-b66f-99007b86523d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny}, udp: true}
-- {name: 🇺🇸 USA 美国02 | 中转 | 1.0x | V1 - 酸奶VPN, server: 20.239.94.32, port: 47812, type: vmess, uuid: 94ecef92-d7aa-32db-b66f-99007b86523d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny}, udp: true}
+- {name: 🇺🇸 USA 美国01 | 中转 | 1.0x | V1 - 酸奶VPN, server: 20.239.136.164, port: 38901, type: vmess, uuid: ef3df1ff-8259-3d14-9a99-9d01eab86c95, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny}, udp: true}
+- {name: 🇺🇸 USA 美国02 | 中转 | 1.0x | V1 - 酸奶VPN, server: 20.239.49.21, port: 47812, type: vmess, uuid: ef3df1ff-8259-3d14-9a99-9d01eab86c95, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny}, udp: true}
