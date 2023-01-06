@@ -1,7 +1,7 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇸🇬 新加坡体验 - Tblack cloud, server: shct8c16g.xfltd.top, port: 42716, type: ss, cipher: chacha20-ietf-poly1305, password: 0735dbd4-8123-49ba-9ef1-cc32bb8bbdc7, udp: true}
+- {name: 🇸🇬 新加坡体验 - Tblack cloud, server: shct8c16g.xfltd.top, port: 42716, type: ss, cipher: chacha20-ietf-poly1305, password: 44da06d7-0e09-4ef8-b29f-511099a17b27, udp: true}
 - {name: 🇸🇬 Game 新加坡01-标准 - AyucLouD-Services, server: 201201level3.unclemanco.com, port: 9060, type: ss, cipher: aes-128-gcm, password: QHPy2u, plugin: obfs, plugin-opts: {mode: http, host: 59d0672312.download.windowsupdate.com}, udp: true}
 - {name: 🇸🇬 Game 新加坡02-标准 - AyucLouD-Services, server: 201201level3.unclemanco.com, port: 9037, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: 59d0672312.download.windowsupdate.com}, udp: true}
 - {name: 🇸🇬 Game 新加坡03-标准 - AyucLouD-Services, server: 201201level3.unclemanco.com, port: 902, type: ss, cipher: aes-128-gcm, password: ayuc211, plugin: obfs, plugin-opts: {mode: http, host: 59d0672312.download.windowsupdate.com}, udp: true}
