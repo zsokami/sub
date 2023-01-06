@@ -1,11 +1,11 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇭🇰 Asia 香港01 | 直连 | 1.0 x | V1 - 酸奶VPN, server: 20.24.82.227, port: 44300, type: vmess, uuid: 7ac2f241-dba9-3567-ad31-ec596d51524a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny}, udp: true}
+- {name: 🇭🇰 Asia 香港01 | 直连 | 1.0 x | V1 - 酸奶VPN, server: 20.205.10.171, port: 80, type: vmess, uuid: 7ac2f241-dba9-3567-ad31-ec596d51524a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny}, udp: true}
 - {name: 🇭🇰 Asia 香港02 | 直连 | 1.0x | V1 - 酸奶VPN, server: 20.24.199.107, port: 80, type: vmess, uuid: 7ac2f241-dba9-3567-ad31-ec596d51524a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny}, udp: true}
-- {name: 🇭🇰 Asia 香港03 | 直连 | 1.0x | V1 - 酸奶VPN, server: 20.239.181.220, port: 44300, type: vmess, uuid: 7ac2f241-dba9-3567-ad31-ec596d51524a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny}, udp: true}
+- {name: 🇭🇰 Asia 香港03 | 直连 | 1.0x | V1 - 酸奶VPN, server: 20.187.119.252, port: 80, type: vmess, uuid: 7ac2f241-dba9-3567-ad31-ec596d51524a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny}, udp: true}
 - {name: 🇭🇰 Asia 香港04 | 直连 | 1.0x | V1 - 酸奶VPN, server: 20.205.120.177, port: 80, type: vmess, uuid: 7ac2f241-dba9-3567-ad31-ec596d51524a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny}, udp: true}
-- {name: 🇭🇰 Asia 香港05 | 直连 | 1.0x | V1 - 酸奶VPN, server: 20.239.53.52, port: 44300, type: vmess, uuid: 7ac2f241-dba9-3567-ad31-ec596d51524a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny}, udp: true}
+- {name: 🇭🇰 Asia 香港05 | 直连 | 1.0x | V1 - 酸奶VPN, server: 20.187.117.42, port: 80, type: vmess, uuid: 7ac2f241-dba9-3567-ad31-ec596d51524a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny}, udp: true}
 - {name: 🇭🇰 Asia 香港06 | 直连 | 1.0x | V1 - 酸奶VPN, server: 20.205.43.65, port: 80, type: vmess, uuid: 7ac2f241-dba9-3567-ad31-ec596d51524a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny}, udp: true}
 - {name: 🇭🇰 Asia 香港07 | 直连 | 1.0x | V1 - 酸奶VPN, server: 20.239.151.16, port: 80, type: vmess, uuid: 7ac2f241-dba9-3567-ad31-ec596d51524a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny}, udp: true}
 - {name: 🇭🇰 Asia 香港08 | 直连 | 1.0x | V1 - 酸奶VPN, server: 20.24.213.84, port: 80, type: vmess, uuid: 7ac2f241-dba9-3567-ad31-ec596d51524a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny}, udp: true}
