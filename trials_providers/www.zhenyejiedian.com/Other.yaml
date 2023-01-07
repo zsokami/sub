@@ -2,4 +2,4 @@
 ---
 proxies:
 - {name: 🇰🇷 韩国E - 幻神, server: 43.201.64.212, port: 43632, type: vmess, uuid: 116e44c9-5219-4e81-bea7-dbd71890b99a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇰🇷 韩国F - 幻神, server: 13.124.19.78, port: 43632, type: vmess, uuid: 116e44c9-5219-4e81-bea7-dbd71890b99a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇰🇷 韩国F - 幻神, server: 3.38.190.72, port: 43632, type: vmess, uuid: 116e44c9-5219-4e81-bea7-dbd71890b99a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
