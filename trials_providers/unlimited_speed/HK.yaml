@@ -1,7 +1,7 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇭🇰 香港A - 幻神, server: 16.162.122.57, port: 45342, type: vmess, uuid: 116e44c9-5219-4e81-bea7-dbd71890b99a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 香港A - 幻神, server: 43.198.86.189, port: 45342, type: vmess, uuid: 116e44c9-5219-4e81-bea7-dbd71890b99a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇭🇰 香港sw - 幻神, server: 18.166.154.73, port: 43632, type: ss, cipher: chacha20-ietf-poly1305, password: 116e44c9-5219-4e81-bea7-dbd71890b99a, udp: true}
 - {name: 🇭🇰 I香港A(解锁奈飞) - 幻神, server: 16.163.148.152, port: 43632, type: vmess, uuid: 116e44c9-5219-4e81-bea7-dbd71890b99a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇭🇰 香港 | 直连 - BIUBIU FAST, server: hk1.biubiufast.quest, port: 8846, type: trojan, password: 9d80c847-258a-4c1c-879d-5528e2599e0c, skip-cert-verify: true, udp: true}
@@ -31,12 +31,12 @@ proxies:
 - {name: 🇭🇰 Asia 香港09 | 奈飞 | 2.0x | V1 - 酸奶VPN, server: 20.255.177.181, port: 80, type: vmess, uuid: 9cc7ae0f-817f-3cda-91be-27f6ac3c39dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny}, udp: true}
 - {name: 🇭🇰 Asia 香港10 | 移动优化线路 | 1.0x | V1 - 酸奶VPN, server: 18.163.198.65, port: 44300, type: vmess, uuid: 9cc7ae0f-817f-3cda-91be-27f6ac3c39dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny}, udp: true}
 - {name: 🇭🇰 Asia 香港11 | 移动优化线路 | 1.0x | V1 - 酸奶VPN, server: 18.163.194.43, port: 44300, type: vmess, uuid: 9cc7ae0f-817f-3cda-91be-27f6ac3c39dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny}, udp: true}
-- {name: 🇭🇰 K01香港 - 云翼网络, server: gtm-sg-6wr2u201t05.gtm-i2d4.com, port: 45018, type: ss, cipher: aes-128-gcm, password: tc6VYM, udp: true}
-- {name: 🇭🇰 K02香港 - 云翼网络, server: gtm-sg-6wr2u201t05.gtm-i2d4.com, port: 45004, type: ss, cipher: aes-128-gcm, password: tc6VYM, udp: true}
-- {name: 🇭🇰 K03香港 - 云翼网络, server: gtm-sg-6wr2u201t05.gtm-i2d4.com, port: 45009, type: ss, cipher: aes-128-gcm, password: tc6VYM, udp: true}
-- {name: 🇭🇰 K04香港 - 云翼网络, server: gtm-sg-6wr2u201t05.gtm-i2d4.com, port: 45010, type: ss, cipher: aes-128-gcm, password: tc6VYM, udp: true}
-- {name: 🇭🇰 K05香港 - 云翼网络, server: gtm-sg-6wr2u201t05.gtm-i2d4.com, port: 45031, type: ss, cipher: aes-128-gcm, password: tc6VYM, udp: true}
-- {name: 🇭🇰 K06香港 - 云翼网络, server: gtm-sg-6wr2u201t05.gtm-i2d4.com, port: 45003, type: ss, cipher: aes-128-gcm, password: tc6VYM, udp: true}
-- {name: 🇭🇰 K07香港 - 云翼网络, server: gtm-sg-6wr2u201t05.gtm-i2d4.com, port: 45013, type: ss, cipher: aes-128-gcm, password: tc6VYM, udp: true}
-- {name: 🇭🇰 K08香港 - 云翼网络, server: gtm-sg-6wr2u201t05.gtm-i2d4.com, port: 45001, type: ss, cipher: aes-128-gcm, password: tc6VYM, udp: true}
-- {name: 🇭🇰 K09香港 - 云翼网络, server: gtm-sg-6wr2u201t05.gtm-i2d4.com, port: 45002, type: ss, cipher: aes-128-gcm, password: tc6VYM, udp: true}
+- {name: 🇭🇰 K01香港 - 云翼网络, server: gtm-sg-6wr2u201t05.gtm-i2d4.com, port: 45018, type: ss, cipher: aes-128-gcm, password: Bk4J07, udp: true}
+- {name: 🇭🇰 K02香港 - 云翼网络, server: gtm-sg-6wr2u201t05.gtm-i2d4.com, port: 45004, type: ss, cipher: aes-128-gcm, password: Bk4J07, udp: true}
+- {name: 🇭🇰 K03香港 - 云翼网络, server: gtm-sg-6wr2u201t05.gtm-i2d4.com, port: 45009, type: ss, cipher: aes-128-gcm, password: Bk4J07, udp: true}
+- {name: 🇭🇰 K04香港 - 云翼网络, server: gtm-sg-6wr2u201t05.gtm-i2d4.com, port: 45010, type: ss, cipher: aes-128-gcm, password: Bk4J07, udp: true}
+- {name: 🇭🇰 K05香港 - 云翼网络, server: gtm-sg-6wr2u201t05.gtm-i2d4.com, port: 45031, type: ss, cipher: aes-128-gcm, password: Bk4J07, udp: true}
+- {name: 🇭🇰 K06香港 - 云翼网络, server: gtm-sg-6wr2u201t05.gtm-i2d4.com, port: 45003, type: ss, cipher: aes-128-gcm, password: Bk4J07, udp: true}
+- {name: 🇭🇰 K07香港 - 云翼网络, server: gtm-sg-6wr2u201t05.gtm-i2d4.com, port: 45013, type: ss, cipher: aes-128-gcm, password: Bk4J07, udp: true}
+- {name: 🇭🇰 K08香港 - 云翼网络, server: gtm-sg-6wr2u201t05.gtm-i2d4.com, port: 45001, type: ss, cipher: aes-128-gcm, password: Bk4J07, udp: true}
+- {name: 🇭🇰 K09香港 - 云翼网络, server: gtm-sg-6wr2u201t05.gtm-i2d4.com, port: 45002, type: ss, cipher: aes-128-gcm, password: Bk4J07, udp: true}
