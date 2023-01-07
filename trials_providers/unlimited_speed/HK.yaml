@@ -1,14 +1,14 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇭🇰 香港A - 幻神, server: 16.162.122.57, port: 45342, type: vmess, uuid: 48742e54-5e0c-4afc-bcf4-dc0de5ae9fbf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 香港sw - 幻神, server: 18.163.195.215, port: 43632, type: ss, cipher: chacha20-ietf-poly1305, password: 48742e54-5e0c-4afc-bcf4-dc0de5ae9fbf, udp: true}
-- {name: 🇭🇰 I香港A(解锁奈飞) - 幻神, server: 16.163.148.152, port: 43632, type: vmess, uuid: 48742e54-5e0c-4afc-bcf4-dc0de5ae9fbf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 香港 | 直连 - BIUBIU FAST, server: hk1.biubiufast.quest, port: 8846, type: trojan, password: 4833d9fb-25e7-491f-a5c7-446cfd270996, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 莞港专线 | 香港 - BIUBIU FAST, server: ink-dg-hk-iplc.inkiwike.com, port: 10368, type: trojan, password: 4833d9fb-25e7-491f-a5c7-446cfd270996, sni: hk1.biubiufast.quest, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 沪美专线 | 香港 - BIUBIU FAST, server: 101.227.56.234, port: 10027, type: trojan, password: 4833d9fb-25e7-491f-a5c7-446cfd270996, sni: hk1.biubiufast.quest, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 沪日专线 | 香港 - BIUBIU FAST, server: sh-jp2-ink.inkisp.com, port: 10052, type: trojan, password: 4833d9fb-25e7-491f-a5c7-446cfd270996, sni: hk1.biubiufast.quest, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 香港体验 - Tblack cloud, server: shct8c16g.xfltd.top, port: 15414, type: ss, cipher: chacha20-ietf-poly1305, password: 0b952b34-2fbd-4f1b-88de-cf82833c46d1, udp: true}
+- {name: 🇭🇰 香港A - 幻神, server: 16.162.122.57, port: 45342, type: vmess, uuid: d907622b-f147-48b5-80e3-e78cdd1863bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 香港sw - 幻神, server: 18.163.195.215, port: 43632, type: ss, cipher: chacha20-ietf-poly1305, password: d907622b-f147-48b5-80e3-e78cdd1863bb, udp: true}
+- {name: 🇭🇰 I香港A(解锁奈飞) - 幻神, server: 16.163.148.152, port: 43632, type: vmess, uuid: d907622b-f147-48b5-80e3-e78cdd1863bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 香港 | 直连 - BIUBIU FAST, server: hk1.biubiufast.quest, port: 8846, type: trojan, password: 9d80c847-258a-4c1c-879d-5528e2599e0c, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 莞港专线 | 香港 - BIUBIU FAST, server: ink-dg-hk-iplc.inkiwike.com, port: 10368, type: trojan, password: 9d80c847-258a-4c1c-879d-5528e2599e0c, sni: hk1.biubiufast.quest, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 沪美专线 | 香港 - BIUBIU FAST, server: 101.227.56.234, port: 10027, type: trojan, password: 9d80c847-258a-4c1c-879d-5528e2599e0c, sni: hk1.biubiufast.quest, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 沪日专线 | 香港 - BIUBIU FAST, server: sh-jp2-ink.inkisp.com, port: 10052, type: trojan, password: 9d80c847-258a-4c1c-879d-5528e2599e0c, sni: hk1.biubiufast.quest, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 香港体验 - Tblack cloud, server: shct8c16g.xfltd.top, port: 15414, type: ss, cipher: chacha20-ietf-poly1305, password: 5db7e56c-a60f-4298-9c7e-87237fb5e035, udp: true}
 - {name: 🇭🇰 Game 香港01-标准 - AyucLouD-Services, server: 201201level3.unclemanco.com, port: 824, type: ss, cipher: aes-128-gcm, password: ayu1245, plugin: obfs, plugin-opts: {mode: http, host: 4489272333.download.windowsupdate.com}, udp: true}
 - {name: 🇭🇰 Game 香港02-标准 - AyucLouD-Services, server: 201201level3.unclemanco.com, port: 9054, type: ss, cipher: aes-128-gcm, password: QHPy2u, plugin: obfs, plugin-opts: {mode: http, host: 4489272333.download.windowsupdate.com}, udp: true}
 - {name: 🇭🇰 Game 香港03-标准 - AyucLouD-Services, server: 201201level3.unclemanco.com, port: 9063, type: ss, cipher: aes-128-gcm, password: QHPy2u, plugin: obfs, plugin-opts: {mode: http, host: 4489272333.download.windowsupdate.com}, udp: true}
