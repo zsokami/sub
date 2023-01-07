@@ -2,4 +2,4 @@
 ---
 proxies:
 - {name: 🇹🇼 K40台灣 - 云翼网络, server: gtm-sg-6wr2u201t05.gtm-i2d4.com, port: 45023, type: ss, cipher: aes-128-gcm, password: Bk4J07, udp: true}
-- {name: 🇹🇼 K41台灣 - 云翼网络, server: gtm-sg-6wr2u201t05.gtm-i2d4.com, port: 45044, type: ss, cipher: aes-128-gcm, password: Bk4J07, udp: true}
+- {name: 🇹🇼 K41台灣 - 云翼网络, server: cdn-sg-4hr2wts5q02.trafficmanager.pro, port: 45044, type: ss, cipher: aes-128-gcm, password: Bk4J07, udp: true}
