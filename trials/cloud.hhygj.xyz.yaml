@@ -12,9 +12,11 @@ proxy-groups:
   - ⚡ ‍低延迟
   - 🇭🇰 ‍香港
   - 🇸🇬 ‍新加坡
+  - 🎏 ‍其他
   - 👆🏻 ‍指定
   - 👆🏻🇭🇰 ‍香港
   - 👆🏻🇸🇬 ‍新加坡
+  - 👆🏻🎏 ‍其他
   - DIRECT
 - name: ⚡ ‍低延迟
   type: url-test
@@ -56,6 +58,11 @@ proxy-groups:
   tolerance: 50
   use:
   - SG
+- name: 🎏 ‍其他
+  type: url-test
+  tolerance: 50
+  use:
+  - Other
 - name: 👆🏻 ‍指定
   type: select
   use:
@@ -68,6 +75,10 @@ proxy-groups:
   type: select
   use:
   - SG
+- name: 👆🏻🎏 ‍其他
+  type: select
+  use:
+  - Other
 proxy-providers:
   All:
     type: http
@@ -92,6 +103,15 @@ proxy-providers:
     url: https://ghproxy.com/https://raw.githubusercontent.com/zsokami/sub/main/trials_providers/cloud.hhygj.xyz/SG.yaml
     interval: 360
     path: trials_providers/cloud.hhygj.xyz/SG.yaml
+    health-check:
+      enable: true
+      url: https://i.ytimg.com/generate_204
+      interval: 30
+  Other:
+    type: http
+    url: https://ghproxy.com/https://raw.githubusercontent.com/zsokami/sub/main/trials_providers/cloud.hhygj.xyz/Other.yaml
+    interval: 360
+    path: trials_providers/cloud.hhygj.xyz/Other.yaml
     health-check:
       enable: true
       url: https://i.ytimg.com/generate_204

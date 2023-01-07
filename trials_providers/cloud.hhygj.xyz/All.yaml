@@ -1,5 +1,6 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇭🇰 香港体验 - Tblack cloud, server: shct8c16g.xfltd.top, port: 15414, type: ss, cipher: chacha20-ietf-poly1305, password: f26b90ed-e090-4d08-a0fd-d15114f3d1c5, udp: true}
-- {name: 🇸🇬 新加坡体验 - Tblack cloud, server: shct8c16g.xfltd.top, port: 42716, type: ss, cipher: chacha20-ietf-poly1305, password: f26b90ed-e090-4d08-a0fd-d15114f3d1c5, udp: true}
+- {name: 邀请返佣：40%【循环返佣】 - Tblack cloud, server: shct8c16g.xfltd.top, port: 15414, type: ss, cipher: chacha20-ietf-poly1305, password: 3f1745cf-e2a8-46cb-af9d-1b79a4a1d9cd, udp: true}
+- {name: 🇭🇰 香港体验 - Tblack cloud, server: shct8c16g.xfltd.top, port: 15414, type: ss, cipher: chacha20-ietf-poly1305, password: 3f1745cf-e2a8-46cb-af9d-1b79a4a1d9cd, udp: true}
+- {name: 🇸🇬 新加坡体验 - Tblack cloud, server: shct8c16g.xfltd.top, port: 42716, type: ss, cipher: chacha20-ietf-poly1305, password: 3f1745cf-e2a8-46cb-af9d-1b79a4a1d9cd, udp: true}
