@@ -2,7 +2,7 @@
 ---
 proxies:
 - {name: 1.07-1.08将新增部分节点 - 幻神, server: 8.8.8.8, port: 8888, type: vmess, uuid: 2e576e47-3503-43eb-a20e-1dd7d412e991, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇰🇷 韩国E - 幻神, server: 13.209.80.34, port: 43632, type: vmess, uuid: 2e576e47-3503-43eb-a20e-1dd7d412e991, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇰🇷 韩国E - 幻神, server: 15.164.227.80, port: 43632, type: vmess, uuid: 2e576e47-3503-43eb-a20e-1dd7d412e991, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇰🇷 韩国F - 幻神, server: 13.125.136.30, port: 43632, type: vmess, uuid: 2e576e47-3503-43eb-a20e-1dd7d412e991, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 邀请返佣：40%【循环返佣】 - Tblack cloud, server: shct8c16g.xfltd.top, port: 15414, type: ss, cipher: chacha20-ietf-poly1305, password: 567dc782-6fe4-4bda-a3ab-6caa0148b75b, udp: true}
 - {name: 🇰🇷 Game 韩国01-标准 - AyucLouD-Services, server: 201201level3.unclemanco.com, port: 803, type: ss, cipher: aes-128-gcm, password: QHPy2u, plugin: obfs, plugin-opts: {mode: http, host: 2128572370.download.windowsupdate.com}, udp: true}
