@@ -1,9 +1,9 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 1.07-1.08将新增部分节点 - 幻神, server: 8.8.8.8, port: 8888, type: vmess, uuid: 2be96a51-1105-4ffc-9c5c-45d179a465ff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇰🇷 韩国E - 幻神, server: 15.164.227.80, port: 43632, type: vmess, uuid: 2be96a51-1105-4ffc-9c5c-45d179a465ff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇰🇷 韩国F - 幻神, server: 3.35.217.193, port: 43632, type: vmess, uuid: 2be96a51-1105-4ffc-9c5c-45d179a465ff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 1.07-1.08将新增部分节点 - 幻神, server: 8.8.8.8, port: 8888, type: vmess, uuid: 5a3c40fb-22f5-4acb-81a1-6290be545548, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇰🇷 韩国E - 幻神, server: 15.164.227.80, port: 43632, type: vmess, uuid: 5a3c40fb-22f5-4acb-81a1-6290be545548, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇰🇷 韩国F - 幻神, server: 3.35.217.193, port: 43632, type: vmess, uuid: 5a3c40fb-22f5-4acb-81a1-6290be545548, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 邀请返佣：40%【循环返佣】 - Tblack cloud, server: 01.123445566.xyz, port: 18321, type: ss, cipher: chacha20-ietf-poly1305, password: 28eef156-3d45-4457-bd95-89ccdfc508c1, udp: true}
 - {name: 🇰🇷 Game 韩国01-标准 - AyucLouD-Services, server: 201201level3.unclemanco.com, port: 803, type: ss, cipher: aes-128-gcm, password: QHPy2u, plugin: obfs, plugin-opts: {mode: http, host: 0f21f72406.download.windowsupdate.com}, udp: true}
 - {name: 🇰🇷 Game 韩国02-标准 - AyucLouD-Services, server: 201201level3.unclemanco.com, port: 806, type: ss, cipher: aes-128-gcm, password: QHPy2u, plugin: obfs, plugin-opts: {mode: http, host: 0f21f72406.download.windowsupdate.com}, udp: true}
