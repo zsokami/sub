@@ -1,4 +1,4 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 邀请返佣：40%【循环返佣】 - Tblack cloud, server: 01.123445566.xyz, port: 18321, type: ss, cipher: chacha20-ietf-poly1305, password: fcbc4c17-bc43-4dee-83fa-50df240d05e9, udp: true}
+- {name: 邀请返佣：40%【循环返佣】 - Tblack cloud, server: 01.123445566.xyz, port: 18321, type: ss, cipher: chacha20-ietf-poly1305, password: 4a33f695-9249-4f7a-b4b2-10f3ac83a06c, udp: true}
