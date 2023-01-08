@@ -1,8 +1,8 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇯🇵 K20日本 - 云翼网络, server: cdn-sg-d3b2.trafficmanager.pro, port: 45017, type: ss, cipher: aes-128-gcm, password: ivDhjF, udp: true}
-- {name: 🇯🇵 K21日本 - 云翼网络, server: cdn-sg-d3b2.trafficmanager.pro, port: 45027, type: ss, cipher: aes-128-gcm, password: ivDhjF, udp: true}
-- {name: 🇯🇵 K22日本 - 云翼网络, server: cdn-sg-d3b2.trafficmanager.pro, port: 45028, type: ss, cipher: aes-128-gcm, password: ivDhjF, udp: true}
-- {name: 🇯🇵 K23日本 - 云翼网络, server: cdn-sg-d3b2.trafficmanager.pro, port: 45016, type: ss, cipher: aes-128-gcm, password: ivDhjF, udp: true}
-- {name: 🇯🇵 K24日本 - 云翼网络, server: gtm-sg-6wr2u201t05.gtm-i2d4.com, port: 45015, type: ss, cipher: aes-128-gcm, password: ivDhjF, udp: true}
+- {name: 🇯🇵 K20日本 - 云翼网络, server: cdn-sg-d3b2.trafficmanager.pro, port: 45017, type: ss, cipher: aes-128-gcm, password: RkqUHM, udp: true}
+- {name: 🇯🇵 K21日本 - 云翼网络, server: cdn-sg-d3b2.trafficmanager.pro, port: 45027, type: ss, cipher: aes-128-gcm, password: RkqUHM, udp: true}
+- {name: 🇯🇵 K22日本 - 云翼网络, server: cdn-sg-d3b2.trafficmanager.pro, port: 45028, type: ss, cipher: aes-128-gcm, password: RkqUHM, udp: true}
+- {name: 🇯🇵 K23日本 - 云翼网络, server: cdn-sg-d3b2.trafficmanager.pro, port: 45016, type: ss, cipher: aes-128-gcm, password: RkqUHM, udp: true}
+- {name: 🇯🇵 K24日本 - 云翼网络, server: gtm-sg-6wr2u201t05.gtm-i2d4.com, port: 45015, type: ss, cipher: aes-128-gcm, password: RkqUHM, udp: true}
