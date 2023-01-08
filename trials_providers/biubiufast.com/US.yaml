@@ -1,7 +1,7 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇺🇸 旧金山 | 直连1 - BIUBIU FAST, server: sfo1.biubiufast.quest, port: 8846, type: trojan, password: 742385fd-a861-4a6d-88b1-ca958a56ed3b, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 莞港专线 | 旧金山 - BIUBIU FAST, server: ink-dg-hk-iplc.inkiwike.com, port: 10258, type: trojan, password: 742385fd-a861-4a6d-88b1-ca958a56ed3b, sni: sfo1.biubiufast.quest, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 沪日专线 | 旧金山 - BIUBIU FAST, server: sh-jp2-ink.inkisp.com, port: 10016, type: trojan, password: 742385fd-a861-4a6d-88b1-ca958a56ed3b, sni: sfo1.biubiufast.quest, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 沪美专线 | 旧金山 - BIUBIU FAST, server: 101.227.56.234, port: 10013, type: trojan, password: 742385fd-a861-4a6d-88b1-ca958a56ed3b, sni: sfo1.biubiufast.quest, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 旧金山 | 直连1 - BIUBIU FAST, server: sfo1.biubiufast.quest, port: 8846, type: trojan, password: 0e02b9fe-550e-4a8d-adf1-2e038eb93eb9, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 莞港专线 | 旧金山 - BIUBIU FAST, server: ink-dg-hk-iplc.inkiwike.com, port: 10258, type: trojan, password: 0e02b9fe-550e-4a8d-adf1-2e038eb93eb9, sni: sfo1.biubiufast.quest, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 沪日专线 | 旧金山 - BIUBIU FAST, server: sh-jp2-ink.inkisp.com, port: 10016, type: trojan, password: 0e02b9fe-550e-4a8d-adf1-2e038eb93eb9, sni: sfo1.biubiufast.quest, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 沪美专线 | 旧金山 - BIUBIU FAST, server: 101.227.56.234, port: 10013, type: trojan, password: 0e02b9fe-550e-4a8d-adf1-2e038eb93eb9, sni: sfo1.biubiufast.quest, skip-cert-verify: true, udp: true}
