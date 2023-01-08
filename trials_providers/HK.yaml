@@ -31,12 +31,12 @@ proxies:
 - {name: 🇭🇰 Asia 香港09 | 奈飞 | 2.0x | V1 - 酸奶VPN, server: 20.255.177.181, port: 80, type: vmess, uuid: 1cd33c9c-7bba-3ec5-8dfb-8b2c3fe0131b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny}, udp: true}
 - {name: 🇭🇰 Asia 香港10 | 移动优化线路 | 1.0x | V1 - 酸奶VPN, server: 18.163.198.65, port: 44300, type: vmess, uuid: 1cd33c9c-7bba-3ec5-8dfb-8b2c3fe0131b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny}, udp: true}
 - {name: 🇭🇰 Asia 香港11 | 移动优化线路 | 1.0x | V1 - 酸奶VPN, server: 18.163.194.43, port: 44300, type: vmess, uuid: 1cd33c9c-7bba-3ec5-8dfb-8b2c3fe0131b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny}, udp: true}
-- {name: 🇭🇰 K01香港 - 云翼网络, server: cdn-sg-d3b2.trafficmanager.pro, port: 45018, type: ss, cipher: aes-128-gcm, password: Bk4J07, udp: true}
-- {name: 🇭🇰 K02香港 - 云翼网络, server: cdn-sg-d3b2.trafficmanager.pro, port: 45004, type: ss, cipher: aes-128-gcm, password: Bk4J07, udp: true}
-- {name: 🇭🇰 K03香港 - 云翼网络, server: cdn-sg-d3b2.trafficmanager.pro, port: 45009, type: ss, cipher: aes-128-gcm, password: Bk4J07, udp: true}
-- {name: 🇭🇰 K04香港 - 云翼网络, server: cdn-sg-d3b2.trafficmanager.pro, port: 45010, type: ss, cipher: aes-128-gcm, password: Bk4J07, udp: true}
-- {name: 🇭🇰 K05香港 - 云翼网络, server: gtm-sg-6wr2u201t05.gtm-i2d4.com, port: 45031, type: ss, cipher: aes-128-gcm, password: Bk4J07, udp: true}
-- {name: 🇭🇰 K06香港 - 云翼网络, server: cdn-sg-d3b2.trafficmanager.pro, port: 45003, type: ss, cipher: aes-128-gcm, password: Bk4J07, udp: true}
-- {name: 🇭🇰 K07香港 - 云翼网络, server: gtm-sg-6wr2u201t05.gtm-i2d4.com, port: 45013, type: ss, cipher: aes-128-gcm, password: Bk4J07, udp: true}
-- {name: 🇭🇰 K08香港 - 云翼网络, server: cdn-sg-d3b2.trafficmanager.pro, port: 45001, type: ss, cipher: aes-128-gcm, password: Bk4J07, udp: true}
-- {name: 🇭🇰 K09香港 - 云翼网络, server: gtm-sg-6wr2u201t05.gtm-i2d4.com, port: 45002, type: ss, cipher: aes-128-gcm, password: Bk4J07, udp: true}
+- {name: 🇭🇰 K01香港 - 云翼网络, server: cdn-sg-d3b2.trafficmanager.pro, port: 45018, type: ss, cipher: aes-128-gcm, password: ivDhjF, udp: true}
+- {name: 🇭🇰 K02香港 - 云翼网络, server: cdn-sg-d3b2.trafficmanager.pro, port: 45004, type: ss, cipher: aes-128-gcm, password: ivDhjF, udp: true}
+- {name: 🇭🇰 K03香港 - 云翼网络, server: cdn-sg-d3b2.trafficmanager.pro, port: 45009, type: ss, cipher: aes-128-gcm, password: ivDhjF, udp: true}
+- {name: 🇭🇰 K04香港 - 云翼网络, server: cdn-sg-d3b2.trafficmanager.pro, port: 45010, type: ss, cipher: aes-128-gcm, password: ivDhjF, udp: true}
+- {name: 🇭🇰 K05香港 - 云翼网络, server: gtm-sg-6wr2u201t05.gtm-i2d4.com, port: 45031, type: ss, cipher: aes-128-gcm, password: ivDhjF, udp: true}
+- {name: 🇭🇰 K06香港 - 云翼网络, server: cdn-sg-d3b2.trafficmanager.pro, port: 45003, type: ss, cipher: aes-128-gcm, password: ivDhjF, udp: true}
+- {name: 🇭🇰 K07香港 - 云翼网络, server: gtm-sg-6wr2u201t05.gtm-i2d4.com, port: 45013, type: ss, cipher: aes-128-gcm, password: ivDhjF, udp: true}
+- {name: 🇭🇰 K08香港 - 云翼网络, server: cdn-sg-d3b2.trafficmanager.pro, port: 45001, type: ss, cipher: aes-128-gcm, password: ivDhjF, udp: true}
+- {name: 🇭🇰 K09香港 - 云翼网络, server: gtm-sg-6wr2u201t05.gtm-i2d4.com, port: 45002, type: ss, cipher: aes-128-gcm, password: ivDhjF, udp: true}
