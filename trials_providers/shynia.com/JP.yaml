@@ -1,4 +1,4 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇯🇵 JP 日本 | tiktok | 2.0x | V1 - 酸奶VPN, server: 20.205.34.3, port: 45361, type: vmess, uuid: 1cd33c9c-7bba-3ec5-8dfb-8b2c3fe0131b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny}, udp: true}
+- {name: 🇯🇵 JP 日本 | tiktok | 2.0x | V1 - 酸奶VPN, server: 20.205.34.3, port: 45361, type: vmess, uuid: daabde08-c4db-3188-9869-8b3a0e837231, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny}, udp: true}
