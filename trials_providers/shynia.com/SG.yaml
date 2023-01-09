@@ -1,4 +1,4 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇸🇬 SGP 新加坡 | 中转 | 奈飞 | 5.0x | V1 - 酸奶VPN, server: 20.205.103.190, port: 39991, type: vmess, uuid: 88bdefdc-5c87-393a-8810-7329ddb19bbb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny}, udp: true}
+- {name: 🇸🇬 SGP 新加坡 | 中转 | 奈飞 | 5.0x | V1 - 酸奶VPN, server: 20.255.169.161, port: 39991, type: vmess, uuid: 88bdefdc-5c87-393a-8810-7329ddb19bbb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny}, udp: true}
