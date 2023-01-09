@@ -1,11 +1,11 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇺🇸 美国A - 幻神, server: 34.224.74.181, port: 43632, type: vmess, uuid: b904c11e-4778-4602-a65d-ca4d0481b694, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 旧金山 | 直连1 - BIUBIU FAST, server: sfo1.biubiufast.quest, port: 8846, type: trojan, password: ec84a3dc-bfe0-4f1e-9bb8-a80606645900, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 莞港专线 | 旧金山 - BIUBIU FAST, server: ink-dg-hk-iplc.inkiwike.com, port: 10258, type: trojan, password: ec84a3dc-bfe0-4f1e-9bb8-a80606645900, sni: sfo1.biubiufast.quest, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 沪日专线 | 旧金山 - BIUBIU FAST, server: sh-jp2-ink.inkisp.com, port: 10016, type: trojan, password: ec84a3dc-bfe0-4f1e-9bb8-a80606645900, sni: sfo1.biubiufast.quest, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 沪美专线 | 旧金山 - BIUBIU FAST, server: 101.227.56.234, port: 10013, type: trojan, password: ec84a3dc-bfe0-4f1e-9bb8-a80606645900, sni: sfo1.biubiufast.quest, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 美国A - 幻神, server: 34.224.74.181, port: 43632, type: vmess, uuid: ed82b7ef-288c-4609-85ef-e6507421fb9b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 旧金山 | 直连1 - BIUBIU FAST, server: sfo1.biubiufast.quest, port: 8846, type: trojan, password: 3bb51ddc-55a6-48c6-b73d-dd3f070cd5ea, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 莞港专线 | 旧金山 - BIUBIU FAST, server: ink-dg-hk-iplc.inkiwike.com, port: 10258, type: trojan, password: 3bb51ddc-55a6-48c6-b73d-dd3f070cd5ea, sni: sfo1.biubiufast.quest, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 沪日专线 | 旧金山 - BIUBIU FAST, server: sh-jp2-ink.inkisp.com, port: 10016, type: trojan, password: 3bb51ddc-55a6-48c6-b73d-dd3f070cd5ea, sni: sfo1.biubiufast.quest, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 沪美专线 | 旧金山 - BIUBIU FAST, server: 101.227.56.234, port: 10013, type: trojan, password: 3bb51ddc-55a6-48c6-b73d-dd3f070cd5ea, sni: sfo1.biubiufast.quest, skip-cert-verify: true, udp: true}
 - {name: 🇺🇸 Game 美国01-原生 - AyucLouD-Services, server: 201201level3.unclemanco.com, port: 9873, type: ss, cipher: aes-128-gcm, password: QHPy2u, plugin: obfs, plugin-opts: {mode: http, host: 4c56472453.download.windowsupdate.com}, udp: true}
 - {name: 🇺🇸 Game 美国02-原生 - AyucLouD-Services, server: 201201level3.unclemanco.com, port: 821, type: ss, cipher: aes-128-gcm, password: QHPy2u, plugin: obfs, plugin-opts: {mode: http, host: 4c56472453.download.windowsupdate.com}, udp: true}
 - {name: 🇺🇸 Game 美国03-标准 - AyucLouD-Services, server: 201201level3.unclemanco.com, port: 903, type: ss, cipher: aes-128-gcm, password: ay2l23ud1, plugin: obfs, plugin-opts: {mode: http, host: 4c56472453.download.windowsupdate.com}, udp: true}

@@ -1,27 +1,27 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 1.07-1.08将新增部分节点 - 幻神, server: 8.8.8.8, port: 8888, type: vmess, uuid: b904c11e-4778-4602-a65d-ca4d0481b694, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 香港A - 幻神, server: 18.162.54.228, port: 45342, type: vmess, uuid: b904c11e-4778-4602-a65d-ca4d0481b694, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 香港sw - 幻神, server: 18.162.144.227, port: 43632, type: ss, cipher: chacha20-ietf-poly1305, password: b904c11e-4778-4602-a65d-ca4d0481b694, udp: true}
-- {name: 🇭🇰 I香港A(解锁奈飞) - 幻神, server: 43.198.84.43, port: 43632, type: vmess, uuid: b904c11e-4778-4602-a65d-ca4d0481b694, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇰🇷 韩国E - 幻神, server: 3.34.49.188, port: 43632, type: vmess, uuid: b904c11e-4778-4602-a65d-ca4d0481b694, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇰🇷 韩国F - 幻神, server: 3.38.255.236, port: 43632, type: vmess, uuid: b904c11e-4778-4602-a65d-ca4d0481b694, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 日本A - 幻神, server: 54.199.226.26, port: 43632, type: vmess, uuid: b904c11e-4778-4602-a65d-ca4d0481b694, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 日本C - 幻神, server: 18.183.98.169, port: 43632, type: vmess, uuid: b904c11e-4778-4602-a65d-ca4d0481b694, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 美国A - 幻神, server: 34.224.74.181, port: 43632, type: vmess, uuid: b904c11e-4778-4602-a65d-ca4d0481b694, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 日本 | 直连 - BIUBIU FAST, server: jp1.biubiufast.quest, port: 8846, type: trojan, password: ec84a3dc-bfe0-4f1e-9bb8-a80606645900, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 旧金山 | 直连1 - BIUBIU FAST, server: sfo1.biubiufast.quest, port: 8846, type: trojan, password: ec84a3dc-bfe0-4f1e-9bb8-a80606645900, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 香港 | 直连 - BIUBIU FAST, server: hk1.biubiufast.quest, port: 8846, type: trojan, password: ec84a3dc-bfe0-4f1e-9bb8-a80606645900, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 莞港专线 | 日本 - BIUBIU FAST, server: ink-dg-hk-iplc.inkiwike.com, port: 10209, type: trojan, password: ec84a3dc-bfe0-4f1e-9bb8-a80606645900, sni: jp1.biubiufast.quest, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 莞港专线 | 旧金山 - BIUBIU FAST, server: ink-dg-hk-iplc.inkiwike.com, port: 10258, type: trojan, password: ec84a3dc-bfe0-4f1e-9bb8-a80606645900, sni: sfo1.biubiufast.quest, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 莞港专线 | 香港 - BIUBIU FAST, server: ink-dg-hk-iplc.inkiwike.com, port: 10368, type: trojan, password: ec84a3dc-bfe0-4f1e-9bb8-a80606645900, sni: hk1.biubiufast.quest, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 沪美专线 | 香港 - BIUBIU FAST, server: 101.227.56.234, port: 10027, type: trojan, password: ec84a3dc-bfe0-4f1e-9bb8-a80606645900, sni: hk1.biubiufast.quest, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 沪美专线 | 日本 - BIUBIU FAST, server: 101.227.56.234, port: 14667, type: trojan, password: ec84a3dc-bfe0-4f1e-9bb8-a80606645900, sni: jp1.biubiufast.quest, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 沪日专线 | 日本 - BIUBIU FAST, server: sh-jp2-ink.inkisp.com, port: 10065, type: trojan, password: ec84a3dc-bfe0-4f1e-9bb8-a80606645900, sni: jp1.biubiufast.quest, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 沪日专线 | 旧金山 - BIUBIU FAST, server: sh-jp2-ink.inkisp.com, port: 10016, type: trojan, password: ec84a3dc-bfe0-4f1e-9bb8-a80606645900, sni: sfo1.biubiufast.quest, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 沪日专线 | 香港 - BIUBIU FAST, server: sh-jp2-ink.inkisp.com, port: 10052, type: trojan, password: ec84a3dc-bfe0-4f1e-9bb8-a80606645900, sni: hk1.biubiufast.quest, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 沪美专线 | 旧金山 - BIUBIU FAST, server: 101.227.56.234, port: 10013, type: trojan, password: ec84a3dc-bfe0-4f1e-9bb8-a80606645900, sni: sfo1.biubiufast.quest, skip-cert-verify: true, udp: true}
+- {name: 1.07-1.08将新增部分节点 - 幻神, server: 8.8.8.8, port: 8888, type: vmess, uuid: ed82b7ef-288c-4609-85ef-e6507421fb9b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 香港A - 幻神, server: 18.162.54.228, port: 45342, type: vmess, uuid: ed82b7ef-288c-4609-85ef-e6507421fb9b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 香港sw - 幻神, server: 18.162.144.227, port: 43632, type: ss, cipher: chacha20-ietf-poly1305, password: ed82b7ef-288c-4609-85ef-e6507421fb9b, udp: true}
+- {name: 🇭🇰 I香港A(解锁奈飞) - 幻神, server: 43.198.84.43, port: 43632, type: vmess, uuid: ed82b7ef-288c-4609-85ef-e6507421fb9b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇰🇷 韩国E - 幻神, server: 3.34.49.188, port: 43632, type: vmess, uuid: ed82b7ef-288c-4609-85ef-e6507421fb9b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇰🇷 韩国F - 幻神, server: 3.38.255.236, port: 43632, type: vmess, uuid: ed82b7ef-288c-4609-85ef-e6507421fb9b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本A - 幻神, server: 54.199.226.26, port: 43632, type: vmess, uuid: ed82b7ef-288c-4609-85ef-e6507421fb9b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本C - 幻神, server: 18.183.98.169, port: 43632, type: vmess, uuid: ed82b7ef-288c-4609-85ef-e6507421fb9b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 美国A - 幻神, server: 34.224.74.181, port: 43632, type: vmess, uuid: ed82b7ef-288c-4609-85ef-e6507421fb9b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本 | 直连 - BIUBIU FAST, server: jp1.biubiufast.quest, port: 8846, type: trojan, password: 3bb51ddc-55a6-48c6-b73d-dd3f070cd5ea, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 旧金山 | 直连1 - BIUBIU FAST, server: sfo1.biubiufast.quest, port: 8846, type: trojan, password: 3bb51ddc-55a6-48c6-b73d-dd3f070cd5ea, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 香港 | 直连 - BIUBIU FAST, server: hk1.biubiufast.quest, port: 8846, type: trojan, password: 3bb51ddc-55a6-48c6-b73d-dd3f070cd5ea, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 莞港专线 | 日本 - BIUBIU FAST, server: ink-dg-hk-iplc.inkiwike.com, port: 10209, type: trojan, password: 3bb51ddc-55a6-48c6-b73d-dd3f070cd5ea, sni: jp1.biubiufast.quest, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 莞港专线 | 旧金山 - BIUBIU FAST, server: ink-dg-hk-iplc.inkiwike.com, port: 10258, type: trojan, password: 3bb51ddc-55a6-48c6-b73d-dd3f070cd5ea, sni: sfo1.biubiufast.quest, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 莞港专线 | 香港 - BIUBIU FAST, server: ink-dg-hk-iplc.inkiwike.com, port: 10368, type: trojan, password: 3bb51ddc-55a6-48c6-b73d-dd3f070cd5ea, sni: hk1.biubiufast.quest, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 沪美专线 | 香港 - BIUBIU FAST, server: 101.227.56.234, port: 10027, type: trojan, password: 3bb51ddc-55a6-48c6-b73d-dd3f070cd5ea, sni: hk1.biubiufast.quest, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 沪美专线 | 日本 - BIUBIU FAST, server: 101.227.56.234, port: 14667, type: trojan, password: 3bb51ddc-55a6-48c6-b73d-dd3f070cd5ea, sni: jp1.biubiufast.quest, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 沪日专线 | 日本 - BIUBIU FAST, server: sh-jp2-ink.inkisp.com, port: 10065, type: trojan, password: 3bb51ddc-55a6-48c6-b73d-dd3f070cd5ea, sni: jp1.biubiufast.quest, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 沪日专线 | 旧金山 - BIUBIU FAST, server: sh-jp2-ink.inkisp.com, port: 10016, type: trojan, password: 3bb51ddc-55a6-48c6-b73d-dd3f070cd5ea, sni: sfo1.biubiufast.quest, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 沪日专线 | 香港 - BIUBIU FAST, server: sh-jp2-ink.inkisp.com, port: 10052, type: trojan, password: 3bb51ddc-55a6-48c6-b73d-dd3f070cd5ea, sni: hk1.biubiufast.quest, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 沪美专线 | 旧金山 - BIUBIU FAST, server: 101.227.56.234, port: 10013, type: trojan, password: 3bb51ddc-55a6-48c6-b73d-dd3f070cd5ea, sni: sfo1.biubiufast.quest, skip-cert-verify: true, udp: true}
 - {name: 邀请返佣：40%【循环返佣】 - Tblack cloud, server: 01.123445566.xyz, port: 18321, type: ss, cipher: chacha20-ietf-poly1305, password: d50d2619-58ff-42fe-bc79-a01536781424, udp: true}
 - {name: 🇭🇰 香港体验 - Tblack cloud, server: 01.123445566.xyz, port: 18321, type: ss, cipher: chacha20-ietf-poly1305, password: d50d2619-58ff-42fe-bc79-a01536781424, udp: true}
 - {name: 🇸🇬 新加坡体验 - Tblack cloud, server: shct8c16g.xfltd.top, port: 42716, type: ss, cipher: chacha20-ietf-poly1305, password: d50d2619-58ff-42fe-bc79-a01536781424, udp: true}
