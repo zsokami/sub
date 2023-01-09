@@ -1,5 +1,5 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇹🇼 K40台灣 - 云翼网络, server: cdn-sg-d3b2.trafficmanager.pro, port: 45023, type: ss, cipher: aes-128-gcm, password: RkqUHM, udp: true}
-- {name: 🇹🇼 K41台灣 - 云翼网络, server: gtm-sg-6wr2u201t05.gtm-i2d4.com, port: 45044, type: ss, cipher: aes-128-gcm, password: RkqUHM, udp: true}
+- {name: 🇹🇼 K40台灣 - 云翼网络, server: cdn-sg-d3b2.trafficmanager.pro, port: 45023, type: ss, cipher: aes-128-gcm, password: NqRbok, udp: true}
+- {name: 🇹🇼 K41台灣 - 云翼网络, server: gtm-sg-6wr2u201t05.gtm-i2d4.com, port: 45044, type: ss, cipher: aes-128-gcm, password: NqRbok, udp: true}
