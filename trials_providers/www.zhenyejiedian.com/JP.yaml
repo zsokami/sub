@@ -2,4 +2,4 @@
 ---
 proxies:
 - {name: 🇯🇵 日本A - 幻神, server: 54.199.226.26, port: 43632, type: vmess, uuid: 3e9915b4-e59c-4881-bd48-499025e8541c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 日本C - 幻神, server: 52.68.100.79, port: 43632, type: vmess, uuid: 3e9915b4-e59c-4881-bd48-499025e8541c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本C - 幻神, server: 18.183.98.169, port: 43632, type: vmess, uuid: 3e9915b4-e59c-4881-bd48-499025e8541c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}

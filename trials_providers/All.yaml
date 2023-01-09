@@ -6,9 +6,9 @@ proxies:
 - {name: 🇭🇰 香港sw - 幻神, server: 18.163.191.130, port: 43632, type: ss, cipher: chacha20-ietf-poly1305, password: 3e9915b4-e59c-4881-bd48-499025e8541c, udp: true}
 - {name: 🇭🇰 I香港A(解锁奈飞) - 幻神, server: 43.198.84.43, port: 43632, type: vmess, uuid: 3e9915b4-e59c-4881-bd48-499025e8541c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇰🇷 韩国E - 幻神, server: 3.36.100.66, port: 43632, type: vmess, uuid: 3e9915b4-e59c-4881-bd48-499025e8541c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇰🇷 韩国F - 幻神, server: 3.35.236.5, port: 43632, type: vmess, uuid: 3e9915b4-e59c-4881-bd48-499025e8541c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇰🇷 韩国F - 幻神, server: 43.201.108.97, port: 43632, type: vmess, uuid: 3e9915b4-e59c-4881-bd48-499025e8541c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇯🇵 日本A - 幻神, server: 54.199.226.26, port: 43632, type: vmess, uuid: 3e9915b4-e59c-4881-bd48-499025e8541c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 日本C - 幻神, server: 52.68.100.79, port: 43632, type: vmess, uuid: 3e9915b4-e59c-4881-bd48-499025e8541c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本C - 幻神, server: 18.183.98.169, port: 43632, type: vmess, uuid: 3e9915b4-e59c-4881-bd48-499025e8541c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇺🇸 美国A - 幻神, server: 34.224.74.181, port: 43632, type: vmess, uuid: 3e9915b4-e59c-4881-bd48-499025e8541c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇯🇵 日本 | 直连 - BIUBIU FAST, server: jp1.biubiufast.quest, port: 8846, type: trojan, password: ec84a3dc-bfe0-4f1e-9bb8-a80606645900, skip-cert-verify: true, udp: true}
 - {name: 🇺🇸 旧金山 | 直连1 - BIUBIU FAST, server: sfo1.biubiufast.quest, port: 8846, type: trojan, password: ec84a3dc-bfe0-4f1e-9bb8-a80606645900, skip-cert-verify: true, udp: true}
