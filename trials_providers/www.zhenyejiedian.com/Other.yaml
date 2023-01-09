@@ -2,5 +2,5 @@
 ---
 proxies:
 - {name: 1.07-1.08将新增部分节点 - 幻神, server: 8.8.8.8, port: 8888, type: vmess, uuid: 589a833b-ddbf-4659-a5c9-adba46ae1446, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇰🇷 韩国E - 幻神, server: 3.34.49.188, port: 43632, type: vmess, uuid: 589a833b-ddbf-4659-a5c9-adba46ae1446, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇰🇷 韩国F - 幻神, server: 3.38.255.236, port: 43632, type: vmess, uuid: 589a833b-ddbf-4659-a5c9-adba46ae1446, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇰🇷 韩国E - 幻神, server: 54.180.133.43, port: 43632, type: vmess, uuid: 589a833b-ddbf-4659-a5c9-adba46ae1446, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇰🇷 韩国F - 幻神, server: 43.201.35.131, port: 43632, type: vmess, uuid: 589a833b-ddbf-4659-a5c9-adba46ae1446, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
