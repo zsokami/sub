@@ -4,7 +4,7 @@ proxies:
 - {name: 1.07-1.08将新增部分节点 - 幻神, server: 8.8.8.8, port: 8888, type: vmess, uuid: 580c40f6-fe08-484a-bf8a-77ac5980a770, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇭🇰 香港A - 幻神, server: 18.162.54.228, port: 45342, type: vmess, uuid: 580c40f6-fe08-484a-bf8a-77ac5980a770, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇭🇰 香港sw - 幻神, server: 18.163.191.130, port: 43632, type: ss, cipher: chacha20-ietf-poly1305, password: 580c40f6-fe08-484a-bf8a-77ac5980a770, udp: true}
-- {name: 🇭🇰 I香港A(解锁奈飞) - 幻神, server: 18.162.110.197, port: 43632, type: vmess, uuid: 580c40f6-fe08-484a-bf8a-77ac5980a770, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 I香港A(解锁奈飞) - 幻神, server: 43.198.84.43, port: 43632, type: vmess, uuid: 580c40f6-fe08-484a-bf8a-77ac5980a770, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇰🇷 韩国E - 幻神, server: 3.36.100.66, port: 43632, type: vmess, uuid: 580c40f6-fe08-484a-bf8a-77ac5980a770, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇰🇷 韩国F - 幻神, server: 3.35.236.5, port: 43632, type: vmess, uuid: 580c40f6-fe08-484a-bf8a-77ac5980a770, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇯🇵 日本A - 幻神, server: 54.199.226.26, port: 43632, type: vmess, uuid: 580c40f6-fe08-484a-bf8a-77ac5980a770, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
