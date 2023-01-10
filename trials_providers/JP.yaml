@@ -1,8 +1,8 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇯🇵 日本A - 幻神, server: 13.231.226.223, port: 43632, type: vmess, uuid: 589a833b-ddbf-4659-a5c9-adba46ae1446, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 日本C - 幻神, server: 35.77.90.57, port: 43632, type: vmess, uuid: 589a833b-ddbf-4659-a5c9-adba46ae1446, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本A - 幻神, server: 13.231.226.223, port: 43632, type: vmess, uuid: 9e0f8960-8b9d-4e0e-b15e-051ea702e370, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本C - 幻神, server: 35.77.90.57, port: 43632, type: vmess, uuid: 9e0f8960-8b9d-4e0e-b15e-051ea702e370, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇯🇵 日本 | 直连 - BIUBIU FAST, server: jp1.biubiufast.quest, port: 8846, type: trojan, password: 3bb51ddc-55a6-48c6-b73d-dd3f070cd5ea, skip-cert-verify: true, udp: true}
 - {name: 🇯🇵 莞港专线 | 日本 - BIUBIU FAST, server: ink-dg-hk-iplc.inkiwike.com, port: 10209, type: trojan, password: 3bb51ddc-55a6-48c6-b73d-dd3f070cd5ea, sni: jp1.biubiufast.quest, skip-cert-verify: true, udp: true}
 - {name: 🇯🇵 沪美专线 | 日本 - BIUBIU FAST, server: 101.227.56.234, port: 14667, type: trojan, password: 3bb51ddc-55a6-48c6-b73d-dd3f070cd5ea, sni: jp1.biubiufast.quest, skip-cert-verify: true, udp: true}
@@ -21,7 +21,7 @@ proxies:
 - {name: 🇯🇵 Video 日本 B-解锁 - AyucLouD-Services, server: 201201level2.unclemanco.com, port: 813, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: b581572456.download.windowsupdate.com}, udp: true}
 - {name: 🇯🇵 Video 日本 C-原生 - AyucLouD-Services, server: 201201level2.unclemanco.com, port: 4321, type: ss, cipher: aes-128-gcm, password: ay232sffssd1, plugin: obfs, plugin-opts: {mode: http, host: b581572456.download.windowsupdate.com}, udp: true}
 - {name: 🇯🇵 Web 日本 I-通用 - AyucLouD-Services, server: 201201level1.unclemanco.com, port: 9051, type: ss, cipher: aes-128-gcm, password: QHPy2u, plugin: obfs, plugin-opts: {mode: http, host: b581572456.download.windowsupdate.com}, udp: true}
-- {name: 🇯🇵 JP 日本 | tiktok | 2.0x | V1 - 酸奶VPN, server: 20.239.132.200, port: 45361, type: vmess, uuid: cc2b05dc-85c0-31f5-bd51-219081e61e05, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny}, udp: true}
+- {name: 🇯🇵 JP 日本 | tiktok | 2.0x | V1 - 酸奶VPN, server: 20.205.38.211, port: 60361, type: vmess, uuid: 30ecc69f-bc83-3ccc-9b5a-dc251bd3cb7c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny}, udp: true}
 - {name: 🇯🇵 K20日本 - 云翼网络, server: cdn-sg-d3b2.trafficmanager.pro, port: 45017, type: ss, cipher: aes-128-gcm, password: 0Z56Lg, udp: true}
 - {name: 🇯🇵 K21日本 - 云翼网络, server: cdn-sg-d3b2.trafficmanager.pro, port: 45027, type: ss, cipher: aes-128-gcm, password: 0Z56Lg, udp: true}
 - {name: 🇯🇵 K22日本 - 云翼网络, server: cdn-sg-d3b2.trafficmanager.pro, port: 45028, type: ss, cipher: aes-128-gcm, password: 0Z56Lg, udp: true}
