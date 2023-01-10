@@ -9,8 +9,8 @@ proxies:
 - {name: 🇸🇬 Video 新加坡 A-解锁 - AyucLouD-Services, server: 201201level2.unclemanco.com, port: 9038, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: c085b72522.download.windowsupdate.com}, udp: true}
 - {name: 🇸🇬 Web 新加坡 I-通用 - AyucLouD-Services, server: 201201level1.unclemanco.com, port: 6879, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: c085b72522.download.windowsupdate.com}, udp: true}
 - {name: 🇸🇬 SGP 新加坡 | 中转 | 奈飞 | 5.0x | V1 - 酸奶VPN, server: 20.255.169.161, port: 39991, type: vmess, uuid: 6eed7819-683e-3e0d-a45e-653b86a7f651, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny}, udp: true}
-- {name: 🇸🇬 K10新加坡 - 云翼网络, server: cdn-sg-d3b2.trafficmanager.pro, port: 45007, type: ss, cipher: aes-128-gcm, password: bwYloD, udp: true}
-- {name: 🇸🇬 K11新加坡 - 云翼网络, server: cdn-sg-d3b2.trafficmanager.pro, port: 45006, type: ss, cipher: aes-128-gcm, password: bwYloD, udp: true}
-- {name: 🇸🇬 K12新加坡 - 云翼网络, server: cdn-sg-d3b2.trafficmanager.pro, port: 45039, type: ss, cipher: aes-128-gcm, password: bwYloD, udp: true}
-- {name: 🇸🇬 K13新加坡 - 云翼网络, server: cdn-sg-d3b2.trafficmanager.pro, port: 45040, type: ss, cipher: aes-128-gcm, password: bwYloD, udp: true}
-- {name: 🇸🇬 K14新加坡 - 云翼网络, server: gtm-sg-6wr2u201t05.gtm-i2d4.com, port: 45041, type: ss, cipher: aes-128-gcm, password: bwYloD, udp: true}
+- {name: 🇸🇬 K10新加坡 - 云翼网络, server: cdn-sg-d3b2.trafficmanager.pro, port: 45007, type: ss, cipher: aes-128-gcm, password: jp7yPN, udp: true}
+- {name: 🇸🇬 K11新加坡 - 云翼网络, server: cdn-sg-d3b2.trafficmanager.pro, port: 45006, type: ss, cipher: aes-128-gcm, password: jp7yPN, udp: true}
+- {name: 🇸🇬 K12新加坡 - 云翼网络, server: cdn-sg-d3b2.trafficmanager.pro, port: 45039, type: ss, cipher: aes-128-gcm, password: jp7yPN, udp: true}
+- {name: 🇸🇬 K13新加坡 - 云翼网络, server: cdn-sg-d3b2.trafficmanager.pro, port: 45040, type: ss, cipher: aes-128-gcm, password: jp7yPN, udp: true}
+- {name: 🇸🇬 K14新加坡 - 云翼网络, server: gtm-sg-6wr2u201t05.gtm-i2d4.com, port: 45041, type: ss, cipher: aes-128-gcm, password: jp7yPN, udp: true}
