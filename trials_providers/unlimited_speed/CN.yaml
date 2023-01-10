@@ -1,9 +1,9 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇭🇰 香港A - 幻神, server: 18.162.130.210, port: 45342, type: vmess, uuid: 9e0f8960-8b9d-4e0e-b15e-051ea702e370, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 香港sw - 幻神, server: 16.162.190.100, port: 43632, type: ss, cipher: chacha20-ietf-poly1305, password: 9e0f8960-8b9d-4e0e-b15e-051ea702e370, udp: true}
-- {name: 🇭🇰 I香港A(解锁奈飞) - 幻神, server: 43.198.84.43, port: 43632, type: vmess, uuid: 9e0f8960-8b9d-4e0e-b15e-051ea702e370, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 香港A - 幻神, server: 18.162.130.210, port: 45342, type: vmess, uuid: 9b9685e5-a4e4-477c-ab5d-e1d49a6d3d8b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 香港sw - 幻神, server: 16.162.190.100, port: 43632, type: ss, cipher: chacha20-ietf-poly1305, password: 9b9685e5-a4e4-477c-ab5d-e1d49a6d3d8b, udp: true}
+- {name: 🇭🇰 I香港A(解锁奈飞) - 幻神, server: 43.198.84.43, port: 43632, type: vmess, uuid: 9b9685e5-a4e4-477c-ab5d-e1d49a6d3d8b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇭🇰 香港 | 直连 - BIUBIU FAST, server: hk1.biubiufast.quest, port: 8846, type: trojan, password: 3bb51ddc-55a6-48c6-b73d-dd3f070cd5ea, skip-cert-verify: true, udp: true}
 - {name: 🇭🇰 莞港专线 | 香港 - BIUBIU FAST, server: ink-dg-hk-iplc.inkiwike.com, port: 10368, type: trojan, password: 3bb51ddc-55a6-48c6-b73d-dd3f070cd5ea, sni: hk1.biubiufast.quest, skip-cert-verify: true, udp: true}
 - {name: 🇭🇰 沪美专线 | 香港 - BIUBIU FAST, server: 101.227.56.234, port: 10027, type: trojan, password: 3bb51ddc-55a6-48c6-b73d-dd3f070cd5ea, sni: hk1.biubiufast.quest, skip-cert-verify: true, udp: true}
