@@ -1,7 +1,7 @@
 [www.zhenyejiedian.com]
 email  svtjjyzol494@gmail.com
 node_n  9
-sub_info  176.8M  1G  2023-01-11 14:24:55+08:00  (剩余 847.2M 18:11:49.310851)
+sub_info  176.9M  1G  2023-01-11 14:24:55+08:00  (剩余 847.1M 17:35:28.889452)
 sub_url  https://api.qingyuge.top/api/v1/client/subscribe?token=29eb340e3dd2081ec5b94703acc53681
 time  2023-01-10 14:24:55.132998+08:00
 
@@ -9,16 +9,15 @@ time  2023-01-10 14:24:55.132998+08:00
 email  ooqdlivhl9@bukhariansiddur.com
 last_checkin  2023-01-10 17:43:06.636544+08:00
 node_n  92
-sub_info  105M  1.14G  2023-01-11 17:43:05+08:00  (剩余 1.037G 21:50:23.430774)
+sub_info  139.8M  1.14G  2023-01-11 17:43:05+08:00  (剩余 1.003G 20:53:36.415462)
 sub_url  https://network.ayucloud.nl/link/gSTnCydJ1Pkl9X1x?clash=1
 time  2023-01-10 17:43:08.426976+08:00
-更新旧订阅失败  HTTPSConnectionPool(host='v.id9.cc', port=443): Max retries exceeded with url: /sub?target=clash&udp=true&scv=true&expand=false&classic=true&exclude=Traffic%7CExpire%7C%E5%89%A9%E4%BD%99%E6%B5%81%E9%87%8F%7C%E5%88%B0%E6%9C%9F%7C%E6%97%B6%E9%97%B4%7C%E9%87%8D%E7%BD%AE%7C%E5%AE%98.%3F%E7%BD%91%7C%E5%AE%98%E6%96%B9%7C%E4%BA%A7%E5%93%81%7C%E5%B9%B3%E5%8F%B0%7C%E5%8B%BF%E8%BF%9E%7C%E4%BF%AE%E5%A4%8D%7C%E6%9B%B4%E6%96%B0%7C%E5%9C%B0%E5%9D%80%7C%E7%BD%91%E7%AB%99%7C%E7%BD%91%E5%9D%80%7C%E5%94%AE%E5%90%8E%7C%E5%AE%A2%E6%9C%8D%7C%E8%81%94%E7%B3%BB%7C%E4%BD%BF%E7%94%A8%7C%E8%B4%AD%E4%B9%B0%7C%E5%85%AC%E5%91%8A&url=https%3A//network.ayucloud.nl/link/gSTnCydJ1Pkl9X1x%3Fclash%3D1%231673352782.1936502&rename=%24%40%20-%20AyucLouD-Services&config=https://raw.githubusercontent.com/zsokami/ACL4SSR/main/ACL4SSR_Online_Full_Mannix.ini (Caused by ReadTimeoutError("HTTPSConnectionPool(host='v.id9.cc', port=443): Read timed out. (read timeout=5)"))
 
 [shynia.com]
 email  uttzqggb405@gmail.com
 last_checkin  2023-01-10 14:38:55.480916+08:00
 node_n  21
-sub_info  1.326G  10.18G  2023-01-11 14:38:55+08:00  (剩余 8.851G 18:25:49.475451)
+sub_info  1.336G  10.18G  2023-01-11 14:38:55+08:00  (剩余 8.841G 17:49:28.466102)
 sub_url  https://1.amazom.group/link/WQ5tjwQe0CFrJM0e?sub=3
 time  2023-01-10 14:38:56.295175+08:00
 
@@ -26,7 +25,7 @@ time  2023-01-10 14:38:56.295175+08:00
 email  jtpugghy701@bukhariansiddur.com
 last_checkin  2023-01-10 18:27:52.997673+08:00
 node_n  36
-sub_info  248.6M  5.264G  2023-01-11 18:27:52+08:00  (剩余 5.021G 22:14:46.312341)
+sub_info  403.4M  5.264G  2023-01-11 18:27:52+08:00  (剩余 4.87G 21:38:24.714103)
 sub_url  https://yysub.trafficmanager.net/link/p8Z8iXMpqEX3LXsE?sub=2
 time  2023-01-10 18:27:54.135486+08:00
 
@@ -36,10 +35,11 @@ node_n  3
 sub_info  8.736M  2G  2023-01-10 21:27:47+08:00  (剩余 1.991G 1:14:39.718054)
 sub_url  http://tblackdy.rtshdsd.top/api/v1/client/subscribe?token=9179b811ca56d818f7262ad78a243be5
 time  2023-01-10 18:27:47.675287+08:00
+更新旧订阅失败  HTTPSConnectionPool(host='v.id9.cc', port=443): Max retries exceeded with url: /sub?target=clash&udp=true&scv=true&expand=false&classic=true&exclude=Traffic%7CExpire%7C%E5%89%A9%E4%BD%99%E6%B5%81%E9%87%8F%7C%E5%88%B0%E6%9C%9F%7C%E6%97%B6%E9%97%B4%7C%E9%87%8D%E7%BD%AE%7C%E5%AE%98.%3F%E7%BD%91%7C%E5%AE%98%E6%96%B9%7C%E4%BA%A7%E5%93%81%7C%E5%B9%B3%E5%8F%B0%7C%E5%8B%BF%E8%BF%9E%7C%E4%BF%AE%E5%A4%8D%7C%E6%9B%B4%E6%96%B0%7C%E5%9C%B0%E5%9D%80%7C%E7%BD%91%E7%AB%99%7C%E7%BD%91%E5%9D%80%7C%E5%94%AE%E5%90%8E%7C%E5%AE%A2%E6%9C%8D%7C%E8%81%94%E7%B3%BB%7C%E4%BD%BF%E7%94%A8%7C%E8%B4%AD%E4%B9%B0%7C%E5%85%AC%E5%91%8A&url=http%3A//tblackdy.rtshdsd.top/api/v1/client/subscribe%3Ftoken%3D9179b811ca56d818f7262ad78a243be5%231673354963.1758156&rename=%24%40%20-%20Tblack%20cloud&config=https://raw.githubusercontent.com/zsokami/ACL4SSR/main/ACL4SSR_Online_Full_Mannix.ini (Caused by ReadTimeoutError("HTTPSConnectionPool(host='v.id9.cc', port=443): Read timed out. (read timeout=5)"))
 
 [biubiufast.com]
 email  lxgumalfz271@gmail.com
 node_n  12
-sub_info  172.6M  2G  2023-01-11 17:33:58+08:00  (剩余 1.831G 21:20:53.144364)
+sub_info  172.6M  2G  2023-01-11 17:33:58+08:00  (剩余 1.831G 20:44:32.066437)
 sub_url  https://biubiufast.com/api/v1/client/subscribe?token=19e4ff43a77b28c81eab304113ed5635
 time  2023-01-10 17:33:58.893814+08:00
