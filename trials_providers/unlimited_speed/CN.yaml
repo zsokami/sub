@@ -1,14 +1,14 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇭🇰 香港A - 幻神, server: 18.162.130.210, port: 45342, type: vmess, uuid: 9b9685e5-a4e4-477c-ab5d-e1d49a6d3d8b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 香港sw - 幻神, server: 18.162.144.99, port: 43632, type: ss, cipher: chacha20-ietf-poly1305, password: 9b9685e5-a4e4-477c-ab5d-e1d49a6d3d8b, udp: true}
-- {name: 🇭🇰 I香港A(解锁奈飞) - 幻神, server: 18.162.243.194, port: 43632, type: vmess, uuid: 9b9685e5-a4e4-477c-ab5d-e1d49a6d3d8b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 香港A - 幻神, server: 18.162.130.210, port: 45342, type: vmess, uuid: 91f35c13-d65e-48eb-85c1-bdc70971dabe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 香港sw - 幻神, server: 18.162.144.99, port: 43632, type: ss, cipher: chacha20-ietf-poly1305, password: 91f35c13-d65e-48eb-85c1-bdc70971dabe, udp: true}
+- {name: 🇭🇰 I香港A(解锁奈飞) - 幻神, server: 18.162.243.194, port: 43632, type: vmess, uuid: 91f35c13-d65e-48eb-85c1-bdc70971dabe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇭🇰 香港 | 直连 - BIUBIU FAST, server: hk1.biubiufast.quest, port: 8846, type: trojan, password: 895a7e5e-8f36-475a-bce2-e21fe4918b37, skip-cert-verify: true, udp: true}
 - {name: 🇭🇰 莞港专线 | 香港 - BIUBIU FAST, server: ink-dg-hk-iplc.inkiwike.com, port: 10368, type: trojan, password: 895a7e5e-8f36-475a-bce2-e21fe4918b37, sni: hk1.biubiufast.quest, skip-cert-verify: true, udp: true}
 - {name: 🇭🇰 沪美专线 | 香港 - BIUBIU FAST, server: 101.227.56.234, port: 10027, type: trojan, password: 895a7e5e-8f36-475a-bce2-e21fe4918b37, sni: hk1.biubiufast.quest, skip-cert-verify: true, udp: true}
 - {name: 🇭🇰 沪日专线 | 香港 - BIUBIU FAST, server: sh-jp2-ink.inkisp.com, port: 10052, type: trojan, password: 895a7e5e-8f36-475a-bce2-e21fe4918b37, sni: hk1.biubiufast.quest, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 香港体验 - Tblack cloud, server: 01.123445566.xyz, port: 18321, type: ss, cipher: chacha20-ietf-poly1305, password: 2f9d59d8-6eb7-41af-9eab-9cb2ced6a387, udp: true}
+- {name: 🇭🇰 香港体验 - Tblack cloud, server: 01.123445566.xyz, port: 18321, type: ss, cipher: chacha20-ietf-poly1305, password: 46aedba6-5cf7-471d-b867-67e4fea3f362, udp: true}
 - {name: 🇹🇼 Game 台湾01-标准 - AyucLouD-Services, server: 201201level3.unclemanco.com, port: 919, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: ba28b72506.download.windowsupdate.com}, udp: true}
 - {name: 🇹🇼 Game 台湾02-标准 - AyucLouD-Services, server: 201201level3.unclemanco.com, port: 825, type: ss, cipher: aes-128-gcm, password: QHPy2u, plugin: obfs, plugin-opts: {mode: http, host: ba28b72506.download.windowsupdate.com}, udp: true}
 - {name: 🇹🇼 Game 台湾03-专线 - AyucLouD-Services, server: 201201level3.unclemanco.com, port: 834, type: ss, cipher: aes-128-gcm, password: QHPy2u, plugin: obfs, plugin-opts: {mode: http, host: ba28b72506.download.windowsupdate.com}, udp: true}
