@@ -3,7 +3,7 @@
 proxies:
 - {name: 1.07-1.08将新增部分节点 - 幻神, server: 8.8.8.8, port: 8888, type: vmess, uuid: 9b9685e5-a4e4-477c-ab5d-e1d49a6d3d8b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇭🇰 香港A - 幻神, server: 18.162.130.210, port: 45342, type: vmess, uuid: 9b9685e5-a4e4-477c-ab5d-e1d49a6d3d8b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 香港sw - 幻神, server: 16.162.190.100, port: 43632, type: ss, cipher: chacha20-ietf-poly1305, password: 9b9685e5-a4e4-477c-ab5d-e1d49a6d3d8b, udp: true}
+- {name: 🇭🇰 香港sw - 幻神, server: 18.162.144.99, port: 43632, type: ss, cipher: chacha20-ietf-poly1305, password: 9b9685e5-a4e4-477c-ab5d-e1d49a6d3d8b, udp: true}
 - {name: 🇭🇰 I香港A(解锁奈飞) - 幻神, server: 18.162.243.194, port: 43632, type: vmess, uuid: 9b9685e5-a4e4-477c-ab5d-e1d49a6d3d8b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇰🇷 韩国E - 幻神, server: 54.180.133.43, port: 43632, type: vmess, uuid: 9b9685e5-a4e4-477c-ab5d-e1d49a6d3d8b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇰🇷 韩国F - 幻神, server: 43.201.35.131, port: 43632, type: vmess, uuid: 9b9685e5-a4e4-477c-ab5d-e1d49a6d3d8b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
