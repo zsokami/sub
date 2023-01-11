@@ -1,7 +1,7 @@
 [www.zhenyejiedian.com]
 email  aprffzoxs852@gmail.com
 node_n  9
-sub_info  10.01M  1G  2023-01-13 01:09:10+08:00  (剩余 1014M 20:39:00.891984)
+sub_info  10.01M  1G  2023-01-13 01:09:10+08:00  (剩余 1014M 20:29:10.832764)
 sub_url  https://api.qingyuge.top/api/v1/client/subscribe?token=0a3ca733d96617c44608162b1ab66084
 time  2023-01-12 01:09:10.050490+08:00
 
@@ -9,7 +9,7 @@ time  2023-01-12 01:09:10.050490+08:00
 email  mhcqkakza710@bukhariansiddur.com
 last_checkin  2023-01-12 00:49:13.481088+08:00
 node_n  92
-sub_info  152.9K  1.856G  2023-01-12 21:32:24+08:00  (剩余 1.856G 17:02:13.022250)
+sub_info  152.9K  1.856G  2023-01-12 21:32:24+08:00  (剩余 1.856G 16:52:22.890035)
 sub_url  https://network.ayucloud.nl/link/g7SIlf4uAY7r1THs?clash=1
 time  2023-01-11 21:32:27.596113+08:00
 
@@ -17,7 +17,7 @@ time  2023-01-11 21:32:27.596113+08:00
 email  gnvbbaot83@gmail.com
 last_checkin  2023-01-12 01:31:29.776138+08:00
 node_n  21
-sub_info  0B  10.71G  2023-01-13 01:31:29+08:00  (剩余 10.71G 21:01:18.138433)
+sub_info  0B  10.71G  2023-01-13 01:31:29+08:00  (剩余 10.71G 20:51:30.388236)
 sub_url  https://1.amazom.group/link/hpnNXFMr48sWoubo?sub=3
 time  2023-01-12 01:31:30.919332+08:00
 
@@ -28,6 +28,7 @@ node_n  36
 sub_info  1.082G  5.479G  2023-01-12 13:23:58+08:00  (剩余 4.396G 8:53:46.299014)
 sub_url  https://yysub.trafficmanager.net/link/ujURBUeDz2nHY6TI?sub=2
 time  2023-01-11 13:23:59.428761+08:00
+更新旧订阅失败  HTTPSConnectionPool(host='api.tsutsu.one', port=443): Max retries exceeded with url: /sub?target=clash&udp=true&scv=true&expand=false&classic=true&exclude=Traffic%7CExpire%7C%E5%89%A9%E4%BD%99%E6%B5%81%E9%87%8F%7C%E5%88%B0%E6%9C%9F%7C%E6%97%B6%E9%97%B4%7C%E9%87%8D%E7%BD%AE%7C%E5%AE%98.%3F%E7%BD%91%7C%E5%AE%98%E6%96%B9%7C%E4%BA%A7%E5%93%81%7C%E5%B9%B3%E5%8F%B0%7C%E5%8B%BF%E8%BF%9E%7C%E4%BF%AE%E5%A4%8D%7C%E6%9B%B4%E6%96%B0%7C%E5%9C%B0%E5%9D%80%7C%E7%BD%91%E7%AB%99%7C%E7%BD%91%E5%9D%80%7C%E5%94%AE%E5%90%8E%7C%E5%AE%A2%E6%9C%8D%7C%E8%81%94%E7%B3%BB%7C%E4%BD%BF%E7%94%A8%7C%E8%B4%AD%E4%B9%B0%7C%E5%85%AC%E5%91%8A&url=https%3A//yysub.trafficmanager.net/link/ujURBUeDz2nHY6TI%3Fsub%3D2%231673469597.031513&rename=%24%40%20-%20%E4%BA%91%E7%BF%BC%E7%BD%91%E7%BB%9C&config=https://raw.githubusercontent.com/zsokami/ACL4SSR/main/ACL4SSR_Online_Full_Mannix.ini (Caused by ReadTimeoutError("HTTPSConnectionPool(host='api.tsutsu.one', port=443): Read timed out. (read timeout=5)"))
 
 [cloud.hhygj.xyz]
 email  qziranke140@gmail.com
@@ -35,10 +36,11 @@ node_n  3
 sub_info  0B  2G  2023-01-12 05:54:26+08:00  (剩余 2G 1:24:18.050468)
 sub_url  http://tblackdy.rtshdsd.top/api/v1/client/subscribe?token=f323b39a0f6fca30e3d1cf9fe204dce3
 time  2023-01-12 02:54:27.060328+08:00
+更新旧订阅失败  HTTPSConnectionPool(host='api.tsutsu.one', port=443): Max retries exceeded with url: /sub?target=clash&udp=true&scv=true&expand=false&classic=true&exclude=Traffic%7CExpire%7C%E5%89%A9%E4%BD%99%E6%B5%81%E9%87%8F%7C%E5%88%B0%E6%9C%9F%7C%E6%97%B6%E9%97%B4%7C%E9%87%8D%E7%BD%AE%7C%E5%AE%98.%3F%E7%BD%91%7C%E5%AE%98%E6%96%B9%7C%E4%BA%A7%E5%93%81%7C%E5%B9%B3%E5%8F%B0%7C%E5%8B%BF%E8%BF%9E%7C%E4%BF%AE%E5%A4%8D%7C%E6%9B%B4%E6%96%B0%7C%E5%9C%B0%E5%9D%80%7C%E7%BD%91%E7%AB%99%7C%E7%BD%91%E5%9D%80%7C%E5%94%AE%E5%90%8E%7C%E5%AE%A2%E6%9C%8D%7C%E8%81%94%E7%B3%BB%7C%E4%BD%BF%E7%94%A8%7C%E8%B4%AD%E4%B9%B0%7C%E5%85%AC%E5%91%8A&url=http%3A//tblackdy.rtshdsd.top/api/v1/client/subscribe%3Ftoken%3Df323b39a0f6fca30e3d1cf9fe204dce3%231673469597.0203524&rename=%24%40%20-%20Tblack%20cloud&config=https://raw.githubusercontent.com/zsokami/ACL4SSR/main/ACL4SSR_Online_Full_Mannix.ini (Caused by ReadTimeoutError("HTTPSConnectionPool(host='api.tsutsu.one', port=443): Read timed out. (read timeout=5)"))
 
 [biubiufast.com]
 email  qmnzejjbx281@gmail.com
 node_n  12
-sub_info  1.015G  2G  2023-01-12 17:16:45+08:00  (剩余 1008M 12:46:36.175500)
+sub_info  1.015G  2G  2023-01-12 17:16:45+08:00  (剩余 1008M 12:36:44.127461)
 sub_url  https://biubiufast.com/api/v1/client/subscribe?token=ef97082fbeaf18c05eae4fe66457c0b9
 time  2023-01-11 17:16:46.201626+08:00
