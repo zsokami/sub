@@ -18,5 +18,5 @@ proxies:
 - {name: 🇹🇼 Hinet 台湾 | 迪士尼 | Netflix | 3.0x | V1 - 酸奶VPN, server: xn--kdkakb3kc.xn--y8jhmm6gn.com, port: 38526, type: vmess, uuid: 026414cc-e16e-3e40-be76-6450b932a5fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny, headers: {Host: xn--kdkakb3kc.xn--y8jhmm6gn.com}}, udp: true}
 - {name: 🇹🇼 UC 台湾01 | Youtube免广告 | 3.0x | V1 - 酸奶VPN, server: 165.154.246.150, port: 80, type: vmess, uuid: 026414cc-e16e-3e40-be76-6450b932a5fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny}, udp: true}
 - {name: 🇹🇼 UC 台湾02 | Youtube免广告 | 2.0x | V1 - 酸奶VPN, server: 165.154.226.194, port: 80, type: vmess, uuid: 026414cc-e16e-3e40-be76-6450b932a5fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny}, udp: true}
-- {name: 🇹🇼 K40台灣 - 云翼网络, server: gtm-sg-6wr31eq5o8g.gtm-i1d8.com, port: 45023, type: ss, cipher: aes-128-gcm, password: UZ75gt, udp: true}
-- {name: 🇹🇼 K41台灣 - 云翼网络, server: gtm-sg-dza31etds02.gtm-i2d7.com, port: 45044, type: ss, cipher: aes-128-gcm, password: UZ75gt, udp: true}
+- {name: 🇹🇼 K40台灣 - 云翼网络, server: gtm-sg-6wr31eq5o8g.gtm-i1d8.com, port: 45023, type: ss, cipher: aes-128-gcm, password: F0DGbb, udp: true}
+- {name: 🇹🇼 K41台灣 - 云翼网络, server: gtm-sg-dza31etds02.gtm-i2d7.com, port: 45044, type: ss, cipher: aes-128-gcm, password: F0DGbb, udp: true}

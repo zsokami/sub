@@ -20,7 +20,7 @@ proxies:
 - {name: 🇺🇸 Web 美国 III-通用 - AyucLouD-Services, server: 201201level1.unclemanco.com, port: 837, type: ss, cipher: aes-128-gcm, password: ayucl12s1, plugin: obfs, plugin-opts: {mode: http, host: c30d372595.download.windowsupdate.com}, udp: true}
 - {name: 🇺🇸 USA 美国01 | 中转 | 1.0x | V1 - 酸奶VPN, server: 20.239.132.132, port: 38901, type: vmess, uuid: 026414cc-e16e-3e40-be76-6450b932a5fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny}, udp: true}
 - {name: 🇺🇸 USA 美国02 | 中转 | 1.0x | V1 - 酸奶VPN, server: 20.187.86.184, port: 47812, type: vmess, uuid: 026414cc-e16e-3e40-be76-6450b932a5fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ny}, udp: true}
-- {name: 🇺🇸 K30美國 - 云翼网络, server: gtm-sg-6wr31eq5o8g.gtm-i1d8.com, port: 45032, type: ss, cipher: aes-128-gcm, password: UZ75gt, udp: true}
-- {name: 🇺🇸 K31美國 - 云翼网络, server: gtm-sg-6wr31eq5o8g.gtm-i1d8.com, port: 45020, type: ss, cipher: aes-128-gcm, password: UZ75gt, udp: true}
-- {name: 🇺🇸 K32美國 - 云翼网络, server: gtm-sg-6wr31eq5o8g.gtm-i1d8.com, port: 45024, type: ss, cipher: aes-128-gcm, password: UZ75gt, udp: true}
-- {name: 🇺🇸 K33美國 - 云翼网络, server: gtm-sg-dza31etds02.gtm-i2d7.com, port: 45025, type: ss, cipher: aes-128-gcm, password: UZ75gt, udp: true}
+- {name: 🇺🇸 K30美國 - 云翼网络, server: gtm-sg-6wr31eq5o8g.gtm-i1d8.com, port: 45032, type: ss, cipher: aes-128-gcm, password: F0DGbb, udp: true}
+- {name: 🇺🇸 K31美國 - 云翼网络, server: gtm-sg-6wr31eq5o8g.gtm-i1d8.com, port: 45020, type: ss, cipher: aes-128-gcm, password: F0DGbb, udp: true}
+- {name: 🇺🇸 K32美國 - 云翼网络, server: gtm-sg-6wr31eq5o8g.gtm-i1d8.com, port: 45024, type: ss, cipher: aes-128-gcm, password: F0DGbb, udp: true}
+- {name: 🇺🇸 K33美國 - 云翼网络, server: gtm-sg-dza31etds02.gtm-i2d7.com, port: 45025, type: ss, cipher: aes-128-gcm, password: F0DGbb, udp: true}
