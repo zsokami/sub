@@ -3,7 +3,7 @@
 proxies:
 - {name: 1.07-1.08将新增部分节点 - 幻神, server: 8.8.8.8, port: 8888, type: vmess, uuid: 2c080b72-0e9b-4a29-816f-85643b543b2e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇭🇰 香港A - 幻神, server: 16.162.143.142, port: 45342, type: vmess, uuid: 2c080b72-0e9b-4a29-816f-85643b543b2e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 香港sw - 幻神, server: 16.162.103.70, port: 43632, type: ss, cipher: chacha20-ietf-poly1305, password: 2c080b72-0e9b-4a29-816f-85643b543b2e, udp: true}
+- {name: 🇭🇰 香港sw - 幻神, server: 18.162.47.248, port: 43632, type: ss, cipher: chacha20-ietf-poly1305, password: 2c080b72-0e9b-4a29-816f-85643b543b2e, udp: true}
 - {name: 🇭🇰 I香港A(解锁奈飞) - 幻神, server: 18.163.191.253, port: 43632, type: vmess, uuid: 2c080b72-0e9b-4a29-816f-85643b543b2e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇰🇷 韩国E - 幻神, server: 3.39.253.138, port: 43632, type: vmess, uuid: 2c080b72-0e9b-4a29-816f-85643b543b2e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇰🇷 韩国F - 幻神, server: 43.201.35.131, port: 43632, type: vmess, uuid: 2c080b72-0e9b-4a29-816f-85643b543b2e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -22,9 +22,9 @@ proxies:
 - {name: 🇺🇸 沪日专线 | 旧金山 - BIUBIU FAST, server: sh-jp2-ink.inkisp.com, port: 10016, type: trojan, password: afd4b058-5903-459e-bb26-1a6e4dfdfbbb, sni: sfo1.biubiufast.quest, skip-cert-verify: true, udp: true}
 - {name: 🇭🇰 沪日专线 | 香港 - BIUBIU FAST, server: sh-jp2-ink.inkisp.com, port: 10052, type: trojan, password: afd4b058-5903-459e-bb26-1a6e4dfdfbbb, sni: hk1.biubiufast.quest, skip-cert-verify: true, udp: true}
 - {name: 🇺🇸 沪美专线 | 旧金山 - BIUBIU FAST, server: 101.227.56.234, port: 10013, type: trojan, password: afd4b058-5903-459e-bb26-1a6e4dfdfbbb, sni: sfo1.biubiufast.quest, skip-cert-verify: true, udp: true}
-- {name: 邀请返佣：40%【循环返佣】 - Tblack cloud, server: 01.123445566.xyz, port: 18321, type: ss, cipher: chacha20-ietf-poly1305, password: 4ce87e05-480f-452a-9832-c6b7939654ef, udp: true}
-- {name: 🇭🇰 香港体验 - Tblack cloud, server: 01.123445566.xyz, port: 18321, type: ss, cipher: chacha20-ietf-poly1305, password: 4ce87e05-480f-452a-9832-c6b7939654ef, udp: true}
-- {name: 🇸🇬 新加坡体验 - Tblack cloud, server: shct8c16g.xfltd.top, port: 42716, type: ss, cipher: chacha20-ietf-poly1305, password: 4ce87e05-480f-452a-9832-c6b7939654ef, udp: true}
+- {name: 邀请返佣：40%【循环返佣】 - Tblack cloud, server: 01.123445566.xyz, port: 18321, type: ss, cipher: chacha20-ietf-poly1305, password: f048eaba-d551-4c0a-9cee-04af6e373dbc, udp: true}
+- {name: 🇭🇰 香港体验 - Tblack cloud, server: 01.123445566.xyz, port: 18321, type: ss, cipher: chacha20-ietf-poly1305, password: f048eaba-d551-4c0a-9cee-04af6e373dbc, udp: true}
+- {name: 🇸🇬 新加坡体验 - Tblack cloud, server: shct8c16g.xfltd.top, port: 42716, type: ss, cipher: chacha20-ietf-poly1305, password: f048eaba-d551-4c0a-9cee-04af6e373dbc, udp: true}
 - {name: 🇰🇷 Game 韩国01-标准 - AyucLouD-Services, server: 201201level3.unclemanco.com, port: 803, type: ss, cipher: aes-128-gcm, password: QHPy2u, plugin: obfs, plugin-opts: {mode: http, host: c30d372595.download.windowsupdate.com}, udp: true}
 - {name: 🇰🇷 Game 韩国02-标准 - AyucLouD-Services, server: 201201level3.unclemanco.com, port: 806, type: ss, cipher: aes-128-gcm, password: QHPy2u, plugin: obfs, plugin-opts: {mode: http, host: c30d372595.download.windowsupdate.com}, udp: true}
 - {name: 🇰🇷 Game 韩国03-标准 - AyucLouD-Services, server: 201201level3.unclemanco.com, port: 913, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: c30d372595.download.windowsupdate.com}, udp: true}

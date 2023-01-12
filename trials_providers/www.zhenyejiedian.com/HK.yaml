@@ -2,5 +2,5 @@
 ---
 proxies:
 - {name: 🇭🇰 香港A - 幻神, server: 16.162.143.142, port: 45342, type: vmess, uuid: 2c080b72-0e9b-4a29-816f-85643b543b2e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 香港sw - 幻神, server: 16.162.103.70, port: 43632, type: ss, cipher: chacha20-ietf-poly1305, password: 2c080b72-0e9b-4a29-816f-85643b543b2e, udp: true}
+- {name: 🇭🇰 香港sw - 幻神, server: 18.162.47.248, port: 43632, type: ss, cipher: chacha20-ietf-poly1305, password: 2c080b72-0e9b-4a29-816f-85643b543b2e, udp: true}
 - {name: 🇭🇰 I香港A(解锁奈飞) - 幻神, server: 18.163.191.253, port: 43632, type: vmess, uuid: 2c080b72-0e9b-4a29-816f-85643b543b2e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
