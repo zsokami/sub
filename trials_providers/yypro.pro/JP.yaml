@@ -1,8 +1,8 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇯🇵 K20日本 - 云翼网络, server: gtm-sg-6wr31eq5o8g.gtm-i1d8.com, port: 45017, type: ss, cipher: aes-128-gcm, password: F0DGbb, udp: true}
-- {name: 🇯🇵 K21日本 - 云翼网络, server: gtm-sg-6wr31eq5o8g.gtm-i1d8.com, port: 45027, type: ss, cipher: aes-128-gcm, password: F0DGbb, udp: true}
-- {name: 🇯🇵 K22日本 - 云翼网络, server: gtm-sg-6wr31eq5o8g.gtm-i1d8.com, port: 45028, type: ss, cipher: aes-128-gcm, password: F0DGbb, udp: true}
-- {name: 🇯🇵 K23日本 - 云翼网络, server: gtm-sg-6wr31eq5o8g.gtm-i1d8.com, port: 45016, type: ss, cipher: aes-128-gcm, password: F0DGbb, udp: true}
-- {name: 🇯🇵 K24日本 - 云翼网络, server: gtm-sg-dza31etds02.gtm-i2d7.com, port: 45015, type: ss, cipher: aes-128-gcm, password: F0DGbb, udp: true}
+- {name: 🇯🇵 K20日本 - 云翼网络, server: gtm-sg-6wr31eq5o8g.gtm-i1d8.com, port: 45017, type: ss, cipher: aes-128-gcm, password: rMYXgB, udp: true}
+- {name: 🇯🇵 K21日本 - 云翼网络, server: gtm-sg-6wr31eq5o8g.gtm-i1d8.com, port: 45027, type: ss, cipher: aes-128-gcm, password: rMYXgB, udp: true}
+- {name: 🇯🇵 K22日本 - 云翼网络, server: gtm-sg-6wr31eq5o8g.gtm-i1d8.com, port: 45028, type: ss, cipher: aes-128-gcm, password: rMYXgB, udp: true}
+- {name: 🇯🇵 K23日本 - 云翼网络, server: gtm-sg-6wr31eq5o8g.gtm-i1d8.com, port: 45016, type: ss, cipher: aes-128-gcm, password: rMYXgB, udp: true}
+- {name: 🇯🇵 K24日本 - 云翼网络, server: gtm-sg-dza31etds02.gtm-i2d7.com, port: 45015, type: ss, cipher: aes-128-gcm, password: rMYXgB, udp: true}
